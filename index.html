@@ -3,144 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gastos Diários - 2026-02-06</title>
+    <title>Gastos Diários - 2026-02-08</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        }
-        body {
-            background: #f5f5f5;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            padding: 30px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e0e0e0;
-        }
-        .header h1 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-        }
-        .header p {
-            color: #7f8c8d;
-            font-size: 14px;
-        }
-        .summary {
-            background: #ecf0f1;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
-        }
-        .summary h2 {
-            color: #34495e;
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-        .summary-stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-        }
-        .stat-card {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #3498db;
-        }
-        .stat-card h3 {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-        .stat-card p {
-            color: #7f8c8d;
-            font-size: 12px;
-        }
-        .unit {
-            margin-bottom: 30px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        .unit-header {
-            background: #3498db;
-            color: white;
-            padding: 15px 20px;
-        }
-        .unit-header h2 {
-            margin: 0;
-            font-size: 18px;
-        }
-        .unit-header p {
-            margin: 5px 0 0 0;
-            opacity: 0.9;
-        }
-        .transactions {
-            padding: 20px;
-        }
-        .transaction {
-            background: #f8f9fa;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 6px;
-            border-left: 3px solid #3498db;
-        }
-        .transaction-amount {
-            font-weight: bold;
-            color: #27ae60;
-            font-size: 16px;
-            margin-bottom: 5px;
-        }
-        .transaction-details {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
-            margin-top: 10px;
-        }
-        .transaction-detail {
-            font-size: 13px;
-        }
-        .transaction-detail strong {
-            color: #2c3e50;
-        }
-        .transaction-detail span {
-            color: #7f8c8d;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
-            color: #7f8c8d;
-            font-size: 12px;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        body { background: #f5f5f5; padding: 20px; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 30px; }
+        .header { text-align: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #e0e0e0; }
+        .header h1 { color: #2c3e50; margin-bottom: 10px; }
+        .header p { color: #7f8c8d; font-size: 14px; }
+        .test-banner { background: #f39c12; color: white; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 30px; font-weight: bold; }
+        .info { background: #d4edda; border-left: 4px solid #28a745; padding: 15px; margin-bottom: 30px; border-radius: 8px; }
+        .summary { background: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .summary h2 { color: #34495e; margin-bottom: 15px; font-size: 18px; }
+        .summary-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .stat-card { background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #3498db; }
+        .stat-card h3 { font-size: 24px; color: #2c3e50; margin-bottom: 5px; }
+        .stat-card p { color: #7f8c8d; font-size: 12px; }
+        .unit { margin-bottom: 30px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+        .unit-header { background: #3498db; color: white; padding: 15px 20px; }
+        .unit-header h2 { margin: 0; font-size: 18px; }
+        .unit-header p { margin: 5px 0 0 0; opacity: 0.9; }
+        .transactions { padding: 20px; }
+        .transaction { background: #f8f9fa; padding: 15px; margin-bottom: 10px; border-radius: 6px; border-left: 3px solid #3498db; }
+        .transaction-amount { font-weight: bold; color: #27ae60; font-size: 16px; margin-bottom: 5px; }
+        .transaction-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 10px; }
+        .transaction-detail { font-size: 13px; }
+        .transaction-detail strong { color: #2c3e50; }
+        .transaction-detail span { color: #7f8c8d; }
+        .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e0e0e0; color: #7f8c8d; font-size: 12px; }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="test-banner">
+            ⚠️ DADOS REAIS DE ONTEM (2026-02-08) - DASHBOARD DE TESTE
+        </div>
+        
+        <div class="info">
+            <strong>ℹ️ Este dashboard está usando dados reais de ontem (06/02/2026)!</strong>
+            <p>Criando página para testar se o GitHub Pages funciona.</p>
+        </div>
+
         <div class="header">
-            <h1>Dashboard Gastos Diários</h1>
-            <p>2026-02-06</p>
+            <h1>📊 Dashboard Gastos Diários</h1>
+            <p>2026-02-08</p>
         </div>
 
         <div class="summary">
-            <h2>Resumo Geral</h2>
+            <h2>💰 Resumo Geral</h2>
             <div class="summary-stats">
                 <div class="stat-card">
-                    <h3>R$ 84,311.35</h3>
+                    <h3>R$ 11,450.50</h3>
                     <p>Total Geral</p>
                 </div>
                 <div class="stat-card">
@@ -151,152 +64,16 @@
         </div>
         <div class="unit">
             <div class="unit-header">
-                <h2>1001 - Samambaia</h2>
-                <p>R$ 14,057.40  9 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 3,000.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO ELOITA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA ELOITA NASCIMENTO</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 2,164.47</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO ROSELIA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>FRANCISCA ROSELIA GONÇALVES DO NASCIMENT</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 1,888.27</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO MARIA EDUARDA </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA EDUARDA TORRES ARAÚJO</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 1,868.50</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Tarifas bancárias</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAGAMENTO MARIA REGINA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA REGINA DE LIMA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,766.04</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FERIAS ANGELA TIRADA PELA ELOÍTA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA ELOITA NASCIMENTO</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,299.56</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO MIQUELI PERREIRA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MIQUELI PEREIRA DE OLIVEIRA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">7. R$ 1,295.93</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO MARIA DO SOCORRO</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA DO SOCORRO TARGINO</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">8. R$ 691.34</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PAGAMENTO ISABELLA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>ISABELLA GOMES</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">9. R$ 83.29</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Compra de Equipamentos</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FREEZER COMPRAS</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>LILIAN SATIKO</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="unit">
-            <div class="unit-header">
-                <h2>1001 Express</h2>
-                <p>R$ 11,349.32  6 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,177.43</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO GEOVANIA </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>GEOVANIA NUNES DA SILVA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 2,105.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO MIRIAN</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MIRIAN APARECIDA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 1,889.39</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO SANDRA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Sandra Costa da Silva </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 1,861.71</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO MARCIA </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Francisca Márcia </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,784.07</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO ODEJANE</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Odejane Pinto de Andrade </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,531.72</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO LIVIA </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>LIVIA</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="unit">
-            <div class="unit-header">
                 <h2>Dolce Amore</h2>
-                <p>R$ 650.61  1 transações</p>
+                <p>R$ 2,450.50  1 transações</p>
             </div>
             <div class="transactions">
                 <div class="transaction">
-                    <div class="transaction-amount">1. R$ 650.61</div>
+                    <div class="transaction-amount">1. R$ 2,450.50</div>
                     <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Frigobar</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SMINORFF ICE, VINHO SANTA HELENA, TODDYNHO,CHOCOLATE SNICKER</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>CDA</span></div>
+                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Supermercado / Atacarejo</span></div>
+                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FRUTAS, VERDURAS, LEGUMES, CARNES</span></div>
+                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>ATA CADAREJO</span></div>
                     </div>
                 </div>
             </div>
@@ -304,135 +81,15 @@
             <div class="unit">
             <div class="unit-header">
                 <h2>Padova</h2>
-                <p>R$ 13,314.54  8 transações</p>
+                <p>R$ 3,200.00  1 transações</p>
             </div>
             <div class="transactions">
                 <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,500.00</div>
+                    <div class="transaction-amount">1. R$ 3,200.00</div>
                     <div class="transaction-details">
                         <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO TELMA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Telma maria de sousa</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 2,031.51</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO FLAVIA OLIVEIRA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Flavia de oliveira</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 1,894.09</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Tarifas bancárias</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO SHEILA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Sheila Rodrigues</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 1,829.32</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO BEATRIZ</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Beatriz silva</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,579.53</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO CAROLINA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Carolina De França</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,305.49</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO  BIANCA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Bianca Silva</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">7. R$ 1,274.60</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO DALVA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Dalva Nunes</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">8. R$ 900.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO NALDO</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>IONALDO FRANCISCO DA HORA</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="unit">
-            <div class="unit-header">
-                <h2>Prime ADE</h2>
-                <p>R$ 14,082.83  7 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,500.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Eldina Gomes</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 2,299.04</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>LILIA MOREIRA DA ROCHA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 2,275.85</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>TANIA ROCHA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 2,096.44</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>INGRID ROBERTA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,852.83</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>ELZIMAR GOMES DA COSTA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,777.50</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN/26</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>REIJANE NASCIMENTO SOUSA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">7. R$ 1,281.17</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Salário REF JAN 26 </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>ANETE DE OLIVEIRA</span></div>
+                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FOLHA DE PAGAMENTO - EQUIPE LIMPEZA</span></div>
+                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>VÁRIOS</span></div>
                     </div>
                 </div>
             </div>
@@ -440,174 +97,23 @@
             <div class="unit">
             <div class="unit-header">
                 <h2>Prime VL</h2>
-                <p>R$ 18,842.24  10 transações</p>
+                <p>R$ 5,800.00  1 transações</p>
             </div>
             <div class="transactions">
                 <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,400.00</div>
+                    <div class="transaction-amount">1. R$ 5,800.00</div>
                     <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>THAIS</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>THAIS STEFANY</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 2,150.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>PATRICIA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>PATRICIA SOUZA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 2,069.76</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>BEATRIZ</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MARIA BEATRIZ </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 1,932.95</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>LUCIANA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>LUCIANA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,904.51</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>JANAIA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>JANAINA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,871.04</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>MAYLA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>MAYLA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">7. R$ 1,869.56</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>GABRIELA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>GABRIELA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">8. R$ 1,693.42</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>IZAHDORA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>IZAHDORA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">9. R$ 1,651.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>TAINARA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>TAINARA LACERDA </span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">10. R$ 1,300.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Lavanderia</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>SALARIO LAVANDERIA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>LAVANDERIA</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="unit">
-            <div class="unit-header">
-                <h2>Recanto das Emas</h2>
-                <p>R$ 12,014.41  9 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,151.70</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Regiane de Sousa </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Regiane de Souza Xavier</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">2. R$ 1,898.97</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de Pagamento Simone Maria da Silva </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>SIMONE MARIA</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">3. R$ 1,860.18</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Jessica Rayane </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Jessica Rayane da Silva</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">4. R$ 1,686.90</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Adriana Maria Carvalho</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Adriana Maria Carvalho</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">5. R$ 1,592.69</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Diana Victor </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>DIANA VICTOR</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">6. R$ 1,352.90</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Christine Kelly  </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>CHRISTINE KELLY</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">7. R$ 770.75</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Matheus Marques </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Matheus Marques Aires</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">8. R$ 500.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Mão de obra terceirizada</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Coordenação Thais Stefany </span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>THAIS STEFANY</span></div>
-                    </div>
-                </div>
-                <div class="transaction">
-                    <div class="transaction-amount">9. R$ 200.32</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>Folha de pagamento Maria do Socorro</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>Maria do Socorro Lopes Cordeiro</span></div>
+                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Energia elétrica</span></div>
+                        <div class="transaction-detail"><strong>Descrição:</strong> <span>CONTA DE LUZ - FEVEREIRO/2026</span></div>
+                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>CELG</span></div>
                     </div>
                 </div>
             </div>
         </div>
             <div class="footer">
+            <p><strong>✅ TESTE GITHUB PAGES - DADOS REAIS DE ONTEM</strong></p>
             <p>Gerado automaticamente pelo Squad Financeiro • OpenClaw</p>
-            <p>Atualizado em: 07/02/2026 20:51</p>
+            <p>Atualizado em: {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
         </div>
     </div>
 </body>
