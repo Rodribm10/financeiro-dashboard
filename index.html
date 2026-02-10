@@ -7,542 +7,623 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 0; }
-    .container { max-width: 1800px; margin: 0 auto; padding: 2rem; }
-    .card { background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1.5rem; }
-    .hotel-card { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
-    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #e5e7eb; }
-    .name { font-size: 1.25rem; font-weight: 600; color: #1f2937; display: flex; align-items: center; gap: 0.75rem; }
-    .icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; padding: 0.5rem; font-size: 1rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; }
-    .stats { text-align: right; display: flex; flex-direction: column; align-items: flex-end; }
-    .count { font-size: 0.875rem; color: #6b7280; }
-    .total { font-size: 1.5rem; font-weight: 700; color: #1f2937; }
-    .btn { background: white; border: 1px solid #667eea; color: #667eea; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; transition: all 0.2s; font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
-    .btn:hover { background: #667eea; color: white; }
-    .trans { display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #e5e7eb; }
-    .trans.show { display: block; animation: slideDown 0.3s ease; }
-    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
-    table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
-    th { background: #f8f9fa; padding: 0.5rem; text-align: left; font-weight: 600; border-bottom: 1px solid #e5e7eb; font-size: 0.875rem; }
-    td { padding: 0.5rem; border-bottom: 1px solid #f3f4f6; text-align: left; font-size: 0.875rem; }
-    .row { padding: 0.5rem 0; border-bottom: 1px solid #f3f4f6; }
-    .row:hover { background: #f9fafb; }
-    .badge { padding: 0.25rem 0.75rem; background: #667eea; color: white; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
-    .search { padding: 0.75rem; border: 1px solid #e0e0e0; border-radius: 8px; width: 100%; font-size: 0.875rem; outline: none; border-color: #667eea; }
-    .search:focus { box-shadow: 0 0 3px rgba(102, 126, 234, 0.2); }
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 0; }
+        .table-container { overflow-x: auto; -webkit-overflow-scrolling: touch; }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-white mb-2">Dashboard Financeiro</h1>
+            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-2">Dashboard Financeiro</h1>
             <p class="text-xl text-white/90">Grupo Inova</p>
-            <p class="text-lg text-white/70">Atualizacao: 10/02/2026 21:40</p>
+            <p class="text-lg text-white/70" id="date">Atualizacao: 10/02/2026 21:51</p>
         </div>
 
-        <div class="card">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div>
-                    <p class="text-gray-500 text-sm">Total de Hoteis</p>
-                    <p class="text-3xl font-bold">7</p>
-                </div>
-                <div>
-                    <p class="text-gray-500 text-sm">Custo Total</p>
-                    <p class="text-3xl font-bold">R$32282.06</p>
-                </div>
-                <div>
-                    <p class="text-gray-500 text-sm">Total Transacoes</p>
-                    <p class="text-3xl font-bold">32</p>
-                </div>
-                <div>
-                    <p class="text-gray-500 text-sm">Hotel Maior Gasto</p>
-                    <p class="text-3xl font-bold">Prime AL</p>
-                </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <div class="text-gray-500 text-sm mb-1">Total de Hoteis</div>
+                <div class="text-3xl sm:text-4xl font-bold text-gray-800" id="total-hotels">7</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <div class="text-gray-500 text-sm mb-1">Custo Total</div>
+                <div class="text-3xl sm:text-4xl font-bold text-gray-800" id="total-amount">R$ 32282.059999999998</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <div class="text-gray-500 text-sm mb-1">Total Transacoes</div>
+                <div class="text-3xl sm:text-4xl font-bold text-gray-800" id="total-transactions">32</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6">
+                <div class="text-gray-500 text-sm mb-1">Hotel Maior Gasto</div>
+                <div class="text-3xl sm:text-4xl font-bold text-gray-800" id="highest-hotel">Prime AL</div>
             </div>
         </div>
 
-        <div class="card">
-            <input type="text" id="search" class="search" placeholder="Buscar transacoes...">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-8">
+            <input type="text" id="search" class="w-full p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Buscar transacoes...">
         </div>
 
         <div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Prime AL
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Prime AL</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">14 transacoes</span>
-                        <span class="total">R$23321.96</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">14 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 23321.96</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-1" onclick="toggleHotel('hotel-1')">
-                    <i id="icon-1" class="fas fa-chevron-down"></i>
+
+                <button id="btn-1" onclick="toggleHotel('hotel-1')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-1" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-1">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-1" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>GAZIN </td>
-                                <td><span class="badge">Compra de equipamentos de informática</span></td>
-                                <td>R$3337.96</td>
-                                <td>GAZIN</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-1" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$2500.00</td>
-                                <td>THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">GAZIN </td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Compra de equipamentos de informática</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 3337.96</td>
+                                    <td class="px-2 py-2 sm:hidden">GAZIN</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO RECEPCIOCISTA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$2093.45</td>
-                                <td>VALERIA DE ANDRADE FERREIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 2500.00</td>
+                                    <td class="px-2 py-2 sm:hidden">THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO RECEPCIOCISTA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$2001.50</td>
-                                <td>DANIELA SILVA DE LIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO RECEPCIOCISTA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 2093.45</td>
+                                    <td class="px-2 py-2 sm:hidden">VALERIA DE ANDRADE FERREIRA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1885.13</td>
-                                <td>monica de sousa matos</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO RECEPCIOCISTA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 2001.50</td>
+                                    <td class="px-2 py-2 sm:hidden">DANIELA SILVA DE LIRA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1842.72</td>
-                                <td>YOHANA JOSEFINA PEREZ PEINADO</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1885.13</td>
+                                    <td class="px-2 py-2 sm:hidden">monica de sousa matos</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1728.87</td>
-                                <td>SANDRA RODRIGUES DOS SANTOS</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1842.72</td>
+                                    <td class="px-2 py-2 sm:hidden">YOHANA JOSEFINA PEREZ PEINADO</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1673.46</td>
-                                <td>PAMELA PEREIRA DE ARAUJO</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1728.87</td>
+                                    <td class="px-2 py-2 sm:hidden">SANDRA RODRIGUES DOS SANTOS</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1672.26</td>
-                                <td>MIKAELLY FREITAS SILVA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1673.46</td>
+                                    <td class="px-2 py-2 sm:hidden">PAMELA PEREIRA DE ARAUJO</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$1652.38</td>
-                                <td>TATIANA R. DE VASCINCELOS</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1672.26</td>
+                                    <td class="px-2 py-2 sm:hidden">MIKAELLY FREITAS SILVA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SERVIÇO TRAPORTE DE ROUPA</td>
-                                <td><span class="badge">Lavanderia</span></td>
-                                <td>R$1200.00</td>
-                                <td>SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALÁRIO CAMAREIRA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1652.38</td>
+                                    <td class="px-2 py-2 sm:hidden">TATIANA R. DE VASCINCELOS</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>slr adm</td>
-                                <td><span class="badge">Salários Administrativo (Back office)</span></td>
-                                <td>R$966.23</td>
-                                <td>OUTROS</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SERVIÇO TRAPORTE DE ROUPA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Lavanderia</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1200.00</td>
+                                    <td class="px-2 py-2 sm:hidden">SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALARIO LAVADOR</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$588.00</td>
-                                <td>REGINALDO RIBEIRO LIMA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">slr adm</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salários Administrativo (Back office)</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 966.23</td>
+                                    <td class="px-2 py-2 sm:hidden">OUTROS</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>devolução cliente</td>
-                                <td><span class="badge">Devoluções de clientes</span></td>
-                                <td>R$180.00</td>
-                                <td>DEVOLUÇOES DE CLENTES</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO LAVADOR</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 588.00</td>
+                                    <td class="px-2 py-2 sm:hidden">REGINALDO RIBEIRO LIMA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">devolução cliente</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Devoluções de clientes</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 180.00</td>
+                                    <td class="px-2 py-2 sm:hidden">DEVOLUÇOES DE CLENTES</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        1001 Express
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">1001 Express</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">3 transacoes</span>
-                        <span class="total">R$3463.40</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">3 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 3463.40</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-2" onclick="toggleHotel('hotel-2')">
-                    <i id="icon-2" class="fas fa-chevron-down"></i>
+
+                <button id="btn-2" onclick="toggleHotel('hotel-2')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-2" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-2">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-2" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>SALARIO IARA </td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$2400.00</td>
-                                <td>Iara Dourado </td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-2" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
-                                <td><span class="badge">Investimentos gerais</span></td>
-                                <td>R$963.40</td>
-                                <td>HOTEL PRIME AL </td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO IARA </td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 2400.00</td>
+                                    <td class="px-2 py-2 sm:hidden">Iara Dourado </td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>FRUTAS P/ SEMANA</td>
-                                <td><span class="badge">Supermercado / Atacarejo</span></td>
-                                <td>R$100.00</td>
-                                <td>SACOLÃO FABIANA </td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Investimentos gerais</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 963.40</td>
+                                    <td class="px-2 py-2 sm:hidden">HOTEL PRIME AL </td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">FRUTAS P/ SEMANA</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Supermercado / Atacarejo</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 100.00</td>
+                                    <td class="px-2 py-2 sm:hidden">SACOLÃO FABIANA </td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Prime ADE
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Prime ADE</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">2 transacoes</span>
-                        <span class="total">R$2261.42</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">2 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 2261.42</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-3" onclick="toggleHotel('hotel-3')">
-                    <i id="icon-3" class="fas fa-chevron-down"></i>
+
+                <button id="btn-3" onclick="toggleHotel('hotel-3')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-3" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-3">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-3" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>Rescisão </td>
-                                <td><span class="badge">Rescisões</span></td>
-                                <td>R$1531.39</td>
-                                <td>LORRAYNE OLIVEIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-3" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>Salário Matheus REF JAN/26</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$730.03</td>
-                                <td>Matheus Marques Aires</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">Rescisão </td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Rescisões</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 1531.39</td>
+                                    <td class="px-2 py-2 sm:hidden">LORRAYNE OLIVEIRA</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">Salário Matheus REF JAN/26</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 730.03</td>
+                                    <td class="px-2 py-2 sm:hidden">Matheus Marques Aires</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Padova
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Padova</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">5 transacoes</span>
-                        <span class="total">R$1731.23</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">5 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 1731.23</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-4" onclick="toggleHotel('hotel-4')">
-                    <i id="icon-4" class="fas fa-chevron-down"></i>
+
+                <button id="btn-4" onclick="toggleHotel('hotel-4')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-4" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-4">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-4" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>ZEAN CAMERAS</td>
-                                <td><span class="badge">Mão de obra terceirizada</span></td>
-                                <td>R$765.00</td>
-                                <td>ZEAN MANUTENÇÃO</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-4" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>SALARIO</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$500.00</td>
-                                <td>GUSTAVO CONTABILIDADE</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">ZEAN CAMERAS</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Mão de obra terceirizada</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 765.00</td>
+                                    <td class="px-2 py-2 sm:hidden">ZEAN MANUTENÇÃO</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALARIO</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$244.44</td>
-                                <td>ISMAEL FINANCEIRO</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 500.00</td>
+                                    <td class="px-2 py-2 sm:hidden">GUSTAVO CONTABILIDADE</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>SALARIO PAULO  COMPRAS</td>
-                                <td><span class="badge">Salário</span></td>
-                                <td>R$214.29</td>
-                                <td>PAULO COMPRAS</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 244.44</td>
+                                    <td class="px-2 py-2 sm:hidden">ISMAEL FINANCEIRO</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>TELEFONE FINANCEIRO</td>
-                                <td><span class="badge">Telefone + internet</span></td>
-                                <td>R$7.50</td>
-                                <td>TELEFONE E INTERNET</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">SALARIO PAULO  COMPRAS</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Salário</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 214.29</td>
+                                    <td class="px-2 py-2 sm:hidden">PAULO COMPRAS</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">TELEFONE FINANCEIRO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Telefone + internet</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 7.50</td>
+                                    <td class="px-2 py-2 sm:hidden">TELEFONE E INTERNET</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Dolce Amore
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Dolce Amore</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">4 transacoes</span>
-                        <span class="total">R$917.38</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">4 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 917.38</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-5" onclick="toggleHotel('hotel-5')">
-                    <i id="icon-5" class="fas fa-chevron-down"></i>
+
+                <button id="btn-5" onclick="toggleHotel('hotel-5')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-5" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-5">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-5" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
-                                <td><span class="badge">Compra de Equipamentos</span></td>
-                                <td>R$327.97</td>
-                                <td>CARREFOUR</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-5" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
-                                <td><span class="badge">Combustível</span></td>
-                                <td>R$326.25</td>
-                                <td>Cartão Lilian Venc 10</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Compra de Equipamentos</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 327.97</td>
+                                    <td class="px-2 py-2 sm:hidden">CARREFOUR</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
-                                <td><span class="badge">Compra de Equipamentos</span></td>
-                                <td>R$255.30</td>
-                                <td>CARREFOUR</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Combustível</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 326.25</td>
+                                    <td class="px-2 py-2 sm:hidden">Cartão Lilian Venc 10</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>TARIFA STONE DIA 09/02</td>
-                                <td><span class="badge">Tarifas bancárias</span></td>
-                                <td>R$7.86</td>
-                                <td>None</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Compra de Equipamentos</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 255.30</td>
+                                    <td class="px-2 py-2 sm:hidden">CARREFOUR</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">TARIFA STONE DIA 09/02</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Tarifas bancárias</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 7.86</td>
+                                    <td class="px-2 py-2 sm:hidden">None</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Recanto das Emas
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Recanto das Emas</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">1 transacoes</span>
-                        <span class="total">R$500.00</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">1 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 500.00</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-6" onclick="toggleHotel('hotel-6')">
-                    <i id="icon-6" class="fas fa-chevron-down"></i>
+
+                <button id="btn-6" onclick="toggleHotel('hotel-6')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-6" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-6">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-6" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>THAIS COODENAÇAO</td>
-                                <td><span class="badge">Mão de obra terceirizada</span></td>
-                                <td>R$500.00</td>
-                                <td>THAIS STEFANY</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-6" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">THAIS COODENAÇAO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Mão de obra terceirizada</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 500.00</td>
+                                    <td class="px-2 py-2 sm:hidden">THAIS STEFANY</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
-            <div class="hotel-card">
-                <div class="header">
-                    <div class="name">
-                        <div class="icon"><i class="fas fa-building"></i></div>
-                        Qnn01
+            <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 sm:mb-6">
+                    <div class="flex items-center gap-3 mb-4 sm:mb-0">
+                        <div class="bg-indigo-500 text-white rounded-lg p-2">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div>
+                            <div class="text-lg sm:text-xl font-bold text-gray-800">Qnn01</div>
+                        </div>
                     </div>
-                    <div class="stats">
-                        <span class="count">3 transacoes</span>
-                        <span class="total">R$86.67</span>
+                    <div class="text-right sm:text-center sm:mt-0 sm:pt-4">
+                        <div class="text-sm text-gray-600">3 transacoes</div>
+                        <div class="text-2xl sm:text-3xl font-bold text-gray-800">R$ 86.67</div>
                     </div>
                 </div>
-                
-                <button class="btn" id="btn-7" onclick="toggleHotel('hotel-7')">
-                    <i id="icon-7" class="fas fa-chevron-down"></i>
+
+                <button id="btn-7" onclick="toggleHotel('hotel-7')" class="w-full sm:w-auto bg-white border-2 border-indigo-500 text-indigo-600 hover:bg-indigo-500 hover:text-white font-semibold py-2 px-4 sm:py-3 rounded-lg transition-colors">
+                    <i id="icon-7" class="fas fa-chevron-down mr-1"></i>
                     <span id="text-7">Mostrar Transacoes</span>
                 </button>
-                
-                <div id="hotel-7" class="trans">
-                    <table>
-                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
-                        <tbody>
 
-                            <tr class="row">
-                                <td>PRESTOBARBA                                                                                                                                        </td>
-                                <td><span class="badge">Supermercado / Atacarejo</span></td>
-                                <td>R$59.00</td>
-                                <td>RUMÃO</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                <div id="hotel-7" class="hidden mt-4 sm:mt-6">
+                    <div class="table-container">
+                        <table class="table-auto w-full text-[10px] sm:text-xs md:text-sm border-collapse">
+                            <thead>
+                                <tr class="border-b">
+                                    <th class="px-2 py-2 text-left">Descricao</th>
+                                    <th class="px-2 py-2 text-left">Categoria</th>
+                                    <th class="px-2 py-2 text-left">Valor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Fornecedor</th>
+                                    <th class="px-2 py-2 text-left sm:hidden">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                            <tr class="row">
-                                <td>CARNE ALMOÇO</td>
-                                <td><span class="badge">Supermercado / Atacarejo</span></td>
-                                <td>R$17.67</td>
-                                <td>SUPER CARNES</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">PRESTOBARBA                                                                                                                                        </td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Supermercado / Atacarejo</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 59.00</td>
+                                    <td class="px-2 py-2 sm:hidden">RUMÃO</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                            <tr class="row">
-                                <td>VT - EDSON</td>
-                                <td><span class="badge">Transporte  Pessoal Manutenção</span></td>
-                                <td>R$10.00</td>
-                                <td>EDSON</td>
-                                <td>2026-02-09</td>
-                            </tr>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">CARNE ALMOÇO</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Supermercado / Atacarejo</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 17.67</td>
+                                    <td class="px-2 py-2 sm:hidden">SUPER CARNES</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
+                                <tr class="border-b hover:bg-gray-100">
+                                    <td class="px-2 py-2">VT - EDSON</td>
+                                    <td class="px-2 py-2"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded text-xs font-semibold">Transporte  Pessoal Manutenção</span></td>
+                                    <td class="px-2 py-2 font-semibold">R$ 10.00</td>
+                                    <td class="px-2 py-2 sm:hidden">EDSON</td>
+                                    <td class="px-2 py-2 sm:hidden">2026-02-09</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
 
         </div>
+        <div class="text-center mt-12 text-gray-300 text-sm">
+            <p>&copy; 2026 Grupo Inova</p>
+            <p>Sistema Financeiro Automatizado</p>
+        </div>
+    </div>
 
-        <script>
-            function toggleHotel(id) {
-                const container = document.getElementById(id);
-                const btn = document.getElementById('btn-' + id.split('-')[1]);
-                const icon = document.getElementById('icon-' + id.split('-')[1]);
-                const text = document.getElementById('text-' + id.split('-')[1]);
+    <script>
+        function toggleHotel(id) {
+            const container = document.getElementById(id);
+            const btn = document.getElementById('btn-' + id.split('-')[1]);
+            const icon = document.getElementById('icon-' + id.split('-')[1]);
+            const text = document.getElementById('text-' + id.split('-')[1]);
 
-                if (container.classList.contains('show')) {
-                    container.classList.remove('show');
-                    icon.className = 'fas fa-chevron-down';
-                    text.textContent = 'Mostrar Transacoes';
-                } else {
-                    container.classList.add('show');
-                    icon.className = 'fas fa-chevron-up';
-                    text.textContent = 'Esconder Transacoes';
-                }
+            if (container.classList.contains('hidden')) {
+                container.classList.remove('hidden');
+                icon.className = 'fas fa-chevron-up mr-1';
+                text.textContent = 'Esconder Transacoes';
+            } else {
+                container.classList.add('hidden');
+                icon.className = 'fas fa-chevron-down mr-1';
+                text.textContent = 'Mostrar Transacoes';
             }
+        }
 
-            document.getElementById('search').addEventListener('input', (e) => {
-                const term = e.target.value.toLowerCase();
-                const rows = document.querySelectorAll('.row');
-                rows.forEach(row => {
-                    if (term === '' || row.textContent.toLowerCase().includes(term)) {
-                        row.style.display = '';
-                    } else {
-                        row.style.display = 'none';
-                    }
-                });
+        document.getElementById('search').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('tbody tr');
+            rows.forEach(r => {
+                if (term === '' || r.textContent.toLowerCase().includes(term)) {
+                    r.style.display = '';
+                } else {
+                    r.style.display = 'none';
+                }
             });
-        </script>
+        });
+    </script>
 </body>
 </html>
