@@ -1,0 +1,312 @@
+{
+  "hotels": [
+    {
+      "name": "Prime AL",
+      "total": 23321.96,
+      "count": 14,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de equipamentos de informática",
+          "descricao": "GAZIN ",
+          "valor": 3337.96,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "GAZIN"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE",
+          "valor": 2500.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO RECEPCIOCISTA",
+          "valor": 2093.45,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO RECEPCIOCISTA",
+          "valor": 2001.5,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "DANIELA SILVA DE LIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1885.13,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "monica de sousa matos"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1842.72,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1728.87,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1673.46,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1672.26,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "MIKAELLY FREITAS SILVA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA",
+          "valor": 1652.38,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "TATIANA R. DE VASCINCELOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "SERVIÇO TRAPORTE DE ROUPA",
+          "valor": 1200.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salários Administrativo (Back office)",
+          "descricao": "slr adm",
+          "valor": 966.23,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "OUTROS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALARIO LAVADOR",
+          "valor": 588.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "REGINALDO RIBEIRO LIMA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Devoluções de clientes",
+          "descricao": "devolução cliente",
+          "valor": 180.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 3463.4,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO IARA ",
+          "valor": 2400.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "Iara Dourado "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )",
+          "valor": 963.4,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "HOTEL PRIME AL "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FRUTAS P/ SEMANA",
+          "valor": 100.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "SACOLÃO FABIANA "
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 2261.42,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Rescisões",
+          "descricao": "Rescisão ",
+          "valor": 1531.39,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "LORRAYNE OLIVEIRA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "Salário Matheus REF JAN/26",
+          "valor": 730.03,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "Matheus Marques Aires"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 1731.23,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "ZEAN CAMERAS",
+          "valor": 765.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "ZEAN MANUTENÇÃO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "GUSTAVO CONTABILIDADE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 244.44,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Salário",
+          "descricao": "SALARIO PAULO  COMPRAS",
+          "valor": 214.29,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "TELEFONE E INTERNET"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 917.38,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO",
+          "valor": 327.97,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "CARREFOUR"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Combustível",
+          "descricao": "(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL ",
+          "valor": 326.25,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "Cartão Lilian Venc 10"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "COMPRA DE ESPUMANTESALTON,PAPEL A4",
+          "valor": 255.3,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "CARREFOUR"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE DIA 09/02",
+          "valor": 7.86,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 500.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "THAIS COODENAÇAO",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "THAIS STEFANY"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 86.67,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PRESTOBARBA                                                                                                                                        ",
+          "valor": 59.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "RUMÃO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "CARNE ALMOÇO",
+          "valor": 17.67,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "SUPER CARNES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-02-09",
+          "fornecedor": "EDSON"
+        }
+      ]
+    }
+  ],
+  "global_total": 32282.059999999998,
+  "global_count": 32,
+  "date": "2026-02-10 21:18:22"
+}

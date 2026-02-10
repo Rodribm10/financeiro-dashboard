@@ -17,7 +17,7 @@
             padding: 0;
         }
         
-        .dashboard-container {
+        .container {
             max-width: 1800px;
             margin: 0 auto;
             padding: 2rem;
@@ -30,35 +30,6 @@
             padding: 1.5rem;
             margin-bottom: 1.5rem;
         }
-        
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        .card-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #1f2937;
-        }
-        
-        .badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-        
-        .badge-success { background: #10b981; color: white; }
-        .badge-warning { background: #f59e0b; color: white; }
-        .badge-info { background: #3b82f6; color: white; }
-        .badge-danger { background: #ef4444; color: white; }
-        .badge-primary { background: #667eea; color: white; }
         
         .hotel-card {
             background: #f9fafb;
@@ -74,11 +45,13 @@
             box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
         }
         
-        .hotel-header {
+        .header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
         }
         
         .hotel-info {
@@ -87,36 +60,28 @@
             gap: 0.75rem;
         }
         
-        .hotel-icon {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-radius: 8px;
-            padding: 0.5rem;
+        .name {
             font-size: 1.25rem;
-        }
-        
-        .hotel-name {
-            font-size: 1.125rem;
             font-weight: 600;
             color: #1f2937;
         }
         
-        .hotel-stats {
+        .stats {
             text-align: right;
         }
         
-        .hotel-count {
+        .count {
             font-size: 0.875rem;
             color: #6b7280;
         }
         
-        .hotel-total {
+        .total {
             font-size: 1.5rem;
             font-weight: 700;
             color: #1f2937;
         }
         
-        .toggle-button {
+        .button {
             background: white;
             border: 1px solid #667eea;
             color: #667eea;
@@ -128,19 +93,19 @@
             font-weight: 500;
         }
         
-        .toggle-button:hover {
+        .button:hover {
             background: #667eea;
             color: white;
         }
         
-        .transactions-container {
+        .transactions {
             display: none;
             margin-top: 1rem;
             padding-top: 1rem;
             border-top: 1px solid #e5e7eb;
         }
         
-        .transactions-container.expanded {
+        .transactions.show {
             display: block;
             animation: slideDown 0.3s ease;
         }
@@ -162,7 +127,7 @@
             margin-top: 0.5rem;
         }
         
-        .table th {
+        th {
             background: #f8f9fa;
             padding: 0.5rem;
             text-align: left;
@@ -171,30 +136,31 @@
             font-size: 0.875rem;
         }
         
-        .table td {
+        td {
             padding: 0.5rem;
             border-bottom: 1px solid #f3f4f6;
             text-align: left;
             font-size: 0.875rem;
         }
         
-        .transaction-row {
-            padding: 0.5rem;
+        .row {
+            padding: 0.5rem 0;
             border-bottom: 1px solid #f3f4f6;
-            transition: all 0.2s;
         }
         
-        .transaction-row:hover {
+        .row:hover {
             background: #f9fafb;
         }
         
-        .transaction-row:last-child {
+        .row:last-child {
             border-bottom: none;
         }
         
-        .transaction-category {
+        .badge {
             display: inline-block;
             padding: 0.25rem 0.75rem;
+            background: #667eea;
+            color: white;
             border-radius: 4px;
             font-size: 0.75rem;
             font-weight: 600;
@@ -203,662 +169,242 @@
         .amount {
             font-weight: 600;
             color: #1f2937;
-            font-size: 1rem;
         }
         
-        .search-box {
+        .search {
             padding: 0.75rem;
             border: 1px solid #e0e0e0;
             border-radius: 8px;
             width: 100%;
-            max-width: 500px;
             font-size: 0.875rem;
         }
         
-        .search-box:focus {
+        .search:focus {
             outline: none;
             border-color: #667eea;
             box-shadow: 0 0 3px rgba(102, 126, 234, 0.2);
         }
         
-        .last-updated {
-            font-size: 0.875rem;
-            color: #6b7280;
-            text-align: right;
-            margin-top: 0.5rem;
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: white;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 1rem 0;
         }
     </style>
 </head>
 <body>
-    <div class="dashboard-container">
+    <div class="container">
         <div class="text-center mb-8">
             <h1 class="text-4xl font-bold text-white mb-2">Dashboard Financeiro</h1>
             <p class="text-xl text-white/90">Grupo Inova - Squad Financeiro</p>
-            <p class="text-lg text-white/70" id="last-updated">Ultima atualizacao: carregando...</p>
+            <p class="text-lg text-white/70" id="date">Atualizacao: Carregando...</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            <div class="card">
-                <div class="text-gray-500 text-sm mb-1">Total de Hoteis</div>
-                <div class="text-3xl font-bold" id="total-hotels">...</div>
-            </div>
-            <div class="card">
-                <div class="text-gray-500 text-sm mb-1">Custo Total</div>
-                <div class="text-3xl font-bold" id="total-amount">...</div>
-            </div>
-            <div class="card">
-                <div class="text-gray-500 text-sm mb-1">Total Transacoes</div>
-                <div class="text-3xl font-bold" id="total-transactions">...</div>
-            </div>
-            <div class="card">
-                <div class="text-gray-500 text-sm mb-1">Hotel com Maior Gasto</div>
-                <div class="text-3xl font-bold" id="highest-hotel">...</div>
-            </div>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Carregando dados...</p>
         </div>
 
-        <div class="card">
-            <div class="flex items-center gap-2 mb-4">
-                <i class="fas fa-search text-gray-500"></i>
-                <input type="text" id="search-input" class="search-box" placeholder="Buscar transacoes...">
+        <div id="dashboard" style="display: none;">
+            <div class="card">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div>
+                        <p class="text-sm text-gray-500">Total de Hoteis</p>
+                        <p class="text-3xl font-bold" id="total-hotels">...</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Custo Total</p>
+                        <p class="text-3xl font-bold" id="total-amount">...</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Total Transacoes</p>
+                        <p class="text-3xl font-bold" id="total-transactions">...</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-500">Hotel com Maior Gasto</p>
+                        <p class="text-3xl font-bold" id="highest-hotel">...</p>
+                    </div>
+                </div>
             </div>
-            <p class="text-sm text-gray-600">
-                <i class="fas fa-info-circle"></i>
-                Digite para buscar em TODOS os hoteis. Clique em "Mostrar Transacoes" no hotel para filtrar.
-            </p>
+
+            <div class="card">
+                <input type="text" id="search" class="search" placeholder="Buscar transacoes...">
+            </div>
+
+            <div id="hotels"></div>
         </div>
-
-        <div id="hotels-list">
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Prime AL</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">14 transacoes</div>
-                        <div class="hotel-total">R$ 23321.96</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-1')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-1" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>GAZIN </td>
-                                <td><span class="badge badge-primary">Compra de equipamentos de informática</span></td>
-                                <td><span class="amount">R$ 3337.96</span></td>
-                                <td>GAZIN</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 2500.0</span></td>
-                                <td>THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO RECEPCIOCISTA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 2093.45</span></td>
-                                <td>VALERIA DE ANDRADE FERREIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO RECEPCIOCISTA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 2001.5</span></td>
-                                <td>DANIELA SILVA DE LIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1885.13</span></td>
-                                <td>monica de sousa matos</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1842.72</span></td>
-                                <td>YOHANA JOSEFINA PEREZ PEINADO</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1728.87</span></td>
-                                <td>SANDRA RODRIGUES DOS SANTOS</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1673.46</span></td>
-                                <td>PAMELA PEREIRA DE ARAUJO</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1672.26</span></td>
-                                <td>MIKAELLY FREITAS SILVA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALÁRIO CAMAREIRA</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 1652.38</span></td>
-                                <td>TATIANA R. DE VASCINCELOS</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SERVIÇO TRAPORTE DE ROUPA</td>
-                                <td><span class="badge badge-primary">Lavanderia</span></td>
-                                <td><span class="amount">R$ 1200.0</span></td>
-                                <td>SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>slr adm</td>
-                                <td><span class="badge badge-primary">Salários Administrativo (Back office)</span></td>
-                                <td><span class="amount">R$ 966.23</span></td>
-                                <td>OUTROS</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO LAVADOR</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 588.0</span></td>
-                                <td>REGINALDO RIBEIRO LIMA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>devolução cliente</td>
-                                <td><span class="badge badge-primary">Devoluções de clientes</span></td>
-                                <td><span class="amount">R$ 180.0</span></td>
-                                <td>DEVOLUÇOES DE CLENTES</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">1001 Express</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">3 transacoes</div>
-                        <div class="hotel-total">R$ 3463.4</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-2')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-2" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO IARA </td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 2400.0</span></td>
-                                <td>Iara Dourado </td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
-                                <td><span class="badge badge-primary">Investimentos gerais</span></td>
-                                <td><span class="amount">R$ 963.4</span></td>
-                                <td>HOTEL PRIME AL </td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>FRUTAS P/ SEMANA</td>
-                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                                <td><span class="amount">R$ 100.0</span></td>
-                                <td>SACOLÃO FABIANA </td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Prime ADE</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">2 transacoes</div>
-                        <div class="hotel-total">R$ 2261.42</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-3')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-3" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>Rescisão </td>
-                                <td><span class="badge badge-primary">Rescisões</span></td>
-                                <td><span class="amount">R$ 1531.39</span></td>
-                                <td>LORRAYNE OLIVEIRA</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>Salário Matheus REF JAN/26</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 730.03</span></td>
-                                <td>Matheus Marques Aires</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Padova</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">5 transacoes</div>
-                        <div class="hotel-total">R$ 1731.23</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-4')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-4" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>ZEAN CAMERAS</td>
-                                <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
-                                <td><span class="amount">R$ 765.0</span></td>
-                                <td>ZEAN MANUTENÇÃO</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 500.0</span></td>
-                                <td>GUSTAVO CONTABILIDADE</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 244.44</span></td>
-                                <td>ISMAEL FINANCEIRO</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>SALARIO PAULO  COMPRAS</td>
-                                <td><span class="badge badge-primary">Salário</span></td>
-                                <td><span class="amount">R$ 214.29</span></td>
-                                <td>PAULO COMPRAS</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>TELEFONE FINANCEIRO</td>
-                                <td><span class="badge badge-primary">Telefone + internet</span></td>
-                                <td><span class="amount">R$ 7.5</span></td>
-                                <td>TELEFONE E INTERNET</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Dolce Amore</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">4 transacoes</div>
-                        <div class="hotel-total">R$ 917.38</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-5')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-5" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
-                                <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
-                                <td><span class="amount">R$ 327.97</span></td>
-                                <td>CARREFOUR</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
-                                <td><span class="badge badge-primary">Combustível</span></td>
-                                <td><span class="amount">R$ 326.25</span></td>
-                                <td>Cartão Lilian Venc 10</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
-                                <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
-                                <td><span class="amount">R$ 255.3</span></td>
-                                <td>CARREFOUR</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>TARIFA STONE DIA 09/02</td>
-                                <td><span class="badge badge-primary">Tarifas bancárias</span></td>
-                                <td><span class="amount">R$ 7.86</span></td>
-                                <td>None</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Recanto das Emas</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">1 transacoes</div>
-                        <div class="hotel-total">R$ 500.0</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-6')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-6" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>THAIS COODENAÇAO</td>
-                                <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
-                                <td><span class="amount">R$ 500.0</span></td>
-                                <td>THAIS STEFANY</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="hotel-card">
-                <div class="hotel-header">
-                    <div class="hotel-info">
-                        <div class="hotel-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div class="hotel-name">Qnn01</div>
-                    </div>
-                    <div class="hotel-stats">
-                        <div class="hotel-count">3 transacoes</div>
-                        <div class="hotel-total">R$ 86.67</div>
-                    </div>
-                </div>
-                
-                <button class="toggle-button" onclick="toggleHotel('hotel-7')">
-                    <i class="fas fa-chevron-down mr-1"></i>
-                    Mostrar Transacoes
-                </button>
-                
-                <div id="hotel-7" class="transactions-container">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Descricao</th>
-                                <th>Categoria</th>
-                                <th>Valor</th>
-                                <th>Fornecedor</th>
-                                <th>Data</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="transaction-row">
-                                <td>PRESTOBARBA                                                                                                                                        </td>
-                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                                <td><span class="amount">R$ 59.0</span></td>
-                                <td>RUMÃO</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>CARNE ALMOÇO</td>
-                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                                <td><span class="amount">R$ 17.67</span></td>
-                                <td>SUPER CARNES</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                            <tr class="transaction-row">
-                                <td>VT - EDSON</td>
-                                <td><span class="badge badge-primary">Transporte  Pessoal Manutenção</span></td>
-                                <td><span class="amount">R$ 10.0</span></td>
-                                <td>EDSON</td>
-                                <td>2026-02-09</td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-        </div>
-
-        <footer class="text-center mt-8 text-gray-500 text-sm">
-            <p class="last-updated">&copy; 2026 Grupo Inova - Todos os direitos reservados</p>
-            <p>Sistema Financeiro Automatizado</p>
-            <p>
-                <i class="fab fa-github"></i>
-                Repositorio: <code class="bg-gray-100 px-2 py-1 rounded text-xs">rodribm10.github.io/financeiro-dashboard</code>
-            </p>
-        </footer>
     </div>
 
     <script>
-        // Funcao para alternar visibilidade das transacoes
-        function toggleHotel(hotelId) {
-            const container = document.getElementById(hotelId);
-            const button = document.querySelector('button[onclick="toggleHotel(\'' + hotelId + '\'"]');
-            const icon = button.querySelector('i');
+        const REPORT_URL = 'report.json';
 
-            if (container.classList.contains('expanded')) {
-                // Colapsar
-                container.classList.remove('expanded');
-                button.innerHTML = '<i class="fas fa-chevron-down mr-1"></i> Mostrar Transacoes';
-                icon.className = 'fas fa-chevron-down mr-1';
-            } else {
-                // Expandir
-                container.classList.add('expanded');
-                button.innerHTML = '<i class="fas fa-chevron-up mr-1"></i> Esconder Transacoes';
-                icon.className = 'fas fa-chevron-up mr-1';
+        async function init() {
+            const loading = document.getElementById('loading');
+            const dashboard = document.getElementById('dashboard');
+            
+            try {
+                const response = await fetch(REPORT_URL);
+                
+                if (!response.ok) {
+                    throw new Error('Erro ao carregar dados');
+                }
+                
+                const data = await response.json();
+                
+                loading.style.display = 'none';
+                dashboard.style.display = 'block';
+                
+                renderDashboard(data);
+                
+            } catch (error) {
+                loading.innerHTML = `
+                    <div class="error">
+                        <i class="fas fa-exclamation-triangle text-2xl mb-2"></i>
+                        <p>Erro ao carregar dados: ${error.message}</p>
+                        <p>Tente recarregar a página.</p>
+                    </div>
+                `;
             }
         }
 
-        // Funcao de busca global
-        document.getElementById('search-input').addEventListener('input', (e) => {
-            const termo = e.target.value.toLowerCase();
-            const linhas = document.querySelectorAll('.transaction-row');
+        function renderDashboard(data) {
+            const { hotels, global_total, global_count, date } = data;
+
+            document.getElementById('date').textContent = `Atualizacao: ${date}`;
+
+            const totalHotels = hotels.length;
+            const totalAmount = global_total;
+            const totalTransactions = global_count;
             
-            linhas.forEach(linha => {
-                const texto = linha.textContent.toLowerCase();
-                if (termo === '' || texto.includes(termo)) {
-                    linha.style.display = '';
+            let highestHotel = 'N/A';
+            let highestAmount = 0;
+            
+            hotels.forEach(hotel => {
+                if (hotel.total > highestAmount) {
+                    highestAmount = hotel.total;
+                    highestHotel = hotel.name;
+                }
+            });
+
+            document.getElementById('total-hotels').textContent = totalHotels;
+            document.getElementById('total-amount').textContent = `R$ ${totalAmount.toFixed(2)}`;
+            document.getElementById('total-transactions').textContent = totalTransactions;
+            document.getElementById('highest-hotel').textContent = highestHotel;
+
+            const hotelsContainer = document.getElementById('hotels');
+            hotelsContainer.innerHTML = hotels.map((hotel, index) => createHotelCard(hotel, index)).join('');
+        }
+
+        function createHotelCard(hotel, index) {
+            const hotelId = `hotel-${index}`;
+            const transactionsHtml = hotel.transactions.map(t => createTransactionRow(t)).join('');
+
+            return `
+                <div class="hotel-card">
+                    <div class="header">
+                        <div class="hotel-info">
+                            <i class="fas fa-building text-gray-400"></i>
+                            <span class="name">${hotel.name}</span>
+                        </div>
+                        <div class="stats">
+                            <span class="count">${hotel.count} transacoes</span>
+                            <span class="total">R$ ${hotel.total.toFixed(2)}</span>
+                        </div>
+                    </div>
+                    <button class="button" onclick="toggleTransactions('${hotelId}')">
+                        <i class="fas fa-chevron-down mr-1"></i>
+                        <span>Mostrar Transacoes</span>
+                    </button>
+                    <div id="${hotelId}" class="transactions">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Descricao</th>
+                                    <th>Categoria</th>
+                                    <th>Valor</th>
+                                    <th>Fornecedor</th>
+                                    <th>Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${transactionsHtml}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createTransactionRow(transaction) {
+            return `
+                <tr class="row">
+                    <td>${transaction.descricao}</td>
+                    <td><span class="badge">${transaction.categoria}</span></td>
+                    <td><span class="amount">R$ ${transaction.valor.toFixed(2)}</span></td>
+                    <td>${transaction.fornecedor || 'N/A'}</td>
+                    <td>${transaction.data_vencimento || 'N/A'}</td>
+                </tr>
+            `;
+        }
+
+        function toggleTransactions(hotelId) {
+            const container = document.getElementById(hotelId);
+            const button = container.querySelector('.button');
+            const icon = button.querySelector('i');
+            const text = button.querySelector('span');
+
+            if (container.classList.contains('show')) {
+                container.classList.remove('show');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+                text.textContent = 'Mostrar Transacoes';
+            } else {
+                container.classList.add('show');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+                text.textContent = 'Esconder Transacoes';
+            }
+        }
+
+        document.getElementById('search').addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const rows = document.querySelectorAll('.row');
+            
+            rows.forEach(row => {
+                const text = row.textContent.toLowerCase();
+                if (term === '' || text.includes(term)) {
+                    row.style.display = '';
                 } else {
-                    linha.style.display = 'none';
+                    row.style.display = 'none';
                 }
             });
         });
 
-        // Atualizar stats
-        function updateStats() {
-            const totalHotels = 7;
-            const totalAmount = 32282.059999999998;
-            const totalTransactions = 32;
-            const highestHotel = 'Prime AL';
-
-            document.getElementById('total-hotels').textContent = totalHotels;
-            document.getElementById('total-amount').textContent = 'R$ ' + totalAmount;
-            document.getElementById('total-transactions').textContent = totalTransactions;
-            document.getElementById('highest-hotel').textContent = highestHotel;
-
-            // Atualizar data
-            const now = new Date();
-            const formattedDate = now.toLocaleDateString('pt-BR', {
-                day: '2-digit',
-                month: 'long',
-                year: 'numeric',
-                hour: '2-digit',
-                minute: '2-digit'
-            });
-            document.getElementById('last-updated').textContent = 'Ultima atualizacao: ' + formattedDate;
-        }
-
-        // Inicializar
-        document.addEventListener('DOMContentLoaded', () => {
-            updateStats();
-        });
+        init();
     </script>
 </body>
 </html>
