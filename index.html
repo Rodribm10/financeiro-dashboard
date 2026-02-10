@@ -3,408 +3,546 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Financeiro - Grupo Inova</title>
+    <title>Dashboard Financeiro</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-        
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .container {
-            max-width: 1800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        .card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .hotel-card {
-            background: #f9fafb;
-            border: 1px solid #e5e7eb;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1.5rem;
-            transition: all 0.3s;
-        }
-        
-        .hotel-card:hover {
-            border-color: #667eea;
-            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
-        }
-        
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        
-        .hotel-info {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-        
-        .name {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #1f2937;
-        }
-        
-        .stats {
-            text-align: right;
-        }
-        
-        .count {
-            font-size: 0.875rem;
-            color: #6b7280;
-        }
-        
-        .total {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #1f2937;
-        }
-        
-        .button {
-            background: white;
-            border: 1px solid #667eea;
-            color: #667eea;
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s;
-            font-size: 0.875rem;
-            font-weight: 500;
-        }
-        
-        .button:hover {
-            background: #667eea;
-            color: white;
-        }
-        
-        .transactions {
-            display: none;
-            margin-top: 1rem;
-            padding-top: 1rem;
-            border-top: 1px solid #e5e7eb;
-        }
-        
-        .transactions.show {
-            display: block;
-            animation: slideDown 0.3s ease;
-        }
-        
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        .table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 0.5rem;
-        }
-        
-        th {
-            background: #f8f9fa;
-            padding: 0.5rem;
-            text-align: left;
-            font-weight: 600;
-            border-bottom: 1px solid #e5e7eb;
-            font-size: 0.875rem;
-        }
-        
-        td {
-            padding: 0.5rem;
-            border-bottom: 1px solid #f3f4f6;
-            text-align: left;
-            font-size: 0.875rem;
-        }
-        
-        .row {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid #f3f4f6;
-        }
-        
-        .row:hover {
-            background: #f9fafb;
-        }
-        
-        .row:last-child {
-            border-bottom: none;
-        }
-        
-        .badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background: #667eea;
-            color: white;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-        
-        .amount {
-            font-weight: 600;
-            color: #1f2937;
-        }
-        
-        .search {
-            padding: 0.75rem;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            width: 100%;
-            font-size: 0.875rem;
-        }
-        
-        .search:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 3px rgba(102, 126, 234, 0.2);
-        }
-        
-        .loading {
-            text-align: center;
-            padding: 2rem;
-            color: white;
-        }
-        
-        .spinner {
-            border: 4px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            border-top: 4px solid white;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .error {
-            background: #fee2e2;
-            color: #dc2626;
-            padding: 1rem;
-            border-radius: 8px;
-            text-align: center;
-            margin: 1rem 0;
-        }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; margin: 0; padding: 0; }
+    .container { max-width: 1800px; margin: 0 auto; padding: 2rem; }
+    .card { background: white; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1.5rem; margin-bottom: 1.5rem; }
+    .hotel-card { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 1px solid #e5e7eb; }
+    .name { font-size: 1.25rem; font-weight: 600; color: #1f2937; display: flex; align-items: center; gap: 0.75rem; }
+    .icon { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 8px; padding: 0.5rem; font-size: 1rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; }
+    .stats { text-align: right; display: flex; flex-direction: column; align-items: flex-end; }
+    .count { font-size: 0.875rem; color: #6b7280; }
+    .total { font-size: 1.5rem; font-weight: 700; color: #1f2937; }
+    .btn { background: white; border: 1px solid #667eea; color: #667eea; padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; transition: all 0.2s; font-size: 0.875rem; font-weight: 500; display: flex; align-items: center; gap: 0.5rem; }
+    .btn:hover { background: #667eea; color: white; }
+    .trans { display: none; margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #e5e7eb; }
+    .trans.show { display: block; animation: slideDown 0.3s ease; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    table { width: 100%; border-collapse: collapse; margin-top: 0.5rem; }
+    th { background: #f8f9fa; padding: 0.5rem; text-align: left; font-weight: 600; border-bottom: 1px solid #e5e7eb; font-size: 0.875rem; }
+    td { padding: 0.5rem; border-bottom: 1px solid #f3f4f6; text-align: left; font-size: 0.875rem; }
+    .row { padding: 0.5rem 0; border-bottom: 1px solid #f3f4f6; }
+    .row:hover { background: #f9fafb; }
+    .badge { padding: 0.25rem 0.75rem; background: #667eea; color: white; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+    .search { padding: 0.75rem; border: 1px solid #e0e0e0; border-radius: 8px; width: 100%; font-size: 0.875rem; outline: none; border-color: #667eea; }
+    .search:focus { box-shadow: 0 0 3px rgba(102, 126, 234, 0.2); }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="text-center mb-8">
             <h1 class="text-4xl font-bold text-white mb-2">Dashboard Financeiro</h1>
-            <p class="text-xl text-white/90">Grupo Inova - Squad Financeiro</p>
-            <p class="text-lg text-white/70" id="date">Atualizacao: Carregando...</p>
+            <p class="text-xl text-white/90">Grupo Inova</p>
+            <p class="text-lg text-white/70">Atualizacao: 10/02/2026 21:40</p>
         </div>
 
-        <div id="loading" class="loading">
-            <div class="spinner"></div>
-            <p>Carregando dados...</p>
+        <div class="card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <p class="text-gray-500 text-sm">Total de Hoteis</p>
+                    <p class="text-3xl font-bold">7</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-sm">Custo Total</p>
+                    <p class="text-3xl font-bold">R$32282.06</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-sm">Total Transacoes</p>
+                    <p class="text-3xl font-bold">32</p>
+                </div>
+                <div>
+                    <p class="text-gray-500 text-sm">Hotel Maior Gasto</p>
+                    <p class="text-3xl font-bold">Prime AL</p>
+                </div>
+            </div>
         </div>
 
-        <div id="dashboard" style="display: none;">
-            <div class="card">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <div>
-                        <p class="text-sm text-gray-500">Total de Hoteis</p>
-                        <p class="text-3xl font-bold" id="total-hotels">...</p>
+        <div class="card">
+            <input type="text" id="search" class="search" placeholder="Buscar transacoes...">
+        </div>
+
+        <div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Prime AL
                     </div>
-                    <div>
-                        <p class="text-sm text-gray-500">Custo Total</p>
-                        <p class="text-3xl font-bold" id="total-amount">...</p>
+                    <div class="stats">
+                        <span class="count">14 transacoes</span>
+                        <span class="total">R$23321.96</span>
                     </div>
-                    <div>
-                        <p class="text-sm text-gray-500">Total Transacoes</p>
-                        <p class="text-3xl font-bold" id="total-transactions">...</p>
-                    </div>
-                    <div>
-                        <p class="text-sm text-gray-500">Hotel com Maior Gasto</p>
-                        <p class="text-3xl font-bold" id="highest-hotel">...</p>
-                    </div>
+                </div>
+                
+                <button class="btn" id="btn-1" onclick="toggleHotel('hotel-1')">
+                    <i id="icon-1" class="fas fa-chevron-down"></i>
+                    <span id="text-1">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-1" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>GAZIN </td>
+                                <td><span class="badge">Compra de equipamentos de informática</span></td>
+                                <td>R$3337.96</td>
+                                <td>GAZIN</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$2500.00</td>
+                                <td>THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO RECEPCIOCISTA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$2093.45</td>
+                                <td>VALERIA DE ANDRADE FERREIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO RECEPCIOCISTA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$2001.50</td>
+                                <td>DANIELA SILVA DE LIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1885.13</td>
+                                <td>monica de sousa matos</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1842.72</td>
+                                <td>YOHANA JOSEFINA PEREZ PEINADO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1728.87</td>
+                                <td>SANDRA RODRIGUES DOS SANTOS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1673.46</td>
+                                <td>PAMELA PEREIRA DE ARAUJO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1672.26</td>
+                                <td>MIKAELLY FREITAS SILVA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$1652.38</td>
+                                <td>TATIANA R. DE VASCINCELOS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SERVIÇO TRAPORTE DE ROUPA</td>
+                                <td><span class="badge">Lavanderia</span></td>
+                                <td>R$1200.00</td>
+                                <td>SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>slr adm</td>
+                                <td><span class="badge">Salários Administrativo (Back office)</span></td>
+                                <td>R$966.23</td>
+                                <td>OUTROS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALARIO LAVADOR</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$588.00</td>
+                                <td>REGINALDO RIBEIRO LIMA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>devolução cliente</td>
+                                <td><span class="badge">Devoluções de clientes</span></td>
+                                <td>R$180.00</td>
+                                <td>DEVOLUÇOES DE CLENTES</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
-            <div class="card">
-                <input type="text" id="search" class="search" placeholder="Buscar transacoes...">
-            </div>
-
-            <div id="hotels"></div>
-        </div>
-    </div>
-
-    <script>
-        const REPORT_URL = 'report.json';
-
-        async function init() {
-            const loading = document.getElementById('loading');
-            const dashboard = document.getElementById('dashboard');
-            
-            try {
-                const response = await fetch(REPORT_URL);
-                
-                if (!response.ok) {
-                    throw new Error('Erro ao carregar dados');
-                }
-                
-                const data = await response.json();
-                
-                loading.style.display = 'none';
-                dashboard.style.display = 'block';
-                
-                renderDashboard(data);
-                
-            } catch (error) {
-                loading.innerHTML = `
-                    <div class="error">
-                        <i class="fas fa-exclamation-triangle text-2xl mb-2"></i>
-                        <p>Erro ao carregar dados: ${error.message}</p>
-                        <p>Tente recarregar a página.</p>
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        1001 Express
                     </div>
-                `;
-            }
-        }
-
-        function renderDashboard(data) {
-            const { hotels, global_total, global_count, date } = data;
-
-            document.getElementById('date').textContent = `Atualizacao: ${date}`;
-
-            const totalHotels = hotels.length;
-            const totalAmount = global_total;
-            const totalTransactions = global_count;
-            
-            let highestHotel = 'N/A';
-            let highestAmount = 0;
-            
-            hotels.forEach(hotel => {
-                if (hotel.total > highestAmount) {
-                    highestAmount = hotel.total;
-                    highestHotel = hotel.name;
-                }
-            });
-
-            document.getElementById('total-hotels').textContent = totalHotels;
-            document.getElementById('total-amount').textContent = `R$ ${totalAmount.toFixed(2)}`;
-            document.getElementById('total-transactions').textContent = totalTransactions;
-            document.getElementById('highest-hotel').textContent = highestHotel;
-
-            const hotelsContainer = document.getElementById('hotels');
-            hotelsContainer.innerHTML = hotels.map((hotel, index) => createHotelCard(hotel, index)).join('');
-        }
-
-        function createHotelCard(hotel, index) {
-            const hotelId = `hotel-${index}`;
-            const transactionsHtml = hotel.transactions.map(t => createTransactionRow(t)).join('');
-
-            return `
-                <div class="hotel-card">
-                    <div class="header">
-                        <div class="hotel-info">
-                            <i class="fas fa-building text-gray-400"></i>
-                            <span class="name">${hotel.name}</span>
-                        </div>
-                        <div class="stats">
-                            <span class="count">${hotel.count} transacoes</span>
-                            <span class="total">R$ ${hotel.total.toFixed(2)}</span>
-                        </div>
-                    </div>
-                    <button class="button" onclick="toggleTransactions('${hotelId}')">
-                        <i class="fas fa-chevron-down mr-1"></i>
-                        <span>Mostrar Transacoes</span>
-                    </button>
-                    <div id="${hotelId}" class="transactions">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>Descricao</th>
-                                    <th>Categoria</th>
-                                    <th>Valor</th>
-                                    <th>Fornecedor</th>
-                                    <th>Data</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                ${transactionsHtml}
-                            </tbody>
-                        </table>
+                    <div class="stats">
+                        <span class="count">3 transacoes</span>
+                        <span class="total">R$3463.40</span>
                     </div>
                 </div>
-            `;
-        }
+                
+                <button class="btn" id="btn-2" onclick="toggleHotel('hotel-2')">
+                    <i id="icon-2" class="fas fa-chevron-down"></i>
+                    <span id="text-2">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-2" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
 
-        function createTransactionRow(transaction) {
-            return `
-                <tr class="row">
-                    <td>${transaction.descricao}</td>
-                    <td><span class="badge">${transaction.categoria}</span></td>
-                    <td><span class="amount">R$ ${transaction.valor.toFixed(2)}</span></td>
-                    <td>${transaction.fornecedor || 'N/A'}</td>
-                    <td>${transaction.data_vencimento || 'N/A'}</td>
-                </tr>
-            `;
-        }
+                            <tr class="row">
+                                <td>SALARIO IARA </td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$2400.00</td>
+                                <td>Iara Dourado </td>
+                                <td>2026-02-09</td>
+                            </tr>
 
-        function toggleTransactions(hotelId) {
-            const container = document.getElementById(hotelId);
-            const button = container.querySelector('.button');
-            const icon = button.querySelector('i');
-            const text = button.querySelector('span');
+                            <tr class="row">
+                                <td>VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
+                                <td><span class="badge">Investimentos gerais</span></td>
+                                <td>R$963.40</td>
+                                <td>HOTEL PRIME AL </td>
+                                <td>2026-02-09</td>
+                            </tr>
 
-            if (container.classList.contains('show')) {
-                container.classList.remove('show');
-                icon.classList.remove('fa-chevron-up');
-                icon.classList.add('fa-chevron-down');
-                text.textContent = 'Mostrar Transacoes';
-            } else {
-                container.classList.add('show');
-                icon.classList.remove('fa-chevron-down');
-                icon.classList.add('fa-chevron-up');
-                text.textContent = 'Esconder Transacoes';
-            }
-        }
+                            <tr class="row">
+                                <td>FRUTAS P/ SEMANA</td>
+                                <td><span class="badge">Supermercado / Atacarejo</span></td>
+                                <td>R$100.00</td>
+                                <td>SACOLÃO FABIANA </td>
+                                <td>2026-02-09</td>
+                            </tr>
 
-        document.getElementById('search').addEventListener('input', (e) => {
-            const term = e.target.value.toLowerCase();
-            const rows = document.querySelectorAll('.row');
-            
-            rows.forEach(row => {
-                const text = row.textContent.toLowerCase();
-                if (term === '' || text.includes(term)) {
-                    row.style.display = '';
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Prime ADE
+                    </div>
+                    <div class="stats">
+                        <span class="count">2 transacoes</span>
+                        <span class="total">R$2261.42</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="btn-3" onclick="toggleHotel('hotel-3')">
+                    <i id="icon-3" class="fas fa-chevron-down"></i>
+                    <span id="text-3">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-3" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>Rescisão </td>
+                                <td><span class="badge">Rescisões</span></td>
+                                <td>R$1531.39</td>
+                                <td>LORRAYNE OLIVEIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>Salário Matheus REF JAN/26</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$730.03</td>
+                                <td>Matheus Marques Aires</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Padova
+                    </div>
+                    <div class="stats">
+                        <span class="count">5 transacoes</span>
+                        <span class="total">R$1731.23</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="btn-4" onclick="toggleHotel('hotel-4')">
+                    <i id="icon-4" class="fas fa-chevron-down"></i>
+                    <span id="text-4">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-4" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>ZEAN CAMERAS</td>
+                                <td><span class="badge">Mão de obra terceirizada</span></td>
+                                <td>R$765.00</td>
+                                <td>ZEAN MANUTENÇÃO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALARIO</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$500.00</td>
+                                <td>GUSTAVO CONTABILIDADE</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALARIO</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$244.44</td>
+                                <td>ISMAEL FINANCEIRO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>SALARIO PAULO  COMPRAS</td>
+                                <td><span class="badge">Salário</span></td>
+                                <td>R$214.29</td>
+                                <td>PAULO COMPRAS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>TELEFONE FINANCEIRO</td>
+                                <td><span class="badge">Telefone + internet</span></td>
+                                <td>R$7.50</td>
+                                <td>TELEFONE E INTERNET</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Dolce Amore
+                    </div>
+                    <div class="stats">
+                        <span class="count">4 transacoes</span>
+                        <span class="total">R$917.38</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="btn-5" onclick="toggleHotel('hotel-5')">
+                    <i id="icon-5" class="fas fa-chevron-down"></i>
+                    <span id="text-5">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-5" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
+                                <td><span class="badge">Compra de Equipamentos</span></td>
+                                <td>R$327.97</td>
+                                <td>CARREFOUR</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
+                                <td><span class="badge">Combustível</span></td>
+                                <td>R$326.25</td>
+                                <td>Cartão Lilian Venc 10</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
+                                <td><span class="badge">Compra de Equipamentos</span></td>
+                                <td>R$255.30</td>
+                                <td>CARREFOUR</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>TARIFA STONE DIA 09/02</td>
+                                <td><span class="badge">Tarifas bancárias</span></td>
+                                <td>R$7.86</td>
+                                <td>None</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Recanto das Emas
+                    </div>
+                    <div class="stats">
+                        <span class="count">1 transacoes</span>
+                        <span class="total">R$500.00</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="btn-6" onclick="toggleHotel('hotel-6')">
+                    <i id="icon-6" class="fas fa-chevron-down"></i>
+                    <span id="text-6">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-6" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>THAIS COODENAÇAO</td>
+                                <td><span class="badge">Mão de obra terceirizada</span></td>
+                                <td>R$500.00</td>
+                                <td>THAIS STEFANY</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="header">
+                    <div class="name">
+                        <div class="icon"><i class="fas fa-building"></i></div>
+                        Qnn01
+                    </div>
+                    <div class="stats">
+                        <span class="count">3 transacoes</span>
+                        <span class="total">R$86.67</span>
+                    </div>
+                </div>
+                
+                <button class="btn" id="btn-7" onclick="toggleHotel('hotel-7')">
+                    <i id="icon-7" class="fas fa-chevron-down"></i>
+                    <span id="text-7">Mostrar Transacoes</span>
+                </button>
+                
+                <div id="hotel-7" class="trans">
+                    <table>
+                        <thead><tr><th>Descricao</th><th>Categoria</th><th>Valor</th><th>Fornecedor</th><th>Data</th></tr></thead>
+                        <tbody>
+
+                            <tr class="row">
+                                <td>PRESTOBARBA                                                                                                                                        </td>
+                                <td><span class="badge">Supermercado / Atacarejo</span></td>
+                                <td>R$59.00</td>
+                                <td>RUMÃO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>CARNE ALMOÇO</td>
+                                <td><span class="badge">Supermercado / Atacarejo</span></td>
+                                <td>R$17.67</td>
+                                <td>SUPER CARNES</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="row">
+                                <td>VT - EDSON</td>
+                                <td><span class="badge">Transporte  Pessoal Manutenção</span></td>
+                                <td>R$10.00</td>
+                                <td>EDSON</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function toggleHotel(id) {
+                const container = document.getElementById(id);
+                const btn = document.getElementById('btn-' + id.split('-')[1]);
+                const icon = document.getElementById('icon-' + id.split('-')[1]);
+                const text = document.getElementById('text-' + id.split('-')[1]);
+
+                if (container.classList.contains('show')) {
+                    container.classList.remove('show');
+                    icon.className = 'fas fa-chevron-down';
+                    text.textContent = 'Mostrar Transacoes';
                 } else {
-                    row.style.display = 'none';
+                    container.classList.add('show');
+                    icon.className = 'fas fa-chevron-up';
+                    text.textContent = 'Esconder Transacoes';
                 }
-            });
-        });
+            }
 
-        init();
-    </script>
+            document.getElementById('search').addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                const rows = document.querySelectorAll('.row');
+                rows.forEach(row => {
+                    if (term === '' || row.textContent.toLowerCase().includes(term)) {
+                        row.style.display = '';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+            });
+        </script>
 </body>
 </html>
