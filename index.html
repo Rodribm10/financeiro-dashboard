@@ -3,118 +3,323 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gastos Diários - 2026-02-08</title>
+    <title>Dashboard Financeiro - Grupo Inova</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-        body { background: #f5f5f5; padding: 20px; color: #333; }
-        .container { max-width: 1200px; margin: 0 auto; background: white; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); padding: 30px; }
-        .header { text-align: center; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 2px solid #e0e0e0; }
-        .header h1 { color: #2c3e50; margin-bottom: 10px; }
-        .header p { color: #7f8c8d; font-size: 14px; }
-        .test-banner { background: #f39c12; color: white; padding: 15px; border-radius: 8px; text-align: center; margin-bottom: 30px; font-weight: bold; }
-        .info { background: #d4edda; border-left: 4px solid #28a745; padding: 15px; margin-bottom: 30px; border-radius: 8px; }
-        .summary { background: #ecf0f1; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
-        .summary h2 { color: #34495e; margin-bottom: 15px; font-size: 18px; }
-        .summary-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
-        .stat-card { background: white; padding: 15px; border-radius: 8px; border-left: 4px solid #3498db; }
-        .stat-card h3 { font-size: 24px; color: #2c3e50; margin-bottom: 5px; }
-        .stat-card p { color: #7f8c8d; font-size: 12px; }
-        .unit { margin-bottom: 30px; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
-        .unit-header { background: #3498db; color: white; padding: 15px 20px; }
-        .unit-header h2 { margin: 0; font-size: 18px; }
-        .unit-header p { margin: 5px 0 0 0; opacity: 0.9; }
-        .transactions { padding: 20px; }
-        .transaction { background: #f8f9fa; padding: 15px; margin-bottom: 10px; border-radius: 6px; border-left: 3px solid #3498db; }
-        .transaction-amount { font-weight: bold; color: #27ae60; font-size: 16px; margin-bottom: 5px; }
-        .transaction-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 10px; }
-        .transaction-detail { font-size: 13px; }
-        .transaction-detail strong { color: #2c3e50; }
-        .transaction-detail span { color: #7f8c8d; }
-        .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e0e0e0; color: #7f8c8d; font-size: 12px; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .dashboard-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .table th {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #f0f0f0;
+            text-align: left;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .badge-success { background: #10b981; color: white; }
+        .badge-warning { background: #f59e0b; color: white; }
+        .badge-info { background: #3b82f6; color: white; }
+        .badge-danger { background: #ef4444; color: white; }
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-top: 1rem;
+        }
+        .progress-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+        .progress-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+        .last-updated {
+            font-size: 0.875rem;
+            color: #6b7280;
+            text-align: right;
+            margin-top: 0.5rem;
+        }
+        .hotel-card {
+            transition: transform 0.2s;
+        }
+        .hotel-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="test-banner">
-            ⚠️ DADOS REAIS DE ONTEM (2026-02-08) - DASHBOARD DE TESTE
-        </div>
-        
-        <div class="info">
-            <strong>ℹ️ Este dashboard está usando dados reais de ontem (06/02/2026)!</strong>
-            <p>Criando página para testar se o GitHub Pages funciona.</p>
+    <div class="dashboard-container">
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">📊 Dashboard Financeiro</h1>
+            <p class="text-xl text-white/90">Grupo Inova - Squad Financeiro</p>
+            <p class="text-lg text-white/70" id="last-updated">Última atualização: 09/02/2026 às 19:45 UTC (16:45 BRT)</p>
         </div>
 
-        <div class="header">
-            <h1>📊 Dashboard Gastos Diários</h1>
-            <p>2026-02-08</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            <div class="stat-card">
+                <i class="fas fa-hotel text-4xl mb-2"></i>
+                <p class="text-sm text-white/70">Total de Hotéis</p>
+                <p class="text-3xl font-bold">7</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-dollar-sign text-4xl mb-2"></i>
+                <p class="text-sm text-white/70">Custo Total</p>
+                <p class="text-3xl font-bold">R$ 12.009,62</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-chart-line text-4xl mb-2"></i>
+                <p class="text-sm text-white/70">Média por Hotel</p>
+                <p class="text-3xl font-bold">R$ 1.715,66</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-trending-up text-4xl mb-2"></i>
+                <p class="text-sm text-white/70">Hotel com Maior Gasto</p>
+                <p class="text-3xl font-bold">Dolce Amore</p>
+            </div>
         </div>
 
-        <div class="summary">
-            <h2>💰 Resumo Geral</h2>
-            <div class="summary-stats">
-                <div class="stat-card">
-                    <h3>R$ 11,450.50</h3>
-                    <p>Total Geral</p>
+        <div class="card">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📈 Análise por Hotel</h2>
+            <div class="overflow-x-auto">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="w-1/5">Hotel</th>
+                            <th class="w-1/5">Gastos</th>
+                            <th class="w-1/5">% do Total</th>
+                            <th class="w-1/5">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="font-semibold">Dolce Amore</td>
+                            <td>R$ 3.279,97</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-red-500" style="width: 27.3%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-warning">Atenção</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">1001 Express</td>
+                            <td>R$ 2.400,00</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-orange-500" style="width: 20.0%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-info">Normal</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">Prime ADE</td>
+                            <td>R$ 2.540,00</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-yellow-500" style="width: 21.1%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-info">Normal</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">Recanto das Emas</td>
+                            <td>R$ 2.000,00</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-green-500" style="width: 16.7%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-success">Ótimo</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">Qnn01</td>
+                            <td>R$ 326,25</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-green-500" style="width: 2.7%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-success">Ótimo</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">Páduva</td>
+                            <td>R$ 500,00</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-green-500" style="width: 4.2%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-success">Ótimo</span></td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">Prime VL</td>
+                            <td>R$ 96,40</td>
+                            <td>
+                                <div class="progress-bar">
+                                    <div class="progress-fill bg-green-500" style="width: 0.8%"></div>
+                                </div>
+                            </td>
+                            <td><span class="badge badge-success">Ótimo</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">
+                <i class="fas fa-info-circle"></i>
+                O hotel com maior custo é <strong>Dolce Amore</strong> (27.3% do total).
+                O hotel com menor custo é <strong>Prime VL</strong> (0.8% do total).
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📊 Distribuição por Categoria</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h3 class="font-semibold text-gray-700 mb-2">💼 Salários</h3>
+                    <p class="text-3xl font-bold text-blue-600">R$ 12.009,62</p>
+                    <p class="text-sm text-gray-600">100.0% do total</p>
                 </div>
-                <div class="stat-card">
-                    <h3>50</h3>
-                    <p>Transações</p>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h3 class="font-semibold text-gray-700 mb-2">🏢 Operacionais</h3>
+                    <p class="text-3xl font-bold text-gray-700">R$ 0,00</p>
+                    <p class="text-sm text-gray-600">0.0% do total</p>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4">
+                    <h3 class="font-semibold text-gray-700 mb-2">🧾 Outros</h3>
+                    <p class="text-3xl font-bold text-gray-700">R$ 0,00</p>
+                    <p class="text-sm text-gray-600">0.0% do total</p>
+                </div>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">
+                <i class="fas fa-exclamation-circle"></i>
+                A categoria <strong>Salários</strong> representa 100.0% dos gastos do dia.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 Detalhes dos Hotéis</h2>
+            <div class="space-y-4">
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 1001 Express</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 2.400,00</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Salários</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Dolce Amore</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 3.279,97</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Equipamentos, Combustível, Tarifas Bancárias</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Páduva</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 500,00</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Mão de obra terceirizada</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Prime VL</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 96,40</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Investimentos gerais</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Prime ADE</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 2.540,00</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Rescisões, Salários</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Qnn01</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 326,25</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Supermercado, Transporte Pessoal</p>
+                </div>
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
+                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Recanto das Emas</h3>
+                    <p class="text-gray-700">Gastos: <strong>R$ 2.000,00</strong></p>
+                    <p class="text-sm text-gray-600">Categorias: Mão de obra terceirizada</p>
                 </div>
             </div>
         </div>
-        <div class="unit">
-            <div class="unit-header">
-                <h2>Dolce Amore</h2>
-                <p>R$ 2,450.50  1 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 2,450.50</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Supermercado / Atacarejo</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FRUTAS, VERDURAS, LEGUMES, CARNES</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>ATA CADAREJO</span></div>
-                    </div>
-                </div>
-            </div>
+
+        <div class="card">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">⚠️ Recomendações</h2>
+            <ul class="space-y-2">
+                <li class="flex items-start">
+                    <i class="fas fa-lightbulb text-yellow-500 mt-1 mr-2"></i>
+                    <span class="text-gray-700"><strong>Otimizar gastos do Dolce Amore</strong>: O hotel com maior custo representa 27.3% do total. Considere revisar fornecedores e negociar contratos.</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-lightbulb text-yellow-500 mt-1 mr-2"></i>
+                    <span class="text-gray-700"><strong>Consolidar compras</strong>: Analisar se compras conjuntas de hotéis podem gerar descontos maiores.</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fas fa-lightbulb text-yellow-500 mt-1 mr-2"></i>
+                    <span class="text-gray-700"><strong>Revisar salários</strong>: 100.0% dos gastos são salários. Considere otimizar a escala de funcionários.</span>
+                </li>
+            </ul>
         </div>
-            <div class="unit">
-            <div class="unit-header">
-                <h2>Padova</h2>
-                <p>R$ 3,200.00  1 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 3,200.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Salário</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>FOLHA DE PAGAMENTO - EQUIPE LIMPEZA</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>VÁRIOS</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="unit">
-            <div class="unit-header">
-                <h2>Prime VL</h2>
-                <p>R$ 5,800.00  1 transações</p>
-            </div>
-            <div class="transactions">
-                <div class="transaction">
-                    <div class="transaction-amount">1. R$ 5,800.00</div>
-                    <div class="transaction-details">
-                        <div class="transaction-detail"><strong>Categoria:</strong> <span>Energia elétrica</span></div>
-                        <div class="transaction-detail"><strong>Descrição:</strong> <span>CONTA DE LUZ - FEVEREIRO/2026</span></div>
-                        <div class="transaction-detail"><strong>Fornecedor:</strong> <span>CELG</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <div class="footer">
-            <p><strong>✅ TESTE GITHUB PAGES - DADOS REAIS DE ONTEM</strong></p>
-            <p>Gerado automaticamente pelo Squad Financeiro • OpenClaw</p>
-            <p>Atualizado em: {datetime.now().strftime('%d/%m/%Y %H:%M')}</p>
-        </div>
+
+        <footer class="text-center mt-8 text-gray-500 text-sm">
+            <p>&copy; 2026 Grupo Inova - Todos os direitos reservados</p>
+            <p>Sistema Financeiro Automatizado</p>
+        </footer>
     </div>
+
+    <script>
+        // Atualizar data da última atualização
+        const lastUpdated = document.getElementById('last-updated');
+        const now = new Date();
+        const formattedDate = now.toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: 'long',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        lastUpdated.textContent = `Última atualização: ${formattedDate}`;
+    </script>
 </body>
 </html>
