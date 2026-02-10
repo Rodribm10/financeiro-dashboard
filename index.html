@@ -6,7 +6,9 @@
     <title>Dashboard Financeiro - Grupo Inova</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -15,7 +17,7 @@
             padding: 0;
         }
         .dashboard-container {
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 2rem;
         }
@@ -25,6 +27,25 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 1.5rem;
             margin-bottom: 1.5rem;
+        }
+        .transaction-item {
+            background: #f9fafb;
+            border-left: 3px solid #667eea;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            border-radius: 6px;
+        }
+        .expandable-section {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .expandable-section.expanded {
+            max-height: 2000px;
+        }
+        .toggle-button {
+            cursor: pointer;
+            user-select: none;
         }
         .stat-card {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -85,12 +106,16 @@
             text-align: right;
             margin-top: 0.5rem;
         }
-        .hotel-card {
-            transition: transform 0.2s;
-        }
-        .hotel-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        .category-chip {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            background: #e0e7ff;
+            color: #667eea;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+            margin-bottom: 0.25rem;
         }
     </style>
 </head>
@@ -99,7 +124,7 @@
         <div class="text-center mb-8">
             <h1 class="text-4xl font-bold text-white mb-2">📊 Dashboard Financeiro</h1>
             <p class="text-xl text-white/90">Grupo Inova - Squad Financeiro</p>
-            <p class="text-lg text-white/70" id="last-updated">Última atualização: 09/02/2026 às 19:45 UTC (16:45 BRT)</p>
+            <p class="text-lg text-white/70" id="last-updated">Última atualização: 09/02/2026 às 19:00</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
@@ -114,112 +139,26 @@
                 <p class="text-3xl font-bold">R$ 12.009,62</p>
             </div>
             <div class="stat-card">
-                <i class="fas fa-chart-line text-4xl mb-2"></i>
-                <p class="text-sm text-white/70">Média por Hotel</p>
-                <p class="text-3xl font-bold">R$ 1.715,66</p>
+                <i class="fas fa-file-invoice-dollar text-4xl mb-2"></i>
+                <p class="text-sm text-white/70">Total Transações</p>
+                <p class="text-3xl font-bold">48</p>
             </div>
             <div class="stat-card">
-                <i class="fas fa-trending-up text-4xl mb-2"></i>
+                <i class="fas fa-chart-line text-4xl mb-2"></i>
                 <p class="text-sm text-white/70">Hotel com Maior Gasto</p>
                 <p class="text-3xl font-bold">Dolce Amore</p>
             </div>
         </div>
 
         <div class="card">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">📈 Análise por Hotel</h2>
-            <div class="overflow-x-auto">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th class="w-1/5">Hotel</th>
-                            <th class="w-1/5">Gastos</th>
-                            <th class="w-1/5">% do Total</th>
-                            <th class="w-1/5">Status</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="font-semibold">Dolce Amore</td>
-                            <td>R$ 3.279,97</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-red-500" style="width: 27.3%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-warning">Atenção</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">1001 Express</td>
-                            <td>R$ 2.400,00</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-orange-500" style="width: 20.0%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-info">Normal</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">Prime ADE</td>
-                            <td>R$ 2.540,00</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-yellow-500" style="width: 21.1%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-info">Normal</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">Recanto das Emas</td>
-                            <td>R$ 2.000,00</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-green-500" style="width: 16.7%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-success">Ótimo</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">Qnn01</td>
-                            <td>R$ 326,25</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-green-500" style="width: 2.7%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-success">Ótimo</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">Páduva</td>
-                            <td>R$ 500,00</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-green-500" style="width: 4.2%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-success">Ótimo</span></td>
-                        </tr>
-                        <tr>
-                            <td class="font-semibold">Prime VL</td>
-                            <td>R$ 96,40</td>
-                            <td>
-                                <div class="progress-bar">
-                                    <div class="progress-fill bg-green-500" style="width: 0.8%"></div>
-                                </div>
-                            </td>
-                            <td><span class="badge badge-success">Ótimo</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">📈 Análise por Hotel com Transações</h2>
+            <div class="space-y-4" id="hotels-list">
+                <!-- Hotéis e suas transações serão inseridos aqui -->
             </div>
-            <p class="text-sm text-gray-600 mt-2">
-                <i class="fas fa-info-circle"></i>
-                O hotel com maior custo é <strong>Dolce Amore</strong> (27.3% do total).
-                O hotel com menor custo é <strong>Prime VL</strong> (0.8% do total).
-            </p>
         </div>
 
         <div class="card">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">📊 Distribuição por Categoria</h2>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">💰 Custo Total por Categoria</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div class="bg-gray-50 rounded-lg p-4">
                     <h3 class="font-semibold text-gray-700 mb-2">💼 Salários</h3>
@@ -237,51 +176,6 @@
                     <p class="text-sm text-gray-600">0.0% do total</p>
                 </div>
             </div>
-            <p class="text-sm text-gray-600 mt-2">
-                <i class="fas fa-exclamation-circle"></i>
-                A categoria <strong>Salários</strong> representa 100.0% dos gastos do dia.
-            </p>
-        </div>
-
-        <div class="card">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">📋 Detalhes dos Hotéis</h2>
-            <div class="space-y-4">
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 1001 Express</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 2.400,00</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Salários</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Dolce Amore</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 3.279,97</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Equipamentos, Combustível, Tarifas Bancárias</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Páduva</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 500,00</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Mão de obra terceirizada</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Prime VL</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 96,40</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Investimentos gerais</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Prime ADE</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 2.540,00</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Rescisões, Salários</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Qnn01</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 326,25</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Supermercado, Transporte Pessoal</p>
-                </div>
-                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200">
-                    <h3 class="font-semibold text-gray-800 mb-2">🏨 Recanto das Emas</h3>
-                    <p class="text-gray-700">Gastos: <strong>R$ 2.000,00</strong></p>
-                    <p class="text-sm text-gray-600">Categorias: Mão de obra terceirizada</p>
-                </div>
-            </div>
         </div>
 
         <div class="card">
@@ -293,11 +187,11 @@
                 </li>
                 <li class="flex items-start">
                     <i class="fas fa-lightbulb text-yellow-500 mt-1 mr-2"></i>
-                    <span class="text-gray-700"><strong>Consolidar compras</strong>: Analisar se compras conjuntas de hotéis podem gerar descontos maiores.</span>
+                    <span class="text-gray-700"><strong>Consolidar compras</strong>: Análise se compras conjuntas de hotéis podem gerar descontos maiores.</span>
                 </li>
                 <li class="flex items-start">
                     <i class="fas fa-lightbulb text-yellow-500 mt-1 mr-2"></i>
-                    <span class="text-gray-700"><strong>Revisar salários</strong>: 100.0% dos gastos são salários. Considere otimizar a escala de funcionários.</span>
+                    <span class="text-gray-700"><strong>Revisar salários</strong>: 100% dos gastos são salários. Considere otimizar a escala de funcionários.</span>
                 </li>
             </ul>
         </div>
@@ -305,10 +199,175 @@
         <footer class="text-center mt-8 text-gray-500 text-sm">
             <p>&copy; 2026 Grupo Inova - Todos os direitos reservados</p>
             <p>Sistema Financeiro Automatizado</p>
+            <p>
+                <i class="fab fa-github"></i> Repositório: <code class="bg-gray-100 px-2 py-1 rounded text-xs">rodribm10.github.io/financeiro-dashboard</code>
+            </p>
         </footer>
     </div>
 
     <script>
+        // Dados dos hotéis com transações
+        const dadosFinanceiros = {
+            "1001 Express": {
+                total: 2400.00,
+                transacoes: [
+                    { categoria: "Salário", descricao: "SALARIO IARA", valor: 2400.00, fornecedor: "Iara Dourado", data: "2026-02-09" },
+                    { categoria: "Supermercado", descricao: "FRUTAS P/ SEMANA", valor: 100.00, fornecedor: "SACOLÃO FABIANA", data: "2026-02-09" }
+                ]
+            },
+            "Dolce Amore": {
+                total: 3279.97,
+                transacoes: [
+                    { categoria: "Compra de Equipamentos", descricao: "BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO", valor: 327.97, fornecedor: "CARREFOUR", data: "2026-02-09" },
+                    { categoria: "Combustível", descricao: "(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL", valor: 326.25, fornecedor: "Cartão Lilian Venc 10", data: "2026-02-09" },
+                    { categoria: "Compra de Equipamentos", descricao: "COMPRA DE ESPUMANTESALTON,PAPEL A4", valor: 255.30, fornecedor: "CARREFOUR", data: "2026-02-09" },
+                    { categoria: "Tarifas Bancárias", descricao: "TARIFA STONE DIA 09/02", valor: 7.86, fornecedor: null, data: "2026-02-09" },
+                    { categoria: "Equipamentos", descricao: "Gabinete de Informática", valor: 963.40, fornecedor: "GAZIN", data: "2026-02-09" },
+                    { categoria: "Telefone + Internet", descricao: "INTERNET + TELEFONE", valor: 966.23, fornecedor: "TELEFONE E INTERNET", data: "2026-02-09" },
+                    { categoria: "Lavanderia", descricao: "SERVIÇO ENTREGA DE ROUPA LAVANDERIA", valor: 1200.00, fornecedor: "SERVIÇO ENTREGA DE ROUPA LAVANDERIA", data: "2026-02-09" }
+                ]
+            },
+            "Padova": {
+                total: 500.00,
+                transacoes: [
+                    { categoria: "Mão de obra terceirizada", descricao: "ZEAN CAMERAS", valor: 500.00, fornecedor: "ZEAN MANUTENÇÃO", data: "2026-02-09" }
+                ]
+            },
+            "Prime ADE": {
+                total: 2540.00,
+                transacoes: [
+                    { categoria: "Rescisões", descricao: "Rescisão", valor: 1531.39, fornecedor: "LORRAYNE OLIVEIRA", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "Salário Matheus REF JAN/26", valor: 730.03, fornecedor: "Matheus Marques Aires", data: "2026-02-09" },
+                    { categoria: "Outros", descricao: "Serviço extra", valor: 278.58, fornecedor: "FORNECEDOR VARIOS", data: "2026-02-09" }
+                ]
+            },
+            "Prime AL": {
+                total: 13838.12,
+                transacoes: [
+                    { categoria: "Compra de equipamentos de informática", descricao: "GAZIN", valor: 3337.96, fornecedor: "GAZIN", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE", valor: 2500.00, fornecedor: "THAYNARA CRISTINE SANTOS DE OLIVEIRA", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO RECEPCIOCISTA", valor: 2093.45, fornecedor: "VALERIA DE ANDRADE FERREIRA", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO RECEPCIOCISTA", valor: 2001.50, fornecedor: "DANIELA SILVA DE LIRA", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO CAMAREIRA", valor: 1885.13, fornecedor: "monica de sousa matos", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO CAMAREIRA", valor: 1842.72, fornecedor: "YOHANA JOSEFINA PEREZ PEINADO", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO CAMAREIRA", valor: 1728.87, fornecedor: "SANDRA RODRIGUES DOS SANTOS", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO CAMAREIRA", valor: 1673.46, fornecedor: "PAMELA PEREIRA DE ARAUJO", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO CAMAREIRA", valor: 1672.26, fornecedor: "MIKAELLY FREITAS SILVA", data: "2026-02-09" },
+                    { categoria: "Lavanderia", descricao: "SERVIÇO TRAPORTE DE ROUPA", valor: 1200.00, fornecedor: "SERVIÇO ENTREGA DE ROUPA LAVANDERIA", data: "2026-02-09" }
+                ]
+            },
+            "Qnn01": {
+                total: 326.25,
+                transacoes: [
+                    { categoria: "Supermercado / Atacarejo", descricao: "PRESTOBARBA", valor: 59.00, fornecedor: "RUMÃO", data: "2026-02-09" },
+                    { categoria: "Supermercado / Atacarejo", descricao: "CARNE ALMOÇO", valor: 17.67, fornecedor: "SUPER CARNES", data: "2026-02-09" },
+                    { categoria: "Transporte Pessoal Manutenção", descricao: "VT - EDSON", valor: 10.00, fornecedor: "EDSON", data: "2026-02-09" },
+                    { categoria: "Supermercado / Atacarejo", descricao: "PRESTOBARBA", valor: 59.00, fornecedor: "RUMÃO", data: "2026-02-09" },
+                    { categoria: "Supermercado / Atacarejo", descricao: "CARNE ALMOÇO", valor: 17.67, fornecedor: "SUPER CARNES", data: "2026-02-09" },
+                    { categoria: "Supermercado / Atacarejo", descricao: "PRESTOBARBA", valor: 59.00, fornecedor: "RUMÃO", data: "2026-02-09" },
+                    { categoria: "Supermercado / Atacarejo", descricao: "CARNE ALMOÇO", valor: 17.67, fornecedor: "SUPER CARNES", data: "2026-02-09" }
+                ]
+            },
+            "Recanto das Emas": {
+                total: 2000.00,
+                transacoes: [
+                    { categoria: "Mão de obra terceirizada", descricao: "THAIS COODENAÇAO", valor: 500.00, fornecedor: "THAIS STEFANY", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO", valor: 500.00, fornecedor: "GUSTAVO CONTABILIDADE", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO", valor: 244.44, fornecedor: "ISMAEL FINANCEIRO", data: "2026-02-09" },
+                    { categoria: "Salário", descricao: "SALÁRIO PAULO COMPRAS", valor: 214.29, fornecedor: "PAULO COMPRAS", data: "2026-02-09" },
+                    { categoria: "Telefone + internet", descricao: "TELEFONE FINANCEIRO", valor: 7.50, fornecedor: "TELEFONE E INTERNET", data: "2026-02-09" }
+                ]
+            }
+        };
+
+        // Função para gerar HTML de um hotel com suas transações
+        function gerarHotelHTML(nome, dados) {
+            let transacoesHTML = '';
+            
+            dados.transacoes.forEach((transacao, index) => {
+                transacoesHTML += `
+                    <div class="transaction-item">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <span class="badge ${getBadgeCategoria(transacao.categoria)}">${transacao.categoria}</span>
+                                <div class="mt-1">
+                                    <span class="text-sm text-gray-700">${transacao.descricao}</span>
+                                    <span class="text-xs text-gray-500 mt-0.5">
+                                        <i class="fas fa-building mr-1"></i> ${transacao.fornecedor || 'N/A'}
+                                    </span>
+                                </div>
+                            </div>
+                            <span class="text-lg font-semibold text-gray-800">R$ ${transacao.valor.toFixed(2)}</span>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            return `
+                <div class="hotel-card bg-white rounded-lg p-4 border border-gray-200 mb-4">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-lg font-bold text-gray-800">🏨 ${nome}</h3>
+                            <p class="text-sm text-gray-600">${dados.transacoes.length} transações</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-gray-500">Gasto total:</p>
+                            <p class="text-2xl font-bold text-gray-800">R$ ${dados.total.toFixed(2)}</p>
+                        </div>
+                    </div>
+                    
+                    <button class="toggle-button text-blue-600 text-sm mt-2 mb-4" onclick="toggleHotel('hotel-${index}')">
+                        <i class="fas fa-chevron-down mr-1"></i>
+                        Mostrar transações
+                    </button>
+                    
+                    <div id="hotel-${index}" class="expandable-section">
+                        ${transacoesHTML}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Função para obter cor do badge por categoria
+        function getBadgeCategoria(categoria) {
+            const cores = {
+                'Salário': 'badge-info',
+                'Supermercado': 'badge-warning',
+                'Combustível': 'badge-danger',
+                'Equipamentos': 'badge-info',
+                'Telefone + internet': 'badge-info',
+                'Lavanderia': 'badge-info',
+                'Tarifas bancárias': 'badge-warning',
+                'Rescisões': 'badge-danger',
+                'Outros': 'badge-success',
+                'Compra de Equipamentos': 'badge-info',
+                'Mão de obra terceirizada': 'badge-success',
+                'Investimentos gerais': 'badge-success',
+                'Transporte Pessoal Manutenção': 'badge-warning'
+                'Salários Administrativo': 'badge-info',
+                'Devoluções de clientes': 'badge-danger',
+                'Compra de equipamentos de informática': 'badge-info',
+                'Gabinete de Informática': 'badge-info'
+            };
+            return cores[categoria] || 'badge-success';
+        }
+
+        // Função para expandir/colapsar hotéis
+        function toggleHotel(hotelId) {
+            const section = document.getElementById(hotelId);
+            section.classList.toggle('expanded');
+        }
+
+        // Gerar lista de hotéis
+        const hotelsList = document.getElementById('hotels-list');
+        let html = '';
+
+        Object.entries(dadosFinanceiros).forEach(([nome, dados], index) => {
+            html += gerarHotelHTML(nome, dados);
+        });
+
+        hotelsList.innerHTML = html;
+
         // Atualizar data da última atualização
         const lastUpdated = document.getElementById('last-updated');
         const now = new Date();
