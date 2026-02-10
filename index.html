@@ -60,32 +60,144 @@
         .badge-danger { background: #ef4444; color: white; }
         .badge-primary { background: #667eea; color: white; }
         
-        .transaction-item {
+        .hotel-card {
             background: #f9fafb;
-            border-left: 3px solid #667eea;
-            padding: 0.75rem 0;
-            margin-bottom: 0.5rem;
-            border-radius: 6px;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s;
+        }
+        
+        .hotel-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+        }
+        
+        .hotel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .hotel-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .hotel-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            padding: 0.5rem;
+            font-size: 1.25rem;
+        }
+        
+        .hotel-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1f2937;
+        }
+        
+        .hotel-stats {
+            text-align: right;
+        }
+        
+        .hotel-count {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+        
+        .hotel-total {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+        }
+        
+        .toggle-button {
+            background: white;
+            border: 1px solid #667eea;
+            color: #667eea;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        
+        .toggle-button:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .transactions-container {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        .transactions-container.expanded {
+            display: block;
+            animation: slideDown 0.3s ease;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
         
         .table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 1rem;
+            margin-top: 0.5rem;
         }
         
         .table th {
             background: #f8f9fa;
-            padding: 0.75rem;
+            padding: 0.5rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid #e0e0e0;
+            border-bottom: 1px solid #e5e7eb;
+            font-size: 0.875rem;
         }
         
         .table td {
-            padding: 0.75rem 0;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 0.5rem;
+            border-bottom: 1px solid #f3f4f6;
             text-align: left;
+            font-size: 0.875rem;
+        }
+        
+        .transaction-row {
+            padding: 0.5rem;
+            border-bottom: 1px solid #f3f4f6;
+            transition: all 0.2s;
+        }
+        
+        .transaction-row:hover {
+            background: #f9fafb;
+        }
+        
+        .transaction-row:last-child {
+            border-bottom: none;
+        }
+        
+        .transaction-category {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
         }
         
         .amount {
@@ -99,7 +211,7 @@
             border: 1px solid #e0e0e0;
             border-radius: 8px;
             width: 100%;
-            max-width: 400px;
+            max-width: 500px;
             font-size: 0.875rem;
         }
         
@@ -107,25 +219,6 @@
             outline: none;
             border-color: #667eea;
             box-shadow: 0 0 3px rgba(102, 126, 234, 0.2);
-        }
-        
-        .hotel-filter {
-            padding: 0.5rem 1rem;
-            background: #f3f4f6;
-            border-radius: 8px;
-            font-size: 0.875rem;
-            border: 1px solid #e0e0e0;
-            cursor: pointer;
-            margin-bottom: 0.5rem;
-        }
-        
-        .hotel-filter:hover {
-            background: #e9ecef;
-        }
-        
-        .hotel-filter.active {
-            background: #667eea;
-            color: white;
         }
         
         .last-updated {
@@ -138,456 +231,595 @@
 </head>
 <body>
     <div class="dashboard-container">
-        <!-- Header -->
         <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-white mb-2">📊 Dashboard Financeiro</h1>
+            <h1 class="text-4xl font-bold text-white mb-2">Dashboard Financeiro</h1>
             <p class="text-xl text-white/90">Grupo Inova - Squad Financeiro</p>
-            <p class="text-lg text-white/70" id="last-updated">Última atualização: 10/02/2026 às 20:25</p>
+            <p class="text-lg text-white/70" id="last-updated">Ultima atualizacao: carregando...</p>
         </div>
 
-        <!-- Stats Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             <div class="card">
-                <i class="fas fa-hotel text-4xl mb-2"></i>
-                <p class="text-sm text-white/70">Total de Hotéis</p>
-                <p class="text-3xl font-bold">7</p>
+                <div class="text-gray-500 text-sm mb-1">Total de Hoteis</div>
+                <div class="text-3xl font-bold" id="total-hotels">...</div>
             </div>
             <div class="card">
-                <i class="fas fa-dollar-sign text-4xl mb-2"></i>
-                <p class="text-sm text-white/70">Custo Total</p>
-                <p class="text-3xl font-bold">R$ 32,282.06</p>
+                <div class="text-gray-500 text-sm mb-1">Custo Total</div>
+                <div class="text-3xl font-bold" id="total-amount">...</div>
             </div>
             <div class="card">
-                <i class="fas fa-file-invoice-dollar text-4xl mb-2"></i>
-                <p class="text-sm text-white/70">Total Transações</p>
-                <p class="text-3xl font-bold">32</p>
+                <div class="text-gray-500 text-sm mb-1">Total Transacoes</div>
+                <div class="text-3xl font-bold" id="total-transactions">...</div>
             </div>
             <div class="card">
-                <i class="fas fa-chart-line text-4xl mb-2"></i>
-                <p class="text-sm text-white/70">Hotel com Maior Gasto</p>
-                <p class="text-3xl font-bold">Prime AL</p>
+                <div class="text-gray-500 text-sm mb-1">Hotel com Maior Gasto</div>
+                <div class="text-3xl font-bold" id="highest-hotel">...</div>
             </div>
         </div>
 
-        <!-- Filters and Search -->
         <div class="card">
-            <div class="flex flex-wrap gap-4 items-center mb-4">
-                <div class="flex items-center gap-2">
-                    <input type="text" id="search-input" class="search-box" placeholder="🔍 Buscar transações...">
-                    <select id="category-filter" class="hotel-filter">
-                        <option value="">Todas Categorias</option>
-                    </select>
-                </div>
+            <div class="flex items-center gap-2 mb-4">
+                <i class="fas fa-search text-gray-500"></i>
+                <input type="text" id="search-input" class="search-box" placeholder="Buscar transacoes...">
             </div>
-            <div class="flex justify-between items-center">
-                <span class="text-sm text-gray-600">
-                    Mostrando <span id="showing-count">32</span> de <span id="total-count">32</span> transações
-                </span>
-            </div>
-        </div>
-
-        <!-- Transactions List -->
-        <div class="card">
-            <div class="card-header">
-                <h2 class="card-title">📋 Todas as Transações (32 registros)</h2>
-            </div>
-            
-            <div class="overflow-x-auto">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th class="w-1/6">Hotel</th>
-                            <th class="w-1/4">Descrição</th>
-                            <th class="w-1/6">Categoria</th>
-                            <th class="w-1/6">Data</th>
-                            <th class="w-1/6">Fornecedor</th>
-                            <th class="w-1/8 text-right">Valor</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>GAZIN </td>
-                            <td><span class="badge badge-primary">Compra de equipamentos de informática</span></td>
-                            <td>2026-02-09</td>
-                            <td>GAZIN</td>
-                            <td class="amount text-right">R$ 3,337.96</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
-                            <td class="amount text-right">R$ 2,500.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">1001 Express</td>
-                            <td>SALARIO IARA </td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>Iara Dourado </td>
-                            <td class="amount text-right">R$ 2,400.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO RECEPCIOCISTA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>VALERIA DE ANDRADE FERREIRA</td>
-                            <td class="amount text-right">R$ 2,093.45</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO RECEPCIOCISTA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>DANIELA SILVA DE LIRA</td>
-                            <td class="amount text-right">R$ 2,001.50</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>monica de sousa matos</td>
-                            <td class="amount text-right">R$ 1,885.13</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>YOHANA JOSEFINA PEREZ PEINADO</td>
-                            <td class="amount text-right">R$ 1,842.72</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>SANDRA RODRIGUES DOS SANTOS</td>
-                            <td class="amount text-right">R$ 1,728.87</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>PAMELA PEREIRA DE ARAUJO</td>
-                            <td class="amount text-right">R$ 1,673.46</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>MIKAELLY FREITAS SILVA</td>
-                            <td class="amount text-right">R$ 1,672.26</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALÁRIO CAMAREIRA</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>TATIANA R. DE VASCINCELOS</td>
-                            <td class="amount text-right">R$ 1,652.38</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime ADE</td>
-                            <td>Rescisão </td>
-                            <td><span class="badge badge-primary">Rescisões</span></td>
-                            <td>2026-02-09</td>
-                            <td>LORRAYNE OLIVEIRA</td>
-                            <td class="amount text-right">R$ 1,531.39</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SERVIÇO TRAPORTE DE ROUPA</td>
-                            <td><span class="badge badge-primary">Lavanderia</span></td>
-                            <td>2026-02-09</td>
-                            <td>SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
-                            <td class="amount text-right">R$ 1,200.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>slr adm</td>
-                            <td><span class="badge badge-primary">Salários Administrativo (Back office)</span></td>
-                            <td>2026-02-09</td>
-                            <td>OUTROS</td>
-                            <td class="amount text-right">R$ 966.23</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">1001 Express</td>
-                            <td>VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
-                            <td><span class="badge badge-primary">Investimentos gerais</span></td>
-                            <td>2026-02-09</td>
-                            <td>HOTEL PRIME AL </td>
-                            <td class="amount text-right">R$ 963.40</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Padova</td>
-                            <td>ZEAN CAMERAS</td>
-                            <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
-                            <td>2026-02-09</td>
-                            <td>ZEAN MANUTENÇÃO</td>
-                            <td class="amount text-right">R$ 765.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime ADE</td>
-                            <td>Salário Matheus REF JAN/26</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>Matheus Marques Aires</td>
-                            <td class="amount text-right">R$ 730.03</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>SALARIO LAVADOR</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>REGINALDO RIBEIRO LIMA</td>
-                            <td class="amount text-right">R$ 588.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Padova</td>
-                            <td>SALARIO</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>GUSTAVO CONTABILIDADE</td>
-                            <td class="amount text-right">R$ 500.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Recanto das Emas</td>
-                            <td>THAIS COODENAÇAO</td>
-                            <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
-                            <td>2026-02-09</td>
-                            <td>THAIS STEFANY</td>
-                            <td class="amount text-right">R$ 500.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Dolce Amore</td>
-                            <td>BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
-                            <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
-                            <td>2026-02-09</td>
-                            <td>CARREFOUR</td>
-                            <td class="amount text-right">R$ 327.97</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Dolce Amore</td>
-                            <td>(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
-                            <td><span class="badge badge-primary">Combustível</span></td>
-                            <td>2026-02-09</td>
-                            <td>Cartão Lilian Venc 10</td>
-                            <td class="amount text-right">R$ 326.25</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Dolce Amore</td>
-                            <td>COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
-                            <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
-                            <td>2026-02-09</td>
-                            <td>CARREFOUR</td>
-                            <td class="amount text-right">R$ 255.30</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Padova</td>
-                            <td>SALARIO</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>ISMAEL FINANCEIRO</td>
-                            <td class="amount text-right">R$ 244.44</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Padova</td>
-                            <td>SALARIO PAULO  COMPRAS</td>
-                            <td><span class="badge badge-primary">Salário</span></td>
-                            <td>2026-02-09</td>
-                            <td>PAULO COMPRAS</td>
-                            <td class="amount text-right">R$ 214.29</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Prime AL</td>
-                            <td>devolução cliente</td>
-                            <td><span class="badge badge-primary">Devoluções de clientes</span></td>
-                            <td>2026-02-09</td>
-                            <td>DEVOLUÇOES DE CLENTES</td>
-                            <td class="amount text-right">R$ 180.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">1001 Express</td>
-                            <td>FRUTAS P/ SEMANA</td>
-                            <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                            <td>2026-02-09</td>
-                            <td>SACOLÃO FABIANA </td>
-                            <td class="amount text-right">R$ 100.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Qnn01</td>
-                            <td>PRESTOBARBA                                                                                                                                        </td>
-                            <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                            <td>2026-02-09</td>
-                            <td>RUMÃO</td>
-                            <td class="amount text-right">R$ 59.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Qnn01</td>
-                            <td>CARNE ALMOÇO</td>
-                            <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
-                            <td>2026-02-09</td>
-                            <td>SUPER CARNES</td>
-                            <td class="amount text-right">R$ 17.67</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Qnn01</td>
-                            <td>VT - EDSON</td>
-                            <td><span class="badge badge-primary">Transporte  Pessoal Manutenção</span></td>
-                            <td>2026-02-09</td>
-                            <td>EDSON</td>
-                            <td class="amount text-right">R$ 10.00</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Dolce Amore</td>
-                            <td>TARIFA STONE DIA 09/02</td>
-                            <td><span class="badge badge-primary">Tarifas bancárias</span></td>
-                            <td>2026-02-09</td>
-                            <td>None</td>
-                            <td class="amount text-right">R$ 7.86</td>
-                        </tr>
-
-                        <tr class="transaction-item">
-                            <td class="font-semibold">Padova</td>
-                            <td>TELEFONE FINANCEIRO</td>
-                            <td><span class="badge badge-primary">Telefone + internet</span></td>
-                            <td>2026-02-09</td>
-                            <td>TELEFONE E INTERNET</td>
-                            <td class="amount text-right">R$ 7.50</td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-            <p class="text-sm text-gray-600 mt-2">
+            <p class="text-sm text-gray-600">
                 <i class="fas fa-info-circle"></i>
-                Mostrando todas as 32 transações. Ajuste os filtros para buscar por hotel, categoria, descrição ou fornecedor.
+                Digite para buscar em TODOS os hoteis. Clique em "Mostrar Transacoes" no hotel para filtrar.
             </p>
         </div>
 
-        <!-- Footer -->
+        <div id="hotels-list">
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Prime AL</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">14 transacoes</div>
+                        <div class="hotel-total">R$ 23321.96</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-1')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-1" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>GAZIN </td>
+                                <td><span class="badge badge-primary">Compra de equipamentos de informática</span></td>
+                                <td><span class="amount">R$ 3337.96</span></td>
+                                <td>GAZIN</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 2500.0</span></td>
+                                <td>THAYNARA CRISTINE SANTOS DE OLIVEIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO RECEPCIOCISTA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 2093.45</span></td>
+                                <td>VALERIA DE ANDRADE FERREIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO RECEPCIOCISTA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 2001.5</span></td>
+                                <td>DANIELA SILVA DE LIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1885.13</span></td>
+                                <td>monica de sousa matos</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1842.72</span></td>
+                                <td>YOHANA JOSEFINA PEREZ PEINADO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1728.87</span></td>
+                                <td>SANDRA RODRIGUES DOS SANTOS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1673.46</span></td>
+                                <td>PAMELA PEREIRA DE ARAUJO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1672.26</span></td>
+                                <td>MIKAELLY FREITAS SILVA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALÁRIO CAMAREIRA</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 1652.38</span></td>
+                                <td>TATIANA R. DE VASCINCELOS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SERVIÇO TRAPORTE DE ROUPA</td>
+                                <td><span class="badge badge-primary">Lavanderia</span></td>
+                                <td><span class="amount">R$ 1200.0</span></td>
+                                <td>SERVIÇO ENTREGA DE ROUPA LAVANDERIA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>slr adm</td>
+                                <td><span class="badge badge-primary">Salários Administrativo (Back office)</span></td>
+                                <td><span class="amount">R$ 966.23</span></td>
+                                <td>OUTROS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO LAVADOR</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 588.0</span></td>
+                                <td>REGINALDO RIBEIRO LIMA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>devolução cliente</td>
+                                <td><span class="badge badge-primary">Devoluções de clientes</span></td>
+                                <td><span class="amount">R$ 180.0</span></td>
+                                <td>DEVOLUÇOES DE CLENTES</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">1001 Express</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">3 transacoes</div>
+                        <div class="hotel-total">R$ 3463.4</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-2')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-2" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO IARA </td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 2400.0</span></td>
+                                <td>Iara Dourado </td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )</td>
+                                <td><span class="badge badge-primary">Investimentos gerais</span></td>
+                                <td><span class="amount">R$ 963.4</span></td>
+                                <td>HOTEL PRIME AL </td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>FRUTAS P/ SEMANA</td>
+                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
+                                <td><span class="amount">R$ 100.0</span></td>
+                                <td>SACOLÃO FABIANA </td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Prime ADE</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">2 transacoes</div>
+                        <div class="hotel-total">R$ 2261.42</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-3')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-3" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>Rescisão </td>
+                                <td><span class="badge badge-primary">Rescisões</span></td>
+                                <td><span class="amount">R$ 1531.39</span></td>
+                                <td>LORRAYNE OLIVEIRA</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>Salário Matheus REF JAN/26</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 730.03</span></td>
+                                <td>Matheus Marques Aires</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Padova</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">5 transacoes</div>
+                        <div class="hotel-total">R$ 1731.23</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-4')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-4" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>ZEAN CAMERAS</td>
+                                <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
+                                <td><span class="amount">R$ 765.0</span></td>
+                                <td>ZEAN MANUTENÇÃO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 500.0</span></td>
+                                <td>GUSTAVO CONTABILIDADE</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 244.44</span></td>
+                                <td>ISMAEL FINANCEIRO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>SALARIO PAULO  COMPRAS</td>
+                                <td><span class="badge badge-primary">Salário</span></td>
+                                <td><span class="amount">R$ 214.29</span></td>
+                                <td>PAULO COMPRAS</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>TELEFONE FINANCEIRO</td>
+                                <td><span class="badge badge-primary">Telefone + internet</span></td>
+                                <td><span class="amount">R$ 7.5</span></td>
+                                <td>TELEFONE E INTERNET</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Dolce Amore</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">4 transacoes</div>
+                        <div class="hotel-total">R$ 917.38</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-5')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-5" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO</td>
+                                <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
+                                <td><span class="amount">R$ 327.97</span></td>
+                                <td>CARREFOUR</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL </td>
+                                <td><span class="badge badge-primary">Combustível</span></td>
+                                <td><span class="amount">R$ 326.25</span></td>
+                                <td>Cartão Lilian Venc 10</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>COMPRA DE ESPUMANTESALTON,PAPEL A4</td>
+                                <td><span class="badge badge-primary">Compra de Equipamentos</span></td>
+                                <td><span class="amount">R$ 255.3</span></td>
+                                <td>CARREFOUR</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>TARIFA STONE DIA 09/02</td>
+                                <td><span class="badge badge-primary">Tarifas bancárias</span></td>
+                                <td><span class="amount">R$ 7.86</span></td>
+                                <td>None</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Recanto das Emas</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">1 transacoes</div>
+                        <div class="hotel-total">R$ 500.0</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-6')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-6" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>THAIS COODENAÇAO</td>
+                                <td><span class="badge badge-primary">Mão de obra terceirizada</span></td>
+                                <td><span class="amount">R$ 500.0</span></td>
+                                <td>THAIS STEFANY</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="hotel-card">
+                <div class="hotel-header">
+                    <div class="hotel-info">
+                        <div class="hotel-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="hotel-name">Qnn01</div>
+                    </div>
+                    <div class="hotel-stats">
+                        <div class="hotel-count">3 transacoes</div>
+                        <div class="hotel-total">R$ 86.67</div>
+                    </div>
+                </div>
+                
+                <button class="toggle-button" onclick="toggleHotel('hotel-7')">
+                    <i class="fas fa-chevron-down mr-1"></i>
+                    Mostrar Transacoes
+                </button>
+                
+                <div id="hotel-7" class="transactions-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Descricao</th>
+                                <th>Categoria</th>
+                                <th>Valor</th>
+                                <th>Fornecedor</th>
+                                <th>Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="transaction-row">
+                                <td>PRESTOBARBA                                                                                                                                        </td>
+                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
+                                <td><span class="amount">R$ 59.0</span></td>
+                                <td>RUMÃO</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>CARNE ALMOÇO</td>
+                                <td><span class="badge badge-primary">Supermercado / Atacarejo</span></td>
+                                <td><span class="amount">R$ 17.67</span></td>
+                                <td>SUPER CARNES</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                            <tr class="transaction-row">
+                                <td>VT - EDSON</td>
+                                <td><span class="badge badge-primary">Transporte  Pessoal Manutenção</span></td>
+                                <td><span class="amount">R$ 10.0</span></td>
+                                <td>EDSON</td>
+                                <td>2026-02-09</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
         <footer class="text-center mt-8 text-gray-500 text-sm">
-            <p>&copy; 2026 Grupo Inova - Todos os direitos reservados</p>
+            <p class="last-updated">&copy; 2026 Grupo Inova - Todos os direitos reservados</p>
             <p>Sistema Financeiro Automatizado</p>
             <p>
                 <i class="fab fa-github"></i>
-                Repositório: <code class="bg-gray-100 px-2 py-1 rounded text-xs">rodribm10.github.io/financeiro-dashboard</code>
+                Repositorio: <code class="bg-gray-100 px-2 py-1 rounded text-xs">rodribm10.github.io/financeiro-dashboard</code>
             </p>
         </footer>
     </div>
 
     <script>
-        // Carregar dados das transações
-        const allTransactions = [
+        // Funcao para alternar visibilidade das transacoes
+        function toggleHotel(hotelId) {
+            const container = document.getElementById(hotelId);
+            const button = document.querySelector('button[onclick="toggleHotel(\'' + hotelId + '\'"]');
+            const icon = button.querySelector('i');
 
-            {"unidade": "Prime AL", "categoria": "Compra de equipamentos de informática", "descricao": "GAZIN ", "valor": 3337.96, "data_vencimento": "2026-02-09", "fornecedor": "GAZIN"},
+            if (container.classList.contains('expanded')) {
+                // Colapsar
+                container.classList.remove('expanded');
+                button.innerHTML = '<i class="fas fa-chevron-down mr-1"></i> Mostrar Transacoes';
+                icon.className = 'fas fa-chevron-down mr-1';
+            } else {
+                // Expandir
+                container.classList.add('expanded');
+                button.innerHTML = '<i class="fas fa-chevron-up mr-1"></i> Esconder Transacoes';
+                icon.className = 'fas fa-chevron-up mr-1';
+            }
+        }
 
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE", "valor": 2500.0, "data_vencimento": "2026-02-09", "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"},
-
-            {"unidade": "1001 Express", "categoria": "Salário", "descricao": "SALARIO IARA ", "valor": 2400.0, "data_vencimento": "2026-02-09", "fornecedor": "Iara Dourado "},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO RECEPCIOCISTA", "valor": 2093.45, "data_vencimento": "2026-02-09", "fornecedor": "VALERIA DE ANDRADE FERREIRA"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO RECEPCIOCISTA", "valor": 2001.5, "data_vencimento": "2026-02-09", "fornecedor": "DANIELA SILVA DE LIRA"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1885.13, "data_vencimento": "2026-02-09", "fornecedor": "monica de sousa matos"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1842.72, "data_vencimento": "2026-02-09", "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1728.87, "data_vencimento": "2026-02-09", "fornecedor": "SANDRA RODRIGUES DOS SANTOS"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1673.46, "data_vencimento": "2026-02-09", "fornecedor": "PAMELA PEREIRA DE ARAUJO"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1672.26, "data_vencimento": "2026-02-09", "fornecedor": "MIKAELLY FREITAS SILVA"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALÁRIO CAMAREIRA", "valor": 1652.38, "data_vencimento": "2026-02-09", "fornecedor": "TATIANA R. DE VASCINCELOS"},
-
-            {"unidade": "Prime ADE", "categoria": "Rescisões", "descricao": "Rescisão ", "valor": 1531.39, "data_vencimento": "2026-02-09", "fornecedor": "LORRAYNE OLIVEIRA"},
-
-            {"unidade": "Prime AL", "categoria": "Lavanderia", "descricao": "SERVIÇO TRAPORTE DE ROUPA", "valor": 1200.0, "data_vencimento": "2026-02-09", "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"},
-
-            {"unidade": "Prime AL", "categoria": "Salários Administrativo (Back office)", "descricao": "slr adm", "valor": 966.23, "data_vencimento": "2026-02-09", "fornecedor": "OUTROS"},
-
-            {"unidade": "1001 Express", "categoria": "Investimentos gerais", "descricao": "VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )", "valor": 963.4, "data_vencimento": "2026-02-09", "fornecedor": "HOTEL PRIME AL "},
-
-            {"unidade": "Padova", "categoria": "Mão de obra terceirizada", "descricao": "ZEAN CAMERAS", "valor": 765.0, "data_vencimento": "2026-02-09", "fornecedor": "ZEAN MANUTENÇÃO"},
-
-            {"unidade": "Prime ADE", "categoria": "Salário", "descricao": "Salário Matheus REF JAN/26", "valor": 730.03, "data_vencimento": "2026-02-09", "fornecedor": "Matheus Marques Aires"},
-
-            {"unidade": "Prime AL", "categoria": "Salário", "descricao": "SALARIO LAVADOR", "valor": 588.0, "data_vencimento": "2026-02-09", "fornecedor": "REGINALDO RIBEIRO LIMA"},
-
-            {"unidade": "Padova", "categoria": "Salário", "descricao": "SALARIO", "valor": 500.0, "data_vencimento": "2026-02-09", "fornecedor": "GUSTAVO CONTABILIDADE"},
-
-            {"unidade": "Recanto das Emas", "categoria": "Mão de obra terceirizada", "descricao": "THAIS COODENAÇAO", "valor": 500.0, "data_vencimento": "2026-02-09", "fornecedor": "THAIS STEFANY"},
-
-            {"unidade": "Dolce Amore", "categoria": "Compra de Equipamentos", "descricao": "BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO", "valor": 327.97, "data_vencimento": "2026-02-09", "fornecedor": "CARREFOUR"},
-
-            {"unidade": "Dolce Amore", "categoria": "Combustível", "descricao": "(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL ", "valor": 326.25, "data_vencimento": "2026-02-09", "fornecedor": "Cartão Lilian Venc 10"},
-
-            {"unidade": "Dolce Amore", "categoria": "Compra de Equipamentos", "descricao": "COMPRA DE ESPUMANTESALTON,PAPEL A4", "valor": 255.3, "data_vencimento": "2026-02-09", "fornecedor": "CARREFOUR"},
-
-            {"unidade": "Padova", "categoria": "Salário", "descricao": "SALARIO", "valor": 244.44, "data_vencimento": "2026-02-09", "fornecedor": "ISMAEL FINANCEIRO"},
-
-            {"unidade": "Padova", "categoria": "Salário", "descricao": "SALARIO PAULO  COMPRAS", "valor": 214.29, "data_vencimento": "2026-02-09", "fornecedor": "PAULO COMPRAS"},
-
-            {"unidade": "Prime AL", "categoria": "Devoluções de clientes", "descricao": "devolução cliente", "valor": 180.0, "data_vencimento": "2026-02-09", "fornecedor": "DEVOLUÇOES DE CLENTES"},
-
-            {"unidade": "1001 Express", "categoria": "Supermercado / Atacarejo", "descricao": "FRUTAS P/ SEMANA", "valor": 100.0, "data_vencimento": "2026-02-09", "fornecedor": "SACOLÃO FABIANA "},
-
-            {"unidade": "Qnn01", "categoria": "Supermercado / Atacarejo", "descricao": "PRESTOBARBA                                                                                                                                        ", "valor": 59.0, "data_vencimento": "2026-02-09", "fornecedor": "RUMÃO"},
-
-            {"unidade": "Qnn01", "categoria": "Supermercado / Atacarejo", "descricao": "CARNE ALMOÇO", "valor": 17.67, "data_vencimento": "2026-02-09", "fornecedor": "SUPER CARNES"},
-
-            {"unidade": "Qnn01", "categoria": "Transporte  Pessoal Manutenção", "descricao": "VT - EDSON", "valor": 10.0, "data_vencimento": "2026-02-09", "fornecedor": "EDSON"},
-
-            {"unidade": "Dolce Amore", "categoria": "Tarifas bancárias", "descricao": "TARIFA STONE DIA 09/02", "valor": 7.86, "data_vencimento": "2026-02-09", "fornecedor": null},
-
-            {"unidade": "Padova", "categoria": "Telefone + internet", "descricao": "TELEFONE FINANCEIRO", "valor": 7.5, "data_vencimento": "2026-02-09", "fornecedor": "TELEFONE E INTERNET"},
-
-        ];
-
-        // Função de busca
+        // Funcao de busca global
         document.getElementById('search-input').addEventListener('input', (e) => {
             const termo = e.target.value.toLowerCase();
-            const linhas = document.querySelectorAll('tbody tr');
+            const linhas = document.querySelectorAll('.transaction-row');
             
             linhas.forEach(linha => {
                 const texto = linha.textContent.toLowerCase();
@@ -599,25 +831,33 @@
             });
         });
 
-        // Atualizar contagem
-        const searchInput = document.getElementById('search-input');
-        const showingCount = document.getElementById('showing-count');
-        
-        searchInput.addEventListener('input', (e) => {
-            const termo = e.target.value.toLowerCase();
-            const linhas = document.querySelectorAll('tbody tr');
-            let visiveis = 0;
-            
-            linhas.forEach(linha => {
-                if (termo === '' || linha.textContent.toLowerCase().includes(termo)) {
-                    linha.style.display = '';
-                    visiveis++;
-                } else {
-                    linha.style.display = 'none';
-                }
+        // Atualizar stats
+        function updateStats() {
+            const totalHotels = 7;
+            const totalAmount = 32282.059999999998;
+            const totalTransactions = 32;
+            const highestHotel = 'Prime AL';
+
+            document.getElementById('total-hotels').textContent = totalHotels;
+            document.getElementById('total-amount').textContent = 'R$ ' + totalAmount;
+            document.getElementById('total-transactions').textContent = totalTransactions;
+            document.getElementById('highest-hotel').textContent = highestHotel;
+
+            // Atualizar data
+            const now = new Date();
+            const formattedDate = now.toLocaleDateString('pt-BR', {
+                day: '2-digit',
+                month: 'long',
+                year: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
             });
-            
-            showingCount.textContent = visiveis;
+            document.getElementById('last-updated').textContent = 'Ultima atualizacao: ' + formattedDate;
+        }
+
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', () => {
+            updateStats();
         });
     </script>
 </body>
