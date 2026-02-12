@@ -132,7 +132,7 @@ import os
 
 # Credenciais do Telegram
 BOT_TOKEN = "8281825181:AAHUoYGdg7iUKtQoPzFxlsjpqIKGv_bQu28"
-CHAT_ID = "661151076"
+CHAT_ID = "-1003758835428"  # Grupo Squad financeiro
 
 # Obter data do relatório da variável de ambiente
 data_ontem = os.environ.get('DATA_RELATORIO', datetime.now().strftime('%Y-%m-%d'))
