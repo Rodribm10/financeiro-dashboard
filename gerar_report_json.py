@@ -8,7 +8,7 @@ import sys
 from datetime import datetime
 
 # Arquivos
-ARQUIVO_DADOS = '/root/mission-control/financeiro/memory/daily/gastos-2026-02-09.json'
+ARQUIVO_DADOS = '/root/mission-control/financeiro/memory/daily/gastos-2026-02-11.json'
 ARQUIVO_SAIDA = '/root/clawd/financeiro-dashboard/report.json'
 
 def gerar_report_json():
