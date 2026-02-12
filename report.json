@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 22722.26,
-      "count": 4,
+      "total": 22872.8,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -28,6 +28,14 @@
           "valor": 320.0,
           "data_vencimento": "2026-02-11",
           "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Sistema/Software",
+          "descricao": "RATEIO CARTÃO IZETE, ",
+          "valor": 150.54,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "CARTÃO IZETE"
         },
         {
           "unidade": "Dolce Amore",
@@ -362,7 +370,7 @@
       ]
     }
   ],
-  "global_total": 38390.6,
-  "global_count": 39,
-  "date": "2026-02-12 14:52:58"
+  "global_total": 38541.14,
+  "global_count": 40,
+  "date": "2026-02-12 17:27:43"
 }
