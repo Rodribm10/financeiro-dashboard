@@ -1,312 +1,352 @@
 {
   "hotels": [
     {
+      "name": "Dolce Amore",
+      "total": 22389.37,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Energia elétrica",
+          "descricao": "COSERN REF DEZEMBRO",
+          "valor": 21678.94,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "Cosern"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "SMINORFF ICE, VINHO SANTA HELENA,CHOCOLATE SNICKER",
+          "valor": 710.43,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "CDA"
+        }
+      ]
+    },
+    {
       "name": "Prime AL",
-      "total": 23321.96,
-      "count": 14,
+      "total": 5278.009999999999,
+      "count": 16,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Compra de equipamentos de informática",
-          "descricao": "GAZIN ",
-          "valor": 3337.96,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "GAZIN"
+          "categoria": "Compra de Equipamentos",
+          "descricao": "COLCHÕES TERCEIRO ANDAR",
+          "valor": 2593.79,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "mercosul"
         },
         {
           "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALARIO THAYNARA COBRIU AS FERIAS DA GERENTE",
-          "valor": 2500.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
+          "categoria": "Amenidades",
+          "descricao": "SAMPOO - CONDICIONADOR - HUDRATANTE - AZEITE - VINAGRE ",
+          "valor": 869.31,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "Harus (Amenities)"
         },
         {
           "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO RECEPCIOCISTA",
-          "valor": 2093.45,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO RECEPCIOCISTA",
-          "valor": 2001.5,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "DANIELA SILVA DE LIRA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1885.13,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "monica de sousa matos"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1842.72,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1728.87,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1673.46,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1672.26,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "MIKAELLY FREITAS SILVA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA",
-          "valor": 1652.38,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "TATIANA R. DE VASCINCELOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Lavanderia",
-          "descricao": "SERVIÇO TRAPORTE DE ROUPA",
-          "valor": 1200.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salários Administrativo (Back office)",
-          "descricao": "slr adm",
-          "valor": 966.23,
-          "data_vencimento": "2026-02-09",
+          "categoria": "Outras saídas não operacionais",
+          "descricao": "DEVOLUÇÃO PARTE DO ALUGUEL QUE FICOU FALTANDO",
+          "valor": 819.9,
+          "data_vencimento": "2026-02-11",
           "fornecedor": "OUTROS"
         },
         {
           "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALARIO LAVADOR",
-          "valor": 588.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "REGINALDO RIBEIRO LIMA"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "UNILIMP PRODUTOS DE LIMPEZA",
+          "valor": 612.9,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "UNILIMP"
         },
         {
           "unidade": "Prime AL",
-          "categoria": "Devoluções de clientes",
-          "descricao": "devolução cliente",
-          "valor": 180.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "DEVOLUÇOES DE CLENTES"
+          "categoria": "Compra de Equipamentos",
+          "descricao": "TABLETS",
+          "valor": 209.97,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "TABLETS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "NOTION",
+          "valor": 34.12,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "NOTION"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS IOF",
+          "valor": 27.92,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "TARIFAS IOF"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE",
+          "valor": 18.75,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "ANUIDADES"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "OPEN AI",
+          "valor": 16.57,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "OPEN AI"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "combustivel compras",
+          "valor": 15.72,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "htm talk labs aplicado",
+          "valor": 14.73,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "HTM* TALK LABS APLICATIVO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "AROS IA",
+          "valor": 14.27,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "AROS   IA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema para Marketing",
+          "descricao": "GOOGLE CLOUD SLMC5Q ",
+          "valor": 11.69,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "GOOGLE CLOUD SLMC5Q"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "PPRO MICROSOFT",
+          "valor": 9.99,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "PPRO MICROSOFT"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 5.88,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "SEGURO DO CARTÃO ",
+          "valor": 2.5,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "SEGURO CARTAO SANTANDER"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 3153.58,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS COM DINHEIRO RATEIO ",
+          "valor": 1015.72,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "SUPERMECADO DIA DIA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 961.66,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Contabilidade",
+          "descricao": "GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "GUSTAVO CILLI "
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "PAULO COMPRAS, ISMAEL ,",
+          "valor": 466.23,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "TERCEIROS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Compra de equipamentos de informática",
+          "descricao": "TABLETS",
+          "valor": 209.97,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "GAZIN"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 3463.4,
-      "count": 3,
+      "total": 2830.8,
+      "count": 5,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "SALARIO IARA ",
-          "valor": 2400.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "Iara Dourado "
+          "categoria": "Energia elétrica",
+          "descricao": "CONTA DE ENERGIA",
+          "valor": 2392.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "EQUATORIAL"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "VALOR DIVIDIDO COM HOTEL AL ( FRIGOBAR E AR CONDICIONADO )",
-          "valor": 963.4,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "HOTEL PRIME AL "
+          "categoria": "Telefone + internet",
+          "descricao": "CONTA DA INTERNET 00190000090348857600403925201174213530000016880",
+          "valor": 168.8,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "ALL REDE "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "FRUTAS P/ SEMANA",
-          "valor": 100.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "SACOLÃO FABIANA "
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 2261.42,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Rescisões",
-          "descricao": "Rescisão ",
-          "valor": 1531.39,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "LORRAYNE OLIVEIRA"
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 120.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "MIRIAN APARECIDA "
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Salário",
-          "descricao": "Salário Matheus REF JAN/26",
-          "valor": 730.03,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "Matheus Marques Aires"
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA GEOVANIA ",
+          "valor": 120.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "EDSON"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 1731.23,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "ZEAN CAMERAS",
-          "valor": 765.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "ZEAN MANUTENÇÃO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 500.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "GUSTAVO CONTABILIDADE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 244.44,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO PAULO  COMPRAS",
-          "valor": 214.29,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Telefone + internet",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "TELEFONE E INTERNET"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 917.38,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "BATEDEIRA,TORRADEIRA,PANELA DE PRESSÃO",
-          "valor": 327.97,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "CARREFOUR"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Combustível",
-          "descricao": "(CARTÃO LILIAN) 46,97 LT COMBUSTIVÉL ",
-          "valor": 326.25,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "Cartão Lilian Venc 10"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE ESPUMANTESALTON,PAPEL A4",
-          "valor": 255.3,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "CARREFOUR"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE DIA 09/02",
-          "valor": 7.86,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 500.0,
+      "total": 2470.55,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "THAIS COODENAÇAO",
-          "valor": 500.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "THAIS STEFANY"
+          "unidade": "Padova",
+          "categoria": "Férias",
+          "descricao": "ferias Beartiz",
+          "valor": 2470.55,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "Beatriz silva"
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 86.67,
-      "count": 3,
+      "total": 1039.62,
+      "count": 7,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PRESTOBARBA                                                                                                                                        ",
-          "valor": 59.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "RUMÃO"
+          "categoria": "Lavanderia",
+          "descricao": "CONTABILIDADE REIS",
+          "valor": 303.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "CONTABILIDADE REIS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIAS FOLGA LAVADOR IONALDO",
+          "valor": 255.2,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNE ALMOÇO",
-          "valor": 17.67,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "SUPER CARNES"
+          "descricao": "COMPRAS DE FRUTAS E VERDURAS",
+          "valor": 210.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "feira"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - EDSON",
-          "valor": 10.0,
-          "data_vencimento": "2026-02-09",
-          "fornecedor": "EDSON"
+          "categoria": "Lavanderia",
+          "descricao": "ALIMENTAÇÃO LAVADOR IONALDO",
+          "valor": 100.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUAS",
+          "valor": 99.5,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DESPESAS COM LAVANDERIA",
+          "valor": 41.92,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS FEIRA",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 895.78,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Lavanderia",
+          "descricao": "produtos lavanderia",
+          "valor": 895.78,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "ARTESOL (PRODUTOS LAVANDERIA)"
         }
       ]
     }
   ],
-  "global_total": 32282.059999999998,
-  "global_count": 32,
-  "date": "2026-02-11 14:18:43"
+  "global_total": 38057.71,
+  "global_count": 37,
+  "date": "2026-02-12 13:14:49"
 }
