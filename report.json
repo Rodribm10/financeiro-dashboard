@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 22389.37,
-      "count": 2,
+      "total": 22722.26,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -20,6 +20,22 @@
           "valor": 710.43,
           "data_vencimento": "2026-02-11",
           "fornecedor": "CDA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "REPARO NA CENTRAL TELEFONICA UND 11,21,17 E 26",
+          "valor": 320.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 10/02",
+          "valor": 12.89,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": null
         }
       ]
     },
@@ -229,18 +245,18 @@
         {
           "unidade": "1001 Express",
           "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
-          "valor": 120.0,
-          "data_vencimento": "2026-02-11",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
           "descricao": "DIARIA GEOVANIA ",
           "valor": 120.0,
           "data_vencimento": "2026-02-11",
           "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 120.0,
+          "data_vencimento": "2026-02-11",
+          "fornecedor": "MIRIAN APARECIDA "
         },
         {
           "unidade": "1001 Express",
@@ -346,7 +362,7 @@
       ]
     }
   ],
-  "global_total": 38057.71,
-  "global_count": 37,
-  "date": "2026-02-12 13:14:49"
+  "global_total": 38390.6,
+  "global_count": 39,
+  "date": "2026-02-12 13:31:36"
 }
