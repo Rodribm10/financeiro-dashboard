@@ -70,6 +70,7 @@ echo ""
 echo "📊 [4/5] Gerando report.json..."
 cd "$REPO_DIR" || { echo "❌ Erro ao entrar no repositório"; exit 1; }
 
+export DATA_ANTERIOR
 python3 gerar_report_json.py
 
 if [ $? -ne 0 ]; then

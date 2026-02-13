@@ -5,10 +5,13 @@ Gerar report.json consolidado para o Dashboard Estático
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
+import os
 
 # Arquivos
-ARQUIVO_DADOS = '/root/mission-control/financeiro/memory/daily/gastos-2026-02-11.json'
+# Aceitar DATA_ANTERIOR como variável de ambiente, senão calcular
+DATA_ANTERIOR = os.environ.get('DATA_ANTERIOR') or (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+ARQUIVO_DADOS = f'/root/mission-control/financeiro/memory/daily/gastos-{DATA_ANTERIOR}.json'
 ARQUIVO_SAIDA = '/root/clawd/financeiro-dashboard/report.json'
 
 def gerar_report_json():
