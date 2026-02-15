@@ -1,208 +1,22 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 4939.89,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 1/3",
-          "valor": 3536.11,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Amenidades",
-          "descricao": "SABONETE SACHER, MOUSSE DE BANHO,PENTE,KIT DENTAL",
-          "valor": 1022.5,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "Emanuel Simplicio"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA DE COCO, SUCO",
-          "valor": 245.5,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "DD gaspar"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA TIM",
-          "valor": 135.78,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "TIM S/A"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 4217.25,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "Ismael recolheu ",
-          "valor": 3016.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Duarte Distribuidora ",
-          "valor": 743.25,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "DUARTE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Iscas de tilápia (pacotes)",
-          "valor": 458.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "QUERO FISHER"
-        }
-      ]
-    },
-    {
       "name": "Prime AL",
-      "total": 3426.75,
-      "count": 2,
+      "total": 426.75,
+      "count": 1,
       "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CORTINAS 1000 / POLTRONAS 2000",
-          "valor": 3000.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "CORTINAS TERCEIRO ANDAR "
-        },
         {
           "unidade": "Prime AL",
           "categoria": "Supermercado / Atacarejo",
           "descricao": "AGUA - RED BULL - ICE -  SUCO",
           "valor": 426.75,
-          "data_vencimento": "2026-02-13",
+          "data_vencimento": "2026-02-14",
           "fornecedor": "DUARTE BEBIDAS"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 2350.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "IZETE FERNANDES ANTECIPAÇÃO DE LUCRO ",
-          "valor": 2350.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "IZETE FERNANDES"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 2064.09,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "BOLETO SOLAR TINTAS ",
-          "valor": 891.82,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "BOLETOS SOLAR TINTAS",
-          "valor": 600.83,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "BOLETOS SOLAR TINTAS",
-          "valor": 403.51,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "4 CAFE, 1 BATATA FRITA 2KG ",
-          "valor": 127.93,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "SUPERMERCADO BRETAS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
-          "valor": 20.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "EDSON MANUTENÇÃO "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "VT EDNA ",
-          "valor": 20.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "EDNA "
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 1158.0,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "reginaldo lavanderia",
-          "valor": 700.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "QUERO FISHER",
-          "valor": 458.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "QUERO FISHER"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 458.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "TILAPIA ",
-          "valor": 458.0,
-          "data_vencimento": "2026-02-13",
-          "fornecedor": "TILAPIA "
         }
       ]
     }
   ],
-  "global_total": 18613.98,
-  "global_count": 19,
-  "date": "2026-02-14 10:00:02"
+  "global_total": 426.75,
+  "global_count": 1,
+  "date": "2026-02-15 10:00:01"
 }
