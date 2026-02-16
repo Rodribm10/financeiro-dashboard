@@ -1,22 +1,30 @@
 {
   "hotels": [
     {
-      "name": "Prime AL",
-      "total": 426.75,
-      "count": 1,
+      "name": "Dolce Amore",
+      "total": 572.03,
+      "count": 2,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA - RED BULL - ICE -  SUCO",
-          "valor": 426.75,
-          "data_vencimento": "2026-02-14",
-          "fornecedor": "DUARTE BEBIDAS"
+          "unidade": "Dolce Amore",
+          "categoria": "Propaganda",
+          "descricao": "PROPAGANDA PLACAS CONTRT, 02",
+          "valor": 491.66,
+          "data_vencimento": "2026-02-15",
+          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Propaganda",
+          "descricao": "MENSALIDADE SITE, INTERATIVA",
+          "valor": 80.37,
+          "data_vencimento": "2026-02-15",
+          "fornecedor": "INTERATIVA PUB DIGITAL"
         }
       ]
     }
   ],
-  "global_total": 426.75,
-  "global_count": 1,
-  "date": "2026-02-15 15:56:50"
+  "global_total": 572.03,
+  "global_count": 2,
+  "date": "2026-02-16 10:00:01"
 }
