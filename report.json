@@ -2,29 +2,98 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 572.03,
+      "total": 1152.48,
       "count": 2,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Propaganda",
-          "descricao": "PROPAGANDA PLACAS CONTRT, 02",
-          "valor": 491.66,
-          "data_vencimento": "2026-02-15",
-          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
+          "categoria": "Frigobar",
+          "descricao": "SMINORFF ICE, TODDYNHO, CHOCOLATE SNICKER, OLD PARR",
+          "valor": 652.48,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": "CDA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Propaganda",
-          "descricao": "MENSALIDADE SITE, INTERATIVA",
-          "valor": 80.37,
-          "data_vencimento": "2026-02-15",
-          "fornecedor": "INTERATIVA PUB DIGITAL"
+          "categoria": "Advogado, Assessoria Jurídica",
+          "descricao": "MENSALIDADE ADVOGADO",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": "Dr Jean"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 615.0,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Serviços jurídicos",
+          "descricao": "ADVOGADO",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "VALE ADIANTAMENTO MAILA",
+          "valor": 100.0,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "VALE ADIAMNETO MARIA BEATRIZ",
+          "valor": 15.0,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 444.5,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "GANCHO DE PAREDE, PAPELEIRA SIMPLES, SABONETEIRA, CANTONEIRA, PES 25CM ",
+          "valor": 442.5,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "2 OVOS ",
+          "valor": 2.0,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": "WG CARNES"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 283.06,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA SA",
+          "valor": 283.06,
+          "data_vencimento": "2026-02-17",
+          "fornecedor": "ENERGISA"
         }
       ]
     }
   ],
-  "global_total": 572.03,
-  "global_count": 2,
-  "date": "2026-02-16 10:00:01"
+  "global_total": 2495.04,
+  "global_count": 8,
+  "date": "2026-02-18 13:00:42"
 }
