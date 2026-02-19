@@ -1,99 +1,147 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 1152.48,
-      "count": 2,
+      "name": "Prime AL",
+      "total": 4746.259999999999,
+      "count": 5,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "SMINORFF ICE, TODDYNHO, CHOCOLATE SNICKER, OLD PARR",
-          "valor": 652.48,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": "CDA"
+          "unidade": "Prime AL",
+          "categoria": "Outras saídas não operacionais",
+          "descricao": "DESPESA CARTÃO SINTIA- MERCADO - MATERIAL TERCEIRO ANDAR",
+          "valor": 4608.32,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "OUTROS"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Advogado, Assessoria Jurídica",
-          "descricao": "MENSALIDADE ADVOGADO",
-          "valor": 500.0,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": "Dr Jean"
+          "unidade": "Prime AL",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "ADESIVO PVC - FITA ISOLANTE - NIPLE",
+          "valor": 55.0,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "SILVA COMERCIO DE MATERIAL "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "TRANSPORTE EDSON",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte de Terceiros",
+          "descricao": "PASSAGEM SINTIA",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃO DE FORMA - PALITO ",
+          "valor": 22.94,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "supermercado"
         }
       ]
     },
     {
-      "name": "Prime VL",
-      "total": 615.0,
-      "count": 3,
+      "name": "Dolce Amore",
+      "total": 2031.8700000000001,
+      "count": 6,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Serviços jurídicos",
-          "descricao": "ADVOGADO",
-          "valor": 500.0,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": null
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COXÃO MOLE",
+          "valor": 746.69,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "MEDEIROS E MEDEIROS"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "VALE ADIANTAMENTO MAILA",
-          "valor": 100.0,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": null
+          "unidade": "Dolce Amore",
+          "categoria": "Guloseimas, Doces e Salgados",
+          "descricao": "BATATA PRINGLES",
+          "valor": 430.2,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "Comebom"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "VALE ADIAMNETO MARIA BEATRIZ",
-          "valor": 15.0,
-          "data_vencimento": "2026-02-17",
+          "unidade": "Dolce Amore",
+          "categoria": "Material de limpeza",
+          "descricao": "PAPEL HIGIÊNICI CLIENTE",
+          "valor": 408.73,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "WT"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Guloseimas, Doces e Salgados",
+          "descricao": "CHICLETE MENTOS,FINNI",
+          "valor": 235.21,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "Comebom"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Devoluções de clientes",
+          "descricao": "DEVOLUÇÃO PG DUPLICADO",
+          "valor": 204.0,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "ROSANA FRANCO RIBEIRO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 18/02",
+          "valor": 7.04,
+          "data_vencimento": "2026-02-18",
           "fornecedor": null
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 444.5,
+      "total": 796.94,
       "count": 2,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "GANCHO DE PAREDE, PAPELEIRA SIMPLES, SABONETEIRA, CANTONEIRA, PES 25CM ",
-          "valor": 442.5,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+          "categoria": "Sistema/Software",
+          "descricao": "SISTEMA VERSATIL",
+          "valor": 414.44,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "VERSATIL SISTEMA "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "2 OVOS ",
-          "valor": 2.0,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": "WG CARNES"
+          "categoria": "Investimentos gerais",
+          "descricao": "ACRIL. BASE, TRINCHA 2, TRINCHA 4 75691502410110841000000118240019813640000038250",
+          "valor": 382.5,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "SOLAR TINTAS"
         }
       ]
     },
     {
-      "name": "Qnn01",
-      "total": 283.06,
+      "name": "Padova",
+      "total": 540.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA SA",
-          "valor": 283.06,
-          "data_vencimento": "2026-02-17",
-          "fornecedor": "ENERGISA"
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "MILTON REFERENTE A LAVANDERIA",
+          "valor": 540.0,
+          "data_vencimento": "2026-02-18",
+          "fornecedor": "MILTON DE ASIIS MACHADO"
         }
       ]
     }
   ],
-  "global_total": 2495.04,
-  "global_count": 8,
-  "date": "2026-02-18 13:00:42"
+  "global_total": 8115.07,
+  "global_count": 14,
+  "date": "2026-02-19 13:00:05"
 }
