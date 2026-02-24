@@ -2,59 +2,239 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 4602.35,
-      "count": 2,
+      "total": 8887.289999999999,
+      "count": 14,
       "transactions": [
         {
           "unidade": "Dolce Amore",
           "categoria": "Frigobar",
           "descricao": "CERVEJA HEINEKEN, BUDWAISER,GIN TANQUERAY,GUARANA LATA,COCA COLA,FANTA",
           "valor": 3633.52,
-          "data_vencimento": "2026-02-22",
+          "data_vencimento": "2026-02-23",
           "fornecedor": "ELIEZIO DISTRIBUIDORA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Material de limpeza",
-          "descricao": "CLORO PISCINA, ESPONJA, RODO, VASSOURA, DESINFETANTE, ODORIZADOR,PAPEL TOALHA",
-          "valor": 968.83,
-          "data_vencimento": "2026-02-22",
-          "fornecedor": "ARMAZÉM DO CONDOMINIO"
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "MANUTENÇÃO SISTEMA DE MONITORAMENTO",
+          "valor": 2125.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "PARCELAMENTO SIMOLES NACIONAL PARC. 2/60",
+          "valor": 570.32,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVÉL VEICULO EMPRESA",
+          "valor": 314.58,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "POSTO DE GASOLINA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "COMPRA DE UMA IMPRESSORA EPSON",
+          "valor": 314.45,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Combustível",
+          "descricao": "GASOLINA",
+          "valor": 307.6,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "POSTO DE GASOLINA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de equipamentos de informática",
+          "descricao": "COMPRA DE TABLET",
+          "valor": 292.6,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mercadoria para revenda",
+          "descricao": "CIGARROS",
+          "valor": 277.4,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "SENDAS ASSAI"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "COMPRA DE EQUIPAMENTOS ST 15 PARC 8/10",
+          "valor": 261.81,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "AMAZON PRIME"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "PEÇA PARA GERADOR",
+          "valor": 252.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "PROSPERA GERADORES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "SHOPEE PARC 8/10",
+          "valor": 226.64,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "SHOPEE"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Seguros",
+          "descricao": "SEGURO VEICULO PARC 8/10",
+          "valor": 173.38,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "PORTO SEGURO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "PELICULA PARA TALET",
+          "valor": 133.93,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "ALECRIM"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 23/02",
+          "valor": 4.06,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": null
         }
       ]
     },
     {
-      "name": "Prime AL",
-      "total": 110.0,
+      "name": "1001 Express",
+      "total": 2235.79,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Diarista",
-          "descricao": "DIÁRIA FOLGA GERENTE ",
-          "valor": 110.0,
-          "data_vencimento": "2026-02-22",
-          "fornecedor": "DIARIA FOLGA GERENTE"
+          "unidade": "1001 Express",
+          "categoria": "Água",
+          "descricao": "CONTA DE ÁGUA 826600000226357909896221825966261422835701117524",
+          "valor": 2235.79,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "SANEAGO "
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 20.1,
-      "count": 1,
+      "total": 2125.16,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Qnn01",
+          "categoria": "Água",
+          "descricao": "AGUAS",
+          "valor": 1054.65,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "CAESB"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "GAZIN IZETE",
+          "valor": 622.5,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "GAZIN"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNE ALMOÇO",
-          "valor": 20.1,
-          "data_vencimento": "2026-02-22",
-          "fornecedor": "SUPER CARNES"
+          "descricao": "CAFE,PÃES,LEITE,FRANGO,OVOS",
+          "valor": 418.01,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "FONTE",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "DISPEL"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 1378.77,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Rescisões",
+          "descricao": "Rescisão Adriana Maria Carvalho Rabelo ",
+          "valor": 1378.77,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "Adriana Maria Carvalho"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 884.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "ARTESOL PRODUTOS DA LAVANDERIA",
+          "valor": 884.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "ARTESOL (PRODUTOS LAVANDERIA)"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 350.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MANUTENÇAO LAVANDERIA",
+          "valor": 350.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "DORIVALDO"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 20.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem edson",
+          "valor": 20.0,
+          "data_vencimento": "2026-02-23",
+          "fornecedor": "EDSON"
         }
       ]
     }
   ],
-  "global_total": 4732.450000000001,
-  "global_count": 4,
-  "date": "2026-02-23 13:01:11"
+  "global_total": 15881.009999999998,
+  "global_count": 23,
+  "date": "2026-02-24 13:00:16"
 }
