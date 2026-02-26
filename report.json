@@ -1,631 +1,138 @@
 {
   "hotels": [
     {
+      "name": "Dolce Amore",
+      "total": 18930.6,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "PARCELA 2 ALUGUEL",
+          "valor": 18930.6,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "Exclusiva Empreendimentos"
+        }
+      ]
+    },
+    {
       "name": "Prime AL",
-      "total": 24922.35,
-      "count": 10,
+      "total": 6921.9,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Prime AL",
           "categoria": "Aluguel, condomínio, IPTU",
           "descricao": "ALUGUEL GARRAGEM",
           "valor": 6500.0,
-          "data_vencimento": "2026-02-24",
+          "data_vencimento": "2026-02-25",
           "fornecedor": "ALUGUEL GARAGEM"
         },
         {
           "unidade": "Prime AL",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES",
-          "valor": 5469.44,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "des",
-          "valor": 5429.58,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "OUTROS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "TV TERCEIRO ANDAR",
-          "valor": 2581.76,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "INSS / GPS",
-          "descricao": "INSS",
-          "valor": 1821.87,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "INSS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 1803.45,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRIGOBAR TERCEIRO ANDAR 4/8",
-          "valor": 1221.13,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "TRANPORTE CARLOS JERONIMO COLOCAÇÃO DOS ADESIVOS TERCEIRO ANDAR",
-          "valor": 50.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CARLOS JERONIMO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 41.51,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
+          "categoria": "Sistema/Software",
+          "descricao": "SISTEMA MOTEL MAIS",
+          "valor": 418.73,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "VERSATIL SISTEMA "
         },
         {
           "unidade": "Prime AL",
           "categoria": "Tarifas bancárias",
           "descricao": "TARIFA PIX",
-          "valor": 3.61,
-          "data_vencimento": "2026-02-24",
+          "valor": 3.17,
+          "data_vencimento": "2026-02-25",
           "fornecedor": null
         }
       ]
     },
     {
       "name": "Recanto das Emas",
-      "total": 10312.550000000001,
-      "count": 13,
+      "total": 1257.64,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "Neoenergia ",
-          "valor": 3411.45,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "NEOENERGIA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "Simples Nacional",
-          "valor": 2672.99,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 1318.34,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "INSS / GPS",
-          "descricao": "INSS ",
-          "valor": 1246.67,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "INSS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
-          "descricao": "Enxovais Pinheiro ",
-          "valor": 1113.2,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "PINHEIRO ENXOVAL"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Marketing Offline",
-          "descricao": "Jhony Marketing",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "FGTS de Rescisão",
-          "descricao": "FGTS Rescisão ",
-          "valor": 100.57,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Treinamentos",
-          "descricao": "Equipotel Cartão Itaú Latan",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TREINAMENTO"
+          "categoria": "Outros investimentos",
+          "descricao": "Axium Capital Fundo de Investimento",
+          "valor": 780.15,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "AXIUM CAPITAL FUNDO DE INVEST. EM DIREITOS CRED."
         },
         {
           "unidade": "Recanto das Emas",
           "categoria": "Sistema/Software",
-          "descricao": "Calima Fev",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CALIMA"
+          "descricao": "Motel Mais ",
+          "valor": 427.0,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "VERSATIL SISTEMA "
         },
         {
           "unidade": "Recanto das Emas",
           "categoria": "Tarifas bancárias",
-          "descricao": "Tarifas e IOF Cartão Itaú Latan",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-24",
+          "descricao": "Anuidade Cartão Itaú Latan",
+          "valor": 25.5,
+          "data_vencimento": "2026-02-25",
           "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
         },
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Combustível compras",
-          "valor": 15.72,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "COMBUSTIVEL COMPRAS"
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "Pasta sanfonada 12 divisórias",
+          "valor": 14.99,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "ATLANTIS RECANTO (DOKAS)"
         },
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Google one Cartão Itaú Latan",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Apple Cartão Itaú Latan",
-          "valor": 13.54,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "APPLE"
+          "categoria": "Transporte",
+          "descricao": "Passagem Diana Victor ",
+          "valor": 10.0,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "DIANA VICTOR"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 10043.619999999999,
-      "count": 12,
+      "total": 427.0,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL PARCIAL",
-          "valor": 4885.07,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "aluguel predio hotel"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES NACIONAL",
-          "valor": 2561.04,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 1237.21,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "ARTESOL PRODUTOS DA LAVANDERIA",
-          "valor": 885.47,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "ARTESOL (PRODUTOS LAVANDERIA)"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Marketing Offline",
-          "descricao": "JHONY MARKETING",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTO EQUIPOTEL",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "EQUIPOTEL"
-        },
-        {
-          "unidade": "Padova",
           "categoria": "Sistema/Software",
-          "descricao": "CALIMA FEV.",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "ANUIDADE CARTAO ITAU /LATAN",
-          "valor": 25.5,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TARIFAS BANCARIA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS IOFS",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 15.72,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "COMBUSTIVEL COMPRAS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ONE",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "GOOGLE ONE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "APPLE CARTAO ITAU LATAN",
-          "valor": 13.54,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "APPLE"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 5357.459999999999,
-      "count": 15,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "VALE IZETE RECANTO REF A JANEIRO",
-          "valor": 2852.74,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "IZETE FERNANDES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Água",
-          "descricao": "AGUAS",
-          "valor": 1054.73,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "VALDINEI / JANEIRO",
-          "valor": 310.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "VALDINEI"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "VALDINEI / FEVEREIRO",
-          "valor": 310.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "VALDINEI"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Marketing Offline",
-          "descricao": "JHONY MARKETING",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "JOHNNY MARKETING"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS FRUTAS E VERDURAS",
-          "valor": 210.5,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "feira"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Treinamentos",
-          "descricao": "EQUIPOTEL CARTAO ITAU LATAN",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "EQUIPOTEL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL FEIRA E MERCADO",
-          "valor": 60.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS E IOF CARTA ITAU LATAN",
-          "valor": 42.75,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TARIFA CARTAO ITAU AZUL "
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "OLEO E MASSA DE PASTEL",
-          "valor": 35.92,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA  QNN 01 CJ B LT 12",
-          "valor": 32.46,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "Neo Energia"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA ",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "TARIFAS E IOF CARTA ITAU LATAN",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TARIFA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ONE CARTAO",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "GOOGLE ONE"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 4219.16,
-      "count": 11,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "FGTS",
-          "descricao": "MULTA FGTS",
-          "valor": 1700.08,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "TAINARA LACERDA "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 1512.04,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS",
-          "valor": 532.21,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Marketing Offline",
-          "descricao": "JHONNY MARK",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Treinamentos",
-          "descricao": "EQUIPOTEL CARTAO ITAU",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA ",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Tarifas DOC / TED",
-          "descricao": "TARIFAS ANUIDADE DE CARTAO",
-          "valor": 25.5,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Tarifas DOC / TED",
-          "descricao": "TARIFA IOF",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 15.72,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ONE ",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Sistema/Software",
-          "descricao": "APPLE CARTAO ITAU",
-          "valor": 13.54,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": null
+          "descricao": "motel mais",
+          "valor": 427.0,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "VERSATIL SISTEMA "
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 4165.16,
-      "count": 4,
+      "total": 33.3,
+      "count": 2,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Energia elétrica",
-          "descricao": "CONTA DE ENERGIA",
-          "valor": 1897.04,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "EQUATORIAL"
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-02-25",
+          "fornecedor": "EDSON MANUTENÇÃO "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CAMA CARTÃO ITAU AZUL",
-          "valor": 840.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "EVANGELISTA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "UNILIMP",
-          "valor": 829.12,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "UNILIMP"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS ",
-          "valor": 599.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "RUMÃO"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 1791.68,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "acucar,creme de leite, leite, oléo de algodão, batata palito",
-          "valor": 826.82,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "Caico Frios"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "SMINORFF ICE, TODDYNHO, CHOCOLATE SNICKER, OLD PARR",
-          "valor": 652.48,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "CDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Marketing Offline",
-          "descricao": "MARKETING PAGAMENTO SERVIÇOS JHONY",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA CALIMA",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "SISTEMA CALIMA"
-        },
-        {
-          "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 24/02",
-          "valor": 9.09,
-          "data_vencimento": "2026-02-24",
+          "descricao": "TARIFAS",
+          "valor": 3.3,
+          "data_vencimento": "2026-02-25",
           "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 136.2,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Material de limpeza",
-          "descricao": "PRODUTOS DE LIMPEZA",
-          "valor": 136.2,
-          "data_vencimento": "2026-02-24",
-          "fornecedor": "UNILIMP"
         }
       ]
     }
   ],
-  "global_total": 60948.18,
-  "global_count": 71,
-  "date": "2026-02-25 13:00:23"
+  "global_total": 27570.44,
+  "global_count": 12,
+  "date": "2026-02-26 13:00:36"
 }
