@@ -1,1255 +1,280 @@
 {
   "hotels": [
     {
-      "name": "Padova",
-      "total": 26879.659999999996,
-      "count": 19,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "clickup",
-          "valor": 19768.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "supermer",
-          "valor": 2657.61,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "supermercado"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA  2283949-6",
-          "valor": 1846.02,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "NEOENERGIA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 902.4,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "ENXOVAIS PINHEIRO 3/4",
-          "valor": 397.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "PINHEIRO ENXOVAL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO TATICO",
-          "valor": 275.6,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Mão de Obra – Marketing",
-          "descricao": "FACEBOOK",
-          "valor": 248.77,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "FACEBOOK"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA",
-          "valor": 149.1,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CEB"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE. AI SUBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 115.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MERCADO OLIVEIRA,",
-          "valor": 97.9,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "COMPRAS EQUIPAMENTOS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "BACKBLAZE INC R$",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACKBLAZE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ADS",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Treinamentos",
-          "descricao": "G4  8/12",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TREINAMENTO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "SUPABASE",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "IOF INTERNACIONAL",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF INTERNACIONAL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "GREENN* ALTERNATI.",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MP* ORISANXIMENE",
-          "valor": 14.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "COMPRAS EQUIPAMENTOS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ONE",
-          "valor": 3.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Governo DF"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 13274.070000000002,
-      "count": 14,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL GARRAGEM",
-          "valor": 7446.92,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ALUGUEL GARAGEM"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "TV TERCEIRO ANDAR",
-          "valor": 2597.02,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRIGOBAR TERCEIRO ANDAR 4/8",
-          "valor": 1228.27,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA MOTEL MAIS",
-          "valor": 427.24,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERSATIL SISTEMA "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "PERFIL DE LED SOBREPOR ",
-          "valor": 349.41,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "mercado livre",
-          "valor": 256.27,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MANUTENÇÃO ",
-          "valor": 250.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ELETRICA CONFIANÇA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema/Software",
-          "descricao": "CLICKUP",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "VINHOS",
-          "valor": 171.47,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VINHOS E VINHOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE AI SBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRITADEIRA",
-          "valor": 86.4,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "FRITADEIRA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Treinamentos",
-          "descricao": "G4",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "G4"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MERCO SUL COLCHÕES",
-          "valor": 48.03,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "mercosul esp ind"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MP ORISANXIMENE",
-          "valor": 15.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MP*ORISANXIMENE"
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 11002.44,
-      "count": 32,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Energia elétrica",
-          "descricao": "NEO ENERGIA 2308113-9",
-          "valor": 2936.3,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Neo Energia"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DUARTE DISTRIBUIDORA DE BEBIDAS",
-          "valor": 2263.06,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB 2308113-9",
-          "valor": 1534.27,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CEB ENERGIA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CAMPEÃO DA CONSTRUÇÃO",
-          "valor": 859.37,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CAMPEAO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "MAIS HOTEL",
-          "valor": 435.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SISTEMA MAIS HOTEL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "DAMIAO FERNANDES",
-          "valor": 345.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "DAMIAO FERNANDES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Alimentação",
-          "descricao": "CESTA NATALINA",
-          "valor": 284.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "DIA A DIA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Marketing Offline",
-          "descricao": "JHONY MARKENTING",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema para Marketing",
-          "descricao": "FACEBK A65TNCDR",
-          "valor": 248.77,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA EQUIPAMENTOS",
-          "valor": 245.87,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "COMPRAS EQUIPAMENTOS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "SOL COMERCIO",
-          "valor": 211.56,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SOL COMERCIO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "CLICKUP",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS ",
-          "valor": 159.06,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "LUX TINTAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "MP KLEBER",
-          "valor": 150.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MP KLEBER"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE AI SUBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MERCADOLIVRE DES 1",
-          "valor": 97.9,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MERCADOLIVRE DES 1",
-          "valor": 97.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTO ",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TREINAMENTO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "BACKBLAZE INC RS",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACK BLAZE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ADS494800",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Treinamentos",
-          "descricao": "G4 8/12",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TREINAMENTO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA CARTÃO ITAU AZUL",
-          "valor": 42.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TARIFA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA FEV",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "ANUIDADE CARTÃO LATAN ITAU AZUL",
-          "valor": 25.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ANUIDADES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "SUPBASE",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "IOF INTERNACIONA",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF INTERNACIONAL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "GREENN ALTERNATI",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA E IOF CARTÃO ITAU LATAN",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 15.72,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MP ORISANXIMENES",
-          "valor": 15.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MP ORISANXIMENES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLLE ONE CARTÃO LATAN",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ONE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "APPLE CARTÃO ITAU LATAN",
-          "valor": 13.54,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "APPLE"
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 10547.58,
-      "count": 25,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 6715.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CEB - GD"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 435.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERSATIL SISTEMA "
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Telefone + internet",
-          "descricao": "INTERNET",
-          "valor": 408.28,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ALL REDE "
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Treinamentos",
-          "descricao": "DESPESAS ALIMENTARES PARA REUNIAO PRESENCIAL MENSAL ",
-          "valor": 350.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Eldina Gomes"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Energia elétrica",
-          "descricao": "NEOENERGIA",
-          "valor": 332.58,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "NEOENERGIA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "MOTOR PORTAO",
-          "valor": 293.49,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ROSSI PORTOES"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 287.52,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "COSTA ATACADISTA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 251.18,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CASAS BAHIA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 159.99,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CASAS PERNANBUCANAS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 156.17,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 148.93,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 120.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "LOJÃO DO 20"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Energia elétrica",
-          "descricao": "NEOENERGIA",
-          "valor": 104.32,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "NEOENERGIA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRITADEIRA",
-          "valor": 86.4,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "mercado pago"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "VINHOS ",
-          "valor": 77.16,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VINHOS E VINHOS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACK BLAZE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTO",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "G4"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF INTERNACIONAL"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 15.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MP*ORISANXIMENE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 3.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ONE"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 8243.11,
-      "count": 26,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARTAO DE CREDITO",
-          "valor": 3475.46,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CARTÃO EMPRESA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SHOW DE COMPRAR ",
-          "valor": 865.3,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SHOW DE COMPRAR"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "Zean - Canal adulto (1 Transmissor, 1 Tv box, 1 tv, serviços técnicos) 4 Parcelas - 1/4",
-          "valor": 638.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ZEAN MANUTENÇÃO"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO TATICO ",
-          "valor": 627.09,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPERMERCADO TATICO "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Motel Mais ",
-          "valor": 435.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERSATIL SISTEMA "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ENXOVAIS PINHEIRO 3/4",
-          "valor": 318.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "PINHEIRO ENXOVAL"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Segurança",
-          "descricao": "VERISURE BRA* Men",
-          "valor": 259.82,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERISURE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema para Marketing",
-          "descricao": "FACEBK*A65TNCDR",
-          "valor": 248.77,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "FACEBOOK"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "CLICKUP ",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA ",
-          "valor": 188.92,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Neo Energia"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "SUPERMERCADO Tatico",
-          "valor": 139.99,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE.AI SUBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "WEST CARNES ",
-          "valor": 134.12,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "WEST CARNES"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Segurança",
-          "descricao": "VERISURE (PARC. 3/12)",
-          "valor": 124.91,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERISURE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "BACKBLAZE INC ",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACK BLAZE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "AltoFalanteSom",
-          "valor": 70.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "AutoFalanteSom"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "MP *ATALAIAFRIOS",
-          "valor": 67.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "ATALAIA FRIOS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Google ADS494800",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Treinamentos",
-          "descricao": "G4 8/12",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "G4"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Bis branco / Bis preto",
-          "valor": 25.98,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "AMERICANAS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "SUPABASE",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Tarifas bancárias",
-          "descricao": "IOF INTERNACIONAL",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF INTERNACIONAL"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "GREENN* ALTERNATI 2/",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MP* ORISANXIMENE 5/",
-          "valor": 15.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MP*ORISANXIMENE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Google One ",
-          "valor": 3.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ONE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS",
-          "valor": 3.61,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
       "name": "Qnn01",
-      "total": 4309.909999999999,
-      "count": 17,
+      "total": 17991.96,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ATACADAO DIA A DIA",
-          "valor": 1084.03,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Atacadao dia dia"
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL PREDIO",
+          "valor": 15000.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "aluguel predio hotel"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MUNDIAL ATACADISTA",
-          "valor": 1010.96,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MUNDIAL CEILANDIA "
+          "categoria": "Pró-Labore",
+          "descricao": "PRO- LABORE RODRIGO",
+          "valor": 1500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CEILANDIA MINAS ",
-          "valor": 594.23,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MINAS FRIOS"
+          "categoria": "Distribuição de lucros",
+          "descricao": "CEB IZETE CASA",
+          "valor": 754.46,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "IZETE FERNANDES"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO TATICO",
-          "valor": 538.93,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ATACADAO DIA A DIA",
-          "valor": 210.99,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "CLICKUP",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DOCES MONTEIRO",
-          "valor": 152.85,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE.AI SUBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MERCADO LIVRE",
-          "valor": 97.9,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "BACKBLAZE",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACKBLAZE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ADS494800",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Treinamentos",
-          "descricao": "G4 8",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "G4"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "SUPABASE",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Tarifas bancárias",
-          "descricao": "IOF  INTERNACIONAL",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF INTERNACIONAL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "GRENN ALTERNATIVA",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MP * ORISANXIMENE ",
-          "valor": 15.42,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "OMP * ORISANXIMENE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ONE ",
-          "valor": 3.75,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ONE"
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇÃO TODOS 1001",
+          "valor": 737.5,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 2891.6700000000005,
-      "count": 14,
+      "total": 5536.32,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "VALE TRANSPORTE MARÇODE 2026 NATAL",
-          "valor": 1125.04,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "NATAL CARD"
+          "categoria": "Lavanderia",
+          "descricao": "LAVANDERIA PARC. 3/3",
+          "valor": 3536.32,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "VALE TRANSPORTEMARÇO DE 2026 PARNAMIRIM",
-          "valor": 570.72,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "RN CARD"
+          "categoria": "Pró-Labore",
+          "descricao": "PRÓ LABORE RODRIGO ",
+          "valor": 2000.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Rodrigo Borba Machado"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 4158.090000000001,
+      "count": 14,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Pró-Labore",
+          "descricao": "PRO LABORE",
+          "valor": 1500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "VERSATIL SISTEMA MOTEL MAIS",
-          "valor": 435.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "VERSATIL SISTEMA "
+          "unidade": "Prime ADE",
+          "categoria": "Água",
+          "descricao": "CAESB",
+          "valor": 1475.51,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "CAESB"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "CLICKUP",
-          "valor": 197.68,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLICKUP"
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "POLPA DE FRUTA",
-          "valor": 145.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "pura polpa"
+          "descricao": "SUPERMERCADO",
+          "valor": 500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Atacadao dia dia"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "CLAUDE SUBSCR",
-          "valor": 137.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CLAUDE.AI SUBSCR"
+          "unidade": "Prime ADE",
+          "categoria": "Mão de Obra – Marketing",
+          "descricao": "MARKETING",
+          "valor": 275.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "JHONNY MARKENTING"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "BACK BLAZE INC",
-          "valor": 75.26,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "BLACKBLAZE"
+          "unidade": "Prime ADE",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "MANUTENÇAO EQUIPAMENTOS",
+          "valor": 130.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "VALDINEI"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE ADS",
-          "valor": 62.5,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
           "categoria": "Treinamentos",
-          "descricao": "G4 8/12",
-          "valor": 62.44,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "g4"
+          "descricao": "TREINAMENTO",
+          "valor": 84.57,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "EQUIPOTEL"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "SUPABASE",
-          "valor": 24.15,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "SUPABASE"
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
           "categoria": "Tarifas bancárias",
-          "descricao": "IOF INTERNACIONAL",
-          "valor": 21.81,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "IOF"
+          "descricao": "TARIFA - CARTAO ITAU AZUL",
+          "valor": 42.75,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "TARIFA"
         },
         {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SUPERMERCADO",
+          "valor": 35.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Atacadao dia dia"
+        },
+        {
+          "unidade": "Prime ADE",
           "categoria": "Sistema/Software",
-          "descricao": "GREENN ALTERNATIVA",
-          "valor": 19.51,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "GREENN*ALTERNATIVA"
+          "descricao": "SISTEMA",
+          "valor": 28.29,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "SISTEMA CALIMA"
         },
         {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE",
-          "valor": 10.63,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": null
+          "descricao": "ANUIDADE - CARTÃO ITAU LATAM",
+          "valor": 25.5,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "TARIFA"
         },
         {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS E IOF",
+          "valor": 18.38,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 15.72,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
           "categoria": "Sistema/Software",
-          "descricao": "GGOGLE ONE",
-          "valor": 3.75,
-          "data_vencimento": "2026-02-26",
+          "descricao": "SISTEMA",
+          "valor": 13.83,
+          "data_vencimento": "2026-02-27",
           "fornecedor": "GOOGLE ONE"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Sistema/Software",
+          "descricao": "SISTEMA",
+          "valor": 13.54,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "APPLE CARTAO ITAU LATAN"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 3854.62,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Pró-Labore",
+          "descricao": "Pró labore ",
+          "valor": 1500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "PRO-LABORE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Pró-Labore",
+          "descricao": "Pro labore",
+          "valor": 1500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "Cartão itau latan +",
+          "valor": 854.62,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Itau"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 1578.97,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Sistema/Software",
+          "descricao": "Cartão Itau latan",
+          "valor": 912.26,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "TARIFA CARTAO ITAU AZUL "
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Água",
+          "descricao": "Conta de Agua Ref a 02/2026",
+          "valor": 651.51,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "CAESB"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Transporte",
+          "descricao": "Passagem Christine Kelly Ref. a 2 dias",
+          "valor": 15.2,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "CHRISTINE KELLY"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 1500.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Pró-Labore",
+          "descricao": "PRO-LABORE RODRIGO ",
+          "valor": 1500.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "Rodrigo Borba Machado"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 2226.77,
-      "count": 2,
+      "total": 350.0,
+      "count": 1,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CARTÃO IZETE ( SERVIÇO DE MANUTENÇÃO )",
-          "valor": 1661.77,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CARTÃO IZETE"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CARTÃO IZETE ( COMPRA DE EQUIPAMENTOS )",
-          "valor": 565.0,
-          "data_vencimento": "2026-02-26",
-          "fornecedor": "CARTÃO IZETE"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "ANTARTICA, HEINEKEN, AGUA S/GAS",
+          "valor": 350.0,
+          "data_vencimento": "2026-02-27",
+          "fornecedor": "DUARTE BEBIDAS"
         }
       ]
     }
   ],
-  "global_total": 79375.20999999999,
-  "global_count": 149,
-  "date": "2026-02-27 13:01:18"
+  "global_total": 34969.96,
+  "global_count": 28,
+  "date": "2026-02-28 13:00:22"
 }
