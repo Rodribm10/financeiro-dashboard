@@ -1,280 +1,98 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 17991.96,
-      "count": 4,
+      "name": "Prime VL",
+      "total": 3767.95,
+      "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL PREDIO",
-          "valor": 15000.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "aluguel predio hotel"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO- LABORE RODRIGO",
-          "valor": 1500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "CEB IZETE CASA",
-          "valor": 754.46,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "IZETE FERNANDES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇÃO TODOS 1001",
-          "valor": 737.5,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 5536.32,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 3/3",
-          "valor": 3536.32,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Pró-Labore",
-          "descricao": "PRÓ LABORE RODRIGO ",
-          "valor": 2000.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Rodrigo Borba Machado"
+          "unidade": "Prime VL",
+          "categoria": "Água",
+          "descricao": "CAESB",
+          "valor": 3767.95,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "CAESB"
         }
       ]
     },
     {
       "name": "Prime ADE",
-      "total": 4158.090000000001,
-      "count": 14,
+      "total": 2163.4,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Prime ADE",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO LABORE",
-          "valor": 1500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Água",
-          "descricao": "CAESB",
-          "valor": 1475.51,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Prime ADE",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Mão de Obra – Marketing",
-          "descricao": "MARKETING",
-          "valor": 275.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "MANUTENÇAO EQUIPAMENTOS",
-          "valor": 130.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "VALDINEI"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTO",
-          "valor": 84.57,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "EQUIPOTEL"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA - CARTAO ITAU AZUL",
-          "valor": 42.75,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "TARIFA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 35.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Atacadao dia dia"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 28.29,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "SISTEMA CALIMA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "ANUIDADE - CARTÃO ITAU LATAM",
-          "valor": 25.5,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "TARIFA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS E IOF",
-          "valor": 18.38,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "TARIFAS E IOF CARTAO ITAU LATAN"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 15.72,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 13.83,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "GOOGLE ONE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 13.54,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "APPLE CARTAO ITAU LATAN"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 3854.62,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Pró-Labore",
-          "descricao": "Pró labore ",
-          "valor": 1500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "PRO-LABORE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Pró-Labore",
-          "descricao": "Pro labore",
-          "valor": 1500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "Cartão itau latan +",
-          "valor": 854.62,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Itau"
+          "descricao": "Supermercado pago em Pix devolver ao rateio",
+          "valor": 2163.4,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "supermercado"
         }
       ]
     },
     {
       "name": "Recanto das Emas",
-      "total": 1578.97,
-      "count": 3,
+      "total": 1110.97,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "Cartão Itau latan",
-          "valor": 912.26,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "TARIFA CARTAO ITAU AZUL "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Água",
-          "descricao": "Conta de Agua Ref a 02/2026",
-          "valor": 651.51,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transporte",
-          "descricao": "Passagem Christine Kelly Ref. a 2 dias",
-          "valor": 15.2,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "CHRISTINE KELLY"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 1500.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO-LABORE RODRIGO ",
-          "valor": 1500.0,
-          "data_vencimento": "2026-02-27",
-          "fornecedor": "Rodrigo Borba Machado"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 350.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "ANTARTICA, HEINEKEN, AGUA S/GAS",
-          "valor": 350.0,
-          "data_vencimento": "2026-02-27",
+          "descricao": "BEBIDAS CARTAO IZET 28",
+          "valor": 922.05,
+          "data_vencimento": "2026-02-28",
           "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Energia elétrica",
+          "descricao": "Neo Energia 2291420-X",
+          "valor": 188.92,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "NEOENERGIA"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 558.52,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "CEB IZETE CASA",
+          "valor": 558.52,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "IZETE FERNANDES"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 363.25,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "AGUA DE COCO, SUCO",
+          "valor": 228.25,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "DD gaspar"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Sistema/Software",
+          "descricao": "PONTO ELETRONICO",
+          "valor": 135.0,
+          "data_vencimento": "2026-02-28",
+          "fornecedor": "CONTEC"
         }
       ]
     }
   ],
-  "global_total": 34969.96,
-  "global_count": 28,
-  "date": "2026-02-28 13:00:22"
+  "global_total": 7964.09,
+  "global_count": 7,
+  "date": "2026-03-01 13:00:22"
 }
