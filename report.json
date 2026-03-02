@@ -1,98 +1,113 @@
 {
   "hotels": [
     {
-      "name": "Prime VL",
-      "total": 3767.95,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Água",
-          "descricao": "CAESB",
-          "valor": 3767.95,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "CAESB"
-        }
-      ]
-    },
-    {
       "name": "Prime ADE",
-      "total": 2163.4,
+      "total": 6527.63,
       "count": 1,
       "transactions": [
         {
           "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Supermercado pago em Pix devolver ao rateio",
-          "valor": 2163.4,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "supermercado"
+          "categoria": "Energia elétrica",
+          "descricao": "CEB HOTEL",
+          "valor": 6527.63,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": "CEB ENERGIA"
         }
       ]
     },
     {
       "name": "Recanto das Emas",
-      "total": 1110.97,
+      "total": 2930.84,
       "count": 2,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS CARTAO IZET 28",
-          "valor": 922.05,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "DUARTE BEBIDAS"
+          "categoria": "Energia elétrica",
+          "descricao": "Ceb Lavanderia 2291420-X",
+          "valor": 1930.84,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": "CEB ENERGIA"
         },
         {
           "unidade": "Recanto das Emas",
           "categoria": "Energia elétrica",
-          "descricao": "Neo Energia 2291420-X",
-          "valor": 188.92,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "NEOENERGIA"
+          "descricao": "Ceb 2291420-X",
+          "valor": 1000.0,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": "CEB ENERGIA"
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 558.52,
+      "total": 647.83,
       "count": 1,
       "transactions": [
         {
           "unidade": "Qnn01",
           "categoria": "Distribuição de lucros",
           "descricao": "CEB IZETE CASA",
-          "valor": 558.52,
-          "data_vencimento": "2026-02-28",
+          "valor": 647.83,
+          "data_vencimento": "2026-03-01",
           "fornecedor": "IZETE FERNANDES"
         }
       ]
     },
     {
-      "name": "Dolce Amore",
-      "total": 363.25,
+      "name": "1001 Express",
+      "total": 320.0,
       "count": 2,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA DE COCO, SUCO",
-          "valor": 228.25,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "DD gaspar"
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "pao de forma ,peito de frango, cafe, ovo",
+          "valor": 200.0,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": "DIA A DIA"
         },
         {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA GEOVANIA ",
+          "valor": 120.0,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 11.37,
+      "count": 1,
+      "transactions": [
+        {
           "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "PONTO ELETRONICO",
-          "valor": 135.0,
-          "data_vencimento": "2026-02-28",
-          "fornecedor": "CONTEC"
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL  DIA 01/03",
+          "valor": 11.37,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 0.5,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 0.5,
+          "data_vencimento": "2026-03-01",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 7964.09,
-  "global_count": 7,
-  "date": "2026-03-01 13:00:22"
+  "global_total": 10438.17,
+  "global_count": 8,
+  "date": "2026-03-02 13:00:14"
 }
