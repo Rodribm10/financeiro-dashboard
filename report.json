@@ -1,113 +1,138 @@
 {
   "hotels": [
     {
-      "name": "Prime ADE",
-      "total": 6527.63,
-      "count": 1,
+      "name": "1001 Express",
+      "total": 3180.7299999999996,
+      "count": 4,
       "transactions": [
         {
-          "unidade": "Prime ADE",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB HOTEL",
-          "valor": 6527.63,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "CEB ENERGIA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 2930.84,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "Ceb Lavanderia 2291420-X",
-          "valor": 1930.84,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "CEB ENERGIA"
+          "unidade": "1001 Express",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL EXPRESS",
+          "valor": 1480.86,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "SIMPLES NACIONAL"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "Ceb 2291420-X",
-          "valor": 1000.0,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "CEB ENERGIA"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 647.83,
-      "count": 1,
-      "transactions": [
+          "unidade": "1001 Express",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL EXPRESS",
+          "valor": 1086.07,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
         {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "CEB IZETE CASA",
-          "valor": 647.83,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "IZETE FERNANDES"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 320.0,
-      "count": 2,
-      "transactions": [
+          "unidade": "1001 Express",
+          "categoria": "Outros investimentos",
+          "descricao": "ENCHOVAIS EXPRESS",
+          "valor": 610.8,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "ENCHOVAIS PINHEIRO"
+        },
         {
           "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "pao de forma ,peito de frango, cafe, ovo",
-          "valor": 200.0,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "DIA A DIA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA GEOVANIA ",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": "GEOVANIA NUNES DA SILVA "
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 11.37,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL  DIA 01/03",
-          "valor": 11.37,
-          "data_vencimento": "2026-03-01",
-          "fornecedor": null
+          "descricao": "ALFACE",
+          "valor": 3.0,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "feira"
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 0.5,
+      "total": 2560.27,
       "count": 1,
       "transactions": [
         {
           "unidade": "Prime AL",
+          "categoria": "Férias",
+          "descricao": "FERIAS RECEPCIONISTA DANIELA",
+          "valor": 2560.27,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "DANIELA SILVA DE LIRA"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 2375.83,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Férias",
+          "descricao": "FERIAS DEYSE",
+          "valor": 2375.83,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 216.76,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Telefone + internet",
+          "descricao": "ALARES CONT 2",
+          "valor": 107.45,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "ALARES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Diarista",
+          "descricao": "EXTRA FINAL DE SEMANA",
+          "valor": 100.0,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "LARISSA TORRES"
+        },
+        {
+          "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 0.5,
-          "data_vencimento": "2026-03-01",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 02/03",
+          "valor": 9.31,
+          "data_vencimento": "2026-03-02",
           "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 39.99,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Lavanderia",
+          "descricao": "Frete Lavanderia Ref a 2 dias",
+          "valor": 30.0,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "Paulo Meirelles"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "Grampos para grampeador ",
+          "valor": 7.99,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "ATLANTIS RECANTO (DOKAS)"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "Impressão (Doc. Advertência)",
+          "valor": 2.0,
+          "data_vencimento": "2026-03-02",
+          "fornecedor": "GRAFICA CRIATIVA "
         }
       ]
     }
   ],
-  "global_total": 10438.17,
-  "global_count": 8,
-  "date": "2026-03-02 13:00:14"
+  "global_total": 8373.58,
+  "global_count": 12,
+  "date": "2026-03-03 13:00:08"
 }
