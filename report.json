@@ -1,138 +1,224 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 3180.7299999999996,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES NACIONAL EXPRESS",
-          "valor": 1480.86,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES NACIONAL EXPRESS",
-          "valor": 1086.07,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Outros investimentos",
-          "descricao": "ENCHOVAIS EXPRESS",
-          "valor": 610.8,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "ENCHOVAIS PINHEIRO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALFACE",
-          "valor": 3.0,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "feira"
-        }
-      ]
-    },
-    {
       "name": "Prime AL",
-      "total": 2560.27,
-      "count": 1,
+      "total": 6300.75,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Férias",
-          "descricao": "FERIAS RECEPCIONISTA DANIELA",
-          "valor": 2560.27,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "DANIELA SILVA DE LIRA"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 2375.83,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Férias",
-          "descricao": "FERIAS DEYSE",
-          "valor": 2375.83,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 216.76,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "ALARES CONT 2",
-          "valor": 107.45,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "ALARES"
+          "categoria": "Pagamento de empréstimos",
+          "descricao": "Pagamento emprestimo",
+          "valor": 6300.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "HOTEL"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Diarista",
-          "descricao": "EXTRA FINAL DE SEMANA",
-          "valor": 100.0,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "LARISSA TORRES"
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime AL",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 02/03",
-          "valor": 9.31,
-          "data_vencimento": "2026-03-02",
+          "descricao": "TARIFA PIX",
+          "valor": 0.75,
+          "data_vencimento": "2026-03-03",
           "fornecedor": null
         }
       ]
     },
     {
+      "name": "Qnn01",
+      "total": 3388.21,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 1206.85,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS MENSAL TATICO",
+          "valor": 1153.57,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS MENSAL ASSAI",
+          "valor": 750.35,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "SUPERMERCADO ASSAI"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PRODUTOS DE LIMPEZA",
+          "valor": 112.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "CASA DA QUMICA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COPOS E PÃO HAMBURGUER",
+          "valor": 105.44,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLO ANIVERSARIO ANTONIA JOANA",
+          "valor": 60.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "PADARIA"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 2345.76,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Pró-Labore",
+          "descricao": "PRÓ LABORE ",
+          "valor": 1500.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MANUTENÇÃO",
+          "valor": 845.76,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 884.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Lavanderia",
+          "descricao": "PRODUTOS LAVANDERIA",
+          "valor": 884.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "LAVANDERIA"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 588.0,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "transporte mensal Telma",
+          "valor": 262.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Gráfica",
+          "descricao": "grafica valdinei tabela de preços",
+          "valor": 178.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "VALDINEI"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "transporte mensal carolina",
+          "valor": 100.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "sacaria sacos p/roupas lavanderia",
+          "valor": 48.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "SACO ESTOPA/RAFIA"
+        }
+      ]
+    },
+    {
       "name": "Recanto das Emas",
-      "total": 39.99,
-      "count": 3,
+      "total": 573.54,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
+          "categoria": "Investimentos gerais",
+          "descricao": "Refletores das Placas e Chave Contactora ",
+          "valor": 351.57,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "MERCADO LIVRE"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Diarista",
+          "descricao": "Diarista (Camareira/Atestado)",
+          "valor": 120.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "Lorrane"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FRUTAS DA BARRAQUINHA ",
+          "valor": 50.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "BARRAQUINHA (AMBULANTE)"
+        },
+        {
+          "unidade": "Recanto das Emas",
           "categoria": "Lavanderia",
-          "descricao": "Frete Lavanderia Ref a 2 dias",
-          "valor": 30.0,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "Paulo Meirelles"
+          "descricao": "Combustível lavanderia - Dorivaldo",
+          "valor": 40.0,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "DORIVALDO"
         },
         {
           "unidade": "Recanto das Emas",
           "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "Grampos para grampeador ",
-          "valor": 7.99,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "ATLANTIS RECANTO (DOKAS)"
-        },
+          "descricao": "Bobina para a maquina de cartão",
+          "valor": 11.97,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": "MUNDO DO ESTUDANTE"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 5.38,
+      "count": 1,
+      "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "Impressão (Doc. Advertência)",
-          "valor": 2.0,
-          "data_vencimento": "2026-03-02",
-          "fornecedor": "GRAFICA CRIATIVA "
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 03/03",
+          "valor": 5.38,
+          "data_vencimento": "2026-03-03",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 8373.58,
-  "global_count": 12,
-  "date": "2026-03-03 13:00:08"
+  "global_total": 14085.64,
+  "global_count": 21,
+  "date": "2026-03-04 13:00:13"
 }
