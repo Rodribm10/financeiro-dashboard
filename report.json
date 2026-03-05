@@ -1,224 +1,155 @@
 {
   "hotels": [
     {
+      "name": "Recanto das Emas",
+      "total": 1524.75,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Duarte Bebidas ",
+          "valor": 1129.75,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Transporte",
+          "descricao": "Passagem do Mês Amanda",
+          "valor": 180.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "Amanda Christine Araujo da Silva"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Diarista",
+          "descricao": "Diaria Jessica Rayane Recepção (Atestado Maria)",
+          "valor": 120.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "Jessica Rayane da Silva"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Gás",
+          "descricao": "Gás de cozinha",
+          "valor": 95.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "FM DEPOSITO E TRANSPORTE DE GAS"
+        }
+      ]
+    },
+    {
       "name": "Prime AL",
-      "total": 6300.75,
+      "total": 1113.44,
       "count": 2,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Pagamento de empréstimos",
-          "descricao": "Pagamento emprestimo",
-          "valor": 6300.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "HOTEL"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SUPERMERCADO COMPRAS - PÃO DE QUEIJO - BATATA- CARNE FUNCIONARIOS - ...",
+          "valor": 1113.04,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "SUPERMERCADO ASSAI"
         },
         {
           "unidade": "Prime AL",
           "categoria": "Tarifas bancárias",
           "descricao": "TARIFA PIX",
-          "valor": 0.75,
-          "data_vencimento": "2026-03-03",
+          "valor": 0.4,
+          "data_vencimento": "2026-03-04",
           "fornecedor": null
         }
       ]
     },
     {
-      "name": "Qnn01",
-      "total": 3388.21,
+      "name": "1001 Express",
+      "total": 749.23,
       "count": 6,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS",
-          "valor": 1206.85,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS MENSAL TATICO",
-          "valor": 1153.57,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS MENSAL ASSAI",
-          "valor": 750.35,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "SUPERMERCADO ASSAI"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PRODUTOS DE LIMPEZA",
-          "valor": 112.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "CASA DA QUMICA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COPOS E PÃO HAMBURGUER",
-          "valor": 105.44,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "MINAS FRIOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BOLO ANIVERSARIO ANTONIA JOANA",
-          "valor": 60.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "PADARIA"
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 2345.76,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Pró-Labore",
-          "descricao": "PRÓ LABORE ",
-          "valor": 1500.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MANUTENÇÃO",
-          "valor": 845.76,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 884.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Lavanderia",
-          "descricao": "PRODUTOS LAVANDERIA",
-          "valor": 884.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "LAVANDERIA"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 588.0,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Padova",
+          "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "transporte mensal Telma",
-          "valor": 262.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+          "descricao": "VT STEFFANE",
+          "valor": 150.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "STEFANY SANTOS"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Gráfica",
-          "descricao": "grafica valdinei tabela de preços",
-          "valor": 178.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "VALDINEI"
+          "unidade": "1001 Express",
+          "categoria": "Frete",
+          "descricao": "FRETE  VALTER",
+          "valor": 150.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "FRETE"
         },
         {
-          "unidade": "Padova",
+          "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "transporte mensal carolina",
-          "valor": 100.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+          "descricao": "VT EVANDA",
+          "valor": 150.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "EVANDA VIEIRA"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "sacaria sacos p/roupas lavanderia",
-          "valor": 48.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "SACO ESTOPA/RAFIA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 573.54,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Investimentos gerais",
-          "descricao": "Refletores das Placas e Chave Contactora ",
-          "valor": 351.57,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Diarista",
-          "descricao": "Diarista (Camareira/Atestado)",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "Lorrane"
-        },
-        {
-          "unidade": "Recanto das Emas",
+          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "FRUTAS DA BARRAQUINHA ",
-          "valor": 50.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "BARRAQUINHA (AMBULANTE)"
+          "descricao": "BATATA RUFLES ,TRIDENT, HALLS",
+          "valor": 147.92,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "DOCES MONTEIRO"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Lavanderia",
-          "descricao": "Combustível lavanderia - Dorivaldo",
-          "valor": 40.0,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "DORIVALDO"
-        },
-        {
-          "unidade": "Recanto das Emas",
+          "unidade": "1001 Express",
           "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "Bobina para a maquina de cartão",
-          "valor": 11.97,
-          "data_vencimento": "2026-03-03",
-          "fornecedor": "MUNDO DO ESTUDANTE"
+          "descricao": "TAMPA COPOZAN, POTE TRANSPARENTE, COPO 500ML ULTRA, CANUDO PLASGEL MILK, GARFO REFEIÇAO, COLHER REFEIÇAO, BANDEIJA TOTALPLAST",
+          "valor": 106.31,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "RM COMERCIO DE FRIOS "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Exames Médicos, Medicamentos",
+          "descricao": "Exame Admissional Evanda",
+          "valor": 45.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": "Evanda"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 5.38,
-      "count": 1,
+      "total": 146.02,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVÉL C. EMPRESA",
+          "valor": 100.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "COMPRA DE TINTA PARA PINTAR HIDRO",
+          "valor": 30.0,
+          "data_vencimento": "2026-03-04",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 03/03",
-          "valor": 5.38,
-          "data_vencimento": "2026-03-03",
+          "descricao": "TARIFA STONE EDIT VIRTULA DIA 04/03",
+          "valor": 16.02,
+          "data_vencimento": "2026-03-04",
           "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 14085.64,
-  "global_count": 21,
-  "date": "2026-03-04 13:00:13"
+  "global_total": 3533.44,
+  "global_count": 15,
+  "date": "2026-03-05 13:01:19"
 }
