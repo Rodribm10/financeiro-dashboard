@@ -1,155 +1,194 @@
 {
   "hotels": [
     {
-      "name": "Recanto das Emas",
-      "total": 1524.75,
-      "count": 4,
+      "name": "Dolce Amore",
+      "total": 20009.53,
+      "count": 3,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
+          "unidade": "Dolce Amore",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL IMAVEL PARC 1/2",
+          "valor": 18930.6,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "Exclusiva Empreendimentos"
+        },
+        {
+          "unidade": "Dolce Amore",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "Duarte Bebidas ",
-          "valor": 1129.75,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "DUARTE BEBIDAS"
+          "descricao": "COXÃO MOLE",
+          "valor": 1071.35,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "MEDEIROS E MEDEIROS"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transporte",
-          "descricao": "Passagem do Mês Amanda",
-          "valor": 180.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "Amanda Christine Araujo da Silva"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Diarista",
-          "descricao": "Diaria Jessica Rayane Recepção (Atestado Maria)",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "Jessica Rayane da Silva"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Gás",
-          "descricao": "Gás de cozinha",
-          "valor": 95.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "FM DEPOSITO E TRANSPORTE DE GAS"
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 05/03",
+          "valor": 7.58,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": null
         }
       ]
     },
     {
-      "name": "Prime AL",
-      "total": 1113.44,
-      "count": 2,
+      "name": "Prime ADE",
+      "total": 14159.599999999999,
+      "count": 7,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO COMPRAS - PÃO DE QUEIJO - BATATA- CARNE FUNCIONARIOS - ...",
-          "valor": 1113.04,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "SUPERMERCADO ASSAI"
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 2500.0,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "Eldina Gomes"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 0.4,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": null
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 2255.79,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "TANIA ROCHA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 2249.71,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "INGRID ROBERTA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 2120.73,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "LILIA MOREIRA DA ROCHA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26( PAGO NA CONTA DA ELDINA DEVIDO PROBLEMAS NA CONTA ELZIMAR)",
+          "valor": 2074.37,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "ELZIMAR GOMES DA COSTA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 1698.26,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "DAVID HENRIQUE DA SILVA MELO"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO REF 02/26",
+          "valor": 1260.74,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "MICAELLEN CARDOSO SILVA"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 703.3,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "DUARTE BEBIDAS",
+          "valor": 703.3,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "DUARTE BEBIDAS"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 654.0,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Compras da semana supermercado",
+          "valor": 324.66,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "Atacadao dia dia"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Compra de Carnes",
+          "valor": 117.09,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "WEST CARNES"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Compra de bebidas para reposição",
+          "valor": 75.36,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "SHOW DE COMPRAR"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Combustível",
+          "descricao": "Combustivel ref 4 dias de a transporte lavanderia Paulo ",
+          "valor": 60.0,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "PAULO MEIRELES"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Combustível",
+          "descricao": "Combustivel ref 4 dias de a transporte lavanderia Paulo ",
+          "valor": 60.0,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "PAULO MEIRELES"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Batata e Isqueiro",
+          "valor": 16.89,
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "SÃO BENTO COMERCIAL DE ALIMENTOS LTDA"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 749.23,
-      "count": 6,
+      "total": 300.0,
+      "count": 2,
       "transactions": [
         {
           "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "VT STEFFANE",
+          "descricao": "VT EDNA ",
           "valor": 150.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "STEFANY SANTOS"
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "TRANSPORTE"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Frete",
-          "descricao": "FRETE  VALTER",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT MARCIA",
           "valor": 150.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "FRETE"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "VT EVANDA",
-          "valor": 150.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "EVANDA VIEIRA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BATATA RUFLES ,TRIDENT, HALLS",
-          "valor": 147.92,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "TAMPA COPOZAN, POTE TRANSPARENTE, COPO 500ML ULTRA, CANUDO PLASGEL MILK, GARFO REFEIÇAO, COLHER REFEIÇAO, BANDEIJA TOTALPLAST",
-          "valor": 106.31,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "RM COMERCIO DE FRIOS "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Exames Médicos, Medicamentos",
-          "descricao": "Exame Admissional Evanda",
-          "valor": 45.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": "Evanda"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 146.02,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVÉL C. EMPRESA",
-          "valor": 100.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "COMPRA DE TINTA PARA PINTAR HIDRO",
-          "valor": 30.0,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTULA DIA 04/03",
-          "valor": 16.02,
-          "data_vencimento": "2026-03-04",
-          "fornecedor": null
+          "data_vencimento": "2026-03-05",
+          "fornecedor": "TRANSPORTE"
         }
       ]
     }
   ],
-  "global_total": 3533.44,
-  "global_count": 15,
-  "date": "2026-03-05 13:01:19"
+  "global_total": 35826.43,
+  "global_count": 19,
+  "date": "2026-03-06 13:00:06"
 }
