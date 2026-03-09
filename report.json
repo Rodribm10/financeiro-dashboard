@@ -1,37 +1,83 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 622.0,
-      "count": 1,
+      "name": "Padova",
+      "total": 390.0,
+      "count": 3,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA COPO, AGUA COM GÁS",
-          "valor": 622.0,
-          "data_vencimento": "2026-03-07",
-          "fornecedor": "MINERAÇÃO CUNHA"
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista recepçao",
+          "valor": 130.0,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista camareira dia (falta)",
+          "valor": 130.0,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": "Diarista"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista camareira (falta)",
+          "valor": 130.0,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": "Diarista"
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 150.0,
+      "name": "1001 - Samambaia",
+      "total": 260.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "1001 Express",
+          "unidade": "1001 - Samambaia",
           "categoria": "Transporte",
-          "descricao": "VT ODEJANE",
-          "valor": 150.0,
-          "data_vencimento": "2026-03-07",
-          "fornecedor": "TRANSPORTE"
+          "descricao": "PASSAGEM MENSAL ELOITA",
+          "valor": 260.0,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": "MARIA ELOITA NASCIMENTO"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 23.55,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "Tarifa bancaria dia 08/03 - Stone",
+          "valor": 23.55,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 4.11,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 4.11,
+          "data_vencimento": "2026-03-08",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 772.0,
-  "global_count": 2,
-  "date": "2026-03-08 13:00:16"
+  "global_total": 677.66,
+  "global_count": 6,
+  "date": "2026-03-09 13:00:27"
 }
