@@ -1,368 +1,84 @@
 {
   "hotels": [
     {
-      "name": "Prime AL",
-      "total": 3602.81,
+      "name": "1001 Express",
+      "total": 9475.8,
       "count": 3,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN FRIGOBAR 7/9",
-          "valor": 2384.42,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
+          "unidade": "1001 Express",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL EXPRESS    PIX: 61998617930",
+          "valor": 8000.0,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "JOSÉ WILSON "
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Outros gastos operacionais",
-          "descricao": "PARTE GAZIN EXPRESS",
-          "valor": 973.28,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "GAZIN PARTE EXPRESS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "GEL KY ",
-          "valor": 245.11,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "HARUS"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 3602.08,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "Joyce recolheu para o escritório 1.607,44\n",
-          "valor": 1607.43,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN ",
-          "valor": 1464.65,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "GAZIN"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "SOLAR TINTAS",
-          "valor": 530.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SOLAR TINTAS"
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 3045.4299999999994,
-      "count": 18,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ESTORIL",
-          "valor": 881.24,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
+          "unidade": "1001 Express",
           "categoria": "Contabilidade",
-          "descricao": "SALARIO GUSTAVO",
-          "valor": 500.0,
-          "data_vencimento": "2026-03-13",
+          "descricao": "CHRQUE GUSTAVO",
+          "valor": 1378.0,
+          "data_vencimento": "2026-03-14",
           "fornecedor": "GUSTAVO CONTABILIDADE"
         },
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Seguros",
-          "descricao": "SEGURO HOTEL",
-          "valor": 306.94,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SEGURO HOTEL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS ",
-          "valor": 262.56,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "LUX TINTAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "SALARIO ISMAEL",
-          "valor": 244.44,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Telefone + internet",
-          "descricao": "TELEFONE ",
-          "valor": 239.9,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "TELEFONE E INTERNET"
-        },
-        {
-          "unidade": "1001 - Samambaia",
+          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAULO COMPRAS",
-          "valor": 214.29,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "PAULO MEIRELES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Transporte",
-          "descricao": "TRANSPORTE DE VALORES",
-          "valor": 167.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "OPEN AI (CARTÃO SANTANDER)",
-          "valor": 64.15,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SISTEMA SOFTWARE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema para Marketing",
-          "descricao": "NOTION(CARTÃO SANTANDER)",
-          "valor": 44.83,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SISTEMA SOFTWARE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "ANUIDADE (CARTÃO SANTANDER)",
-          "valor": 35.06,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "TARIFA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 20.72,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 20.72,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 15.72,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "PAULO MEIRELES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Receitas com vendas",
-          "descricao": "TALKS (CARTÃO SANTANDER)",
-          "valor": 14.73,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SISTEMA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Telefone + internet",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "TELEFONE FINANCEIRO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Seguros",
-          "descricao": "SEGURO DO CARTÃO",
-          "valor": 4.09,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SEGURO CARTAO SANTANDER"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "GOOGLE CLOUD SLMC5Q ",
-          "valor": 1.54,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SISTEMA MARKETING"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 2500.31,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "GIN TANQUERAY,SMINORFF ICE,CHOCOLATE SNICKES,ACHOCOLATADO ,BLACK WHITE, VOODKA",
-          "valor": 899.73,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "CDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Investimentos gerais",
-          "descricao": "PLACAS INFORTIVAS ",
-          "valor": 491.66,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Gás",
-          "descricao": "45 KG GÁS DE COZINHA",
-          "valor": 490.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "TRAMPOLIM GÁS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CPMPRA DE TV PARC.10/10",
-          "valor": 399.8,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "MERCADO LIVRE"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA TIM",
-          "valor": 138.75,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "TIM S/A"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA SITE",
-          "valor": 80.37,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "INTERATIVA PUB DIGITAL"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 1991.67,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "Devolução dos valores pertencentes ao PAdova durante o empestimo da maquina stone",
-          "valor": 1991.67,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "OUTROS"
+          "descricao": "3 LASANHAS, P/DE ARROZ,3 P/DE ARROZ, 3P/PAPEL HIGIENICO",
+          "valor": 97.8,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "SUPERMERCADO TATICO "
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 1376.11,
-      "count": 7,
+      "total": 1681.7600000000002,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS  ASSAI FIM DE SEMANA",
-          "valor": 532.11,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "SUPERMERCADO ASSAI"
+          "descricao": "BANDEJAS B1 E GUARDANAPOS",
+          "valor": 1225.51,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "MINAS FRIOS"
         },
         {
           "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS FRUTAS E VERDURAS",
-          "valor": 362.5,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "feira"
+          "descricao": "HEINEKEN",
+          "valor": 425.85,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "DUARTE BEBIDAS"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "CERTIFICADO DIGITAL",
-          "valor": 179.9,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "CERTIFICADO DIGITAL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "GESSO",
-          "valor": 112.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "CAMPEÃO DA CONSTRUÇÃO "
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Uniformes",
-          "descricao": "6 BLUSA DE UIFORME",
-          "valor": 99.6,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "CONFECÇÕES DINIZ"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Uniformes",
-          "descricao": "BORDADOS",
-          "valor": 60.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "serigrafia"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL COMPRAS ",
-          "valor": 30.0,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "feira"
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - MAZINHO",
+          "valor": 30.4,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "VT - MAZINHO"
         }
       ]
     },
     {
-      "name": "Recanto das Emas",
-      "total": 448.23,
+      "name": "Prime VL",
+      "total": 938.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Rescisões",
-          "descricao": "Rescisão Ana Clara Clemente ",
-          "valor": 448.23,
-          "data_vencimento": "2026-03-13",
-          "fornecedor": "ANA CLARA CLEMENTE DA SILVA "
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMIDA CONGELADA",
+          "valor": 938.0,
+          "data_vencimento": "2026-03-14",
+          "fornecedor": "NATURALL FOODS"
         }
       ]
     }
   ],
-  "global_total": 16566.64,
-  "global_count": 39,
-  "date": "2026-03-14 13:00:39"
+  "global_total": 12095.56,
+  "global_count": 7,
+  "date": "2026-03-15 13:00:11"
 }
