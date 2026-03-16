@@ -1,84 +1,52 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 9475.8,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL EXPRESS    PIX: 61998617930",
-          "valor": 8000.0,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "JOSÉ WILSON "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Contabilidade",
-          "descricao": "CHRQUE GUSTAVO",
-          "valor": 1378.0,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "GUSTAVO CONTABILIDADE"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "3 LASANHAS, P/DE ARROZ,3 P/DE ARROZ, 3P/PAPEL HIGIENICO",
-          "valor": 97.8,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "SUPERMERCADO TATICO "
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 1681.7600000000002,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BANDEJAS B1 E GUARDANAPOS",
-          "valor": 1225.51,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "MINAS FRIOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "HEINEKEN",
-          "valor": 425.85,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - MAZINHO",
-          "valor": 30.4,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "VT - MAZINHO"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 938.0,
+      "name": "Prime ADE",
+      "total": 1448.31,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMIDA CONGELADA",
-          "valor": 938.0,
-          "data_vencimento": "2026-03-14",
-          "fornecedor": "NATURALL FOODS"
+          "unidade": "Prime ADE",
+          "categoria": "Água",
+          "descricao": "CAESB",
+          "valor": 1448.31,
+          "data_vencimento": "2026-03-15",
+          "fornecedor": "CAESB"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 120.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA ODEJANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-03-15",
+          "fornecedor": "HOTEL"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 31.84,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa cartões dia 15/03 - stone",
+          "valor": 31.84,
+          "data_vencimento": "2026-03-15",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 12095.56,
-  "global_count": 7,
-  "date": "2026-03-15 13:00:11"
+  "global_total": 1600.1499999999999,
+  "global_count": 3,
+  "date": "2026-03-16 13:00:13"
 }
