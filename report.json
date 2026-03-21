@@ -1,52 +1,630 @@
 {
   "hotels": [
     {
-      "name": "Prime ADE",
-      "total": 1448.31,
-      "count": 1,
+      "name": "Prime AL",
+      "total": 15161.02,
+      "count": 10,
       "transactions": [
         {
-          "unidade": "Prime ADE",
-          "categoria": "Água",
-          "descricao": "CAESB",
-          "valor": 1448.31,
-          "data_vencimento": "2026-03-15",
-          "fornecedor": "CAESB"
+          "unidade": "Prime AL",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES",
+          "valor": 5293.13,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "RATEIO ",
+          "valor": 4234.96,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "Cartão Itau Azul"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1820.39,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1806.18,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "INSS / GPS",
+          "descricao": "DARF",
+          "valor": 538.18,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "DARF"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "INSS / GPS",
+          "descricao": "DARF",
+          "valor": 538.18,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "DARF"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FEIRA FRUTAS E VERDURAS",
+          "valor": 380.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "feira"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO SANDRA",
+          "valor": 200.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO PAMELA",
+          "valor": 200.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO SALÁRIO MONICA",
+          "valor": 150.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "MÔNICA  SOUSA MATOS "
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 120.0,
-      "count": 1,
+      "name": "Qnn01",
+      "total": 10958.31,
+      "count": 16,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA ODEJANE",
+          "unidade": "Qnn01",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 4954.03,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1887.27,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1585.5,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 1034.3,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Gratificação, Bonificação",
+          "descricao": "BOMBOM BRINDES FAXINAS E METAS ",
+          "valor": 357.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ASSAÍ ATACADISTA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "VALDINEI / MARÇO",
+          "valor": 310.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "VALDINEI"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS  ASSAI FIM DE SEMANA",
+          "valor": 240.82,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ASSAÍ ATACADISTA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "VALE ADIANTAMENTO ANDREIA",
+          "valor": 150.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ANDREIA LOPES DA SILVA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SACOS DE LIXO",
           "valor": 120.0,
-          "data_vencimento": "2026-03-15",
-          "fornecedor": "HOTEL"
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PONTUAL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE CARTÃO ITAU LATAN",
+          "valor": 105.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ANUIDADES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREZZER ",
+          "valor": 83.29,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "AB MOTEIS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA CARTÃO AZUL",
+          "valor": 64.92,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TARIFA CARTAO ITAU AZUL "
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Sistema/Software",
+          "descricao": "CALIMA ",
+          "valor": 28.32,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "CALIMA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS ",
+          "valor": 18.57,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS ",
+          "valor": 17.86,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE ONE CARTAO ITAU LATAM",
+          "valor": 1.43,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "GOOGLE ONE"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 7259.45,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 2667.89,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1498.97,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "FGTS",
+          "descricao": "FGTS ",
+          "valor": 1355.9,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Gratificação, Bonificação",
+          "descricao": "PRL Janeiro e Fevereiro ",
+          "valor": 1000.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "MARIA ELOITA NASCIMENTO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Outros custos com despesas financeiras",
+          "descricao": "Rateio ",
+          "valor": 579.99,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "OUTROS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "Lux tintas",
+          "valor": 156.7,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "LUX TINTAS"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 5793.399999999999,
+      "count": 11,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 2754.63,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "RECEITA  FEDERAL",
+          "valor": 1575.1,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "receita federal "
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1164.2,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE CARTAO ITAU/LATAN",
+          "valor": 105.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ANUIDADES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREEZER COMPRAS",
+          "valor": 83.29,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FREEZER COMPRA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "frete lavanderia",
+          "valor": 30.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "CALIMA",
+          "valor": 28.32,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "CALIMA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 18.57,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem camareira em treinamento",
+          "valor": 15.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE ONE CRATAO  ITAU LATAN",
+          "valor": 1.43,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "GOOGLE ONE"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 31.84,
-      "count": 1,
+      "total": 3578.14,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
+          "categoria": "Condomínio, IPTU",
+          "descricao": "PARCELAMENTO IPTU 2025 PARC 4/12",
+          "valor": 1992.24,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PREFEITURA DE NATAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "SMINORFF ICE, VINHO SANTA HELENA, RED LABEL, OLD PARR",
+          "valor": 838.4,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "CDA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "MANUTENÃO GERADOR PARC 2/3",
+          "valor": 637.5,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PROSPERA GERADORES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Consultoria",
+          "descricao": "AB MOTEIS",
+          "valor": 110.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "AB MOTEIS"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 2042.31,
+      "count": 8,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "PAULO COMPRAS , ISMAEL , TELEFONE FINCAEIRO , TRANSPORTE DE VALORES",
+          "valor": 677.23,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TERCEIROS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Contabilidade",
+          "descricao": "GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "GUSTAVO CILLI "
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Material de limpeza",
+          "descricao": "UNILIMPI",
+          "valor": 393.51,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "UNILIMP"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Sistema/Software",
+          "descricao": "CALIMA , GOOGLE ONE , TALKS , GOOGLE CLOUD , AMAZON PRIME , OPEN IA , NOTION ",
+          "valor": 215.26,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SISTEMA SOFTWARE"
+        },
+        {
+          "unidade": "Prime VL",
           "categoria": "Tarifas bancárias",
-          "descricao": "tarifa cartões dia 15/03 - stone",
-          "valor": 31.84,
-          "data_vencimento": "2026-03-15",
-          "fornecedor": null
+          "descricao": "ANUIDADE CARTAO LATAN",
+          "valor": 105.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TARIFA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREEZER ",
+          "valor": 83.29,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "COMPRAS EQUIPAMENTOS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA",
+          "valor": 39.15,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TARIFAS BANCARIA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS RATEIO",
+          "valor": 28.87,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 1149.1499999999999,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "PISO, TOALHAS 00190000090360147100000000263178113950000060000",
+          "valor": 600.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PINHEIRO ENXOVAL"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "SOLAR TINTAS",
+          "valor": 361.79,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "HOTEL"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS SEMANAL TATICO",
+          "valor": 62.36,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "IMPRESSAO BOLETO",
+          "valor": 5.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "IMPERIO DO CELULAR "
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 800.89,
+      "count": 9,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Rescisões",
+          "descricao": "FGTES RESCISAO MATHEUS",
+          "valor": 351.5,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MANUTENÇÃO",
+          "valor": 130.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "VALDINEI"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE - CARTÃO ITAU LATAM",
+          "valor": 105.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "CARTAO ITAU LATAN"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREEZER COMPRAS",
+          "valor": 83.29,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "FREEZER COMPRA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA - CARTAO ITAU AZUL",
+          "valor": 64.92,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "TARIFA CARTAO ITAU AZUL "
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Sistema/Software",
+          "descricao": "SISTEMA",
+          "valor": 28.32,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "CALIMA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 18.57,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE ONE CARTAO ITAU LATAN",
+          "valor": 1.43,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "GOOGLE ONE"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 638.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "Zean - Canal adulto (1 Transmissor, 1 Tv box, 1 tv, serviços técnicos) 4 Parcelas - 2/4",
+          "valor": 638.0,
+          "data_vencimento": "2026-03-20",
+          "fornecedor": "ZEAN MANUTENÇÃO"
         }
       ]
     }
   ],
-  "global_total": 1600.1499999999999,
-  "global_count": 3,
-  "date": "2026-03-16 13:00:13"
+  "global_total": 47380.67,
+  "global_count": 70,
+  "date": "2026-03-21 13:12:13"
 }
