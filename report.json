@@ -1,68 +1,312 @@
 {
   "hotels": [
     {
+      "name": "Prime VL",
+      "total": 9648.160000000002,
+      "count": 13,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Energia elétrica",
+          "descricao": "CEB HOTEL",
+          "valor": 6192.75,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "NEOENERGIA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 924.1,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Contabilidade",
+          "descricao": "GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "GUSTAVO CONTABILIDADE"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS",
+          "valor": 489.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "MERCADO",
+          "valor": 466.38,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "mercado"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "ISMAEL",
+          "valor": 244.44,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAULO COMPRAS",
+          "valor": 214.29,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Transporte de Terceiros",
+          "descricao": "TRANPORTE  DE VALORES",
+          "valor": 167.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "TRANSPORTE DE VALORES"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Sistema para Marketing",
+          "descricao": "CALIMA , GOOGLE ONE , TALKS , GOOGLE CLOUD , AMAZON PRIME , OPEN IA , NOTION ",
+          "valor": 153.46,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "SISTEMA MARKETING"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE CARTAO LATAN",
+          "valor": 144.16,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "ANUIDADES"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREEZER ",
+          "valor": 83.29,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "FREEZER COMPRA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE CLAUD",
+          "valor": 61.79,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "GOOGLE CLOUD"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "TELEFONE",
+          "valor": 7.5,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "TELEFONE FINANCEIRO"
+        }
+      ]
+    },
+    {
       "name": "Recanto das Emas",
-      "total": 300.0,
-      "count": 2,
+      "total": 5875.840000000001,
+      "count": 6,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA FOLGA E ATESTADO",
-          "valor": 240.0,
-          "data_vencimento": "2026-03-22",
-          "fornecedor": "DIARISTA"
+          "categoria": "Distribuição de lucros",
+          "descricao": "Plano Saude Izete",
+          "valor": 5773.7,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "Bradesco"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "ITENS PARA MANUTENÇAO",
+          "valor": 33.77,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "ELETRICA LUMICENTER"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Padaria",
+          "descricao": "MERCADO E PADARIA",
+          "valor": 20.27,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "PANIFICADORA ITALIA"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "PASSAGEM THAIS",
+          "valor": 20.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "THAIS STEFANY"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Lavanderia",
+          "descricao": "DAVID GASOLINA ",
+          "valor": 15.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Recanto das Emas",
           "categoria": "Transporte",
-          "descricao": "PASSAGEM LORRANE",
-          "valor": 60.0,
-          "data_vencimento": "2026-03-22",
+          "descricao": "PASSAGEM JEREMIAS , PASSAGEM MAURA",
+          "valor": 13.1,
+          "data_vencimento": "2026-03-24",
           "fornecedor": "TRANSPORTE"
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 185.9,
-      "count": 2,
+      "name": "Padova",
+      "total": 3300.65,
+      "count": 3,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-22",
-          "fornecedor": "HOTEL"
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "duarte bebidas",
+          "valor": 1848.65,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "DUARTE BEBIDAS"
         },
         {
-          "unidade": "1001 Express",
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "ARTESOL PRODUTOS P/ LAVANDERIA",
+          "valor": 956.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "ARTESOL (PRODUTOS LAVANDERIA)"
+        },
+        {
+          "unidade": "Padova",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "3P/CAFE",
-          "valor": 65.9,
-          "data_vencimento": "2026-03-22",
-          "fornecedor": "SUPERMERCADO CANDANGO"
+          "descricao": "monteiro doces",
+          "valor": 496.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "DOCES MONTEIRO"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 14.29,
-      "count": 1,
+      "total": 1236.9099999999999,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "20,5 KG  COLCHÃO MOLE",
+          "valor": 758.3,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "MEDEIROS E MEDEIROS"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Material Limpeza",
+          "descricao": "DESINFETANTE, LIMPA VIDRO,DETERGENTE,PULVERIZADOR,CABO DE ALUMINIO",
+          "valor": 471.56,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "HARUS"
+        },
+        {
+          "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 22/03",
-          "valor": 14.29,
-          "data_vencimento": "2026-03-22",
+          "descricao": "TARIFA STONE",
+          "valor": 7.05,
+          "data_vencimento": "2026-03-24",
           "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 505.0,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "TRANSPORTE DE ROUPAS LAVADERIA REGINALDO",
+          "valor": 400.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Gás",
+          "descricao": "GAS",
+          "valor": 105.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "DEPOSITO DE GAS"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 388.63,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "ACRIL AC BASE, TRINCHA 2, TRINCHA 4 75691502410110841000000118250026513940000038250",
+          "valor": 383.13,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "ALFACE",
+          "valor": 3.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "feira"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "IMPRESSAO BOLETO",
+          "valor": 2.5,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "IMPERIO DO CELULAR "
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 164.47,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "pão de queijo ",
+          "valor": 110.0,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "PÃO DE QUEIJO FARIAS "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "supermercado queijo - maracuja - pão de forma",
+          "valor": 54.47,
+          "data_vencimento": "2026-03-24",
+          "fornecedor": "SUPERMERCADO TATICO"
         }
       ]
     }
   ],
-  "global_total": 500.19,
-  "global_count": 5,
-  "date": "2026-03-23 13:00:21"
+  "global_total": 21119.660000000003,
+  "global_count": 32,
+  "date": "2026-03-25 13:13:52"
 }
