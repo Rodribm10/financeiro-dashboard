@@ -1,106 +1,338 @@
 {
   "hotels": [
     {
+      "name": "Padova",
+      "total": 7095.739999999998,
+      "count": 12,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "Aluguel",
+          "valor": 6122.44,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "Jose Ribamar"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
+          "descricao": "enxovais pinheiro 4/4",
+          "valor": 397.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "PINHEIRO ENXOVAL"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema para Marketing",
+          "descricao": "FACEBOOK",
+          "valor": 298.02,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "FACEBOOK"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "MERCADO LIVRE destaq 2/10 fritadeira",
+          "valor": 97.9,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "MERCADO LIVRE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema para Marketing",
+          "descricao": "AD *GOOGLEADS708218",
+          "valor": 62.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "GOOGLE ADS "
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Treinamentos",
+          "descricao": "PP*G4TREINAMENT 4/12",
+          "valor": 62.44,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "TREINAMENTO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "SUPER BASE",
+          "valor": 22.79,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SISTEMA SOFTWARE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "MP* ORISANXIMENES PARCELA 6/10",
+          "valor": 15.42,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "MP ORISANXIMENES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "blackblazer",
+          "valor": 8.44,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "BLACK BLAZE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE ONE",
+          "valor": 3.75,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "GOOGLE ONE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Sistema/Software",
+          "descricao": "X DEVELOPER PLATAFORM",
+          "valor": 3.33,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SISTEMA SOFTWARE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS",
+          "valor": 1.21,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "TARIFAS IOF"
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
-      "total": 20670.42,
-      "count": 4,
+      "total": 2788.7400000000002,
+      "count": 8,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL PARC 2/2",
-          "valor": 18930.6,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "Exclusiva Empreendimentos"
+          "categoria": "Pró-Labore",
+          "descricao": "PRÓ- LABORE RODRIGO",
+          "valor": 2000.0,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
           "unidade": "Dolce Amore",
           "categoria": "Transporte",
-          "descricao": "VT NATAL CARD, REFERENTE A ABRIL 26",
-          "valor": 944.23,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "NATAL CARD"
+          "descricao": "VT FLÁVIA E REJANE REF A ABRIL 26",
+          "valor": 400.0,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "POLPA DE FRUTA",
+          "valor": 147.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "pura polpa"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Sistema para Marketing",
+          "descricao": "MARKETING CARTÃO IZETE",
+          "valor": 125.0,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SISTEMA MARKETING"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Treinamentos",
+          "descricao": "TREIANAMENTOS G4",
+          "valor": 62.44,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "g4"
         },
         {
           "unidade": "Dolce Amore",
           "categoria": "Sistema/Software",
-          "descricao": "MENSALIDADE SISTEMA",
-          "valor": 427.0,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "VERSATIL SISTEMA "
+          "descricao": "BLACK BLAZE, GOOLE ONE,SUPABASE,X DEVELOPER ",
+          "valor": 38.31,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SISTEMA SOFTWARE"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "VT RN CARD, REFERENTE A ABRIL 26",
-          "valor": 368.59,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "TRANSPORTE"
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 26/03",
+          "valor": 14.28,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA CARTÃO IZETE",
+          "valor": 1.21,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "CARTÃO IZETE"
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 534.05,
-      "count": 1,
+      "total": 1603.63,
+      "count": 13,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "SABONETES 3/3",
-          "valor": 534.05,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "ESTORIL"
+          "categoria": "Compra de Equipamentos",
+          "descricao": "DUCHA LORENZETE 2/4",
+          "valor": 537.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "POLODORO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Água",
+          "descricao": "FABIO CAESB",
+          "valor": 300.0,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "FABIO CAESB"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "mercado livre 4/10",
+          "valor": 256.27,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "MERCADO LIVRE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Telefone + internet",
+          "descricao": "INTERNET",
+          "valor": 198.82,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "ALL REDE "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FRITADEIRA 9/10",
+          "valor": 86.4,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "FRITADEIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema para Marketing",
+          "descricao": "GOOGLE ADS",
+          "valor": 62.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "GOOGLE ADS "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema para Marketing",
+          "descricao": "GOOGLE ADS",
+          "valor": 62.5,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "GOOGLE ADS "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "MERCO SUL COLCHÕES",
+          "valor": 48.03,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "mercosul esp ind"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "SUPABASE ",
+          "valor": 22.79,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SUPABASE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "MP ORISANXIMENE CADEIRA",
+          "valor": 15.42,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "MP ORISANXIMENES"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "BLACK BLAZE",
+          "valor": 8.44,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "BLACK BLAZE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "google one",
+          "valor": 3.75,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "GOOGLE ONE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "IOF INTERNACIONAL",
+          "valor": 1.21,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "IOF INTERNACIONAL"
         }
       ]
     },
     {
-      "name": "Padova",
-      "total": 427.0,
+      "name": "Recanto das Emas",
+      "total": 1244.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Sistema/Software",
-          "descricao": "VERSATIL SISTEMA",
-          "valor": 427.0,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "VERSATIL SISTEMA "
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 427.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 427.0,
-          "data_vencimento": "2026-03-25",
-          "fornecedor": "VERSATIL SISTEMA "
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "CARTAO DE CREDITO IZETE",
+          "valor": 1244.0,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "CARTAO ITAU LATAN"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 120.0,
-      "count": 1,
+      "total": 393.51,
+      "count": 3,
       "transactions": [
         {
           "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUAS",
+          "valor": 214.2,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SEIVA MINERAÇÃO "
+        },
+        {
+          "unidade": "1001 Express",
           "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
+          "descricao": "DIARIA THAMIRES",
           "valor": 120.0,
-          "data_vencimento": "2026-03-25",
+          "data_vencimento": "2026-03-26",
           "fornecedor": "HOTEL"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "2 PAO DE FORMA, UVA, PEITO FRANGO, CHALEIRA",
+          "valor": 59.31,
+          "data_vencimento": "2026-03-26",
+          "fornecedor": "SUPERMERCADO TATICO "
         }
       ]
     }
   ],
-  "global_total": 22178.469999999998,
-  "global_count": 8,
-  "date": "2026-03-26 13:34:14"
+  "global_total": 13125.619999999999,
+  "global_count": 37,
+  "date": "2026-03-27 13:20:06"
 }
