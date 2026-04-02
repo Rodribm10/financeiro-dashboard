@@ -2,201 +2,256 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 6060.320000000001,
-      "count": 5,
+      "total": 19343.19,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "COMPRA DE TELHAS COBERTURA AREA LAVANDERIA + MÃO DE OBRA",
-          "valor": 3100.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "MATERIAL DE CONSTRUÇÃO"
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "PARCELA 1/2 ABRIL 26 ALUGUEL IMOVÉL",
+          "valor": 18930.6,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "Exclusiva Empreendimentos"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 3/3",
-          "valor": 2659.35,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA DE COCO, SUCO",
-          "valor": 175.5,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "DD gaspar"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MANUTENÇÃO",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "DIARISTA"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAPEL HIGIÊNICI CLIENTE",
+          "valor": 408.73,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "WT"
         },
         {
           "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 30/03",
-          "valor": 5.47,
-          "data_vencimento": "2026-03-30",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 01/04",
+          "valor": 3.86,
+          "data_vencimento": "2026-04-01",
           "fornecedor": null
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 4312.9400000000005,
-      "count": 8,
+      "total": 2506.51,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD 2283949-6",
-          "valor": 1848.29,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "CEB - GD"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO-LABORE RODRIGO",
-          "valor": 1500.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "PRO-LABORE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "FGTS DO IONALDO LAVANDERIA",
-          "valor": 402.08,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARIAS RECEPÇAO/CAMAREIRAS (REUNIAO   DE TREINAMENTO)",
-          "valor": 390.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "JAIRO MANUTENÇAO ENERGIA",
-          "valor": 100.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "JAIRO MAN.ENERGIA"
+          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
+          "descricao": "JOICE RECOLHEU P/O ESCRITORIO",
+          "valor": 1776.51,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": null
         },
         {
           "unidade": "Padova",
           "categoria": "Transporte",
-          "descricao": "PASSAGENS FUNCIONARIOS REUN.TREINAMENTO",
-          "valor": 58.3,
-          "data_vencimento": "2026-03-30",
+          "descricao": "PARTE DA PASSAGEM TELMA",
+          "valor": 218.5,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem mensal Daniela",
+          "valor": 202.5,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem mensal beatriz",
+          "valor": 165.0,
+          "data_vencimento": "2026-04-01",
           "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
         },
         {
           "unidade": "Padova",
-          "categoria": "Padaria",
-          "descricao": "PADARIA",
-          "valor": 8.5,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "PADARIA"
-        },
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "POLPAS DE FRUTAS MENSAL",
+          "valor": 144.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "WG POLPAS"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 1529.81,
+      "count": 1,
+      "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 5.77,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": null
+          "unidade": "1001 - Samambaia",
+          "categoria": "Energia elétrica",
+          "descricao": "CEB 2308113-9",
+          "valor": 1529.81,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "CEB"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 1046.56,
-      "count": 5,
+      "total": 1424.0,
+      "count": 12,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "GANCHO DE PAREDE, PAPELEIRA SIMPLES, SABONETEIRA, CANTONEIRA, PES 25CM ",
-          "valor": 851.75,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA DEYSE",
-          "valor": 120.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "HOTEL"
+          "categoria": "Transporte",
+          "descricao": "VT IARA",
+          "valor": 260.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "Iara Dourado "
         },
         {
           "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "TRANSPORTE TREINAMNETO ADE",
-          "valor": 70.0,
-          "data_vencimento": "2026-03-30",
+          "descricao": "VT STEFFANE",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT ODEJANE",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "Odejane Pinto de Andrade "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT MIRIAN",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT GEOVANIA ",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-01",
           "fornecedor": "GEOVANIA NUNES DA SILVA "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "UM BLOCO DE RECIBO",
-          "valor": 4.0,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": "JL NOVIDADES"
+          "categoria": "Transporte",
+          "descricao": "VT DEYSE",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
         },
         {
           "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS SUPERMERCADO",
+          "valor": 132.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Gás",
+          "descricao": "GAS ",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "GALEGO GAZ"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "DETECTOR DE PRESENÇA",
+          "valor": 68.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "RUMÃO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "GELO SABORIZADO ",
+          "valor": 60.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "DISTRIBUIDORA ALTAS HORAS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "EDSON MANUTENÇÃO "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 14.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "JEREMIAS PASSOS"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 1119.94,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
+          "valor": 582.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
+          "descricao": "TRAVESSEIROS TERCEIRO ANDAR 2/2",
+          "valor": 297.44,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "ENXOVAL PAULISTA "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte de Terceiros",
+          "descricao": "VT CORDENADORA ",
+          "valor": 240.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        },
+        {
+          "unidade": "Prime AL",
           "categoria": "Tarifas bancárias",
-          "descricao": "tarifa",
-          "valor": 0.81,
-          "data_vencimento": "2026-03-30",
+          "descricao": "TARIFA PIX",
+          "valor": 0.5,
+          "data_vencimento": "2026-04-01",
           "fornecedor": null
         }
       ]
     },
     {
       "name": "Prime ADE",
-      "total": 3.72,
+      "total": 800.0,
       "count": 1,
       "transactions": [
         {
           "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 3.72,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 3.06,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifa",
-          "valor": 3.06,
-          "data_vencimento": "2026-03-30",
-          "fornecedor": null
+          "categoria": "Outros investimentos em bens materiais",
+          "descricao": "REPAROS EM AR CONDICIONADO",
+          "valor": 800.0,
+          "data_vencimento": "2026-04-01",
+          "fornecedor": "MARTINS REPARO DE PLACAS ELETRONICAS"
         }
       ]
     }
   ],
-  "global_total": 11426.6,
-  "global_count": 20,
-  "date": "2026-03-31 15:10:46"
+  "global_total": 26723.449999999997,
+  "global_count": 26,
+  "date": "2026-04-02 16:18:48"
 }
