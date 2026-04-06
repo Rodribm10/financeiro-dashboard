@@ -1,91 +1,100 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 1093.57,
-      "count": 3,
+      "name": "Prime AL",
+      "total": 896.1,
+      "count": 6,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "bloqueio de saldo banco stone",
-          "valor": 568.0,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "BLOQUEIO DE SALDO"
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "SERVIÇO TRAPORTE DE ROUPA",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA COPO, AGUA COM GÁS",
-          "valor": 494.0,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "MINERAÇÃO CUNHA"
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT CAMAREIRA YOHANA",
+          "valor": 175.0,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"
         },
         {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime AL",
+          "categoria": "Diarista",
+          "descricao": "diarista folga gerente",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT RECEPCIONISTA VALERIA",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT SANDRA CAMAREIRA ",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL 04/04",
-          "valor": 31.57,
-          "data_vencimento": "2026-04-04",
+          "descricao": "TARIFA PIX",
+          "valor": 1.1,
+          "data_vencimento": "2026-04-05",
           "fornecedor": null
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 203.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS SEMANAL TATICO",
-          "valor": 203.0,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "SUPERMERCADO TATICO"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 199.2,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA MINERAL",
-          "valor": 199.2,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "SEIVA MINERAÇÃO "
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 127.6,
+      "total": 238.55,
       "count": 2,
       "transactions": [
         {
-          "unidade": "Qnn01",
+          "unidade": "1001 Express",
           "categoria": "Diarista",
-          "descricao": "DIARIAS  CAMAREIRA",
+          "descricao": "DIARIA MIRIAN",
           "valor": 120.0,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "DIARISTA"
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "HOTEL"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-04",
-          "fornecedor": "JEREMIAS PASSOS"
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "compras",
+          "valor": 118.55,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": "DIA A DIA"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 20.14,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE",
+          "valor": 20.14,
+          "data_vencimento": "2026-04-05",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 1623.37,
-  "global_count": 7,
-  "date": "2026-04-05 16:01:31"
+  "global_total": 1154.79,
+  "global_count": 9,
+  "date": "2026-04-06 16:02:11"
 }
