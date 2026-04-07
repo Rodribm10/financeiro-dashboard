@@ -518,8 +518,8 @@
     },
     {
       "name": "Recanto das Emas",
-      "total": 16584.49,
-      "count": 14,
+      "total": 17320.940000000002,
+      "count": 15,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
@@ -579,7 +579,7 @@
         },
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Salário",
+          "categoria": "Lavanderia",
           "descricao": "SALARIO",
           "valor": 926.45,
           "data_vencimento": "2026-04-06",
@@ -587,7 +587,7 @@
         },
         {
           "unidade": "Recanto das Emas",
-          "categoria": "Lavanderia",
+          "categoria": "Salário",
           "descricao": "SALARIO",
           "valor": 926.45,
           "data_vencimento": "2026-04-06",
@@ -611,9 +611,17 @@
         },
         {
           "unidade": "Recanto das Emas",
+          "categoria": "Lavanderia",
+          "descricao": "Transporte roupas lavanderia",
+          "valor": 700.0,
+          "data_vencimento": "2026-04-06",
+          "fornecedor": "DAVID HENRIQUE DA SILVA MELO"
+        },
+        {
+          "unidade": "Recanto das Emas",
           "categoria": "Limpeza e conservação",
           "descricao": "DETERTIZAÇAO",
-          "valor": 500.0,
+          "valor": 536.45,
           "data_vencimento": "2026-04-06",
           "fornecedor": "TRULLE "
         },
@@ -740,9 +748,17 @@
     },
     {
       "name": "Prime ADE",
-      "total": 702.8,
-      "count": 2,
+      "total": 2171.76,
+      "count": 3,
       "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS MENSAL  ",
+          "valor": 1468.96,
+          "data_vencimento": "2026-04-06",
+          "fornecedor": "PAULO COMPRAS"
+        },
         {
           "unidade": "Prime ADE",
           "categoria": "Reformas / Estrutura",
@@ -777,7 +793,7 @@
       ]
     }
   ],
-  "global_total": 144847.37000000002,
-  "global_count": 90,
-  "date": "2026-04-07 16:00:10"
+  "global_total": 147052.78000000003,
+  "global_count": 92,
+  "date": "2026-04-07 20:49:09"
 }
