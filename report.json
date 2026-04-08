@@ -2,7 +2,7 @@
   "hotels": [
     {
       "name": "1001 - Samambaia",
-      "total": 18988.039999999997,
+      "total": 18773.409999999996,
       "count": 25,
       "transactions": [
         {
@@ -95,14 +95,6 @@
         },
         {
           "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA MINERAL",
-          "valor": 290.41,
-          "data_vencimento": "2026-04-07",
-          "fornecedor": "AGUA MINERAL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
           "categoria": "Telefone + internet",
           "descricao": "AMOZON ALEXA 4/12",
           "valor": 245.87,
@@ -148,6 +140,14 @@
           "valor": 83.29,
           "data_vencimento": "2026-04-07",
           "fornecedor": "LILIAN SATIKO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SUPERMERCADO ALIMENTAÇÃO",
+          "valor": 75.78,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SUPERMERCADO PRIMOR"
         },
         {
           "unidade": "1001 - Samambaia",
@@ -204,6 +204,188 @@
           "valor": 1.43,
           "data_vencimento": "2026-04-07",
           "fornecedor": "SISTEMA SOFTWARE"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 7061.2300000000005,
+      "count": 12,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO GEONANIA",
+          "valor": 1250.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MIRIAN",
+          "valor": 1117.05,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO ODEJANE",
+          "valor": 1026.88,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "Odejane Pinto de Andrade "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO ANTONIA EDINA",
+          "valor": 981.63,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ANTONIA EDINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO MARCIA ",
+          "valor": 957.48,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "Francisca Márcia "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO STEFFANE",
+          "valor": 870.32,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "10 AGUA DE COCO, 1 FARDO AMSTEL, 4 FARDO ANTARTICA, 4 FARDO COCA, CAIXA COM 12 VINHO , TAXA DE ENTREGA",
+          "valor": 529.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "DISTRIBUIDORA ALVORADA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT MARCIA",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "HOTEL"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FRUTAS P/ SEMANA",
+          "valor": 92.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "VERDURAO FAMILIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO DEYSE",
+          "valor": 50.58,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "VENENO PARA PIOLHO DE POMBO (PODEROSO)",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "casa de raçâo"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "1 POVILHO",
+          "valor": 6.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SUPERMERCADO TATICO "
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 6564.409999999999,
+      "count": 9,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "2.5.5- Licença de funcionamento",
+          "descricao": "LICENÇA DE FUNCIONAMENTO ",
+          "valor": 2056.89,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LICENÇA DE FUNCIONAMENTO DE FUNCIONAMENTO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "2.5.5- Licença de funcionamento",
+          "descricao": "LICENÇA DE FUNCIONAMENTO ",
+          "valor": 1614.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LICENÇA DE FUNCIONAMENTO DE FUNCIONAMENTO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "SERVIÇO TRAPORTE DE ROUPA",
+          "valor": 1200.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "SALARIO LAVADOR",
+          "valor": 620.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "MANUTENÇÃO LAVANDERIA",
+          "valor": 540.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "IPV ALUGUEL MAQUINA STONE ",
+          "valor": 237.9,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "IPV"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "2.5.5- Licença de funcionamento",
+          "descricao": "LICENÇA DE FUNCIONAMENTO ",
+          "valor": 164.75,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LICENÇA DE FUNCIONAMENTO DE FUNCIONAMENTO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃO DE QUEIJO ",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "PÃO DE QUEIJO FARIAS "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BANANA - MELÃO - QUEIJO",
+          "valor": 20.37,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SUPERMERCADO TATICO "
         }
       ]
     },
@@ -383,48 +565,64 @@
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 5269.3,
-      "count": 4,
+      "name": "Dolce Amore",
+      "total": 1428.89,
+      "count": 6,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO GEONANIA",
-          "valor": 2500.0,
-          "data_vencimento": "2026-04-07",
-          "fornecedor": "GEOVANIA NUNES DA SILVA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO MIRIAN",
-          "valor": 2234.01,
-          "data_vencimento": "2026-04-07",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "10 AGUA DE COCO, 1 FARDO AMSTEL, 4 FARDO ANTARTICA, 4 FARDO COCA, CAIXA COM 12 VINHO , TAXA DE ENTREGA",
-          "valor": 529.29,
-          "data_vencimento": "2026-04-07",
-          "fornecedor": "DISTRIBUIDORA ALVORADA"
-        },
-        {
-          "unidade": "1001 Express",
+          "unidade": "Dolce Amore",
           "categoria": "Tarifas bancárias",
-          "descricao": "1 POVILHO",
-          "valor": 6.0,
+          "descricao": "PAGAMENTO INSCRIÇÕES TREINAMENTO AB MOTEIS SUPERVISÃO E RECEPÇÃO",
+          "valor": 650.0,
           "data_vencimento": "2026-04-07",
-          "fornecedor": "SUPERMERCADO TATICO "
+          "fornecedor": "AB MOTEIS"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GUSTAVO CILLI "
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO  ISMAEL",
+          "valor": 244.44,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 07/04",
+          "valor": 14.95,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRA DE GOMA",
+          "valor": 12.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ASSAÍ ATACADISTA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TELEFONE FINANCEIRO"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 966.23,
-      "count": 4,
+      "total": 970.33,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Padova",
@@ -457,6 +655,14 @@
           "valor": 7.5,
           "data_vencimento": "2026-04-07",
           "fornecedor": "TERCEIRIZADOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 4.1,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": null
         }
       ]
     },
@@ -515,7 +721,7 @@
       ]
     }
   ],
-  "global_total": 32706.26,
-  "global_count": 59,
-  "date": "2026-04-08 10:00:02"
+  "global_total": 42280.96,
+  "global_count": 83,
+  "date": "2026-04-08 16:00:10"
 }
