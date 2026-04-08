@@ -1,799 +1,521 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 44120.520000000004,
-      "count": 10,
+      "name": "1001 - Samambaia",
+      "total": 18988.039999999997,
+      "count": 25,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
+          "unidade": "1001 - Samambaia",
           "categoria": "Salário",
-          "descricao": "PAGAMENTO FOLHA REF MARÇO 26",
-          "valor": 22281.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Dolce amore"
+          "descricao": "PAGAMENTO GERENTE",
+          "valor": 3000.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MARIA ELOITA NASCIMENTO"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Condomínio, IPTU",
-          "descricao": "IPTU 2026 PARCELA 1/10",
-          "valor": 7327.32,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "PREFEITURA DE NATAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Condomínio, IPTU",
-          "descricao": "IPTU 2026 PARC 2/10",
-          "valor": 7021.9,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "PREFEITURA DE NATAL"
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "1001 - Samambaia",
           "categoria": "Salário",
-          "descricao": "SALARIO MENSAL LILIAN",
-          "valor": 2641.0,
-          "data_vencimento": "2026-04-06",
+          "descricao": "PAGAMENTO ANGELA",
+          "valor": 2156.78,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ANGELA NUNES MAGALHÃES "
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Transporte",
+          "descricao": "PAGAMENTO ISABELLA",
+          "valor": 1915.78,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ISABELLA GOMES"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO ROSELIA",
+          "valor": 1852.83,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "FRANCISCA ROSELIA GONÇALVES DO NASCIMENTO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO INGRID",
+          "valor": 1811.48,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "INGRID SILVA SOUSA"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MARIA REGINA",
+          "valor": 1762.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MARIA REGINA DE LIMA"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MIQUELI",
+          "valor": 1702.83,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MIQUELI PEREIRA DE OLIVEIRA"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO LAIANE",
+          "valor": 1200.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAIANE FURTADO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO BARBARA ",
+          "valor": 922.42,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "BARBARA R B DE JESUS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Investimentos gerais",
+          "descricao": "BARBOSA ESPELHOS ",
+          "valor": 660.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "BARBOSA ESPELHOS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GUSTAVO CONTABILIDADE"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUA MINERAL",
+          "valor": 290.41,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "AGUA MINERAL"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Telefone + internet",
+          "descricao": "AMOZON ALEXA 4/12",
+          "valor": 245.87,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO ISMAEL",
+          "valor": 244.44,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Salários Administrativo (Back office)",
+          "descricao": "PAILO COMPRAS",
+          "valor": 214.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Transporte",
+          "descricao": "TRANSPORTE DE VALORES",
+          "valor": 167.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TRANSPORTE DE VALORES"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ANUIDADE CARTÃO LATAN ITAU ",
+          "valor": 105.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TARIFA"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FREEZER COMPRAS",
+          "valor": 83.29,
+          "data_vencimento": "2026-04-07",
           "fornecedor": "LILIAN SATIKO"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Salário",
-          "descricao": "SALARIO MENSAL REJANE",
-          "valor": 2621.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "REJANE FERNANDES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Salário",
-          "descricao": "SALARIO MENSAL ANA FLÁVIA",
-          "valor": 1888.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ANA FLÁVIAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MANUTENÇÃO ",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Encargos sociais e trabalhistas",
-          "descricao": "TAXA SINDICAL MENSAL",
-          "valor": 114.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "SINDICATO DE HOTEIS E RESTAURANTES BARES E SIMILARES RN"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Devoluções de clientes",
-          "descricao": "DEVOLOÇÃO CLIENTE PAGOU EM DUPLICIDADE",
-          "valor": 96.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DEVOLUÇOES DE CLENTES"
-        },
-        {
-          "unidade": "Dolce Amore",
+          "unidade": "1001 - Samambaia",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 06/04",
-          "valor": 10.3,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 24568.58,
-      "count": 19,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "gazin parte express 938,75",
-          "valor": 3288.64,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "GAZIN AR CONDICIONADO"
+          "descricao": "TARIFA",
+          "valor": 64.92,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TARIFA"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO GERENTE ",
-          "valor": 2500.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ERICA DA SILVA SANTOS"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Sistema/Software",
+          "descricao": "calima",
+          "valor": 28.32,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "CALIMA"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO SANDRA  ",
-          "valor": 2293.59,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 18.57,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "supermercado"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA CUBRIU FERIAS",
-          "valor": 2120.45,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ASHELY RODRIGUES"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO THAYNARA CAMAREIRA ",
-          "valor": 2095.19,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Receitas com vendas",
+          "descricao": "TALKS (CARTÃO SANTANDER)",
+          "valor": 14.73,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TALKS"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO VALERIA RECEPCIONISTA ",
-          "valor": 2003.75,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TELEFONE FINANCEIRO"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA ",
-          "valor": 1924.78,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "TATIANA RODRIGUES DE VASCONCELOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO CAMAREIRA ",
-          "valor": 1894.12,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "monica de sousa matos"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO YOHANA CAMAREIRA ",
-          "valor": 1848.46,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO PAMELA CAMAREIRA ",
-          "valor": 1830.24,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Lavanderia",
-          "descricao": "PRODUTOS LAVANDERIA",
-          "valor": 965.55,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ARTESOL (PRODUTOS LAVANDERIA)"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
-          "valor": 585.87,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT GERENTE MES TODO",
-          "valor": 310.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ERICA DA SILVA SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT CAMAREIRA TATIANA",
-          "valor": 191.2,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "TATIANA R. DE VASCINCELOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT RECEPCIONISTA DANIELA",
-          "valor": 191.2,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DANIELA SILVA DE LIRA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT CAMAREIRA PAMELA",
-          "valor": 191.2,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT CAMAREIRA SANDRA",
-          "valor": 152.5,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT RECEPCIONISTA VALERIA",
-          "valor": 129.5,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALARIO DANIELA",
-          "valor": 52.34,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DANIELA SILVA DE LIRA"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Sistema/Software",
+          "descricao": "GOOGLE ONE CARTÃO ITAU LATAN",
+          "valor": 1.43,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SISTEMA SOFTWARE"
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 24166.480000000003,
+      "total": 6317.26,
       "count": 21,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO ANTONIA SINTIA",
-          "valor": 2500.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Rescisões",
-          "descricao": "RESCISÕES ANDREIA",
-          "valor": 2154.04,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ANDREIA LOPES DA SILVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO EDIVANIA",
-          "valor": 2102.73,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "EDVANIA DOS SANTOS SOUZA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO KARINA",
-          "valor": 2063.86,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO MARIA SIQUEIRA",
-          "valor": 2000.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MARIA SIQUEIRA DA SILVA DOS ANJOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO DALIELA",
-          "valor": 1943.25,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DANIELA DE ALMEIDA SILVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO DEANE",
-          "valor": 1863.06,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DEANE MOISES DA SILVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO EDILEUZA",
-          "valor": 1765.9,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "EDILEUZA RODRIGUES CARNEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO GLICIANE",
-          "valor": 1567.9,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "GLICIANE DA SILVA SOUZA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Pró-Labore",
-          "descricao": "POR LABORE RODRIGO ( PADOVA)",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO ANTONIA JOANA",
-          "valor": 1390.92,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ANTONIA JOANA DOS ANJOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇÃO TODOS 1001(PADOVA)",
-          "valor": 1009.6,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Lavanderia",
-          "descricao": "PAGAMENTO IONALDO",
-          "valor": 900.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "IONALDO FRANCISCO DA HORA"
-        },
-        {
-          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
           "descricao": "BEBIDAS",
-          "valor": 569.65,
-          "data_vencimento": "2026-04-06",
+          "valor": 1177.25,
+          "data_vencimento": "2026-04-07",
           "fornecedor": "DUARTE BEBIDAS"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARREGADORES",
-          "valor": 325.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "RUMÃO"
+          "categoria": "Amenidades",
+          "descricao": "SABONETE E MUSSE DE BANHO",
+          "valor": 766.32,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ESTORIL"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Salário",
-          "descricao": "3 DIAS TRABALHADOS NATALIA",
-          "valor": 176.82,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "NATALIA"
+          "categoria": "Reformas / Estrutura",
+          "descricao": "SOLAR  TINTAS ",
+          "valor": 738.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SOLAR TINTAS"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "FGTS de Rescisão",
-          "descricao": "FGTS ",
-          "valor": 146.15,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ANDREIA LOPES DA SILVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "REPARO E PANEL",
-          "valor": 80.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ELETRICA CONFIANÇA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CHUVEIRO",
-          "valor": 70.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "ELETRICA CONFIANÇA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Exames Médicos, Medicamentos",
-          "descricao": "EXAME DEMISIONAL ANDREIA",
-          "valor": 30.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "CLINICA BRASIL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "JEREMIAS PASSOS"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 18391.83,
-      "count": 11,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2500.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "THAIS STEFANY"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2077.5,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MARIA BEATRIZ "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2031.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "PATRICIA SOUZA"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2013.53,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "AMANDA CHRISTINA"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1872.34,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1847.54,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "IZAHDORA "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1702.11,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MAILA"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1659.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "JANAINA "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1612.81,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "GABRIELA "
-        },
-        {
-          "unidade": "Prime VL",
           "categoria": "Lavanderia",
-          "descricao": "PRODUTOS LAVANDERIA",
-          "valor": 956.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DIARISTA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 17320.940000000002,
-      "count": 15,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2181.82,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Regiane de Souza Xavier"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 2076.15,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Maria do Socorro Lopes Cordeiro"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1928.95,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "CHRISTINE KELLY"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1880.45,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Jessica Rayane da Silva"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1583.33,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Rayane de Cassia"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1405.39,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "LORRAYNE OLIVEIRA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 1163.13,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MAURA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Lavanderia",
-          "descricao": "SALARIO",
-          "valor": 926.45,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 926.45,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Lavanderia",
-          "descricao": "FRETE LAVANDERIA",
-          "valor": 800.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Salário",
-          "descricao": "SALARIO",
-          "valor": 766.67,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MARIA CRISTINA"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Lavanderia",
-          "descricao": "Transporte roupas lavanderia",
-          "valor": 700.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DAVID HENRIQUE DA SILVA MELO"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Limpeza e conservação",
-          "descricao": "DETERTIZAÇAO",
-          "valor": 536.45,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "TRULLE "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transporte",
-          "descricao": "PASSAGENS",
-          "valor": 418.7,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "POLPAS DE FRUTAS",
-          "valor": 27.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "BRASILIA POLPAS"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 16192.670000000002,
-      "count": 12,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Rescisões",
-          "descricao": "RECISAO DALVA NUNES",
-          "valor": 4030.43,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Dalva Nunes"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO TELMA",
-          "valor": 2500.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Telma maria de sousa"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALAIO SHEILA",
-          "valor": 2037.96,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "SHEILA OLIVEIRA DA SILVA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO FLAVIA",
-          "valor": 1987.93,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Flavia de oliveira"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO BIANCA",
-          "valor": 1518.79,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Bianca Silva"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO CAROLINA",
-          "valor": 1509.53,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Carolina De França"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO BEATRIZ",
-          "valor": 1019.95,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "Beatriz silva"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO IONALDO",
-          "valor": 900.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "IONALDO FRANCISCO DA HORA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "MILTON  DE ASSIS MACHADO",
+          "descricao": "PAGAMENTO LAVANDERIA MILTON",
           "valor": 540.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "MILTON DE ASIIS MACHADO"
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "diarista de camareira",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte",
-          "descricao": "passagem camareira",
-          "valor": 13.5,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 4.58,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 2171.76,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS MENSAL  ",
-          "valor": 1468.96,
-          "data_vencimento": "2026-04-06",
+          "descricao": "EMBALAGENS E DESCARTAVEIS",
+          "valor": 506.01,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GUSTAVO CONTABILIDADE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "DETETIZAÇÃO",
+          "valor": 370.6,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TN - BSB CONTROLE AMBIENTAL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Seguros",
+          "descricao": "SEGURO DO HOTEL",
+          "valor": 360.18,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SEGURO HOTEL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "CONTABILIDADE REIS",
+          "valor": 303.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIAS FOLGA LAVADOR IONALDO",
+          "valor": 255.2,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO ISMAEL FINACEIRO",
+          "valor": 244.44,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAULO COMPRAS ",
+          "valor": 214.29,
+          "data_vencimento": "2026-04-07",
           "fornecedor": "PAULO COMPRAS"
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "TINTA PARA TIRAR MOFO DOS QUARTOS",
-          "valor": 700.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "RIACHO TINTAS"
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "ALIMENTAÇÃO LAVADOR IONALDO",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 2.8,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLO ANIVERSARIO EDILEUZA",
+          "valor": 59.99,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "PADARIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DESPESAS COM LAVANDERIA",
+          "valor": 59.96,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Serviços jurídicos",
+          "descricao": "TAXA JUNTA COMERCIAL MIDHAUS",
+          "valor": 51.92,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SERVIÇOS JURIDICOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "QUEIJO E PRESUNTO ",
+          "valor": 36.49,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "EMBALAGENS E DESCARTAVEIS",
+          "valor": 18.27,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "DOCES MONTEIRO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TELEFONE FINANCEIRO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "PLUG ADAPTADOR",
+          "valor": 4.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "DISPEL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃES",
+          "valor": 3.34,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "PADARIA"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 120.0,
-      "count": 1,
+      "total": 5269.3,
+      "count": 4,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA LIVIA",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-06",
-          "fornecedor": "HOTEL"
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO GEONANIA",
+          "valor": 2500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MIRIAN",
+          "valor": 2234.01,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "10 AGUA DE COCO, 1 FARDO AMSTEL, 4 FARDO ANTARTICA, 4 FARDO COCA, CAIXA COM 12 VINHO , TAXA DE ENTREGA",
+          "valor": 529.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "DISTRIBUIDORA ALVORADA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "1 POVILHO",
+          "valor": 6.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SUPERMERCADO TATICO "
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 966.23,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "CONTABILIDADE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO ISMAEL",
+          "valor": 244.44,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TERCEIRIZADOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAULO COMPRAS",
+          "valor": 214.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TERCEIRIZADOS"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 966.23,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "GUSTAVO CONTABILIDADE"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO FINANCEIRO",
+          "valor": 244.44,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "ISMAEL FINANCEIRO"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SALARIO PAULO COMPRAS",
+          "valor": 214.29,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "TELEFONE FINANCEIRO"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 199.2,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "agua mineral",
+          "valor": 199.2,
+          "data_vencimento": "2026-04-07",
+          "fornecedor": "SEIVA "
         }
       ]
     }
   ],
-  "global_total": 147052.78000000003,
-  "global_count": 92,
-  "date": "2026-04-07 20:49:09"
+  "global_total": 32706.26,
+  "global_count": 59,
+  "date": "2026-04-08 10:00:02"
 }
