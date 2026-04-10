@@ -1,225 +1,37 @@
 {
   "hotels": [
     {
-      "name": "1001 - Samambaia",
-      "total": 31432.93,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Distribuição de lucros",
-          "descricao": "Distribuição",
-          "valor": 30000.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": null
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ESTORIL",
-          "valor": 879.52,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA MINERAL",
-          "valor": 290.91,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "AGUA MINERAL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS ",
-          "valor": 262.5,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "LUX TINTAS"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 4171.21,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "SALARIO MIRIAN",
-          "valor": 2274.01,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "SALARIO ODEJANE",
-          "valor": 1026.88,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "Odejane Pinto de Andrade "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "SALARIO STEFFANE",
-          "valor": 870.32,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "STEFANY SANTOS"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 2692.1200000000003,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Amenidades",
-          "descricao": "Amenidades (Shampoo, condicionador, chinelo, sabonete e mousse)",
-          "valor": 1558.89,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Contabilidade",
-          "descricao": "SALARIO GUSTAVO",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "GUSTAVO CILLI "
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "SALARIO ISMAEL",
-          "valor": 244.44,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAULO COMPRAS",
-          "valor": 214.29,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transporte",
-          "descricao": "TRANPORTE  DE VALORES",
-          "valor": 167.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "TRANSPORTE DE VALORES"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "TELEFONE FINANCEIRO"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 2486.11,
+      "name": "Prime ADE",
+      "total": 331.81,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "FGTS de Rescisão",
-          "descricao": "FGTS DALVA",
-          "valor": 2486.11,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "FGTS"
+          "unidade": "Prime ADE",
+          "categoria": "Rescisões",
+          "descricao": "RESCISAO",
+          "valor": 331.81,
+          "data_vencimento": "2026-04-09",
+          "fornecedor": "THAIS FRANÇA DAS NEVES"
         }
       ]
     },
     {
-      "name": "Prime VL",
-      "total": 1133.23,
-      "count": 5,
+      "name": "Dolce Amore",
+      "total": 105.0,
+      "count": 1,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Contabilidade",
-          "descricao": "SALARIO GUSTAVO",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "GUSTAVO CILLI "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "SALARIO ISMAEL",
-          "valor": 244.44,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAULO COMPRAS",
-          "valor": 214.29,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "TRANSPORTE DE VALORES",
-          "valor": 167.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "TRANSPORTE DE VALORES"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "TELEFONE FINANCEIRO"
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 750.7,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "SUBSTITUIÇÃO DE ROTEADOR",
-          "valor": 338.96,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "SOL COMERCIO E SERVIÇOS "
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Diarista",
-          "descricao": "ATESTADO CAMAREIRA",
-          "valor": 270.0,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "REPOSICAO DE AGUA",
-          "valor": 141.74,
-          "data_vencimento": "2026-04-08",
-          "fornecedor": "SEIVA MINERAÇÃO "
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "AGUA DE COCO",
+          "valor": 105.0,
+          "data_vencimento": "2026-04-09",
+          "fornecedor": "DD gaspar"
         }
       ]
     }
   ],
-  "global_total": 42666.3,
-  "global_count": 22,
-  "date": "2026-04-09 10:00:04"
+  "global_total": 436.81,
+  "global_count": 2,
+  "date": "2026-04-10 10:00:04"
 }
