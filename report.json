@@ -88,8 +88,8 @@
     },
     {
       "name": "1001 Express",
-      "total": 3660.99,
-      "count": 3,
+      "total": 3820.99,
+      "count": 5,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -114,6 +114,22 @@
           "valor": 275.0,
           "data_vencimento": "2026-04-10",
           "fornecedor": "COMERCIO FEDERAL EMBALAGENS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-10",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT KENIA",
+          "valor": 40.0,
+          "data_vencimento": "2026-04-10",
+          "fornecedor": "TRANSPORTE"
         }
       ]
     },
@@ -291,7 +307,7 @@
       ]
     }
   ],
-  "global_total": 48035.78,
-  "global_count": 31,
-  "date": "2026-04-11 11:56:13"
+  "global_total": 48195.78,
+  "global_count": 33,
+  "date": "2026-04-11 16:00:02"
 }
