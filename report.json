@@ -1,45 +1,6 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 203465.99,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Água",
-          "descricao": "SANEAGO CONTA DE AGUA",
-          "valor": 199805.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SANEAGO "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Água",
-          "descricao": "Conta de agua ",
-          "valor": 1998.05,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SANEAGO "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Energia elétrica",
-          "descricao": "CONTA DE ENERGIA ELETRICA ",
-          "valor": 1387.94,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DESCATAVEIS",
-          "valor": 275.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "COMERCIO FEDERAL EMBALAGENS"
-        }
-      ]
-    },
-    {
       "name": "1001 - Samambaia",
       "total": 22183.98,
       "count": 3,
@@ -122,6 +83,37 @@
           "valor": 135.58,
           "data_vencimento": "2026-04-10",
           "fornecedor": "PONTUAL"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 3660.99,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Água",
+          "descricao": "Conta de agua ",
+          "valor": 1998.05,
+          "data_vencimento": "2026-04-10",
+          "fornecedor": "SANEAGO "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Energia elétrica",
+          "descricao": "CONTA DE ENERGIA ELETRICA ",
+          "valor": 1387.94,
+          "data_vencimento": "2026-04-10",
+          "fornecedor": "EQUATORIAL"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "DESCATAVEIS",
+          "valor": 275.0,
+          "data_vencimento": "2026-04-10",
+          "fornecedor": "COMERCIO FEDERAL EMBALAGENS"
         }
       ]
     },
@@ -299,7 +291,7 @@
       ]
     }
   ],
-  "global_total": 247840.78,
-  "global_count": 32,
-  "date": "2026-04-11 10:00:04"
+  "global_total": 48035.78,
+  "global_count": 31,
+  "date": "2026-04-11 11:53:59"
 }
