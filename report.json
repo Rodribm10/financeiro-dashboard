@@ -1,313 +1,37 @@
 {
   "hotels": [
     {
-      "name": "1001 - Samambaia",
-      "total": 22183.98,
-      "count": 3,
+      "name": "Dolce Amore",
+      "total": 510.0,
+      "count": 1,
       "transactions": [
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "Aluguel",
-          "valor": 14630.98,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "Mestra Imobiliaria"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "ismael depositou na conta",
-          "valor": 4000.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": null
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "Transf próprio hotel ",
-          "valor": 3553.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "HOTEL SAMAMBAIA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 14376.380000000001,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Distribuição de lucros",
-          "descricao": "Apartamento Valparaiso",
-          "valor": 10498.18,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "Caixa Habitação"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Rescisões",
-          "descricao": "RESCISAO MATHEUS",
-          "valor": 1702.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "Matheus Marques Aires"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "INTES MANUTENÇAO DEVOLUÇAO FINANCEIRO",
-          "valor": 760.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "MANUTENÇAO"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS",
-          "valor": 646.01,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SHOW DE COMPRAR"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS",
-          "valor": 634.61,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "ATACAREJO BONAMIX"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "COMPRAS",
-          "valor": 135.58,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "PONTUAL"
+          "unidade": "Dolce Amore",
+          "categoria": "Amenidades",
+          "descricao": "SABONTES PRESERVATIVOS",
+          "valor": 510.0,
+          "data_vencimento": "2026-04-11",
+          "fornecedor": "Emanuel Simplicio"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 3820.99,
-      "count": 5,
+      "total": 41.4,
+      "count": 1,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Água",
-          "descricao": "Conta de agua ",
-          "valor": 1998.05,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SANEAGO "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Energia elétrica",
-          "descricao": "CONTA DE ENERGIA ELETRICA ",
-          "valor": 1387.94,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "DESCATAVEIS",
-          "valor": 275.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "COMERCIO FEDERAL EMBALAGENS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA STEFFANE",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "STEFANY SANTOS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "VT KENIA",
-          "valor": 40.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "TRANSPORTE"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 3252.4699999999993,
-      "count": 10,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Água",
-          "descricao": "CONTAS DE AGUA",
-          "valor": 1025.28,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS",
-          "valor": 569.65,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BOBINA DE TOALHA",
-          "valor": 543.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
-          "descricao": "COBERTAS",
-          "valor": 404.85,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Gratificação, Bonificação",
-          "descricao": "BOMBOM BRINDES FAXINAS ",
-          "valor": 329.7,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SUPERMERCADO TATICO "
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "TRILHOS  E RODANAS 2 PARCELA",
-          "valor": 206.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "GRAVIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "NEUTRALIZADOR",
-          "valor": 80.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "supermercado"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNE ALMOÇO",
-          "valor": 72.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "SUPER CARNES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PANOS DE BANHEIRO",
-          "valor": 20.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "PONTUAL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DESINFETANTE ",
-          "valor": 1.99,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "MONTEIRO"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 2822.5599999999995,
-      "count": 7,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Encargos sociais e trabalhistas",
-          "descricao": "BENEFICIO SOCIAL SINDICAL",
-          "valor": 868.36,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "Beneficio Social Sindiucal"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "MC NATAL PROPAGANDA PLACAS ",
-          "valor": 831.67,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA",
-          "valor": 359.5,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "POSTO DE GASOLINA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Alimentação",
-          "descricao": "PEIXE E CAIXA DE CHOCOLATE SEMANA SANTA",
-          "valor": 306.7,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "ASSAÍ ATACADISTA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA CLARO",
-          "valor": 275.28,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "Claro empresa"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "60 SACOS DE GELO",
-          "valor": 138.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "GELO SUL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "KIT DE BUCHA TAMPA TRASEIRA CARRO",
-          "valor": 43.05,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "AURI AUTOPEÇAS"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 1739.4,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS",
-          "valor": 1208.4,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Salário",
-          "descricao": "restante salario patricia",
-          "valor": 531.0,
-          "data_vencimento": "2026-04-10",
-          "fornecedor": "PATRICIA SOUZA"
+          "descricao": "SABÂO EM PO/PEITO DE FRANGO",
+          "valor": 41.4,
+          "data_vencimento": "2026-04-11",
+          "fornecedor": "SUPERMERCADO TATICO"
         }
       ]
     }
   ],
-  "global_total": 48195.78,
-  "global_count": 33,
-  "date": "2026-04-11 16:00:02"
+  "global_total": 551.4,
+  "global_count": 2,
+  "date": "2026-04-12 10:00:04"
 }
