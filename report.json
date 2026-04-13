@@ -1,37 +1,123 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 510.0,
-      "count": 1,
+      "name": "Padova",
+      "total": 450.0,
+      "count": 5,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Amenidades",
-          "descricao": "SABONTES PRESERVATIVOS",
-          "valor": 510.0,
-          "data_vencimento": "2026-04-11",
-          "fornecedor": "Emanuel Simplicio"
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIARIA FOLGA GERENTE",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIARIA CAMAREIRA FALTA",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "DIARISTA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIA LAVANDERIA",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRA DE CINZEIROS",
+          "valor": 70.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "mercado"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "TEMPEROS CASEIROS",
+          "valor": 20.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "supermercado"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 41.4,
-      "count": 1,
+      "total": 338.0,
+      "count": 4,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SABÂO EM PO/PEITO DE FRANGO",
-          "valor": 41.4,
-          "data_vencimento": "2026-04-11",
-          "fornecedor": "SUPERMERCADO TATICO"
+          "categoria": "Diarista",
+          "descricao": "DIARIA DEYSE",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIA KLEOMARIA",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "KLEOMARIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FRETE EDSON (FRIGOBAR)",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "7 OLEO, 2 POVILHO",
+          "valor": 48.0,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": "SUPERMERCADO BRETAS"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 10.73,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA  STONE EDIT VIRTUAL DIA 12/04",
+          "valor": 10.73,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 0.22,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 0.22,
+          "data_vencimento": "2026-04-12",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 551.4,
-  "global_count": 2,
-  "date": "2026-04-12 16:00:02"
+  "global_total": 798.95,
+  "global_count": 11,
+  "date": "2026-04-13 16:00:03"
 }
