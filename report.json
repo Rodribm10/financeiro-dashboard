@@ -1,123 +1,226 @@
 {
   "hotels": [
     {
-      "name": "Padova",
-      "total": 450.0,
-      "count": 5,
+      "name": "Qnn01",
+      "total": 40578.32,
+      "count": 15,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARIA FOLGA GERENTE",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "DIARIA FOLGA GERENTE"
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "LUCRO IZETE MARÇO",
+          "valor": 31613.87,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "IZETE FERNANDES"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARIA CAMAREIRA FALTA",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "DIARISTA"
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "LUCRO RODRIGO MARÇO",
+          "valor": 6564.89,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "DIARIA LAVANDERIA",
-          "valor": 100.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "LAVANDERIA"
+          "unidade": "Qnn01",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "PISO DO SEGUNDO ANDAR DIVIDIDO EM 10 VEZES",
+          "valor": 1760.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "A1 ENGENHARIA"
         },
         {
-          "unidade": "Padova",
+          "unidade": "Qnn01",
+          "categoria": "Gratificação, Bonificação",
+          "descricao": "GRATIFICAÇÃO RECEPCIONISTA KARINA MARÇO",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "CHUVEIRO, LIXA E CONTROLE",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "DEMACOL"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRA DE CINZEIROS",
-          "valor": 70.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "mercado"
+          "descricao": "BALAS BRINDES CLIENTES",
+          "valor": 88.5,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "DOCES MONTEIRO"
         },
         {
-          "unidade": "Padova",
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MASCARA, REMOVEDOR E TRINCHA",
+          "valor": 55.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "LUX TINTAS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "CABO E CONTROLE",
+          "valor": 45.5,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "RUMÃO"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "TEMPEROS CASEIROS",
-          "valor": 20.0,
-          "data_vencimento": "2026-04-12",
+          "descricao": "CARNE ALMOÇO",
+          "valor": 35.88,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "SUPER CARNES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "DOCES ",
+          "valor": 19.5,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "REJUNTE",
+          "valor": 13.98,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "DEMACOL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - JEREMIAS",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "JEREMIAS PASSOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "MARIA CECILIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "CHEIRO VERDE",
+          "valor": 6.0,
+          "data_vencimento": "2026-04-13",
           "fornecedor": "supermercado"
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 338.0,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA DEYSE",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Lavanderia",
-          "descricao": "DIARIA KLEOMARIA",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "KLEOMARIA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRETE EDSON (FRIGOBAR)",
-          "valor": 50.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "EDSON"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "7 OLEO, 2 POVILHO",
-          "valor": 48.0,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": "SUPERMERCADO BRETAS"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 10.73,
+      "total": 19762.19,
       "count": 1,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA  STONE EDIT VIRTUAL DIA 12/04",
-          "valor": 10.73,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": null
+          "categoria": "Energia elétrica",
+          "descricao": "ENERGIA ELETRICA",
+          "valor": 19762.19,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "Cosern"
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 0.22,
-      "count": 1,
+      "total": 3960.22,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Prime AL",
+          "categoria": "Outras saídas não operacionais",
+          "descricao": "gazin parte express  978,21",
+          "valor": 3367.56,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "GAZIN AR CONDICIONADO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
+          "valor": 592.66,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "SOLAR TINTAS"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 2611.06,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "GAZIN ( FRIGOBAR ) 74593112422815801600700084300557114160000233316",
+          "valor": 2333.16,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "GAZIN"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS SEMANAL TATICO",
+          "valor": 141.6,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "1001 Express",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 0.22,
-          "data_vencimento": "2026-04-12",
-          "fornecedor": null
+          "descricao": "2/ FARDO",
+          "valor": 75.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "ATACADISTA ZE GOULART"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "RESTANTE SALARIO ODEJANE",
+          "valor": 61.3,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "Odejane Pinto de Andrade "
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 1464.65,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "GAZIN",
+          "valor": 1464.65,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "GAZIN"
         }
       ]
     }
   ],
-  "global_total": 798.95,
-  "global_count": 11,
-  "date": "2026-04-13 16:00:03"
+  "global_total": 68376.44,
+  "global_count": 23,
+  "date": "2026-04-14 10:00:01"
 }
