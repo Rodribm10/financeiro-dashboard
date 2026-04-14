@@ -103,19 +103,19 @@
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "JEREMIAS PASSOS"
-        },
-        {
-          "unidade": "Qnn01",
           "categoria": "Transporte",
           "descricao": "VT - MARIA CECILIA",
           "valor": 7.6,
           "data_vencimento": "2026-04-13",
           "fornecedor": "MARIA CECILIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - JEREMIAS",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "JEREMIAS PASSOS"
         },
         {
           "unidade": "Qnn01",
@@ -129,8 +129,8 @@
     },
     {
       "name": "Dolce Amore",
-      "total": 19762.19,
-      "count": 1,
+      "total": 20800.82,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -139,21 +139,61 @@
           "valor": 19762.19,
           "data_vencimento": "2026-04-13",
           "fornecedor": "Cosern"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "manutenção de 1 bomba centrifuga, tres vista tecnica, troca de rolamento, selo mecanico, aluguel de baomba reserva, retirada e intalação da bomba",
+          "valor": 918.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Diarista",
+          "descricao": "diaria manutenção dia 13/04",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 13/04",
+          "valor": 0.63,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": null
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 3960.22,
-      "count": 2,
+      "total": 6565.87,
+      "count": 6,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "gazin parte express  978,21",
-          "valor": 3367.56,
+          "categoria": "Compra de Equipamentos",
+          "descricao": "GAZIN AR CONDICIONADO TERCEIRO ANDAR 8/9",
+          "valor": 2389.35,
           "data_vencimento": "2026-04-13",
-          "fornecedor": "GAZIN AR CONDICIONADO"
+          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS AGUA DE COCO - AGUA - ANTARTICA - AMSTEL - BRAHMA - RED BULL - COCA COLA ",
+          "valor": 2105.65,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Outras saídas não operacionais",
+          "descricao": "EXPRESS PRECISA DEVOLVER ",
+          "valor": 978.21,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "GAZIN PARTE EXPRESS"
         },
         {
           "unidade": "Prime AL",
@@ -162,6 +202,22 @@
           "valor": 592.66,
           "data_vencimento": "2026-04-13",
           "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "PLAQUINHAS QR CODE TERCEIRO ANDAR",
+          "valor": 320.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "PLAQUINHAS QR CODE TERCEIRO ANDAR"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "gelos saborizados",
+          "valor": 180.0,
+          "data_vencimento": "2026-04-13",
+          "fornecedor": "OLEG GELO SABORIZADO"
         }
       ]
     },
@@ -220,7 +276,7 @@
       ]
     }
   ],
-  "global_total": 68376.44,
-  "global_count": 23,
-  "date": "2026-04-14 10:00:01"
+  "global_total": 72020.72,
+  "global_count": 30,
+  "date": "2026-04-14 16:00:03"
 }
