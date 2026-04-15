@@ -2,281 +2,90 @@
   "hotels": [
     {
       "name": "Qnn01",
-      "total": 40578.32,
-      "count": 15,
+      "total": 1964.0,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "LUCRO IZETE MARÇO",
-          "valor": 31613.87,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "IZETE FERNANDES"
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL GARAGEM QNN 01",
+          "valor": 1300.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "ALUGUEL GARAGEM QNN 01"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "LUCRO RODRIGO MARÇO",
-          "valor": 6564.89,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "Rodrigo Borba Machado"
+          "categoria": "Água",
+          "descricao": "HELIO CAESB",
+          "valor": 350.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "CAESB"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "PISO DO SEGUNDO ANDAR DIVIDIDO EM 10 VEZES",
-          "valor": 1760.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "A1 ENGENHARIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Gratificação, Bonificação",
-          "descricao": "GRATIFICAÇÃO RECEPCIONISTA KARINA MARÇO",
-          "valor": 200.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CHUVEIRO, LIXA E CONTROLE",
-          "valor": 150.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "DEMACOL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BALAS BRINDES CLIENTES",
-          "valor": 88.5,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MASCARA, REMOVEDOR E TRINCHA",
-          "valor": 55.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "LUX TINTAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CABO E CONTROLE",
-          "valor": 45.5,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "RUMÃO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNE ALMOÇO",
-          "valor": 35.88,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "SUPER CARNES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DOCES ",
-          "valor": 19.5,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "MINAS FRIOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "REJUNTE",
-          "valor": 13.98,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "DEMACOL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - EDSON",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "EDSON"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MARIA CECILIA",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "MARIA CECILIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "JEREMIAS PASSOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CHEIRO VERDE",
-          "valor": 6.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "supermercado"
+          "categoria": "Amenidades",
+          "descricao": "PRESERVATIVOS E SAIS",
+          "valor": 314.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "HARUS"
         }
       ]
     },
     {
-      "name": "Dolce Amore",
-      "total": 20800.82,
-      "count": 4,
+      "name": "Recanto das Emas",
+      "total": 1418.08,
+      "count": 2,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA ELETRICA",
-          "valor": 19762.19,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "Cosern"
+          "unidade": "Recanto das Emas",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "Aluguel ",
+          "valor": 1308.08,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "Lojas Leal"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "manutenção de 1 bomba centrifuga, tres vista tecnica, troca de rolamento, selo mecanico, aluguel de baomba reserva, retirada e intalação da bomba",
-          "valor": 918.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Diarista",
-          "descricao": "diaria manutenção dia 13/04",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 13/04",
-          "valor": 0.63,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 6565.87,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN AR CONDICIONADO TERCEIRO ANDAR 8/9",
-          "valor": 2389.35,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
+          "unidade": "Recanto das Emas",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS AGUA DE COCO - AGUA - ANTARTICA - AMSTEL - BRAHMA - RED BULL - COCA COLA ",
-          "valor": 2105.65,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "EXPRESS PRECISA DEVOLVER ",
-          "valor": 978.21,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "GAZIN PARTE EXPRESS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
-          "valor": 592.66,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "PLAQUINHAS QR CODE TERCEIRO ANDAR",
-          "valor": 320.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "PLAQUINHAS QR CODE TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "gelos saborizados",
-          "valor": 180.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "OLEG GELO SABORIZADO"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 2611.06,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "GAZIN ( FRIGOBAR ) 74593112422815801600700084300557114160000233316",
-          "valor": 2333.16,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "GAZIN"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS SEMANAL TATICO",
-          "valor": 141.6,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "2/ FARDO",
-          "valor": 75.0,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "ATACADISTA ZE GOULART"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "RESTANTE SALARIO ODEJANE",
-          "valor": 61.3,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "Odejane Pinto de Andrade "
+          "descricao": "PAO DE QUEIJO",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "PAO DE QUEIJO FARIAS"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 1464.65,
+      "total": 530.0,
       "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN",
-          "valor": 1464.65,
-          "data_vencimento": "2026-04-13",
-          "fornecedor": "GAZIN"
+          "categoria": "Reformas / Estrutura",
+          "descricao": "SOLAR TINTAS",
+          "valor": 530.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "SOLAR TINTAS"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 142.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLETO PAO DE QUEIJO ",
+          "valor": 142.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "PAO DE QUEIJO FARIAS"
         }
       ]
     }
   ],
-  "global_total": 72020.72,
-  "global_count": 30,
-  "date": "2026-04-14 16:00:03"
+  "global_total": 4054.08,
+  "global_count": 7,
+  "date": "2026-04-15 10:00:03"
 }
