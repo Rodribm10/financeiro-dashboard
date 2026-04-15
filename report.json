@@ -1,9 +1,55 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 1964.0,
+      "name": "Recanto das Emas",
+      "total": 13932.0,
       "count": 3,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "Aluguel",
+          "valor": 12514.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "Lojas Leal"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "Aluguel ",
+          "valor": 1308.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "Lojas Leal"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE QUEIJO",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "PAO DE QUEIJO FARIAS"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 11014.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Emprestimo concedido",
+          "descricao": "Emprestimo concedido ao recanto para aluguel de abril",
+          "valor": 11014.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 2081.6,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Qnn01",
@@ -28,36 +74,29 @@
           "valor": 314.0,
           "data_vencimento": "2026-04-14",
           "fornecedor": "HARUS"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 1418.08,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "Aluguel ",
-          "valor": 1308.08,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "Lojas Leal"
         },
         {
-          "unidade": "Recanto das Emas",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE QUEIJO",
+          "descricao": "PÃO DE QUEIJO",
           "valor": 110.0,
           "data_vencimento": "2026-04-14",
-          "fornecedor": "PAO DE QUEIJO FARIAS"
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "MARIA CECILIA"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 530.0,
-      "count": 1,
+      "total": 535.06,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Padova",
@@ -66,6 +105,37 @@
           "valor": 530.0,
           "data_vencimento": "2026-04-14",
           "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 5.06,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 170.0,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA LIVIA",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "LIVIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT KENIA",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": "KENIA CRISTINA"
         }
       ]
     },
@@ -83,9 +153,32 @@
           "fornecedor": "PAO DE QUEIJO FARIAS"
         }
       ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 120.28999999999999,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Alimentação",
+          "descricao": "COMPRA DE PEIXE ALIMENTAÇÃO FUNCIONÁRIOS",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 14/04",
+          "valor": 10.29,
+          "data_vencimento": "2026-04-14",
+          "fornecedor": null
+        }
+      ]
     }
   ],
-  "global_total": 4054.08,
-  "global_count": 7,
-  "date": "2026-04-15 10:00:03"
+  "global_total": 27994.95,
+  "global_count": 16,
+  "date": "2026-04-15 16:00:03"
 }
