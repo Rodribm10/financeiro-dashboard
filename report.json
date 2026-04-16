@@ -2,9 +2,17 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 5026.719999999999,
-      "count": 6,
+      "total": 15149.47,
+      "count": 9,
       "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO FOLHA ABRIL 26",
+          "valor": 10000.0,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": null
+        },
         {
           "unidade": "Dolce Amore",
           "categoria": "Lavanderia",
@@ -52,6 +60,22 @@
           "valor": 135.78,
           "data_vencimento": "2026-04-15",
           "fornecedor": "TIM S/A"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MANUTENÇÃO",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE DIA 15/04",
+          "valor": 2.75,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": null
         }
       ]
     },
@@ -109,9 +133,118 @@
           "fornecedor": "TREINAMENTO"
         }
       ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 225.9,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "BALAS, PAÇOCAS ,PIRULITOS",
+          "valor": 75.15,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "DOCES MONTEIRO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE FORMA, POVILHO",
+          "valor": 40.55,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE FORMA, POVILHO",
+          "valor": 40.55,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PRESUNTO, MUSSARELA",
+          "valor": 39.65,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "RM COMERCIO DE FRIOS "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "EDSON"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 155.01,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "manutençao ventilador - rateio",
+          "valor": 60.0,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "MANUTENÇAO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TROCA DE OLEO  - rateio",
+          "valor": 36.43,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "BOLO DA THAIS - rateio",
+          "valor": 22.86,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "TREINAMENTO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Combustível",
+          "descricao": "combustivel compras - rateio",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Combustível",
+          "descricao": "combustivel compras - rateio",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 7.6,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "MARIA CECILIA"
+        }
+      ]
     }
   ],
-  "global_total": 7200.529999999999,
-  "global_count": 12,
-  "date": "2026-04-16 10:00:03"
+  "global_total": 17711.789999999997,
+  "global_count": 26,
+  "date": "2026-04-16 16:00:02"
 }
