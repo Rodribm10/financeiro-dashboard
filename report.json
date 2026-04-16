@@ -1,184 +1,117 @@
 {
   "hotels": [
     {
-      "name": "Recanto das Emas",
-      "total": 13932.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "Aluguel",
-          "valor": 12514.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "Lojas Leal"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "Aluguel ",
-          "valor": 1308.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "Lojas Leal"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE QUEIJO",
-          "valor": 110.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "PAO DE QUEIJO FARIAS"
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 11014.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Emprestimo concedido",
-          "descricao": "Emprestimo concedido ao recanto para aluguel de abril",
-          "valor": 11014.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 2081.6,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL GARAGEM QNN 01",
-          "valor": 1300.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "ALUGUEL GARAGEM QNN 01"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Água",
-          "descricao": "HELIO CAESB",
-          "valor": 350.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Amenidades",
-          "descricao": "PRESERVATIVOS E SAIS",
-          "valor": 314.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "HARUS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PÃO DE QUEIJO",
-          "valor": 110.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "MINAS FRIOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MARIA CECILIA",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "MARIA CECILIA"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 535.06,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "SOLAR TINTAS",
-          "valor": 530.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 5.06,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 170.0,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA LIVIA",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "LIVIA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT KENIA",
-          "valor": 50.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "KENIA CRISTINA"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 142.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BOLETO PAO DE QUEIJO ",
-          "valor": 142.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": "PAO DE QUEIJO FARIAS"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 120.28999999999999,
-      "count": 2,
+      "total": 5026.719999999999,
+      "count": 6,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Alimentação",
-          "descricao": "COMPRA DE PEIXE ALIMENTAÇÃO FUNCIONÁRIOS",
-          "valor": 110.0,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": null
+          "categoria": "Lavanderia",
+          "descricao": "LAVANDERIA PARC. 1/3",
+          "valor": 2715.47,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 14/04",
-          "valor": 10.29,
-          "data_vencimento": "2026-04-14",
-          "fornecedor": null
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "acucar,creme de leite, leite, batata palito, arroz, farinha de trigo, flocão, macarrão",
+          "valor": 891.84,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "Caico Frios"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "GIN TANQUERAY,SMINORFF ICE,CHOCOLATE SNICKES,ACHOCOLATADO ",
+          "valor": 553.57,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "CDA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Propaganda",
+          "descricao": "MC NATAL MENSALIDADE DIVULGAÇÃO MOTEL PLACAS SINALIZAÇÃO",
+          "valor": 491.66,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "AGUA DE COCO, SUCO",
+          "valor": 238.4,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "DD gaspar"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Telefone + internet",
+          "descricao": "MENSALIDADE TIM S/A",
+          "valor": 135.78,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "TIM S/A"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 2173.8099999999995,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Distribuição de lucros",
+          "descricao": "APARTAMENTO",
+          "valor": 795.52,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "APARTAMENTO"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "MERCADO",
+          "valor": 745.18,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "MERCADO",
+          "valor": 538.1,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "troca de oleo",
+          "valor": 36.43,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "TROCA DE OLEO"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS RATEIO",
+          "valor": 35.72,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLO",
+          "valor": 22.86,
+          "data_vencimento": "2026-04-15",
+          "fornecedor": "TREINAMENTO"
         }
       ]
     }
   ],
-  "global_total": 27994.95,
-  "global_count": 16,
-  "date": "2026-04-15 16:00:03"
+  "global_total": 7200.529999999999,
+  "global_count": 12,
+  "date": "2026-04-16 10:00:03"
 }
