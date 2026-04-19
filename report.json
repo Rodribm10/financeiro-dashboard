@@ -1,194 +1,60 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 2368.5,
+      "name": "Qnn01",
+      "total": 1666.72,
       "count": 2,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "MENSALIDA ALARES CONT 01",
-          "valor": 1868.5,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "ALARES"
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 1441.26,
+          "data_vencimento": "2026-04-18",
+          "fornecedor": "DUARTE BEBIDAS"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Advogado, Assessoria Jurídica",
-          "descricao": "MENSALIDADE ADVOGADO",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "Dr Jean"
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "QUEIJO,PRESUNTO E PEITO DE FRANGO",
+          "valor": 225.46,
+          "data_vencimento": "2026-04-18",
+          "fornecedor": "SUPERMERCADO ASSAI"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 1531.8899999999999,
-      "count": 6,
+      "total": 1079.14,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "pagamento do reginaldo",
-          "valor": 700.0,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "REGINALDO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "doces monteiro",
-          "valor": 305.47,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "RMfrios e descartaveis",
-          "valor": 265.33,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "RM COMERCIO DE FRIOS "
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "diaria camareira noite falta",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "diaria camareira dia suspensao",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 1.09,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 1196.5399999999997,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "FGTS de Rescisão",
-          "descricao": "RESCISÃO BARBARA DE JESUS",
-          "valor": 795.16,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "BARBARA R B DE JESUS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS",
-          "valor": 306.37,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "LUX TINTAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "TROCA DE OLEO",
-          "valor": 36.43,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "TROCA DE OLEO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BOLO THAIS",
-          "valor": 22.86,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "TREINAMENTO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "ATACADÃO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "supermercado"
+          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
+          "descricao": "ESTORIL ",
+          "valor": 1079.14,
+          "data_vencimento": "2026-04-18",
+          "fornecedor": "ESTORIL"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 855.2,
-      "count": 3,
+      "total": 30.0,
+      "count": 1,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Combustível",
-          "descricao": "COMPRAS  TATICO",
-          "valor": 427.35,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "compra dia a dia",
-          "valor": 348.65,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DIA A DIA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "batata rufles, amendoim",
-          "valor": 79.2,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DOCES MONTEIRO"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 676.48,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS  TATICO FIM DE SEMANA",
-          "valor": 542.03,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BATATA PALHA,MARGARINA,ACHOCOLATAD,FRANGO",
-          "valor": 134.45,
-          "data_vencimento": "2026-04-17",
-          "fornecedor": "DIA A DIA"
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-18",
+          "fornecedor": "EDSON"
         }
       ]
     }
   ],
-  "global_total": 6628.61,
-  "global_count": 19,
-  "date": "2026-04-18 16:00:02"
+  "global_total": 2775.86,
+  "global_count": 4,
+  "date": "2026-04-19 10:00:02"
 }
