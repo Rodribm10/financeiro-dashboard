@@ -1,60 +1,37 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 1666.72,
-      "count": 2,
+      "name": "Dolce Amore",
+      "total": 473.46,
+      "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
+          "unidade": "Dolce Amore",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "BEBIDAS",
-          "valor": 1441.26,
-          "data_vencimento": "2026-04-18",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "QUEIJO,PRESUNTO E PEITO DE FRANGO",
-          "valor": 225.46,
-          "data_vencimento": "2026-04-18",
-          "fornecedor": "SUPERMERCADO ASSAI"
+          "descricao": "HOTPOCKET",
+          "valor": 473.46,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "BRF"
         }
       ]
     },
     {
-      "name": "Padova",
-      "total": 1079.14,
+      "name": "Recanto das Emas",
+      "total": 360.21,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ESTORIL ",
-          "valor": 1079.14,
-          "data_vencimento": "2026-04-18",
-          "fornecedor": "ESTORIL"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 30.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
-          "valor": 30.0,
-          "data_vencimento": "2026-04-18",
-          "fornecedor": "EDSON"
+          "unidade": "Recanto das Emas",
+          "categoria": "Seguros",
+          "descricao": "Apólice - Hotel Recanto",
+          "valor": 360.21,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "PORTO SEGURO"
         }
       ]
     }
   ],
-  "global_total": 2775.86,
-  "global_count": 4,
-  "date": "2026-04-19 16:00:04"
+  "global_total": 833.67,
+  "global_count": 2,
+  "date": "2026-04-20 10:00:03"
 }
