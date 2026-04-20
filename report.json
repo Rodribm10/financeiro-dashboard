@@ -1,9 +1,48 @@
 {
   "hotels": [
     {
+      "name": "Recanto das Emas",
+      "total": 3724.12,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 2212.14,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1091.77,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Seguros",
+          "descricao": "Apólice - Hotel Recanto",
+          "valor": 360.21,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "PORTO SEGURO"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Lavanderia",
+          "descricao": "TRANPORTE  LAVABDERIA",
+          "valor": 60.0,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "LAVANDERIA"
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
-      "total": 473.46,
-      "count": 1,
+      "total": 501.34,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -12,26 +51,96 @@
           "valor": 473.46,
           "data_vencimento": "2026-04-19",
           "fornecedor": "BRF"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 19/04",
+          "valor": 27.88,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": null
         }
       ]
     },
     {
-      "name": "Recanto das Emas",
-      "total": 360.21,
+      "name": "Prime AL",
+      "total": 406.8,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT THAYNARA",
+          "valor": 293.75,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Diarista",
+          "descricao": "diarista folga gerente",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 3.05,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 273.01,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "diarista camareira  suspensa",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "Diarista"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "folguista recepçao",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 13.01,
+          "data_vencimento": "2026-04-19",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 120.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Seguros",
-          "descricao": "Apólice - Hotel Recanto",
-          "valor": 360.21,
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 120.0,
           "data_vencimento": "2026-04-19",
-          "fornecedor": "PORTO SEGURO"
+          "fornecedor": "MIRIAN APARECIDA "
         }
       ]
     }
   ],
-  "global_total": 833.67,
-  "global_count": 2,
-  "date": "2026-04-20 10:00:03"
+  "global_total": 5025.2699999999995,
+  "global_count": 13,
+  "date": "2026-04-20 16:00:02"
 }
