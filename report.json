@@ -144,8 +144,8 @@
     },
     {
       "name": "Padova",
-      "total": 9424.04,
-      "count": 8,
+      "total": 9543.070000000002,
+      "count": 11,
       "transactions": [
         {
           "unidade": "Padova",
@@ -181,6 +181,14 @@
         },
         {
           "unidade": "Padova",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "adiantamento salarial",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "ADIANTAMENTO SALARIAL"
+        },
+        {
+          "unidade": "Padova",
           "categoria": "Sistema/Software",
           "descricao": "Calima complemento de rateio ",
           "valor": 28.29,
@@ -205,11 +213,27 @@
         },
         {
           "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem camareira",
+          "valor": 13.5,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
           "categoria": "Tarifas bancárias",
           "descricao": "TAXA JUNTA MIDHOUSE ",
           "valor": 9.47,
           "data_vencimento": "2026-04-20",
           "fornecedor": "SERVIÇOS JURIDICOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifas bancarias",
+          "valor": 5.53,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": null
         }
       ]
     },
@@ -356,8 +380,8 @@
     },
     {
       "name": "1001 Express",
-      "total": 2829.7400000000002,
-      "count": 5,
+      "total": 3936.17,
+      "count": 8,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -369,11 +393,11 @@
         },
         {
           "unidade": "1001 Express",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 926.61,
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "RECEITA  FEDERAL",
+          "valor": 946.43,
           "data_vencimento": "2026-04-20",
-          "fornecedor": "FGTS"
+          "fornecedor": "receita federal "
         },
         {
           "unidade": "1001 Express",
@@ -382,6 +406,30 @@
           "valor": 926.61,
           "data_vencimento": "2026-04-20",
           "fornecedor": "FGTS EXPRESS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 926.61,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT KENIA",
+          "valor": 60.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "KENIA CRISTINA"
         },
         {
           "unidade": "1001 Express",
@@ -403,8 +451,8 @@
     },
     {
       "name": "Prime AL",
-      "total": 533.33,
-      "count": 1,
+      "total": 1233.33,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Prime AL",
@@ -413,11 +461,43 @@
           "valor": 533.33,
           "data_vencimento": "2026-04-20",
           "fornecedor": "ESTORIL"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO PAMELA",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO DANIELA ",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "DANIELA SILVA DE LIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO TATIANA",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "TATIANA R. DE VASCINCELOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANTAMENTO DE SALARIO VALERIA",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-20",
+          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
         }
       ]
     }
   ],
-  "global_total": 65006.82000000001,
-  "global_count": 45,
-  "date": "2026-04-21 10:00:02"
+  "global_total": 66932.28,
+  "global_count": 55,
+  "date": "2026-04-21 16:00:02"
 }
