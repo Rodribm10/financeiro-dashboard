@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 28413.470000000016,
-      "count": 67,
+      "total": 28428.020000000015,
+      "count": 68,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -540,6 +540,14 @@
           "valor": 20.54,
           "data_vencimento": "2026-04-21",
           "fornecedor": "DROGASIL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 21/04",
+          "valor": 14.55,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": null
         }
       ]
     },
@@ -567,9 +575,79 @@
       ]
     },
     {
+      "name": "Prime VL",
+      "total": 1463.95,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Outros investimentos",
+          "descricao": "COMPRA DE COBERTO , XICARA , GARRFA DE CAFE ,E CONTROLES",
+          "valor": 643.95,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "RUMÃO"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Advogado, Assessoria Jurídica",
+          "descricao": "JEAN ADVOGADO",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "JEAR ADVOGADO "
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Lavanderia",
+          "descricao": "VALE REGINALDO FRETE LAVANDERIA",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Gás",
+          "descricao": "gas",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "MARIA"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 804.17,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Advogado, Assessoria Jurídica",
+          "descricao": "paganemto Advogado Jean",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "Dr Jean"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "PAGAMENTO HELIO CAESBE",
+          "valor": 300.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "HELIO CAESBE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 4.17,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "Qnn01",
-      "total": 313.1,
-      "count": 1,
+      "total": 355.46000000000004,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Qnn01",
@@ -578,11 +656,50 @@
           "valor": 313.1,
           "data_vencimento": "2026-04-21",
           "fornecedor": "HARUS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE DOG",
+          "valor": 24.37,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "LAMPADA",
+          "valor": 7.99,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": "MINAS FRIOS"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 0.37,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 0.37,
+          "data_vencimento": "2026-04-21",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 32387.670000000016,
-  "global_count": 70,
-  "date": "2026-04-22 10:00:01"
+  "global_total": 34713.070000000014,
+  "global_count": 82,
+  "date": "2026-04-22 16:00:03"
 }
