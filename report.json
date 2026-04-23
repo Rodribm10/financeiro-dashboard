@@ -1,705 +1,123 @@
 {
   "hotels": [
     {
+      "name": "Recanto das Emas",
+      "total": 12737.56,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Pagamento de empréstimos",
+          "descricao": "Devolução emprestimo aluguel abril",
+          "valor": 12514.0,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "HOTEL SAMAMBAIA"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Telefone + internet",
+          "descricao": "INTERNET RECANTO",
+          "valor": 223.56,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "ALL REDE "
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
-      "total": 28428.020000000015,
-      "count": 68,
+      "total": 11730.039999999999,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "CERVEJA HEINEKEN, BUDWAISER,GIN TANQUERAY,COCA COLA,FANTA, ISQUEIRO,PIRULITO,MENTOS,OLÉO",
-          "valor": 3062.74,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
+          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
+          "descricao": "TRANSFERENACIA DA STONE P/ O INTER COMPLEMENTO CT ITAU",
+          "valor": 10000.0,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": null
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "CERVEJA HEINEKEN,RED BULL , BUWEISER, COCA COLA,GUARANA",
-          "valor": 2953.57,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "RED LABEL, CERVEJA HEINEKEM, CERVEJA BUDWAISER",
-          "valor": 2880.88,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "CERVEJA HEINEKEN, FANTA, GUARANA,MENTOS BALA ,CHICLETE,FINNI,PASTILHA HALLS",
-          "valor": 1285.96,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CHOCOBALAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "HEINEKEN, BUDWAER, ENERGETICO",
-          "valor": 1280.16,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COXÃO MOLE",
-          "valor": 1234.11,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "MEDEIROS E MEDEIROS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "RED BULL, SMINORFF ICE,GIN TANQUERAY,APARELHO DE BARBEA",
-          "valor": 1033.33,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CAFE, FARINHA, OVOS, LEITE, GOMA, PIZZA, COCA COLA ,PÃO, GUARDANAPOS, DUETO, AZEITONA",
-          "valor": 829.82,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ASSAÍ ATACADISTA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "MIESS PARC 2/8",
-          "valor": 597.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "MIESS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALFACE,COENTRO,CEBOLA,CENOURA PÃO DE FORMA,FEIJÃO BRANCO,BATATA DOCE,MACAXEIRA,BATATA INGLESA,LEITE,GOMA,TOMATE,SALSA,LINGUIÇA, COXA SOBRECOXA",
-          "valor": 582.34,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "SUPERFACIL NORDESTÃO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CARREFUOR PARC. 3/4",
-          "valor": 578.98,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CARREFOUR"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "PRESERVATIVO,LUBRIFICANTE",
-          "valor": 510.0,
-          "data_vencimento": "2026-04-21",
+          "categoria": "Amenidades",
+          "descricao": "SABONETE SACHER, MOUSSE DE BANHO, KIT DENTAL, PENTE,TOUCA DE BANHO",
+          "valor": 1094.0,
+          "data_vencimento": "2026-04-22",
           "fornecedor": "Emanuel Simplicio"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tráfego Pago (Meta Ads, Google Ads)",
-          "descricao": "GOOGLE ADS",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GOOGLE ADS "
+          "categoria": "Frigobar",
+          "descricao": "GIN TANQUERAY,SMINORFF ICE,CHOCOLATE SNICKES,ACHOCOLATADO ",
+          "valor": 553.57,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "CDA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tráfego Pago (Meta Ads, Google Ads)",
-          "descricao": "GOOGLE ADS",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GOOGLE ADS "
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "IVAN /10",
-          "valor": 480.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "IVAN COMERCIO LTDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CAMARÃO",
-          "valor": 471.97,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "BELL CAMARÕES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "RED BULL, ISQUEIRO",
-          "valor": 441.12,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GB BEBIDAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Guloseimas, Doces e Salgados",
-          "descricao": "BATATA PRINGLES,CHOCOLATE BARRA,KIT KAT",
-          "valor": 417.64,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMERICANAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "MUSSARELA,PÃO DE FORMA,AMACIANTE DE CARNE, TOUCA",
-          "valor": 408.63,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "NOSSA SENHORA DE FATIMA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CASAS BAHIA PARC 5/6",
-          "valor": 400.61,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CASAS BAHIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Marketing Offline",
-          "descricao": "SHOPEE PARC 10/10",
-          "valor": 388.66,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "SHOPEE"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "MUSSARELA, PRESUNTO, PÃO DE FORMA",
-          "valor": 387.59,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "NOSSA SENHORA DE FATIMA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "REFORMA CADEIRA EROTICA",
-          "valor": 366.68,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "RENASCER SOFA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Guloseimas, Doces e Salgados",
-          "descricao": "CHOCOLATE KIT KAT, CHOCOLATE BARRA,BATATA PRINGLES",
-          "valor": 363.65,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMERICANAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CAMARÃO",
-          "valor": 347.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "BELL CAMARÕES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "LEROY PARC 5/8",
-          "valor": 343.49,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "LEROY MERLIN"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CAMARÃO",
-          "valor": 275.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "BELL CAMARÕES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "CIGARROS",
-          "valor": 272.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GELO E GELA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "CIGARROS",
-          "valor": 272.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "GELO E GELA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALFACE,COENTRO,CEBOLA,CENOURA PÃO DE FORMA,BATATA DOCE,MACAXEIRA,BATATA INGLESA,LEITE,GOMA,TOMATE,SALSA,LINGUIÇA, COXA SOBRECOXA",
-          "valor": 270.18,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "SUPERFACIL NORDESTÃO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Guloseimas, Doces e Salgados",
-          "descricao": "CASTANHA",
-          "valor": 243.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CASTANHOLANDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Uniformes",
-          "descricao": "SAPATOS PARA CAMAREIRAS",
-          "valor": 237.04,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CIA DO EPI"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "PRESILHA DE CABELO",
-          "valor": 216.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ALECRIM"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "SACO PARA EMBALAR CHOCOLATE,CASTANHA,PORCIONAMENTO,BOBINA RECEPÇÃO",
-          "valor": 213.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "PRESIDENTE QUARESMA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "CARREGADOR DE CELULAR",
-          "valor": 196.88,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "TREVO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ASSAI",
-          "valor": 196.83,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ASSAÍ ATACADISTA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "AGUAS E VAPORES PARC 1/2",
-          "valor": 195.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AGUAS E VAPORES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de equipamentos de informática",
-          "descricao": "ZN INFORMATICA PARC 2/3",
-          "valor": 188.34,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ZN INFORMATICA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "MICROONDAS",
-          "valor": 183.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CARREFOUR"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "REFEIÇÃO FUNCIONÁRIOS",
-          "valor": 181.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "farofa d agua"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "ENXAGUANTE BUCAL, SABONETE BARRA",
-          "valor": 175.9,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "DROGASIL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "AMAZON MUSIC ALEXAS",
-          "valor": 170.22,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Alimentação",
-          "descricao": "BOLO REUNIÃO",
-          "valor": 165.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "FRANKELINE TORTAS E DOCES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALFACE,COENTRO,CEBOLA,CENOURA ,BATATA DOCE,MACAXEIRA,BATATA INGLESA,GOMA,TOMATE,SALSA,LINGUIÇA, COXA SOBRECOXA",
-          "valor": 152.04,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ATACADÃO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "COXINHA, LEITE DE COCO, POTE PARA SALADA",
-          "valor": 148.48,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ELOI CHAVES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE UM SECADOR DE CABELOS PARA CLIENTES",
-          "valor": 147.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Guloseimas, Doces e Salgados",
-          "descricao": "CASTANHA",
-          "valor": 142.93,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CASTANHOLANDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "CALCINHAS",
-          "valor": 135.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "FACHIK"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BACON, TOMATE, MACAXEIRA,MAMÃO, MELÃO",
-          "valor": 113.42,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "G MIRA LTDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PEIXE PARA CLIETE",
-          "valor": 112.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "PEIXARIA BR"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "LAMPADINHA",
-          "valor": 105.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "LAMPADINHA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNE DE SOL",
-          "valor": 101.56,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "FAVORITO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA",
-          "valor": 100.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "POSTO DE GASOLINA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CAFE, FERMENTO",
-          "valor": 93.43,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "MAR AZUL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "PICOLE PARA AVALIAÇÃO DO GOOGLE",
-          "valor": 87.99,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "OGGI"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Marketing Offline",
-          "descricao": "CANVA 1/12",
-          "valor": 87.25,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "CANVA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE 1 PRANCHA CABELOS PARA CLIENTE",
-          "valor": 86.48,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "COXINHA, POTE PARA SALADA",
-          "valor": 79.68,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ELOI CHAVES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ENXAGUANTE BUCAL",
-          "valor": 67.54,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "DROGASIL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PEIXE PARA CLIETE",
-          "valor": 63.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "PEIXARIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 54.36,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "ASSAÍ ATACADISTA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA",
-          "valor": 50.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "POSTO DE GASOLINA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA",
-          "valor": 50.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "POSTO DE GASOLINA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "CAPACITOR AR CONDICIONADO 17",
-          "valor": 48.6,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "NATAL SERVICE"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PÃO DE FORMA",
-          "valor": 35.38,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "NOSSA SENHORA DE FATIMA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Material de limpeza",
-          "descricao": "SAPOLIO",
-          "valor": 32.97,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "AMERICANAS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "ENXAGUANTE BUCAL",
-          "valor": 20.54,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "DROGASIL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 21/04",
-          "valor": 14.55,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": null
+          "categoria": "Propaganda",
+          "descricao": "MENSALIDADE SITE",
+          "valor": 82.47,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "INTERATIVA PUB DIGITAL"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 3661.1,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TERMO DE RECISÂO IARA",
-          "valor": 3373.5,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "Iara Dourado "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "LING CALABREZA, BATATA PALITO,3 FARDO CERVEJA",
-          "valor": 287.6,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "DIA A DIA"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 1463.95,
+      "total": 2147.5499999999997,
       "count": 4,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Outros investimentos",
-          "descricao": "COMPRA DE COBERTO , XICARA , GARRFA DE CAFE ,E CONTROLES",
-          "valor": 643.95,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "RUMÃO"
+          "unidade": "1001 Express",
+          "categoria": "Rescisões",
+          "descricao": "RESCISÃO ODEJANE",
+          "valor": 2035.85,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "Odejane Pinto de Andrade "
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Advogado, Assessoria Jurídica",
-          "descricao": "JEAN ADVOGADO",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "JEAR ADVOGADO "
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "CARNE P/ CIIENTE",
+          "valor": 41.7,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "SUPERMERCADO CANDANGO"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Lavanderia",
-          "descricao": "VALE REGINALDO FRETE LAVANDERIA",
-          "valor": 200.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "LAVANDERIA"
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "PEÇA HDMI ",
+          "valor": 40.0,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "HDMI"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Gás",
-          "descricao": "gas",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "MARIA"
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-22",
+          "fornecedor": "EDSON"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 804.17,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Advogado, Assessoria Jurídica",
-          "descricao": "paganemto Advogado Jean",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "Dr Jean"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "PAGAMENTO HELIO CAESBE",
-          "valor": 300.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "HELIO CAESBE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 4.17,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 355.46000000000004,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Amenidades",
-          "descricao": "PRESERVATIVOS E SAIS",
-          "valor": 313.1,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "HARUS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE DOG",
-          "valor": 24.37,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "supermercado"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - EDSON",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "LAMPADA",
-          "valor": 7.99,
-          "data_vencimento": "2026-04-21",
-          "fornecedor": "MINAS FRIOS"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 0.37,
+      "total": 1488.57,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 0.37,
-          "data_vencimento": "2026-04-21",
+          "unidade": "Padova",
+          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
+          "descricao": "JOICE RECOLHEU P/O ESCRITORIO",
+          "valor": 1488.57,
+          "data_vencimento": "2026-04-22",
           "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 34713.070000000014,
-  "global_count": 82,
-  "date": "2026-04-22 16:00:03"
+  "global_total": 28103.719999999998,
+  "global_count": 11,
+  "date": "2026-04-23 10:00:04"
 }
