@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Prime AL",
-      "total": 6383.749999999999,
-      "count": 6,
+      "total": 7427.799999999999,
+      "count": 12,
       "transactions": [
         {
           "unidade": "Prime AL",
@@ -47,26 +47,98 @@
         },
         {
           "unidade": "Prime AL",
+          "categoria": "PLR",
+          "descricao": "PLR REFERENTE A MARÇO",
+          "valor": 466.62,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "ERICA DA SILVA SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Água",
+          "descricao": "FABIO CAESB",
+          "valor": 300.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "FABIO CAESB"
+        },
+        {
+          "unidade": "Prime AL",
           "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
           "descricao": "TAXA ESTORIL ",
           "valor": 192.38,
           "data_vencimento": "2026-04-23",
           "fornecedor": "ESTORIL"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "feira ",
+          "valor": 126.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "feira"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Diarista",
+          "descricao": "diarista atestado camareira thaynara ",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "DIARISTA / ATESTADO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "EDSON MANUTENÇÃO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema para Marketing",
+          "descricao": "google one",
+          "valor": 1.43,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "GOOGLE ONE"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 761.64,
-      "count": 4,
+      "total": 1773.4,
+      "count": 9,
       "transactions": [
         {
           "unidade": "Dolce Amore",
           "categoria": "Combustível",
-          "descricao": "COMBUSTIVÉL CARRO EMPRESA",
+          "descricao": "POSTO COMBUSTIVÉL",
           "valor": 324.29,
           "data_vencimento": "2026-04-23",
           "fornecedor": "POSTO DE GASOLINA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "AMAZON M 3/3",
+          "valor": 314.45,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "AMAZON 4/5",
+          "valor": 292.6,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "SHOPEE PARC 10/10",
+          "valor": 226.64,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "SHOPEE"
         },
         {
           "unidade": "Dolce Amore",
@@ -75,6 +147,14 @@
           "valor": 175.0,
           "data_vencimento": "2026-04-23",
           "fornecedor": "DD gaspar"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Seguros",
+          "descricao": "SEGURO VEICULO ",
+          "valor": 173.38,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "PORTO SEGURO"
         },
         {
           "unidade": "Dolce Amore",
@@ -91,6 +171,14 @@
           "valor": 109.85,
           "data_vencimento": "2026-04-23",
           "fornecedor": "ALARES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 23/04",
+          "valor": 4.69,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": null
         }
       ]
     },
@@ -108,9 +196,55 @@
           "fornecedor": "JEAR ADVOGADO "
         }
       ]
+    },
+    {
+      "name": "Padova",
+      "total": 165.5,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIA DE CAMAREIRA FALTA",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "DIARISTA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "COPIAS (XEROX) PAPELARIA",
+          "valor": 29.5,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "papelaria"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TERIFAS BANCARIAS",
+          "valor": 6.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 100.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "VELE STEFFANE",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "STEFANY SANTOS"
+        }
+      ]
     }
   ],
-  "global_total": 7645.389999999999,
-  "global_count": 11,
-  "date": "2026-04-24 10:00:04"
+  "global_total": 9966.699999999999,
+  "global_count": 26,
+  "date": "2026-04-24 16:00:03"
 }
