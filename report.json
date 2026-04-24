@@ -1,217 +1,116 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 15330.669999999998,
+      "name": "Prime AL",
+      "total": 6383.749999999999,
       "count": 6,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "TRANSFERENACIA DA STONE P/ O INTER COMPLEMENTO CT ITAU",
-          "valor": 10000.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": null
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "GAZIN TV TERCEIRO ANDAR 7/8",
+          "valor": 2566.5,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "FGTS",
-          "descricao": "FGTS COMP MARÇO 26",
-          "valor": 3579.41,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "FGTS"
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "FRIGOBAR TERCEIRO ANDAR 6/8",
+          "valor": 1213.99,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
         },
         {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "ar condicionado terceiro andar 6/8",
+          "valor": 953.31,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "GAZIN AR CONDICIONADO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "NURIT COMIDAS",
+          "valor": 923.16,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "NURIT ALIMENTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
+          "descricao": "SABONETES 2/3",
+          "valor": 534.41,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "ESTORIL"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
+          "descricao": "TAXA ESTORIL ",
+          "valor": 192.38,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "ESTORIL"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 761.64,
+      "count": 4,
+      "transactions": [
+        {
           "unidade": "Dolce Amore",
-          "categoria": "Amenidades",
-          "descricao": "SABONETE SACHER, MOUSSE DE BANHO, KIT DENTAL, PENTE,TOUCA DE BANHO",
-          "valor": 1094.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "Emanuel Simplicio"
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVÉL CARRO EMPRESA",
+          "valor": 324.29,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "POSTO DE GASOLINA"
         },
         {
           "unidade": "Dolce Amore",
           "categoria": "Frigobar",
-          "descricao": "GIN TANQUERAY,SMINORFF ICE,CHOCOLATE SNICKES,ACHOCOLATADO ",
-          "valor": 553.57,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "CDA"
+          "descricao": "AGUA DE COCO",
+          "valor": 175.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "DD gaspar"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Propaganda",
-          "descricao": "MENSALIDADE SITE",
-          "valor": 82.47,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "INTERATIVA PUB DIGITAL"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "POLPA DE FRUTA",
+          "valor": 152.5,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "pura polpa"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 22/04",
-          "valor": 21.22,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 12737.56,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Pagamento de empréstimos",
-          "descricao": "Devolução emprestimo aluguel abril",
-          "valor": 12514.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "HOTEL SAMAMBAIA"
-        },
-        {
-          "unidade": "Recanto das Emas",
           "categoria": "Telefone + internet",
-          "descricao": "INTERNET RECANTO",
-          "valor": 223.56,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "ALL REDE "
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 2147.5499999999997,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Rescisões",
-          "descricao": "RESCISÃO ODEJANE",
-          "valor": 2035.85,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "Odejane Pinto de Andrade "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "CARNE P/ CIIENTE",
-          "valor": 41.7,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "SUPERMERCADO CANDANGO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "PEÇA HDMI ",
-          "valor": 40.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "HDMI"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
-          "valor": 30.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "EDSON"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 1502.07,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "JOICE RECOLHEU P/O ESCRITORIO",
-          "valor": 1488.57,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte",
-          "descricao": "PASSAGEM CAMAREIRA",
-          "valor": 13.5,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "TRANSPORTE"
+          "descricao": "FATURA ALARES CONT 02",
+          "valor": 109.85,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "ALARES"
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 265.92,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "HEINEKEN LONG",
-          "valor": 138.0,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "DUARTE BEBIDAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PEITO DE FRANGO.",
-          "valor": 42.69,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "CARNES PORÇÕES",
-          "valor": 40.13,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "SUPER CARNES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "CODIGO DE DEFESE",
-          "valor": 29.9,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "SHOPPINGO RISK"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "JEREMIAS PASSOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MARIA CECILIA",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": "MARIA CECILIA"
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 1.87,
+      "total": 500.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifas",
-          "valor": 1.87,
-          "data_vencimento": "2026-04-22",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "Serviços jurídicos",
+          "descricao": "JEAR ADVOGADO ",
+          "valor": 500.0,
+          "data_vencimento": "2026-04-23",
+          "fornecedor": "JEAR ADVOGADO "
         }
       ]
     }
   ],
-  "global_total": 31985.639999999996,
-  "global_count": 21,
-  "date": "2026-04-23 16:00:04"
+  "global_total": 7645.389999999999,
+  "global_count": 11,
+  "date": "2026-04-24 10:00:04"
 }
