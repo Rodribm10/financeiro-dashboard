@@ -101,16 +101,16 @@
         },
         {
           "unidade": "1001 - Samambaia",
-          "categoria": "Devoluções de clientes",
-          "descricao": "DEVOLUÇÃO DO CLIENTE KEVIN ALVES 19/04",
+          "categoria": "Tarifas bancárias",
+          "descricao": "JUNIOR CAMPOS",
           "valor": 110.0,
           "data_vencimento": "2026-04-24",
           "fornecedor": "DEVOLUÇOES DE CLENTES"
         },
         {
           "unidade": "1001 - Samambaia",
-          "categoria": "Tarifas bancárias",
-          "descricao": "JUNIOR CAMPOS",
+          "categoria": "Devoluções de clientes",
+          "descricao": "DEVOLUÇÃO DO CLIENTE KEVIN ALVES 19/04",
           "valor": 110.0,
           "data_vencimento": "2026-04-24",
           "fornecedor": "DEVOLUÇOES DE CLENTES"
@@ -205,6 +205,61 @@
       ]
     },
     {
+      "name": "Padova",
+      "total": 1379.3600000000001,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Investimentos gerais",
+          "descricao": "combate extintores",
+          "valor": 900.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "COMBATE EXTINTORES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "sacolao da Fabiana",
+          "valor": 166.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SACOLÃO FABIANA "
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "mercado",
+          "valor": 143.36,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SUPERMERCADO IDEAL"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diaria de camareira atestado",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "DIARISTA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "frete lavanderia",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "transporte Edson",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "TRANSPORTE"
+        }
+      ]
+    },
+    {
       "name": "Qnn01",
       "total": 229.2,
       "count": 1,
@@ -251,7 +306,7 @@
       ]
     }
   ],
-  "global_total": 37286.92,
-  "global_count": 26,
-  "date": "2026-04-25 10:00:02"
+  "global_total": 38666.28,
+  "global_count": 32,
+  "date": "2026-04-25 16:00:02"
 }
