@@ -1,250 +1,257 @@
 {
   "hotels": [
     {
-      "name": "Prime AL",
-      "total": 7427.799999999999,
-      "count": 12,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN TV TERCEIRO ANDAR 7/8",
-          "valor": 2566.5,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRIGOBAR TERCEIRO ANDAR 6/8",
-          "valor": 1213.99,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "GAZIN FRIGOBAR TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "ar condicionado terceiro andar 6/8",
-          "valor": 953.31,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "GAZIN AR CONDICIONADO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "NURIT COMIDAS",
-          "valor": 923.16,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "NURIT ALIMENTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "SABONETES 2/3",
-          "valor": 534.41,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "PLR",
-          "descricao": "PLR REFERENTE A MARÇO",
-          "valor": 466.62,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "ERICA DA SILVA SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Água",
-          "descricao": "FABIO CAESB",
-          "valor": 300.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "FABIO CAESB"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "TAXA ESTORIL ",
-          "valor": 192.38,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "feira ",
-          "valor": 126.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "feira"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Diarista",
-          "descricao": "diarista atestado camareira thaynara ",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "DIARISTA / ATESTADO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON",
-          "valor": 30.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "EDSON MANUTENÇÃO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema para Marketing",
-          "descricao": "google one",
-          "valor": 1.43,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "GOOGLE ONE"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 1773.4,
-      "count": 9,
+      "total": 24861.16,
+      "count": 7,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Combustível",
-          "descricao": "POSTO COMBUSTIVÉL",
-          "valor": 324.29,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "POSTO DE GASOLINA"
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL IMOVÉL PARC 2/2",
+          "valor": 18930.6,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "Exclusiva Empreendimentos"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "AMAZON M 3/3",
-          "valor": 314.45,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "AMAZON"
+          "categoria": "Lavanderia",
+          "descricao": "LAVANDERIA PARC. 2/3",
+          "valor": 2715.47,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "AMAZON 4/5",
-          "valor": 292.6,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "AMAZON"
+          "categoria": "Transporte",
+          "descricao": "NATAL CARD VT NATAL MAIO",
+          "valor": 788.84,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "NATAL CARD"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "SHOPEE PARC 10/10",
-          "valor": 226.64,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "SHOPEE"
+          "categoria": "Transporte",
+          "descricao": "RN CARD VT PARNAMIRIM MAIO",
+          "valor": 762.6,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "RN CARD"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Material de limpeza",
+          "descricao": "CLORO PISCINA,DESINFETANTE,PAPEL HIGIENICO ,PAPEL TOALHA,ALCOOL, BARRILHA, ",
+          "valor": 742.65,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "ARMAZEM DO CONDOMINIO"
         },
         {
           "unidade": "Dolce Amore",
           "categoria": "Frigobar",
-          "descricao": "AGUA DE COCO",
-          "valor": 175.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "DD gaspar"
+          "descricao": "AGUA COPO, AGUA COM GÁS",
+          "valor": 494.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "MINERAÇÃO CUNHA"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Seguros",
-          "descricao": "SEGURO VEICULO ",
-          "valor": 173.38,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "PORTO SEGURO"
+          "categoria": "Sistema/Software",
+          "descricao": "SISTEMA MAIS MOTEL",
+          "valor": 427.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "VERSATIL SISTEMA "
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 8500.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL GARRAGEM",
+          "valor": 8500.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "ALUGUEL GARAGEM"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 2190.3700000000003,
+      "count": 13,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Energia elétrica",
+          "descricao": "CEB GD",
+          "valor": 1529.81,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "CEB - GD"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "POLPA DE FRUTA",
-          "valor": 152.5,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "pura polpa"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "AMAZON 5/12",
+          "valor": 245.87,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "AMAZON"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA ALARES CONT 02",
-          "valor": 109.85,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "ALARES"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Devoluções de clientes",
+          "descricao": "DEVOLUÇÃO DO CLIENTE KEVIN ALVES 19/04",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
         },
         {
-          "unidade": "Dolce Amore",
+          "unidade": "1001 - Samambaia",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 23/04",
-          "valor": 4.69,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": null
+          "descricao": "JUNIOR CAMPOS",
+          "valor": 110.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "TROCA DE OLEO",
+          "valor": 36.43,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Sistema/Software",
+          "descricao": "CALMA",
+          "valor": 28.29,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SISTEMA SOFTWARE"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA",
+          "valor": 26.33,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "TARIFA"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLO THAIS",
+          "valor": 22.86,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "TREINAMENTO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Serviços jurídicos",
+          "descricao": "PROCURAÇÃO MIDHOUSE",
+          "valor": 17.73,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SERVIÇOS JURIDICOS"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Serviços jurídicos",
+          "descricao": "TAXA JUNTA MIDHOUSE",
+          "valor": 9.47,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SERVIÇOS JURIDICOS"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 1446.39,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Unilimp",
+          "valor": 1446.39,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "Unilimp Soluções em Limpeza"
         }
       ]
     },
     {
       "name": "Qnn01",
-      "total": 500.0,
+      "total": 229.2,
       "count": 1,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "JEAR ADVOGADO ",
-          "valor": 500.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "JEAR ADVOGADO "
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 165.5,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "DIARIA DE CAMAREIRA FALTA",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "COPIAS (XEROX) PAPELARIA",
-          "valor": 29.5,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "papelaria"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TERIFAS BANCARIAS",
-          "valor": 6.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": null
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUAS",
+          "valor": 229.2,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "DUARTE BEBIDAS"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 100.0,
-      "count": 1,
+      "total": 59.8,
+      "count": 3,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "VELE STEFFANE",
-          "valor": 100.0,
-          "data_vencimento": "2026-04-23",
-          "fornecedor": "STEFANY SANTOS"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FRANGO, CHEIRO VERDE",
+          "valor": 25.8,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "SUPERMERCADO TATICO "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "IMPRESSAO RECISAO",
+          "valor": 20.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "IMPERIO DO CELULAR "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT JEREMIAS ",
+          "valor": 14.0,
+          "data_vencimento": "2026-04-24",
+          "fornecedor": "JEREMIAS PASSOS"
         }
       ]
     }
   ],
-  "global_total": 9966.699999999999,
+  "global_total": 37286.92,
   "global_count": 26,
-  "date": "2026-04-24 16:00:03"
+  "date": "2026-04-25 10:00:02"
 }
