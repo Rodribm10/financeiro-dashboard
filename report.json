@@ -14,9 +14,93 @@
           "fornecedor": "AXIUM CAPITAL FUNDO DE INVEST. EM DIREITOS CRED."
         }
       ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 284.0,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "2 PAO DE FORMA,1 P/ DE AÇUCAR, COLHER DESCATAVEIS",
+          "valor": 44.0,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "SUPERMERCADO TATICO "
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 247.5,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Diarista",
+          "descricao": "DIARISTA",
+          "valor": 247.5,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "DIARISTA"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 135.96,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista recepçao",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 5.96,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 18.36,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "Tarifa de cartões - Stone dia 26/04",
+          "valor": 18.36,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": null
+        }
+      ]
     }
   ],
-  "global_total": 779.93,
-  "global_count": 1,
-  "date": "2026-04-27 10:00:03"
+  "global_total": 1465.75,
+  "global_count": 8,
+  "date": "2026-04-27 16:00:05"
 }
