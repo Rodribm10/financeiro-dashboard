@@ -1,22 +1,22 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 61.95,
+      "name": "Recanto das Emas",
+      "total": 779.93,
       "count": 1,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SABAO EM PO, PEITO DE FRANGO",
-          "valor": 61.95,
-          "data_vencimento": "2026-04-25",
-          "fornecedor": "DIA A DIA"
+          "unidade": "Recanto das Emas",
+          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
+          "descricao": "Axium Capital Fundo de Investimento",
+          "valor": 779.93,
+          "data_vencimento": "2026-04-26",
+          "fornecedor": "AXIUM CAPITAL FUNDO DE INVEST. EM DIREITOS CRED."
         }
       ]
     }
   ],
-  "global_total": 61.95,
+  "global_total": 779.93,
   "global_count": 1,
-  "date": "2026-04-26 16:00:04"
+  "date": "2026-04-27 10:00:03"
 }
