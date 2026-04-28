@@ -1,106 +1,113 @@
 {
   "hotels": [
     {
-      "name": "Recanto das Emas",
-      "total": 779.93,
+      "name": "Dolce Amore",
+      "total": 2000.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Enxoval (Lençol, Tapetes, Toalhas)",
-          "descricao": "Axium Capital Fundo de Investimento",
-          "valor": 779.93,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "AXIUM CAPITAL FUNDO DE INVEST. EM DIREITOS CRED."
+          "unidade": "Dolce Amore",
+          "categoria": "Pró-Labore",
+          "descricao": "PRÓ-LABORE RODRIGO",
+          "valor": 2000.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "Rodrigo Borba Machado"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 284.0,
+      "total": 1690.0,
       "count": 3,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA STEFFANE",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "STEFANY SANTOS"
+          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
+          "descricao": "ISMAEL RECOLHEU (Saída)",
+          "valor": 1650.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "MIRIAN APARECIDA "
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "EDSON"
         },
         {
           "unidade": "1001 Express",
           "categoria": "Tarifas bancárias",
-          "descricao": "2 PAO DE FORMA,1 P/ DE AÇUCAR, COLHER DESCATAVEIS",
-          "valor": 44.0,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "SUPERMERCADO TATICO "
+          "descricao": "PAO DE AMBUGUERE",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "PADARIA"
         }
       ]
     },
     {
-      "name": "Prime VL",
-      "total": 247.5,
+      "name": "Prime AL",
+      "total": 1500.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA",
-          "valor": 247.5,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "DIARISTA"
+          "unidade": "Prime AL",
+          "categoria": "Pró-Labore",
+          "descricao": "PRO LABORE RICARDO ",
+          "valor": 1500.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 135.96,
-      "count": 2,
+      "total": 956.0,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "diarista recepçao",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": "DIARIA FOLGA GERENTE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 5.96,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": null
+          "categoria": "Lavanderia",
+          "descricao": "PRODUTOS DA LAVANDERIA",
+          "valor": 956.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "LAVANDERIA"
         }
       ]
     },
     {
-      "name": "Dolce Amore",
-      "total": 18.36,
+      "name": "Recanto das Emas",
+      "total": 388.8,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "Tarifa de cartões - Stone dia 26/04",
-          "valor": 18.36,
-          "data_vencimento": "2026-04-26",
-          "fornecedor": null
+          "unidade": "Recanto das Emas",
+          "categoria": "Água",
+          "descricao": "CAESB",
+          "valor": 388.8,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "CAESB"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 38.31,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Sistema/Software",
+          "descricao": "BLACKBLAZE, GOOGLE ONE , SUPABASE , X DEVELOPE PLATOFORM , ",
+          "valor": 38.31,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "SISTEMA SOFTWARE"
         }
       ]
     }
   ],
-  "global_total": 1465.75,
+  "global_total": 6573.11,
   "global_count": 8,
-  "date": "2026-04-27 16:00:05"
+  "date": "2026-04-28 10:00:04"
 }
