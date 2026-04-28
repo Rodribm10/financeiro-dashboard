@@ -1,24 +1,48 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 2000.0,
-      "count": 1,
+      "name": "Prime AL",
+      "total": 3032.63,
+      "count": 4,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
+          "unidade": "Prime AL",
           "categoria": "Pró-Labore",
-          "descricao": "PRÓ-LABORE RODRIGO",
-          "valor": 2000.0,
+          "descricao": "PRO LABORE RICARDO ",
+          "valor": 1500.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Pró-Labore",
+          "descricao": "PRO LABORE RODRIGO ",
+          "valor": 1500.0,
           "data_vencimento": "2026-04-27",
           "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 2.63,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 1690.0,
-      "count": 3,
+      "total": 1740.0,
+      "count": 4,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -27,6 +51,14 @@
           "valor": 1650.0,
           "data_vencimento": "2026-04-27",
           "fornecedor": null
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT KENIA",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "KENIA CRISTINA"
         },
         {
           "unidade": "1001 Express",
@@ -47,24 +79,9 @@
       ]
     },
     {
-      "name": "Prime AL",
-      "total": 1500.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO LABORE RICARDO ",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-27",
-          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
-        }
-      ]
-    },
-    {
       "name": "Padova",
-      "total": 956.0,
-      "count": 1,
+      "total": 1442.48,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Padova",
@@ -73,6 +90,69 @@
           "valor": 956.0,
           "data_vencimento": "2026-04-27",
           "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "adiantamento salarial",
+          "valor": 200.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "DANIELA MOISES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "rumao novidades",
+          "valor": 180.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "RUMAO NOVIDADES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "PAGAMENTO JAIRO  ( manutençao energia)",
+          "valor": 100.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "JAIRO MAN.ENERGIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 6.48,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 419.29,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "PARCERIA JENIFER E SARAH",
+          "valor": 248.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MATERIAL DE CONSTRUÇÃO",
+          "valor": 162.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE",
+          "valor": 9.29,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": null
         }
       ]
     },
@@ -92,6 +172,85 @@
       ]
     },
     {
+      "name": "Qnn01",
+      "total": 198.32999999999998,
+      "count": 9,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "CHUVEIRO",
+          "valor": 95.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "ELETRICA CONFIANÇA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MASSA PLASTICA,",
+          "valor": 20.18,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "DEMACOL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MASSA PLASTICA,",
+          "valor": 20.18,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "DEMACOL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 15.2,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "MARIA CECILIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "PISTÃO",
+          "valor": 13.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "ELETRICA CONFIANÇA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃES",
+          "valor": 9.57,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "PADARIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - JEREMIAS",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "JEREMIAS PASSOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-27",
+          "fornecedor": "MARIA CECILIA"
+        }
+      ]
+    },
+    {
       "name": "Prime VL",
       "total": 38.31,
       "count": 1,
@@ -107,7 +266,7 @@
       ]
     }
   ],
-  "global_total": 6573.11,
-  "global_count": 8,
-  "date": "2026-04-28 10:00:04"
+  "global_total": 7259.84,
+  "global_count": 27,
+  "date": "2026-04-28 16:00:02"
 }
