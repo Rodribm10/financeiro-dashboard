@@ -113,9 +113,17 @@
     },
     {
       "name": "Prime VL",
-      "total": 14028.380000000001,
-      "count": 4,
+      "total": 14640.660000000002,
+      "count": 5,
       "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL ",
+          "valor": 6750.0,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "LEONARDO POOTZ "
+        },
         {
           "unidade": "Prime VL",
           "categoria": "Aluguel, condomínio, IPTU",
@@ -126,11 +134,11 @@
         },
         {
           "unidade": "Prime VL",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL ",
-          "valor": 6750.0,
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS",
+          "valor": 612.28,
           "data_vencimento": "2026-04-28",
-          "fornecedor": "LEONARDO POOTZ "
+          "fornecedor": "DIA A DIA"
         },
         {
           "unidade": "Prime VL",
@@ -152,8 +160,8 @@
     },
     {
       "name": "Padova",
-      "total": 9531.009999999998,
-      "count": 6,
+      "total": 11038.689999999999,
+      "count": 11,
       "transactions": [
         {
           "unidade": "Padova",
@@ -181,6 +189,14 @@
         },
         {
           "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "supermercado",
+          "valor": 1267.68,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "SUPERMERCADO TATICO "
+        },
+        {
+          "unidade": "Padova",
           "categoria": "FGTS",
           "descricao": "FGTS",
           "valor": 1112.57,
@@ -202,13 +218,45 @@
           "valor": 457.16,
           "data_vencimento": "2026-04-28",
           "fornecedor": "Neo Energia"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Gás",
+          "descricao": "deposito de gas",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "DEPOSITO DE GAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "rumao eletrica",
+          "valor": 96.5,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "RUMAO NOVIDADES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem camareira",
+          "valor": 13.5,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem Edson",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "TRANSPORTE"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 4244.86,
-      "count": 5,
+      "total": 5526.89,
+      "count": 9,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -217,6 +265,14 @@
           "valor": 2000.0,
           "data_vencimento": "2026-04-28",
           "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "PAGAMENTO SERVIÇO ELETRICISTA COLOCAÇÃO CX DE LUX E DISJUNTOR",
+          "valor": 1000.0,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "RODRIGO ELETRICISTA"
         },
         {
           "unidade": "Dolce Amore",
@@ -244,11 +300,35 @@
         },
         {
           "unidade": "Dolce Amore",
+          "categoria": "Outros investimentos desenv. empresarial",
+          "descricao": "RATEIO CARTÃO IZETE",
+          "valor": 260.01,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": "CARTÃO IZETE"
+        },
+        {
+          "unidade": "Dolce Amore",
           "categoria": "Sistema/Software",
           "descricao": "MENSALIDADE PONTO",
           "valor": 135.0,
           "data_vencimento": "2026-04-28",
           "fornecedor": "CONTEC"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "COMPRA DE DISCO MAQUITA",
+          "valor": 12.0,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE DIA 28/04",
+          "valor": 10.02,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": null
         }
       ]
     },
@@ -263,7 +343,7 @@
           "descricao": "PRO LABORE",
           "valor": 1500.0,
           "data_vencimento": "2026-04-28",
-          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
           "unidade": "Prime ADE",
@@ -271,7 +351,7 @@
           "descricao": "PRO LABORE",
           "valor": 1500.0,
           "data_vencimento": "2026-04-28",
-          "fornecedor": "Rodrigo Borba Machado"
+          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
         },
         {
           "unidade": "Prime ADE",
@@ -397,8 +477,8 @@
     },
     {
       "name": "Recanto das Emas",
-      "total": 1577.76,
-      "count": 2,
+      "total": 1580.3300000000002,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
@@ -412,9 +492,17 @@
           "unidade": "Recanto das Emas",
           "categoria": "Sistema/Software",
           "descricao": "SISTEMA MAIS MOTEL",
-          "valor": 435.96,
+          "valor": 436.1,
           "data_vencimento": "2026-04-28",
           "fornecedor": "SISTEMA"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA",
+          "valor": 2.43,
+          "data_vencimento": "2026-04-28",
+          "fornecedor": null
         }
       ]
     },
@@ -529,7 +617,7 @@
       ]
     }
   ],
-  "global_total": 50392.84,
-  "global_count": 59,
-  "date": "2026-04-29 10:00:02"
+  "global_total": 53797.4,
+  "global_count": 70,
+  "date": "2026-04-29 16:00:02"
 }
