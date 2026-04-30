@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Recanto das Emas",
-      "total": 3094.82,
-      "count": 3,
+      "total": 5683.619999999999,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
@@ -12,6 +12,22 @@
           "valor": 2111.72,
           "data_vencimento": "2026-04-29",
           "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Pró-Labore",
+          "descricao": "Pro labore",
+          "valor": 1500.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "Duarte bebidas",
+          "valor": 1088.8,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "duarte"
         },
         {
           "unidade": "Recanto das Emas",
@@ -32,9 +48,87 @@
       ]
     },
     {
+      "name": "1001 - Samambaia",
+      "total": 3733.2,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Energia elétrica",
+          "descricao": "CEB GD",
+          "valor": 1529.81,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "CEB - GD"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Energia elétrica",
+          "descricao": "Neo energia",
+          "valor": 1279.49,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "Neo Energia"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "Manutenção  todos 1001",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Serviços jurídicos",
+          "descricao": "Procuração e taxa midhouse",
+          "valor": 27.2,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "OUTROS"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 3064.54,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Água",
+          "descricao": "AGUA ",
+          "valor": 2854.27,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "SANEAGO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Diarista",
+          "descricao": "DIÁRISTA ATESTADO CAMAREIRA DA NOITE",
+          "valor": 120.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "DIARISTA / ATESTADO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "MERCADO ",
+          "valor": 87.62,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "SUPERMERCADO TATICO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 2.65,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "Prime ADE",
-      "total": 2908.48,
-      "count": 3,
+      "total": 2980.63,
+      "count": 6,
       "transactions": [
         {
           "unidade": "Prime ADE",
@@ -59,13 +153,68 @@
           "valor": 535.0,
           "data_vencimento": "2026-04-29",
           "fornecedor": "QUERO FISHER"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "TROCA OLEO",
+          "valor": 36.43,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "PAULO COMPRAS"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 2404.2999999999997,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Pró-Labore",
+          "descricao": "POR LABORE RICARDO",
+          "valor": 1500.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "ricardo fernandes"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇÃO TODOS 1001",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MARIA CECILIA"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 1125.17,
-      "count": 2,
+      "total": 1145.95,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -82,6 +231,22 @@
           "valor": 502.74,
           "data_vencimento": "2026-04-29",
           "fornecedor": "TRAMPOLIM GÁS"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Transporte",
+          "descricao": "VT ADRIENE REF AO TREINAMENTO",
+          "valor": 12.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 29/04",
+          "valor": 8.78,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": null
         }
       ]
     },
@@ -180,7 +345,7 @@
       ]
     }
   ],
-  "global_total": 8398.470000000001,
-  "global_count": 18,
-  "date": "2026-04-30 10:00:04"
+  "global_total": 20282.239999999998,
+  "global_count": 36,
+  "date": "2026-04-30 16:00:02"
 }
