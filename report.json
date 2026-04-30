@@ -1,623 +1,186 @@
 {
   "hotels": [
     {
-      "name": "Prime AL",
-      "total": 16447.86,
-      "count": 13,
+      "name": "Recanto das Emas",
+      "total": 3094.82,
+      "count": 3,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Transferência entre contas próprias - Efetuadas(-)",
-          "descricao": "ISMAEL RECOLHEU (Saída)",
-          "valor": 8000.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 7500",
-          "valor": 2211.29,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 6862",
-          "valor": 982.14,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUATORIAL VENC ABRIL UN 1254 - 9026",
-          "valor": 849.02,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 7470",
-          "valor": 826.1,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 9026",
-          "valor": 763.37,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUATORIAL VENC ABRIL UN 1290 - 6832",
-          "valor": 716.06,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 6832",
-          "valor": 591.63,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUATORIAL VENC ABRIL UN 1209 - 6862",
-          "valor": 510.84,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema/Software",
-          "descricao": "VERSATIL SISTEMA MOTEL MAIS",
-          "valor": 427.52,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "VERSATIL SISTEMA "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Telefone + internet",
-          "descricao": "ALL REDE INTERNET",
-          "valor": 198.82,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "ALL REDE "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUATORIAL VENC ABRIL UN 1299 - 6625",
-          "valor": 186.97,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Energia elétrica",
-          "descricao": "ENERGIA EQUAT UN 6625",
-          "valor": 184.1,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "EQUATORIAL"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 14640.660000000002,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL ",
-          "valor": 6750.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "LEONARDO POOTZ "
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL RODRIGO",
-          "valor": 6750.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Prime VL",
+          "unidade": "Recanto das Emas",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS",
-          "valor": 612.28,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "DIA A DIA"
+          "descricao": "MERCADO",
+          "valor": 2111.72,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "supermercado"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Sistema/Software",
-          "descricao": "RATEIO DE CARTAO",
-          "valor": 450.85,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CARTAO ITAU LATAN"
+          "unidade": "Recanto das Emas",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇAO",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
         },
         {
-          "unidade": "Prime VL",
-          "categoria": "Água",
-          "descricao": "CAESB",
-          "valor": 77.53,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CAESB"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 11038.689999999999,
-      "count": 11,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES NACIONAL",
-          "valor": 2694.76,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 2480.64,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CEB - GD"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "INSS / GPS",
-          "descricao": "receita federal inss",
-          "valor": 1700.98,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "INSS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "supermercado",
-          "valor": 1267.68,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "SUPERMERCADO TATICO "
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "FGTS",
-          "descricao": "FGTS",
-          "valor": 1112.57,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ESTORIL ",
-          "valor": 1084.9,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Energia elétrica",
-          "descricao": "NEO ENERGIA",
-          "valor": 457.16,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Neo Energia"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Gás",
-          "descricao": "deposito de gas",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "DEPOSITO DE GAS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "rumao eletrica",
-          "valor": 96.5,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "RUMAO NOVIDADES"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte",
-          "descricao": "passagem camareira",
-          "valor": 13.5,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Padova",
+          "unidade": "Recanto das Emas",
           "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "passagem Edson",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-28",
+          "descricao": "PASSAGENS",
+          "valor": 86.4,
+          "data_vencimento": "2026-04-29",
           "fornecedor": "TRANSPORTE"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 5526.89,
-      "count": 9,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Pró-Labore",
-          "descricao": "PRÓ-LABORE RODRIGO",
-          "valor": 2000.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "PAGAMENTO SERVIÇO ELETRICISTA COLOCAÇÃO CX DE LUX E DISJUNTOR",
-          "valor": 1000.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "RODRIGO ELETRICISTA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Amenidades",
-          "descricao": "SABONETE INTIMO",
-          "valor": 986.99,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Harus (Amenities)"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "SMINORFF ICE, VINHO SANTA HELENA, TODDYNHO,CHOCOLATE SNICKER,BLACK WHITE,VODKA",
-          "valor": 697.17,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CDA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Material de limpeza",
-          "descricao": "SACO G , P , PARA LIXO, SACO DE 1KG E 3 KG, DUREX,CLIP, ESPONJA",
-          "valor": 425.7,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "WC GUEDES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Outros investimentos desenv. empresarial",
-          "descricao": "RATEIO CARTÃO IZETE",
-          "valor": 260.01,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CARTÃO IZETE"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Sistema/Software",
-          "descricao": "MENSALIDADE PONTO",
-          "valor": 135.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CONTEC"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "COMPRA DE DISCO MAQUITA",
-          "valor": 12.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE DIA 28/04",
-          "valor": 10.02,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": null
         }
       ]
     },
     {
       "name": "Prime ADE",
-      "total": 3876.0299999999993,
-      "count": 17,
+      "total": 2908.48,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Prime ADE",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO LABORE",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Rodrigo Borba Machado"
+          "categoria": "Lavanderia",
+          "descricao": "PRODUTOS LAVANDERIA",
+          "valor": 1476.78,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "JAM PRODUTOS DE LIMPEZA"
         },
         {
           "unidade": "Prime ADE",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO LABORE",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "Ricardo Guilherme  Jose Ribeiro Fernandes"
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇÃO TODOS 1001",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
         },
         {
           "unidade": "Prime ADE",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "MANUTENÇAO EQUIPAMENTOS",
-          "valor": 263.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "BRANDAO PEÇAS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 251.18,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "CASAS BAHIA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 125.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "DL* GOOGLE ADS708218"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "FRITADEIRA",
-          "valor": 86.4,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "FRITADEIRA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTOS",
-          "valor": 31.22,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "G4 OBTEMNE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Treinamentos",
-          "descricao": "TREINAMENTOS",
-          "valor": 31.21,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "G4"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 23.72,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "SUNBASD"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 17.63,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "DMV HOSTINGER"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "COMPRA DE EQUIPAMENTOS",
-          "valor": 15.44,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "MP*ORISANXIMENE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 9.08,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "BLACKBLAZE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 7.32,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "OPERNATURE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 6.68,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "NANONOBILE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 3.74,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "GOOGLE ONE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA",
-          "valor": 3.44,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "X DEVELOPER PLATFORM"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "IOF INTERNACIONAL",
-          "valor": 0.97,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "IOF INTERNACIONAL"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "FILE DE TILAPIA",
+          "valor": 535.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "QUERO FISHER"
         }
       ]
     },
     {
-      "name": "Recanto das Emas",
-      "total": 1580.3300000000002,
-      "count": 3,
+      "name": "Dolce Amore",
+      "total": 1125.17,
+      "count": 2,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "RATEIO DE CARTAO",
-          "valor": 1141.8,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "SISTEMA SOFTWARE"
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COXA SOBRE, GALINHA, PEITO DE FRANGO,NATA",
+          "valor": 622.43,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "Caico Frios"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA MAIS MOTEL",
-          "valor": 436.1,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "SISTEMA"
-        },
+          "unidade": "Dolce Amore",
+          "categoria": "Gás",
+          "descricao": "45 kg de gás cozinha ",
+          "valor": 502.74,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "TRAMPOLIM GÁS"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 896.7,
+      "count": 1,
+      "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 2.43,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": null
+          "unidade": "Prime VL",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇAO",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 408.94,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "PROPAGANDA (CARRO DE SON)",
-          "valor": 250.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "PROPAGANDA DO HOTEL"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "ALEXIA",
-          "valor": 148.94,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "AMAZON PRIME"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALFACE TOMATE",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "feira"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 278.0,
+      "total": 373.29999999999995,
       "count": 9,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "BOMBOM BRINDES TREINAMENTO",
-          "valor": 80.21,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "TREINAMENTO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "RED BULL",
-          "valor": 45.0,
-          "data_vencimento": "2026-04-28",
+          "unidade": "1001 Express",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "PACOTE DE CIGARRO, 12 ISQUEIRO",
+          "valor": 169.9,
+          "data_vencimento": "2026-04-29",
           "fornecedor": "DUARTE BEBIDAS"
         },
         {
-          "unidade": "Qnn01",
+          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "BATATA ",
-          "valor": 38.89,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "DOCES MONTEIRO"
+          "descricao": "5KILO PAO DE QUEIJO P/CAFE DA MANHA",
+          "valor": 55.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "FARIAS PAO DE QUEIJO"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "VALE ADIANTAMENTO GLICIANE",
-          "valor": 36.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "GLICIANE DA SILVA SOUZA"
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "DISCO METAL",
+          "valor": 37.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "CONSTRUCENTER"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "VALE ADIANTAMENTO MARIA CECILIA",
-          "valor": 34.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "MARIA CECILIA"
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT LIDIANE",
+          "valor": 30.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "LIDIANE ALMEIDA"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "RECIBOS",
-          "valor": 15.0,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "PAPELARIA SP"
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "LIVRO CODIGO DE DEFESA DO CONSUMIDOR",
+          "valor": 29.9,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "SHOPPINGO RISK"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Treinamentos",
-          "descricao": "BOMBOM BRINDES TREINAMENTO",
-          "valor": 13.37,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "TREINAMENTO"
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "ALHO",
+          "valor": 20.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "feira"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PÃES",
-          "valor": 7.93,
-          "data_vencimento": "2026-04-28",
-          "fornecedor": "PADARIA"
-        },
-        {
-          "unidade": "Qnn01",
+          "unidade": "1001 Express",
           "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT - JEREMIAS",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-28",
+          "descricao": "VT JEREMIAS ",
+          "valor": 14.0,
+          "data_vencimento": "2026-04-29",
           "fornecedor": "JEREMIAS PASSOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Gráfica",
+          "descricao": "IMPRESSÂO DE FOLHAS, CANHOTO DE RECIBO",
+          "valor": 13.5,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "IMPERIO DO CELULAR "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "CARRAPETA",
+          "valor": 4.0,
+          "data_vencimento": "2026-04-29",
+          "fornecedor": "CONSTRUCENTER"
         }
       ]
     }
   ],
-  "global_total": 53797.4,
-  "global_count": 70,
-  "date": "2026-04-29 16:00:02"
+  "global_total": 8398.470000000001,
+  "global_count": 18,
+  "date": "2026-04-30 10:00:04"
 }
