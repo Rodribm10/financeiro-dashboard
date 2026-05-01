@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Qnn01",
-      "total": 18555.91,
-      "count": 9,
+      "total": 18642.1,
+      "count": 12,
       "transactions": [
         {
           "unidade": "Qnn01",
@@ -47,6 +47,14 @@
         },
         {
           "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "HALLS,LEITE CONDESADORA",
+          "valor": 61.19,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "DOCES MONTEIRO"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Sistema/Software",
           "descricao": "CALIMA",
           "valor": 28.29,
@@ -71,11 +79,27 @@
         },
         {
           "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "CHAVE BOTÃO E TERMINAL",
+          "valor": 17.4,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "DISPEL"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Serviços jurídicos",
           "descricao": "TAXA JUNTA  MIDHAUS",
           "valor": 9.47,
           "data_vencimento": "2026-04-30",
           "fornecedor": "TAXA JUNTA MIDHOUSE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MARIA CECILIA",
+          "valor": 7.6,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "MARIA CECILIA"
         }
       ]
     },
@@ -205,6 +229,85 @@
       ]
     },
     {
+      "name": "Prime AL",
+      "total": 1117.33,
+      "count": 9,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENCAO todas 1001",
+          "valor": 896.7,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 53.58,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "COMBUSTIVEL COMPRAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "UBER ENTREGA DAS ROUPAS LIMPAS",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "troca óleo do carro compras",
+          "valor": 36.43,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TROCA DE OLEO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Sistema/Software",
+          "descricao": "CALIMA",
+          "valor": 28.29,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "CALIMA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Treinamentos",
+          "descricao": "bolo thais",
+          "valor": 22.86,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "BOLO THAIS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Serviços jurídicos",
+          "descricao": "PROCURAÇÃO MIDHAUSE",
+          "valor": 17.73,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "PROCURAÇÃO MIDHOUSE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Serviços jurídicos",
+          "descricao": "TAXA JUNTA MIDHAUSE",
+          "valor": 9.47,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TAXA JUNTA MIDHOUSE"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 2.27,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "Recanto das Emas",
       "total": 574.9,
       "count": 1,
@@ -220,25 +323,57 @@
       ]
     },
     {
-      "name": "Prime AL",
-      "total": 487.32,
-      "count": 2,
+      "name": "Padova",
+      "total": 553.63,
+      "count": 6,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA S GAS - ÁGUA C GAS",
-          "valor": 437.32,
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIAS TRABALHADOS CAMAREIRA",
+          "valor": 246.5,
           "data_vencimento": "2026-04-30",
-          "fornecedor": "SEIVA MINERAÇÃO "
+          "fornecedor": "DIARISTA"
         },
         {
-          "unidade": "Prime AL",
-          "categoria": "Lavanderia",
-          "descricao": "UBER ENTREGA DAS ROUPAS LIMPAS",
-          "valor": 50.0,
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "ATLAS CASA E CONSTRUÇAO",
+          "valor": 151.3,
           "data_vencimento": "2026-04-30",
-          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+          "fornecedor": "MATERIAL DE CONSTRUÇÃO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIARIA DE CAMAREIRA FALTA",
+          "valor": 130.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "DIARISTA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "PASSAGEM JEREMIAS",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "PASSAGEM EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 5.83,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": null
         }
       ]
     },
@@ -282,7 +417,7 @@
       ]
     }
   ],
-  "global_total": 30898.31,
-  "global_count": 29,
-  "date": "2026-05-01 10:00:04"
+  "global_total": 32168.14,
+  "global_count": 45,
+  "date": "2026-05-01 16:00:04"
 }
