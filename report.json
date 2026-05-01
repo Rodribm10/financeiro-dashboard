@@ -1,351 +1,288 @@
 {
   "hotels": [
     {
-      "name": "Recanto das Emas",
-      "total": 5683.619999999999,
-      "count": 5,
+      "name": "Qnn01",
+      "total": 18555.91,
+      "count": 9,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "MERCADO",
-          "valor": 2111.72,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "supermercado"
+          "unidade": "Qnn01",
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL PREDIO",
+          "valor": 15000.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "ALUGUEL PREDIO QNN 01"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Pró-Labore",
-          "descricao": "Pro labore",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "Rodrigo Borba Machado"
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "ENERGI ALEX GUSMÃO RODRIGO",
+          "valor": 1893.05,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "CEB BRASILIA"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "Duarte bebidas",
-          "valor": 1088.8,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "duarte"
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "CEB IZETE CASA ",
+          "valor": 804.13,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "CEB BRASILIA"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇAO",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "PASSAGENS",
-          "valor": 86.4,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "TRANSPORTE"
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 3733.2,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 1529.81,
-          "data_vencimento": "2026-04-29",
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "CEB IZETE CASA",
+          "valor": 642.96,
+          "data_vencimento": "2026-04-30",
           "fornecedor": "CEB - GD"
         },
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Energia elétrica",
-          "descricao": "Neo energia",
-          "valor": 1279.49,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "Neo Energia"
+          "unidade": "Qnn01",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE E INTERNET",
+          "valor": 142.42,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TELEFONE E INTERNET"
         },
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "Manutenção  todos 1001",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+          "unidade": "Qnn01",
+          "categoria": "Sistema/Software",
+          "descricao": "CALIMA",
+          "valor": 28.29,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "CALIMA"
         },
         {
-          "unidade": "1001 - Samambaia",
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS ",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Serviços jurídicos",
-          "descricao": "Procuração e taxa midhouse",
-          "valor": 27.2,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "OUTROS"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 3064.54,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Água",
-          "descricao": "AGUA ",
-          "valor": 2854.27,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "SANEAGO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Diarista",
-          "descricao": "DIÁRISTA ATESTADO CAMAREIRA DA NOITE",
-          "valor": 120.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "DIARISTA / ATESTADO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "MERCADO ",
-          "valor": 87.62,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 2.65,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 2980.63,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Lavanderia",
-          "descricao": "PRODUTOS LAVANDERIA",
-          "valor": 1476.78,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "JAM PRODUTOS DE LIMPEZA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇÃO TODOS 1001",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "FILE DE TILAPIA",
-          "valor": 535.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "QUERO FISHER"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "TROCA OLEO",
-          "valor": 36.43,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "PAULO COMPRAS"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 2404.2999999999997,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Pró-Labore",
-          "descricao": "POR LABORE RICARDO",
-          "valor": 1500.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "ricardo fernandes"
+          "descricao": "PROCURAÇÃO MIDHOUSE",
+          "valor": 17.73,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "PROCURAÇÃO MIDHOUSE"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇÃO TODOS 1001",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MARIA CECILIA",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MARIA CECILIA"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 1145.95,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COXA SOBRE, GALINHA, PEITO DE FRANGO,NATA",
-          "valor": 622.43,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "Caico Frios"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Gás",
-          "descricao": "45 kg de gás cozinha ",
-          "valor": 502.74,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "TRAMPOLIM GÁS"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "VT ADRIENE REF AO TREINAMENTO",
-          "valor": 12.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 29/04",
-          "valor": 8.78,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": null
+          "categoria": "Serviços jurídicos",
+          "descricao": "TAXA JUNTA  MIDHAUS",
+          "valor": 9.47,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "TAXA JUNTA MIDHOUSE"
         }
       ]
     },
     {
       "name": "Prime VL",
-      "total": 896.7,
-      "count": 1,
+      "total": 5814.58,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Prime VL",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇAO",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
+          "categoria": "Energia elétrica",
+          "descricao": "NEO ENERGIA ",
+          "valor": 5714.43,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "NEOENERGIA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Energia elétrica",
+          "descricao": "NEO ENERGIA GARAGEM",
+          "valor": 100.15,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "NEOENERGIA"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 3474.8700000000003,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Lavanderia",
+          "descricao": "LAVANDERIA PARC. 3/3",
+          "valor": 2198.88,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL  2025 PARC 4/60",
+          "valor": 582.8,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "DARF MINISTERIO DA FAZENDA, ARRECADAÇÃO RECEITA FEDERAL",
+          "valor": 517.19,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "RECEITA FEDERAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Frigobar",
+          "descricao": "AGUA DE COCO, SUCO",
+          "valor": 176.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "DD gaspar"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 373.29999999999995,
-      "count": 9,
+      "total": 1790.54,
+      "count": 7,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "PACOTE DE CIGARRO, 12 ISQUEIRO",
-          "valor": 169.9,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "DUARTE BEBIDAS"
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "LIXEIRA",
+          "valor": 366.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "LIXEIRA BANHEIRO FUNCIONARIOS "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "5KILO PAO DE QUEIJO P/CAFE DA MANHA",
-          "valor": 55.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "FARIAS PAO DE QUEIJO"
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "SECADORA",
+          "valor": 341.94,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "MAgalu"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "DISCO METAL",
-          "valor": 37.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "CONSTRUCENTER"
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "MP",
+          "valor": 325.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "AMAZON"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "VT LIDIANE",
-          "valor": 30.0,
-          "data_vencimento": "2026-04-29",
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "ALEXA",
+          "valor": 295.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Compra de equipamentos Novos (Investimento)",
+          "descricao": "ALEXIA",
+          "valor": 206.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "AMAZON"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "COMPRA PARA FINAL DE SEMANA",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SUPERMERCADO TATICO "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "2 DIAS TRABALHADO( LIDIANE)",
+          "valor": 106.6,
+          "data_vencimento": "2026-04-30",
           "fornecedor": "LIDIANE ALMEIDA"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 574.9,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Energia elétrica",
+          "descricao": "NEO ENERGIA ",
+          "valor": 574.9,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "NEOENERGIA"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 487.32,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUA S GAS - ÁGUA C GAS",
+          "valor": 437.32,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SEIVA MINERAÇÃO "
         },
         {
-          "unidade": "1001 Express",
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "UBER ENTREGA DAS ROUPAS LIMPAS",
+          "valor": 50.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 200.19000000000003,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Devoluções de clientes",
+          "descricao": "DEVOLUÇAO DE CLIENTE",
+          "valor": 150.0,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BOLO THAIS",
+          "valor": 22.86,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "BOLO ANIVERSARIO"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "PAULO COMPRAS"
+        },
+        {
+          "unidade": "Prime ADE",
           "categoria": "Tarifas bancárias",
-          "descricao": "LIVRO CODIGO DE DEFESA DO CONSUMIDOR",
-          "valor": 29.9,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "SHOPPINGO RISK"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "ALHO",
-          "valor": 20.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "feira"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT JEREMIAS ",
-          "valor": 14.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "JEREMIAS PASSOS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Gráfica",
-          "descricao": "IMPRESSÂO DE FOLHAS, CANHOTO DE RECIBO",
-          "valor": 13.5,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "IMPERIO DO CELULAR "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "CARRAPETA",
-          "valor": 4.0,
-          "data_vencimento": "2026-04-29",
-          "fornecedor": "CONSTRUCENTER"
+          "descricao": "TAXA JUNTA MIDHOUSE",
+          "valor": 9.47,
+          "data_vencimento": "2026-04-30",
+          "fornecedor": "SERVIÇOS JURIDICOS"
         }
       ]
     }
   ],
-  "global_total": 20282.239999999998,
-  "global_count": 36,
-  "date": "2026-04-30 16:00:02"
+  "global_total": 30898.31,
+  "global_count": 29,
+  "date": "2026-05-01 10:00:04"
 }
