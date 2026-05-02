@@ -150,6 +150,53 @@
       ]
     },
     {
+      "name": "Padova",
+      "total": 498.03,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem beatriz mensal",
+          "valor": 165.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem mensal carolina",
+          "valor": 165.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista camareira atestado",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "Diarista"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "frete Reginaldo lavanderia",
+          "valor": 30.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "FRETE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 8.03,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "Prime AL",
       "total": 437.32,
       "count": 1,
@@ -180,7 +227,7 @@
       ]
     }
   ],
-  "global_total": 10630.84,
-  "global_count": 18,
-  "date": "2026-05-02 10:00:02"
+  "global_total": 11128.87,
+  "global_count": 23,
+  "date": "2026-05-02 16:00:04"
 }
