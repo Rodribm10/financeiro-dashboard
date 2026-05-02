@@ -1,423 +1,186 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 18642.1,
-      "count": 12,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL PREDIO",
-          "valor": 15000.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "ALUGUEL PREDIO QNN 01"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "ENERGI ALEX GUSMÃO RODRIGO",
-          "valor": 1893.05,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "CEB BRASILIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "CEB IZETE CASA ",
-          "valor": 804.13,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "CEB BRASILIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Distribuição de lucros",
-          "descricao": "CEB IZETE CASA",
-          "valor": 642.96,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "CEB - GD"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Telefone + internet",
-          "descricao": "TELEFONE E INTERNET",
-          "valor": 142.42,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TELEFONE E INTERNET"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "HALLS,LEITE CONDESADORA",
-          "valor": 61.19,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA",
-          "valor": 28.29,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL COMPRAS ",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "PAULO COMPRAS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "PROCURAÇÃO MIDHOUSE",
-          "valor": 17.73,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "PROCURAÇÃO MIDHOUSE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "CHAVE BOTÃO E TERMINAL",
-          "valor": 17.4,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DISPEL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "TAXA JUNTA  MIDHAUS",
-          "valor": 9.47,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TAXA JUNTA MIDHOUSE"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MARIA CECILIA",
-          "valor": 7.6,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "MARIA CECILIA"
-        }
-      ]
-    },
-    {
       "name": "Prime VL",
-      "total": 5814.58,
+      "total": 4486.85,
       "count": 2,
       "transactions": [
         {
           "unidade": "Prime VL",
           "categoria": "Energia elétrica",
-          "descricao": "NEO ENERGIA ",
-          "valor": 5714.43,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "NEOENERGIA"
+          "descricao": "CEB GD",
+          "valor": 3523.85,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "CEB - GD"
         },
         {
           "unidade": "Prime VL",
-          "categoria": "Energia elétrica",
-          "descricao": "NEO ENERGIA GARAGEM",
-          "valor": 100.15,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "NEOENERGIA"
-        }
-      ]
-    },
-    {
-      "name": "Dolce Amore",
-      "total": 3474.8700000000003,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 3/3",
-          "valor": 2198.88,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "SIMPLES NACIONAL  2025 PARC 4/60",
-          "valor": 582.8,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "SIMPLES NACIONAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "DAS - Simples Nacional",
-          "descricao": "DARF MINISTERIO DA FAZENDA, ARRECADAÇÃO RECEITA FEDERAL",
-          "valor": 517.19,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "RECEITA FEDERAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "AGUA DE COCO, SUCO",
-          "valor": 176.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DD gaspar"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 1790.54,
-      "count": 7,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "LIXEIRA",
-          "valor": 366.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "LIXEIRA BANHEIRO FUNCIONARIOS "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "SECADORA",
-          "valor": 341.94,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "MAgalu"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "MP",
-          "valor": 325.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "ALEXA",
-          "valor": 295.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de equipamentos Novos (Investimento)",
-          "descricao": "ALEXIA",
-          "valor": 206.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "AMAZON"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "COMPRA PARA FINAL DE SEMANA",
-          "valor": 150.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "SUPERMERCADO TATICO "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "2 DIAS TRABALHADO( LIDIANE)",
-          "valor": 106.6,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "LIDIANE ALMEIDA"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 1117.33,
-      "count": 9,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENCAO todas 1001",
-          "valor": 896.7,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "Prime AL",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 53.58,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "COMBUSTIVEL COMPRAS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Lavanderia",
-          "descricao": "UBER ENTREGA DAS ROUPAS LIMPAS",
-          "valor": 50.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "troca óleo do carro compras",
-          "valor": 36.43,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TROCA DE OLEO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Sistema/Software",
-          "descricao": "CALIMA",
-          "valor": 28.29,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "CALIMA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Treinamentos",
-          "descricao": "bolo thais",
-          "valor": 22.86,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "BOLO THAIS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Serviços jurídicos",
-          "descricao": "PROCURAÇÃO MIDHAUSE",
-          "valor": 17.73,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "PROCURAÇÃO MIDHOUSE"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Serviços jurídicos",
-          "descricao": "TAXA JUNTA MIDHAUSE",
-          "valor": 9.47,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TAXA JUNTA MIDHOUSE"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 2.27,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": null
+          "descricao": "DUARTE BEBIDAS",
+          "valor": 963.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "DUARTE"
         }
       ]
     },
     {
       "name": "Recanto das Emas",
-      "total": 574.9,
-      "count": 1,
+      "total": 3128.65,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Recanto das Emas",
           "categoria": "Energia elétrica",
-          "descricao": "NEO ENERGIA ",
-          "valor": 574.9,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "NEOENERGIA"
+          "descricao": "CEB GD",
+          "valor": 2128.65,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "ENERGIA ELETRICA"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Energia elétrica",
+          "descricao": "CEB GD",
+          "valor": 1000.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "CEB - GD"
         }
       ]
     },
     {
-      "name": "Padova",
-      "total": 553.63,
-      "count": 6,
+      "name": "Qnn01",
+      "total": 2548.0199999999995,
+      "count": 12,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIAS TRABALHADOS CAMAREIRA",
-          "valor": 246.5,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "ATLAS CASA E CONSTRUÇAO",
-          "valor": 151.3,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "MATERIAL DE CONSTRUÇÃO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARIA DE CAMAREIRA FALTA",
-          "valor": 130.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DIARISTA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "PASSAGEM JEREMIAS",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "PASSAGEM EDSON",
-          "valor": 10.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 5.83,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 200.19000000000003,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Devoluções de clientes",
-          "descricao": "DEVOLUÇAO DE CLIENTE",
-          "valor": 150.0,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "DEVOLUÇOES DE CLENTES"
-        },
-        {
-          "unidade": "Prime ADE",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "BOLO THAIS",
-          "valor": 22.86,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "BOLO ANIVERSARIO"
+          "descricao": "COMPRAS FRUTAS E VERDURAS",
+          "valor": 370.5,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "feira"
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "PAULO COMPRAS"
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS  ASSAI FIM DE SEMANA",
+          "valor": 326.76,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "SUPERMERCADO ASSAI"
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TAXA JUNTA MIDHOUSE",
-          "valor": 9.47,
-          "data_vencimento": "2026-04-30",
-          "fornecedor": "SERVIÇOS JURIDICOS"
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL ANTONIA SINTIA",
+          "valor": 260.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS  DIA A DIA FIM DE SEMANA",
+          "valor": 249.76,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "SUPERMECADO DIA DIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL MARIA CECILIA",
+          "valor": 205.2,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "MARIA CECILIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL ASHELYS",
+          "valor": 202.5,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "ASHELY RODRIGUES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL DEANE",
+          "valor": 202.5,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "DEANE MOISES DA SILVA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL MARIA SIQUEIRA",
+          "valor": 197.6,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "MARIA SIQUEIRA DA SILVA DOS ANJOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL GLICIANE",
+          "valor": 176.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "GLICIANE DA SILVA SOUZA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL EDILEUZA",
+          "valor": 121.6,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "EDILEUZA RODRIGUES CARNEIRO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL KARINA",
+          "valor": 121.6,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - MENSAL EDVANIA ",
+          "valor": 114.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "EDVANIA DOS SANTOS SOUZA"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 437.32,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "AGUA S GAS - ÁGUA C GAS",
+          "valor": 437.32,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "SEIVA MINERAÇÃO "
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 30.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-05-01",
+          "fornecedor": "EDSON"
         }
       ]
     }
   ],
-  "global_total": 32168.14,
-  "global_count": 45,
-  "date": "2026-05-01 16:00:04"
+  "global_total": 10630.84,
+  "global_count": 18,
+  "date": "2026-05-02 10:00:02"
 }
