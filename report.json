@@ -53,9 +53,24 @@
           "fornecedor": "GAZIN"
         }
       ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 17.89,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 02/05",
+          "valor": 17.89,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": null
+        }
+      ]
     }
   ],
-  "global_total": 662.33,
-  "global_count": 5,
-  "date": "2026-05-03 10:00:04"
+  "global_total": 680.22,
+  "global_count": 6,
+  "date": "2026-05-03 16:00:03"
 }
