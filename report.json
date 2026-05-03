@@ -1,233 +1,61 @@
 {
   "hotels": [
     {
-      "name": "Prime VL",
-      "total": 4486.85,
-      "count": 2,
+      "name": "1001 Express",
+      "total": 457.35,
+      "count": 4,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 3523.85,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "CEB - GD"
-        },
-        {
-          "unidade": "Prime VL",
+          "unidade": "1001 Express",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "DUARTE BEBIDAS",
-          "valor": 963.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "DUARTE"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 3128.65,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 2128.65,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "ENERGIA ELETRICA"
+          "descricao": "COMPRAS SEMANAL TATICO",
+          "valor": 329.35,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": "SUPERMERCADO TATICO"
         },
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Energia elétrica",
-          "descricao": "CEB GD",
-          "valor": 1000.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "CEB - GD"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 2548.0199999999995,
-      "count": 12,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS FRUTAS E VERDURAS",
-          "valor": 370.5,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "feira"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS  ASSAI FIM DE SEMANA",
-          "valor": 326.76,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "SUPERMERCADO ASSAI"
-        },
-        {
-          "unidade": "Qnn01",
+          "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "VT - MENSAL ANTONIA SINTIA",
-          "valor": 260.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+          "descricao": "RESTANTE VT GEOVANIA  REFERENTE A MAIO",
+          "valor": 90.0,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS  DIA A DIA FIM DE SEMANA",
-          "valor": 249.76,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "SUPERMECADO DIA DIA"
-        },
-        {
-          "unidade": "Qnn01",
+          "unidade": "1001 Express",
           "categoria": "Transporte",
-          "descricao": "VT - MENSAL MARIA CECILIA",
-          "valor": 205.2,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "MARIA CECILIA"
+          "descricao": ",",
+          "valor": 20.0,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL ASHELYS",
-          "valor": 202.5,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "ASHELY RODRIGUES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL DEANE",
-          "valor": 202.5,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "DEANE MOISES DA SILVA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL MARIA SIQUEIRA",
-          "valor": 197.6,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "MARIA SIQUEIRA DA SILVA DOS ANJOS"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL GLICIANE",
-          "valor": 176.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "GLICIANE DA SILVA SOUZA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL EDILEUZA",
-          "valor": 121.6,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "EDILEUZA RODRIGUES CARNEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL KARINA",
-          "valor": 121.6,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Transporte",
-          "descricao": "VT - MENSAL EDVANIA ",
-          "valor": 114.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "EDVANIA DOS SANTOS SOUZA"
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": " 4P/COLHER DESCATAVEL",
+          "valor": 18.0,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": "EMBALAGENS BARRETO"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 498.03,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "passagem beatriz mensal",
-          "valor": 165.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Transporte",
-          "descricao": "passagem mensal carolina",
-          "valor": 165.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "TRANSPORTE DE FUNCIONARIOS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "diarista camareira atestado",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "Diarista"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "frete Reginaldo lavanderia",
-          "valor": 30.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "FRETE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 8.03,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 437.32,
+      "total": 204.98,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime AL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA S GAS - ÁGUA C GAS",
-          "valor": 437.32,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "SEIVA MINERAÇÃO "
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 30.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
-          "valor": 30.0,
-          "data_vencimento": "2026-05-01",
-          "fornecedor": "EDSON"
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "gaziz tvs",
+          "valor": 204.98,
+          "data_vencimento": "2026-05-02",
+          "fornecedor": "GAZIN"
         }
       ]
     }
   ],
-  "global_total": 11128.87,
-  "global_count": 23,
-  "date": "2026-05-02 16:00:04"
+  "global_total": 662.33,
+  "global_count": 5,
+  "date": "2026-05-03 10:00:04"
 }
