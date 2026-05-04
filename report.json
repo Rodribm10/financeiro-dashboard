@@ -1,76 +1,37 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 457.35,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS SEMANAL TATICO",
-          "valor": 329.35,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "RESTANTE VT GEOVANIA  REFERENTE A MAIO",
-          "valor": 90.0,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": "GEOVANIA NUNES DA SILVA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": ",",
-          "valor": 20.0,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": " 4P/COLHER DESCATAVEL",
-          "valor": 18.0,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": "EMBALAGENS BARRETO"
-        }
-      ]
-    },
-    {
       "name": "Padova",
-      "total": 204.98,
+      "total": 490.0,
       "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "gaziz tvs",
-          "valor": 204.98,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": "GAZIN"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "bolelto natural foods",
+          "valor": 490.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "NATURALL FOODS"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 17.89,
+      "total": 175.0,
       "count": 1,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 02/05",
-          "valor": 17.89,
-          "data_vencimento": "2026-05-02",
-          "fornecedor": null
+          "categoria": "Frigobar",
+          "descricao": "agua de coco ",
+          "valor": 175.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "DD gaspar"
         }
       ]
     }
   ],
-  "global_total": 680.22,
-  "global_count": 6,
-  "date": "2026-05-03 16:00:03"
+  "global_total": 665.0,
+  "global_count": 2,
+  "date": "2026-05-04 10:00:05"
 }
