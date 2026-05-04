@@ -16,9 +16,94 @@
       ]
     },
     {
+      "name": "Prime VL",
+      "total": 377.0,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Transporte",
+          "descricao": "PASSAGENS",
+          "valor": 147.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "HALLS TRIDENT",
+          "valor": 118.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "DISDAL"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Diarista",
+          "descricao": "DIARISTA",
+          "valor": 112.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "DIARISTA"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 360.0,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA EDINA",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "ANTONIA EDINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "STEFANY SANTOS"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 242.45,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SODA,PINHO SOL",
+          "valor": 122.45,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "ASSAÍ ATACADISTA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Diarista",
+          "descricao": "DIARIAS FOLGA CAMAREIRA",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": "DIARISTA"
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
-      "total": 175.0,
-      "count": 1,
+      "total": 220.82999999999998,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -27,11 +112,57 @@
           "valor": 175.0,
           "data_vencimento": "2026-05-03",
           "fornecedor": "DD gaspar"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Transporte",
+          "descricao": "DIFERENÇA VT JACIARA MARÇO",
+          "valor": 30.6,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 03/04",
+          "valor": 15.23,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 1.66,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA",
+          "valor": 1.66,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 1.57,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 1.57,
+          "data_vencimento": "2026-05-03",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 665.0,
-  "global_count": 2,
-  "date": "2026-05-04 10:00:05"
+  "global_total": 1693.51,
+  "global_count": 14,
+  "date": "2026-05-04 16:00:03"
 }
