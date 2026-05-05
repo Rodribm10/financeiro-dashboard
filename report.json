@@ -48,6 +48,45 @@
       ]
     },
     {
+      "name": "Dolce Amore",
+      "total": 5106.339999999999,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Férias",
+          "descricao": "FERIAS LARISSA TORRES",
+          "valor": 2739.85,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "LARISSA TORRES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Férias",
+          "descricao": "FÉRIAS CICERA JACIARA",
+          "valor": 2078.3,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "CICERA JACIARA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mão de Obra – Marketing",
+          "descricao": "MARKETING RATEIO",
+          "valor": 275.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 04/05",
+          "valor": 13.19,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "1001 - Samambaia",
       "total": 3200.87,
       "count": 5,
@@ -96,8 +135,8 @@
     },
     {
       "name": "Prime AL",
-      "total": 712.0,
-      "count": 2,
+      "total": 1157.5,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Prime AL",
@@ -106,6 +145,22 @@
           "valor": 582.0,
           "data_vencimento": "2026-05-04",
           "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT ÉRICA GERENTE",
+          "valor": 305.5,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "ERICA DA SILVA SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Gráfica",
+          "descricao": "GRAFICA IMPRESSÃO ",
+          "valor": 140.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "IMPRESSÃO"
         },
         {
           "unidade": "Prime AL",
@@ -119,8 +174,8 @@
     },
     {
       "name": "Padova",
-      "total": 325.0,
-      "count": 2,
+      "total": 660.53,
+      "count": 6,
       "transactions": [
         {
           "unidade": "Padova",
@@ -132,19 +187,82 @@
         },
         {
           "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem mensal  sheila",
+          "valor": 202.5,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra variável",
+          "descricao": "Zian  serviços tecnicos de tvs /cameras",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "ZEAM CAMERAS"
+        },
+        {
+          "unidade": "Padova",
           "categoria": "Devoluções de clientes",
           "descricao": "DEVOLUÇAO P/ CLIENTE",
           "valor": 50.0,
           "data_vencimento": "2026-05-04",
           "fornecedor": "DEVOLUÇOES DE CLENTES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem edsn",
+          "valor": 10.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFAS BANCARIAS",
+          "valor": 3.03,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 186.81,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Lavanderia",
+          "descricao": " DIARIA LAVANDERIA",
+          "valor": 150.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SUPERMERCADO",
+          "valor": 36.81,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "supermercado"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 1.37,
-      "count": 1,
+      "total": 17.37,
+      "count": 2,
       "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "LUVA  VOLK VERNIZ",
+          "valor": 16.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "TUDO MAS"
+        },
         {
           "unidade": "1001 Express",
           "categoria": "Tarifas bancárias",
@@ -156,7 +274,7 @@
       ]
     }
   ],
-  "global_total": 10427.05,
-  "global_count": 15,
-  "date": "2026-05-05 10:00:04"
+  "global_total": 16517.23,
+  "global_count": 28,
+  "date": "2026-05-05 16:00:03"
 }
