@@ -1,168 +1,162 @@
 {
   "hotels": [
     {
-      "name": "Padova",
-      "total": 490.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "bolelto natural foods",
-          "valor": 490.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "NATURALL FOODS"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 377.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Transporte",
-          "descricao": "PASSAGENS",
-          "valor": 147.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "TRANSPORTE"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "HALLS TRIDENT",
-          "valor": 118.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "DISDAL"
-        },
-        {
-          "unidade": "Prime VL",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA",
-          "valor": 112.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "DIARISTA"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 360.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA EDINA",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "ANTONIA EDINA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA STEFFANE",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "STEFANY SANTOS"
-        }
-      ]
-    },
-    {
       "name": "Qnn01",
-      "total": 242.45,
-      "count": 2,
+      "total": 6187.8099999999995,
+      "count": 5,
       "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO ANTONIA SINTIA",
+          "valor": 2500.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MARIA SIQUEIRA",
+          "valor": 2000.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "MARIA SIQUEIRA DA SILVA DOS ANJOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "PAGAMENTO IONALDO",
+          "valor": 900.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "IONALDO FRANCISCO DA HORA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Amenidades",
+          "descricao": "SABONETE E MUSSE DE BANHO",
+          "valor": 765.81,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "ESTORIL"
+        },
         {
           "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "SODA,PINHO SOL",
-          "valor": 122.45,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "ASSAÍ ATACADISTA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Diarista",
-          "descricao": "DIARIAS FOLGA CAMAREIRA",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "DIARISTA"
+          "descricao": "ALCOOL PARA SABAO",
+          "valor": 22.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "POSTO DE GASOLINA"
         }
       ]
     },
     {
-      "name": "Dolce Amore",
-      "total": 220.82999999999998,
-      "count": 3,
+      "name": "1001 - Samambaia",
+      "total": 3200.87,
+      "count": 5,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "agua de coco ",
-          "valor": 175.0,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": "DD gaspar"
+          "unidade": "1001 - Samambaia",
+          "categoria": "Pró-Labore",
+          "descricao": "PRO LABORE",
+          "valor": 1500.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "Rodrigo Borba Machado"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "DIFERENÇA VT JACIARA MARÇO",
-          "valor": 30.6,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": null
+          "unidade": "1001 - Samambaia",
+          "categoria": "Manutenção Todos 1001 Noites",
+          "descricao": "MANUTENÇÃO TODOS 1001",
+          "valor": 896.7,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 03/04",
-          "valor": 15.23,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 1.66,
-      "count": 1,
-      "transactions": [
+          "unidade": "1001 - Samambaia",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MANUTENÇÃO ZEAN",
+          "valor": 350.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "ZEAM CAMERAS"
+        },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 1.66,
-          "data_vencimento": "2026-05-03",
-          "fornecedor": null
+          "unidade": "1001 - Samambaia",
+          "categoria": "Marketing Offline",
+          "descricao": "JHONY MARKENTING",
+          "valor": 275.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "JHONNY MARKENTING"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "LUX TINTAS",
+          "valor": 179.17,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "LUX TINTAS"
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 1.57,
-      "count": 1,
+      "total": 712.0,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Prime AL",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
+          "valor": 582.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "SOLAR TINTAS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Propaganda",
+          "descricao": "FAIXA PROMOÇÃO ",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "FAIXA PROMOCIONAL "
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 325.0,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO JHONY",
+          "valor": 275.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "JHONNY MARKENTING"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Devoluções de clientes",
+          "descricao": "DEVOLUÇAO P/ CLIENTE",
+          "valor": 50.0,
+          "data_vencimento": "2026-05-04",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 1.37,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
           "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 1.57,
-          "data_vencimento": "2026-05-03",
+          "descricao": "TARIFA",
+          "valor": 1.37,
+          "data_vencimento": "2026-05-04",
           "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 1693.51,
-  "global_count": 14,
-  "date": "2026-05-04 16:00:03"
+  "global_total": 10427.05,
+  "global_count": 15,
+  "date": "2026-05-05 10:00:04"
 }
