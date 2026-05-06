@@ -1,280 +1,487 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 6187.8099999999995,
-      "count": 5,
+      "name": "Prime ADE",
+      "total": 22905.710000000003,
+      "count": 9,
       "transactions": [
         {
-          "unidade": "Qnn01",
+          "unidade": "Prime ADE",
+          "categoria": "Rescisões",
+          "descricao": "RECISAO ELDINA",
+          "valor": 5833.33,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "Eldina Gomes"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Água",
+          "descricao": "caesb",
+          "valor": 2817.54,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "CAESB"
+        },
+        {
+          "unidade": "Prime ADE",
           "categoria": "Salário",
-          "descricao": "PAGAMENTO ANTONIA SINTIA",
-          "valor": 2500.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "ANTONIA SINTIA CAMELO DE SOUZA"
+          "descricao": "SALARIO",
+          "valor": 2246.88,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "TANIA ROCHA"
         },
         {
-          "unidade": "Qnn01",
+          "unidade": "Prime ADE",
           "categoria": "Salário",
-          "descricao": "PAGAMENTO MARIA SIQUEIRA",
-          "valor": 2000.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "MARIA SIQUEIRA DA SILVA DOS ANJOS"
+          "descricao": "SALARIO",
+          "valor": 2235.29,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "LILIA MOREIRA DA ROCHA"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Lavanderia",
-          "descricao": "PAGAMENTO IONALDO",
-          "valor": 900.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "IONALDO FRANCISCO DA HORA"
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2219.79,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "ELZIMAR GOMES DA COSTA"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Amenidades",
-          "descricao": "SABONETE E MUSSE DE BANHO",
-          "valor": 765.81,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "ESTORIL"
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2219.79,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "INGRID ROBERTA"
         },
         {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "ALCOOL PARA SABAO",
-          "valor": 22.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "POSTO DE GASOLINA"
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1897.7,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "Marcia Maria N. "
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1740.39,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MICAELLEN CARDOSO SILVA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1695.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DAVID HENRIQUE DA SILVA MELO"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 5106.339999999999,
-      "count": 4,
+      "total": 19627.769999999997,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Férias",
-          "descricao": "FERIAS LARISSA TORRES",
-          "valor": 2739.85,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "LARISSA TORRES"
+          "categoria": "Aluguel, condomínio, IPTU",
+          "descricao": "ALUGUEL IMAVEL PARC 1/2",
+          "valor": 18930.6,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "Exclusiva Empreendimentos"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Férias",
-          "descricao": "FÉRIAS CICERA JACIARA",
-          "valor": 2078.3,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "CICERA JACIARA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mão de Obra – Marketing",
-          "descricao": "MARKETING RATEIO",
-          "valor": 275.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 04/05",
-          "valor": 13.19,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "1001 - Samambaia",
-      "total": 3200.87,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Pró-Labore",
-          "descricao": "PRO LABORE",
-          "valor": 1500.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "Rodrigo Borba Machado"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Manutenção Todos 1001 Noites",
-          "descricao": "MANUTENÇÃO TODOS 1001",
-          "valor": 896.7,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "MANUTENÇÃ0 TODOS 1001"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MANUTENÇÃO ZEAN",
-          "valor": 350.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "ZEAM CAMERAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Marketing Offline",
-          "descricao": "JHONY MARKENTING",
-          "valor": 275.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "JHONNY MARKENTING"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS",
-          "valor": 179.17,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "LUX TINTAS"
+          "categoria": "Frigobar",
+          "descricao": "SMINORFF ICE, VINHO SANTA HELENA,CHOCOLATE SNICKER",
+          "valor": 697.17,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "CDA"
         }
       ]
     },
     {
       "name": "Prime AL",
-      "total": 1157.5,
-      "count": 4,
+      "total": 17755.120000000003,
+      "count": 10,
       "transactions": [
         {
           "unidade": "Prime AL",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "MASSA ARILICA - ACRIL - DISCO ....",
-          "valor": 582.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "SOLAR TINTAS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Transporte",
-          "descricao": "VT ÉRICA GERENTE",
-          "valor": 305.5,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "ERICA DA SILVA SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Gráfica",
-          "descricao": "GRAFICA IMPRESSÃO ",
-          "valor": 140.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "IMPRESSÃO"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Propaganda",
-          "descricao": "FAIXA PROMOÇÃO ",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "FAIXA PROMOCIONAL "
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 660.53,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Padova",
           "categoria": "Salário",
-          "descricao": "PAGAMENTO JHONY",
-          "valor": 275.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "JHONNY MARKENTING"
+          "descricao": "SALÁRIO THAYNARA CAMAREIRA ",
+          "valor": 2168.45,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Transporte",
-          "descricao": "passagem mensal  sheila",
-          "valor": 202.5,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "TRANSPORTE"
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO RECEPCIOCISTA VALÉRIA",
+          "valor": 2153.75,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Mão de obra variável",
-          "descricao": "Zian  serviços tecnicos de tvs /cameras",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "ZEAM CAMERAS"
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO RECEPCIOCISTA DANIELA",
+          "valor": 2027.18,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DANIELA SILVA DE LIRA"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Devoluções de clientes",
-          "descricao": "DEVOLUÇAO P/ CLIENTE",
-          "valor": 50.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "DEVOLUÇOES DE CLENTES"
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO MONICA CAMAREIRA",
+          "valor": 2024.74,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "monica de sousa matos"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "passagem edsn",
-          "valor": 10.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "TRANSPORTE"
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO CAMAREIRA SANDRA",
+          "valor": 1960.57,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "SANDRA RODRIGUES DOS SANTOS"
         },
         {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFAS BANCARIAS",
-          "valor": 3.03,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": null
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO YOHANA CAMAREIRA ",
+          "valor": 1857.19,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "YOHANA JOSEFINA PEREZ PEINADO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "SERVIÇO ENTREGA DE ROUPA ",
+          "valor": 1670.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO TATIANA CAMAREIRA ",
+          "valor": 1655.11,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "TATIANA R. DE VASCINCELOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO PAMELA CAMAREIRA ",
+          "valor": 1588.13,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "PAMELA PEREIRA DE ARAUJO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "salário lavador",
+          "valor": 650.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
         }
       ]
     },
     {
-      "name": "Prime ADE",
-      "total": 186.81,
-      "count": 2,
+      "name": "Qnn01",
+      "total": 14807.14,
+      "count": 11,
       "transactions": [
         {
-          "unidade": "Prime ADE",
-          "categoria": "Lavanderia",
-          "descricao": " DIARIA LAVANDERIA",
-          "valor": 150.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "LAVANDERIA"
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO EDIVANIA",
+          "valor": 2078.32,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "EDVANIA DOS SANTOS SOUZA"
         },
         {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SUPERMERCADO",
-          "valor": 36.81,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "supermercado"
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO KARINA",
+          "valor": 1991.71,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "KARINA APAECIDA PEREIRA DA ROCHA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO EDILEUZA",
+          "valor": 1818.05,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "EDILEUZA RODRIGUES CARNEIRO"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO ANTONIA JOANA",
+          "valor": 1750.41,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "ANTONIA JOANA DOS ANJOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO DEANE",
+          "valor": 1728.41,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEANE MOISES DA SILVA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO ASHELY",
+          "valor": 1698.25,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "ASHELY RODRIGUES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO GLICIANE",
+          "valor": 1562.05,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "GLICIANE DA SILVA SOUZA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO MARIA CECILIA",
+          "valor": 1019.76,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MARIA CECILIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Segurança",
+          "descricao": "PAGAMENTO PAULO SEGURANÇA",
+          "valor": 400.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "PAULO SEGURANÇA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "TRANSPORTE DE ROUPAS LAVADERIA REGINALDO",
+          "valor": 400.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "SERVIÇO ENTREGA DE ROUPA LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Seguros",
+          "descricao": "SEGURO DO HOTEL",
+          "valor": 360.18,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "SEGURO HOTEL"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 13496.550000000003,
+      "count": 8,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2243.98,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "PATRICIA SOUZA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2189.21,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MARIA BEATRIZ "
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2167.25,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "AMANDA CHRISTINA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 2054.46,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "JANAINA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1851.42,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1696.09,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MAILA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 1270.96,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "LUCIANA"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Salário",
+          "descricao": "SALARIO",
+          "valor": 23.18,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "IZAHDORA "
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 17.37,
-      "count": 2,
+      "total": 10241.48,
+      "count": 9,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "LUVA  VOLK VERNIZ",
-          "valor": 16.0,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": "TUDO MAS"
+          "categoria": "Salário",
+          "descricao": "SALARIO GEOVANIA ",
+          "valor": 2500.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 1.37,
-          "data_vencimento": "2026-05-04",
-          "fornecedor": null
+          "categoria": "Salário",
+          "descricao": "SALARIO MIRIAN",
+          "valor": 2189.5,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO DEYSE",
+          "valor": 1949.45,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO STEFFANE",
+          "valor": 1925.41,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "SALARIO KENIA",
+          "valor": 1529.62,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "KENIA CRISTINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "VT MIRIAN",
+          "valor": 50.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT STEFFANE",
+          "valor": 50.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Material de limpeza",
+          "descricao": "SABAO EM PO",
+          "valor": 45.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "BICOP/TORNEIRA",
+          "valor": 2.5,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "CONSTRUCENTER"
+        }
+      ]
+    },
+    {
+      "name": "1001 - Samambaia",
+      "total": 1504.08,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "CHEQUE GUSTAVO ESPELHOS",
+          "valor": 660.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "GUSTAVO CILLI "
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "LIMPEZA DE AR CONDCIONADO JEOVANE",
+          "valor": 550.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "JEOVANE AR CONDICIONADO"
+        },
+        {
+          "unidade": "1001 - Samambaia",
+          "categoria": "Reformas / Estrutura",
+          "descricao": "LUX TINTAS ",
+          "valor": 294.08,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "LUX TINTAS"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 150.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Devoluções de clientes",
+          "descricao": "devoluçao de pix para o cliente",
+          "valor": 150.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
         }
       ]
     }
   ],
-  "global_total": 16517.23,
-  "global_count": 28,
-  "date": "2026-05-05 16:00:03"
+  "global_total": 100487.85,
+  "global_count": 53,
+  "date": "2026-05-06 10:00:05"
 }
