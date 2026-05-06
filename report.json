@@ -81,8 +81,8 @@
     },
     {
       "name": "Dolce Amore",
-      "total": 19627.769999999997,
-      "count": 2,
+      "total": 19631.299999999996,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -99,6 +99,14 @@
           "valor": 697.17,
           "data_vencimento": "2026-05-05",
           "fornecedor": "CDA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE DIA 5/05",
+          "valor": 3.53,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": null
         }
       ]
     },
@@ -357,8 +365,8 @@
     },
     {
       "name": "1001 Express",
-      "total": 10241.48,
-      "count": 9,
+      "total": 10386.48,
+      "count": 12,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -402,11 +410,19 @@
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "VT MIRIAN",
-          "valor": 50.0,
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT KENIA",
+          "valor": 60.0,
           "data_vencimento": "2026-05-05",
-          "fornecedor": "MIRIAN APARECIDA "
+          "fornecedor": "KENIA CRISTINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "BOBINA  PICOTADA",
+          "valor": 55.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "supermercado"
         },
         {
           "unidade": "1001 Express",
@@ -418,6 +434,14 @@
         },
         {
           "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "VT MIRIAN",
+          "valor": 50.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
           "categoria": "Material de limpeza",
           "descricao": "SABAO EM PO",
           "valor": 45.0,
@@ -426,11 +450,58 @@
         },
         {
           "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "VT DEYSE",
+          "valor": 30.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
           "categoria": "\tManutenção Predial - (Profissional Externo)",
           "descricao": "BICOP/TORNEIRA",
           "valor": 2.5,
           "data_vencimento": "2026-05-05",
           "fornecedor": "CONSTRUCENTER"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 2003.75,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "duarte  bebidas",
+          "valor": 1537.25,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte",
+          "descricao": "passagem mensal  Daniela",
+          "valor": 202.5,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Devoluções de clientes",
+          "descricao": "devoluçao de pix para o cliente",
+          "valor": 150.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "DEVOLUÇOES DE CLENTES"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem mensal Bianca",
+          "valor": 114.0,
+          "data_vencimento": "2026-05-05",
+          "fornecedor": "TRANSPORTE"
         }
       ]
     },
@@ -464,24 +535,9 @@
           "fornecedor": "LUX TINTAS"
         }
       ]
-    },
-    {
-      "name": "Padova",
-      "total": 150.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Devoluções de clientes",
-          "descricao": "devoluçao de pix para o cliente",
-          "valor": 150.0,
-          "data_vencimento": "2026-05-05",
-          "fornecedor": "DEVOLUÇOES DE CLENTES"
-        }
-      ]
     }
   ],
-  "global_total": 100487.85,
-  "global_count": 53,
-  "date": "2026-05-06 10:00:05"
+  "global_total": 102490.13,
+  "global_count": 60,
+  "date": "2026-05-06 16:00:05"
 }
