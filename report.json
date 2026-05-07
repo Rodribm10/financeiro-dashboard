@@ -1,6 +1,117 @@
 {
   "hotels": [
     {
+      "name": "Dolce Amore",
+      "total": 28283.689999999995,
+      "count": 13,
+      "transactions": [
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "PARCIAL FOLHA DE PAGAMENTO REF ABRIL",
+          "valor": 13893.6,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "Dolce amore"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL LILIAN",
+          "valor": 2640.54,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "LILIAN SATIKO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL REJANE",
+          "valor": 2614.0,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "REJANE FERNANDES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL ANA FLÁVIA",
+          "valor": 1884.0,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "ANA FLÁVIAS"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL ELIONE",
+          "valor": 1695.03,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "MARIA ELIONE"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL ELIANE",
+          "valor": 1600.66,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "ELIANE MAXIMO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL LARISSA TORRES",
+          "valor": 1251.49,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "LARISSA TORRES"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Salário",
+          "descricao": "SALARIO MENSAL CICERA JACIARA",
+          "valor": 1082.21,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "CICERA JACIARA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Guloseimas, Doces e Salgados",
+          "descricao": "batata pringles, chiclete,finni,mentos",
+          "valor": 835.23,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "Comebom"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BATATA PALITO, OLEO DE ALGODÃO, ADOÇANTE",
+          "valor": 629.67,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "Caico Frios"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Encargos sociais e trabalhistas",
+          "descricao": "CUSTEIO SINDICAL MENSAL",
+          "valor": 114.0,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "SINDICATO DE HOTEIS E RESTAURANTES BARES E SIMILARES RN"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRA DE GOMA",
+          "valor": 35.0,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": "ATACADÃO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE DIA 06/05",
+          "valor": 8.26,
+          "data_vencimento": "2026-05-06",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "1001 - Samambaia",
       "total": 18436.760000000006,
       "count": 14,
@@ -230,29 +341,6 @@
       ]
     },
     {
-      "name": "Dolce Amore",
-      "total": 1464.9,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Guloseimas, Doces e Salgados",
-          "descricao": "batata pringles, chiclete,finni,mentos",
-          "valor": 835.23,
-          "data_vencimento": "2026-05-06",
-          "fornecedor": "Comebom"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BATATA PALITO, OLEO DE ALGODÃO, ADOÇANTE",
-          "valor": 629.67,
-          "data_vencimento": "2026-05-06",
-          "fornecedor": "Caico Frios"
-        }
-      ]
-    },
-    {
       "name": "Prime ADE",
       "total": 1054.88,
       "count": 1,
@@ -299,7 +387,7 @@
       ]
     }
   ],
-  "global_total": 40629.32000000001,
-  "global_count": 32,
-  "date": "2026-05-07 10:00:05"
+  "global_total": 67448.11,
+  "global_count": 43,
+  "date": "2026-05-07 16:00:07"
 }
