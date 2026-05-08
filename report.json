@@ -169,8 +169,8 @@
     },
     {
       "name": "Padova",
-      "total": 13444.730000000003,
-      "count": 9,
+      "total": 14285.010000000004,
+      "count": 13,
       "transactions": [
         {
           "unidade": "Padova",
@@ -243,21 +243,131 @@
           "valor": 540.0,
           "data_vencimento": "2026-05-07",
           "fornecedor": "MILTON DE ASIIS MACHADO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "contabilidade reis",
+          "valor": 325.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "CONTABILIDADE REIS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "notas da lavanderia energia mais cocerto das maquinas correia",
+          "valor": 283.28,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "diarista recepçao, reuniao  presencial escritorio",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "Diarista"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Gás",
+          "descricao": "compra de gas cozinha botojao reserva",
+          "valor": 102.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "GAS RESERVA"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 2607.53,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Salário",
+          "descricao": "SALÁRIO GERENTE ",
+          "valor": 2500.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "ERICA DA SILVA SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "QUEIJO E PRESUNTO",
+          "valor": 107.53,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "RM COMERCIO DE FRIOS "
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 1075.49,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "RESTANTE  SALARIO GEOVANIA  REFERENTE ABRIL",
+          "valor": 850.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA MIRIAN",
+          "valor": 100.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "doces p/lembrancinhas dia das mâes",
+          "valor": 91.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "DOCES MONTEIRO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte",
+          "descricao": "GASOLINA TREINAMENTO",
+          "valor": 30.0,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "GEOVANIA NUNES DA SILVA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA",
+          "valor": 4.49,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": null
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 2595.85,
-      "count": 2,
+      "total": 822.6500000000001,
+      "count": 5,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 2/3",
-          "valor": 2525.85,
+          "categoria": "Contabilidade",
+          "descricao": "SALARIO GUSTAVO CONTABILIDADE",
+          "valor": 500.0,
           "data_vencimento": "2026-05-07",
-          "fornecedor": "LAVANDERIA"
+          "fornecedor": "GUSTAVO CILLI "
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "SALARIO ISMAEL",
+          "valor": 244.44,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "ISMAEL FINANCEIRO"
         },
         {
           "unidade": "Dolce Amore",
@@ -266,6 +376,22 @@
           "valor": 70.0,
           "data_vencimento": "2026-05-07",
           "fornecedor": "DD gaspar"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Telefone + internet",
+          "descricao": "TELEFONE FINANCEIRO",
+          "valor": 7.5,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": "TELEFONE FINANCEIRO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE",
+          "valor": 0.71,
+          "data_vencimento": "2026-05-07",
+          "fornecedor": null
         }
       ]
     },
@@ -285,7 +411,7 @@
       ]
     }
   ],
-  "global_total": 36623.19000000001,
-  "global_count": 32,
-  "date": "2026-05-08 10:00:05"
+  "global_total": 39373.29000000001,
+  "global_count": 46,
+  "date": "2026-05-08 16:00:03"
 }
