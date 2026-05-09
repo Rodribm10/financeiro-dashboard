@@ -88,6 +88,37 @@
       ]
     },
     {
+      "name": "1001 Express",
+      "total": 535.0,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "2 F/AMSTEL, 2F BRAHMA, 1F/COCA",
+          "valor": 257.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "ATACADISTA ZE GOULART"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Combustível",
+          "descricao": "COMPRAS SEMANAIS ",
+          "valor": 249.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "Impressão de folhas, adesivos",
+          "valor": 29.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "copiadora toiss"
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
       "total": 273.79,
       "count": 1,
@@ -133,7 +164,7 @@
       ]
     }
   ],
-  "global_total": 3777.42,
-  "global_count": 13,
-  "date": "2026-05-09 10:00:05"
+  "global_total": 4312.42,
+  "global_count": 16,
+  "date": "2026-05-09 16:00:05"
 }
