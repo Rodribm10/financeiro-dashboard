@@ -1,417 +1,139 @@
 {
   "hotels": [
     {
-      "name": "1001 - Samambaia",
-      "total": 19844.110000000004,
-      "count": 20,
+      "name": "Qnn01",
+      "total": 3338.63,
+      "count": 10,
       "transactions": [
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO GERENTE",
-          "valor": 3000.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "MARIA ELOITA NASCIMENTO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO ROSELIA",
-          "valor": 2065.24,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "FRANCISCA ROSELIA GONÇALVES DO NASCIMENTO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO ANGELA",
-          "valor": 2000.59,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ANGELA NUNES MAGALHÃES "
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO MARIA REGINA",
-          "valor": 1974.7,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "MARIA REGINA DE LIMA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO ISABELLA",
-          "valor": 1797.48,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ISABELLA GOMES"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO MIQUELI",
-          "valor": 1781.93,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "MIQUELI PEREIRA DE OLIVEIRA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO INGRID",
-          "valor": 1681.09,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "INGRID SILVA SOUSA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO EMILIANA",
-          "valor": 884.36,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "EMILIANA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO EDUARDO",
-          "valor": 696.69,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "EDUARDO DOS SANTOS SILVA"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "CHEQUE GUSTAVO ESPELHOS",
-          "valor": 660.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GUSTAVO CILLI "
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO LAIANE",
-          "valor": 612.74,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "LAIANE FURTADO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "LIMPEZA DE AR CONDCIONADO JEOVANE",
-          "valor": 550.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "JEOVANE AR CONDICIONADO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Contabilidade",
-          "descricao": "GUSTAVO CONTABILIDADE",
-          "valor": 500.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GUSTAVO CONTABILIDADE"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Sistema/Software",
-          "descricao": "SISTEMA MAIS HOTEL ",
-          "valor": 437.22,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "SISTEMA MAIS HOTEL"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "LUX TINTAS ",
-          "valor": 295.64,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "LUX TINTAS"
-        },
-        {
-          "unidade": "1001 - Samambaia",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "AGUA MINERAL",
-          "valor": 274.2,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "AGUA MINERAL"
+          "descricao": "COMPRAS MENSAL TATICO",
+          "valor": 1188.64,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "SUPERMERCADO TATICO"
         },
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "SALARIO ISMAEL",
-          "valor": 244.44,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ISMAEL FINANCEIRO"
+          "unidade": "Qnn01",
+          "categoria": "Água",
+          "descricao": "CONTAS DE AGUA",
+          "valor": 1084.86,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "CAESB"
         },
         {
-          "unidade": "1001 - Samambaia",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAULO COMPRAS",
-          "valor": 214.29,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "PAULO COMPRAS"
+          "descricao": "COMPRAS MENSAL DIA A DIA",
+          "valor": 705.24,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "DIA A DIA"
         },
         {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Transporte",
-          "descricao": "TRANSPORTE DE VALORES",
-          "valor": 166.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "1001 - Samambaia",
-          "categoria": "Telefone + internet",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "TELEFONE FINANCEIRO"
-        }
-      ]
-    },
-    {
-      "name": "Padova",
-      "total": 14285.010000000004,
-      "count": 13,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "salario  Telma",
-          "valor": 2500.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Telma maria de sousa"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "SALARIO FLAVIA",
-          "valor": 2091.86,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Flavia de oliveira"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": " salario Dalva",
-          "valor": 1673.44,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Dalva Nunes"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "salario Beatriz",
-          "valor": 1668.52,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Beatriz silva"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "salario Daniela",
-          "valor": 1600.78,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "DANIELA DE ALMEIDA SILVA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "CAROLINA",
-          "valor": 1444.36,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Carolina De França"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "salario Bianca",
-          "valor": 1025.77,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Bianca Silva"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "pagamento Naldo",
-          "valor": 900.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "IONALDO FRANCISCO DA HORA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "MILTON  ASSIS MACHADO",
-          "valor": 540.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "MILTON DE ASIIS MACHADO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "contabilidade reis",
-          "valor": 325.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "CONTABILIDADE REIS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "notas da lavanderia energia mais cocerto das maquinas correia",
-          "valor": 283.28,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "diarista recepçao, reuniao  presencial escritorio",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "Diarista"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Gás",
-          "descricao": "compra de gas cozinha botojao reserva",
-          "valor": 102.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GAS RESERVA"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 2607.53,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Salário",
-          "descricao": "SALÁRIO GERENTE ",
-          "valor": 2500.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ERICA DA SILVA SANTOS"
-        },
-        {
-          "unidade": "Prime AL",
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
-          "descricao": "QUEIJO E PRESUNTO",
-          "valor": 107.53,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "RM COMERCIO DE FRIOS "
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 1075.49,
-      "count": 5,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "RESTANTE  SALARIO GEOVANIA  REFERENTE ABRIL",
-          "valor": 850.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GEOVANIA NUNES DA SILVA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA MIRIAN",
-          "valor": 100.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "doces p/lembrancinhas dia das mâes",
-          "valor": 91.0,
-          "data_vencimento": "2026-05-07",
+          "descricao": "BANDEJA B1 E GUARDANAPO",
+          "valor": 179.32,
+          "data_vencimento": "2026-05-08",
           "fornecedor": "DOCES MONTEIRO"
         },
         {
-          "unidade": "1001 Express",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA TREINAMENTO",
-          "valor": 30.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GEOVANIA NUNES DA SILVA "
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SACOS DE LIXO",
+          "valor": 90.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "PONTUAL"
         },
         {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA",
-          "valor": 4.49,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "DETECTOR NOTA FALSA",
+          "valor": 35.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "RUMAO NOVIDADES"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "RECIBOS",
+          "valor": 22.9,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "papelaria"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "TUBO DE LIGAÇÃO",
+          "valor": 18.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "ELETRICA CONFIANÇA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PALHA ACO",
+          "valor": 8.67,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "DEMACOL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "IMPRESSAO COLORIDA",
+          "valor": 6.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "papelaria"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 822.6500000000001,
-      "count": 5,
+      "total": 273.79,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Contabilidade",
-          "descricao": "SALARIO GUSTAVO CONTABILIDADE",
-          "valor": 500.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "GUSTAVO CILLI "
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Mão de obra terceirizada",
-          "descricao": "SALARIO ISMAEL",
-          "valor": 244.44,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "ISMAEL FINANCEIRO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Frigobar",
-          "descricao": "agua de coco ",
-          "valor": 70.0,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "DD gaspar"
-        },
-        {
-          "unidade": "Dolce Amore",
           "categoria": "Telefone + internet",
-          "descricao": "TELEFONE FINANCEIRO",
-          "valor": 7.5,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "TELEFONE FINANCEIRO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE",
-          "valor": 0.71,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": null
+          "descricao": "FATURA CLARO",
+          "valor": 273.79,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "Claro empresa"
         }
       ]
     },
     {
-      "name": "Qnn01",
-      "total": 738.5,
+      "name": "Prime VL",
+      "total": 110.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Reformas / Estrutura",
-          "descricao": "SOLAR TINTAS ",
-          "valor": 738.5,
-          "data_vencimento": "2026-05-07",
-          "fornecedor": "SOLAR TINTAS"
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE QUEIJO",
+          "valor": 110.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "PAO DE QUEIJO FARIAS"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 55.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE QUEIJO",
+          "valor": 55.0,
+          "data_vencimento": "2026-05-08",
+          "fornecedor": "PAO DE QUEIJO FARIAS"
         }
       ]
     }
   ],
-  "global_total": 39373.29000000001,
-  "global_count": 46,
-  "date": "2026-05-08 16:00:03"
+  "global_total": 3777.42,
+  "global_count": 13,
+  "date": "2026-05-09 10:00:05"
 }
