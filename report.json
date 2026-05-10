@@ -1,170 +1,22 @@
 {
   "hotels": [
     {
-      "name": "Qnn01",
-      "total": 3338.63,
-      "count": 10,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS MENSAL TATICO",
-          "valor": 1188.64,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "SUPERMERCADO TATICO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Água",
-          "descricao": "CONTAS DE AGUA",
-          "valor": 1084.86,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "CAESB"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMPRAS MENSAL DIA A DIA",
-          "valor": 705.24,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "DIA A DIA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "BANDEJA B1 E GUARDANAPO",
-          "valor": 179.32,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "DOCES MONTEIRO"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "SACOS DE LIXO",
-          "valor": 90.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "PONTUAL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "DETECTOR NOTA FALSA",
-          "valor": 35.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "RUMAO NOVIDADES"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "RECIBOS",
-          "valor": 22.9,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "papelaria"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "TUBO DE LIGAÇÃO",
-          "valor": 18.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "ELETRICA CONFIANÇA"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PALHA ACO",
-          "valor": 8.67,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "DEMACOL"
-        },
-        {
-          "unidade": "Qnn01",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "IMPRESSAO COLORIDA",
-          "valor": 6.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "papelaria"
-        }
-      ]
-    },
-    {
-      "name": "1001 Express",
-      "total": 535.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "2 F/AMSTEL, 2F BRAHMA, 1F/COCA",
-          "valor": 257.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "ATACADISTA ZE GOULART"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Combustível",
-          "descricao": "COMPRAS SEMANAIS ",
-          "valor": 249.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "DIA A DIA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "Impressão de folhas, adesivos",
-          "valor": 29.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "copiadora toiss"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 273.79,
+      "total": 540.0,
       "count": 1,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA CLARO",
-          "valor": 273.79,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "Claro empresa"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 110.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE QUEIJO",
-          "valor": 110.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "PAO DE QUEIJO FARIAS"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 55.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE QUEIJO",
-          "valor": 55.0,
-          "data_vencimento": "2026-05-08",
-          "fornecedor": "PAO DE QUEIJO FARIAS"
+          "categoria": "Mercadoria para revenda",
+          "descricao": "preservativos, lubrificante",
+          "valor": 540.0,
+          "data_vencimento": "2026-05-09",
+          "fornecedor": "Emanuel Simplicio"
         }
       ]
     }
   ],
-  "global_total": 4312.42,
-  "global_count": 16,
-  "date": "2026-05-09 16:00:05"
+  "global_total": 540.0,
+  "global_count": 1,
+  "date": "2026-05-10 10:00:02"
 }
