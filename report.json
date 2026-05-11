@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "1001 Express",
-      "total": 2333.16,
-      "count": 1,
+      "total": 2617.16,
+      "count": 4,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -12,13 +12,52 @@
           "valor": 2333.16,
           "data_vencimento": "2026-05-10",
           "fornecedor": "GAZIN"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA STEFFANE",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "STEFANY SANTOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Diarista",
+          "descricao": "DIARIA GEOVANIA ",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "MIRIAN APARECIDA "
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PAO DE AMBUGUERE,PAO DE FORMA, ALFACE, TOMATE",
+          "valor": 44.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "DIA A DIA"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 808.71,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Distribuição de lucros",
+          "descricao": "Apartemento Valapraizo Vale Leonardo Rodrigo",
+          "valor": 808.71,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "Caixa Habitação"
         }
       ]
     },
     {
       "name": "Dolce Amore",
-      "total": 394.83000000000004,
-      "count": 3,
+      "total": 426.06000000000006,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -35,6 +74,14 @@
           "valor": 166.83,
           "data_vencimento": "2026-05-10",
           "fornecedor": "ARMAZEM DO CONDOMINIO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL",
+          "valor": 31.23,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": null
         },
         {
           "unidade": "Dolce Amore",
@@ -60,9 +107,62 @@
           "fornecedor": "LAVANDERIA"
         }
       ]
+    },
+    {
+      "name": "Padova",
+      "total": 230.0,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIARISTA FOLGA GERENTE",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "DIARIA FOLGA GERENTE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Diarista",
+          "descricao": "DIARIA DE LAVANDERIA REGINALDO",
+          "valor": 100.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "LAVANDERIA"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 180.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Diarista",
+          "descricao": "DIARIA CAMAAREIRA",
+          "valor": 180.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "DIARISTA"
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 0.08,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa pix",
+          "valor": 0.08,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": null
+        }
+      ]
     }
   ],
-  "global_total": 3030.99,
-  "global_count": 5,
-  "date": "2026-05-11 10:00:05"
+  "global_total": 4565.01,
+  "global_count": 14,
+  "date": "2026-05-11 16:00:05"
 }
