@@ -1,22 +1,68 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 540.0,
+      "name": "1001 Express",
+      "total": 2333.16,
       "count": 1,
       "transactions": [
         {
+          "unidade": "1001 Express",
+          "categoria": "Investimentos gerais",
+          "descricao": "GAZIN ( FRIGOBAR ) 74593112422815801600700084300631414460000233316",
+          "valor": 2333.16,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "GAZIN"
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 394.83000000000004,
+      "count": 3,
+      "transactions": [
+        {
           "unidade": "Dolce Amore",
-          "categoria": "Mercadoria para revenda",
-          "descricao": "preservativos, lubrificante",
-          "valor": 540.0,
-          "data_vencimento": "2026-05-09",
-          "fornecedor": "Emanuel Simplicio"
+          "categoria": "Transporte",
+          "descricao": "GASOLINA",
+          "valor": 200.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "POSTO DE GASOLINA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Material de limpeza",
+          "descricao": "HIPLOCLORITO",
+          "valor": 166.83,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "ARMAZEM DO CONDOMINIO"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "ARREIA MEDIA",
+          "valor": 28.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "NOSSA SRA APARECIDA"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 303.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "CONTABILIDADE REIS",
+          "valor": 303.0,
+          "data_vencimento": "2026-05-10",
+          "fornecedor": "LAVANDERIA"
         }
       ]
     }
   ],
-  "global_total": 540.0,
-  "global_count": 1,
-  "date": "2026-05-10 16:00:03"
+  "global_total": 3030.99,
+  "global_count": 5,
+  "date": "2026-05-11 10:00:05"
 }
