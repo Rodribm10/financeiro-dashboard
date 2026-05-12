@@ -2,8 +2,8 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 22925.28,
-      "count": 3,
+      "total": 22933.02,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -28,28 +28,123 @@
           "valor": 831.67,
           "data_vencimento": "2026-05-11",
           "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 11/05",
+          "valor": 7.74,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": null
         }
       ]
     },
     {
-      "name": "Prime ADE",
-      "total": 1445.0,
-      "count": 1,
+      "name": "Prime AL",
+      "total": 4283.46,
+      "count": 6,
       "transactions": [
         {
-          "unidade": "Prime ADE",
-          "categoria": "Material de limpeza",
-          "descricao": "PROSUTOS DE LIMPEZA",
-          "valor": 1445.0,
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "GAZIN TV TERCEIRO ANDAR 8/8",
+          "valor": 2379.3,
           "data_vencimento": "2026-05-11",
-          "fornecedor": "UNILIMP"
+          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Outras saídas não operacionais",
+          "descricao": "PARTE GAZIN EXPRESS",
+          "valor": 968.53,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "GAZIN PARTE EXPRESS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Lavanderia",
+          "descricao": "MANUTENÇÃO LAVANDERIA",
+          "valor": 540.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Taxa de aplicativos",
+          "descricao": "BOOKING",
+          "valor": 274.24,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "BOOKING "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Diarista",
+          "descricao": "diarista atestado",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DIARISTA / ATESTADO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 1.39,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 2333.42,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Serviços jurídicos",
+          "descricao": "MULTAS - ACESSORIAS SECRETARIA DE ESTADO DA FAZENDA DO DF",
+          "valor": 933.7,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "SECRETARIA SE ESTADO DE FAZENDA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "PAGAMENTO LAVANDERIA MILTON",
+          "valor": 540.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Mão de obra variável",
+          "descricao": "DETETIZAÇÃO",
+          "valor": 370.6,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "TN - BSB CONTROLE AMBIENTAL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Seguros",
+          "descricao": "SEGURO DO HOTEL",
+          "valor": 361.68,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "SEGURO HOTEL"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Rescisões",
+          "descricao": "RESCISÕES DEYSE",
+          "valor": 127.44,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 777.05,
-      "count": 3,
+      "total": 1885.68,
+      "count": 7,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -58,6 +153,30 @@
           "valor": 567.05,
           "data_vencimento": "2026-05-11",
           "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "6F/AGUA S GAZ, 1F/AGUA COM GAZ, 1/CAIXA VINHO,3F/BRAHMA, 3F/SPRITE,3F/ANTARTICA",
+          "valor": 507.35,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DISTRIBUIDORA ALVORADA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Combustível",
+          "descricao": "COMPRAS SEMANAIS ",
+          "valor": 428.8,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "ATACADISTA BONAMIS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Telefone + internet",
+          "descricao": "INTERNET",
+          "valor": 168.8,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "ALLREDE PARTICIPAÇÔES"
         },
         {
           "unidade": "1001 Express",
@@ -74,13 +193,44 @@
           "valor": 60.0,
           "data_vencimento": "2026-05-11",
           "fornecedor": "KENIA CRISTINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 3.68,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 1446.86,
+      "count": 2,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Material de limpeza",
+          "descricao": "PROSUTOS DE LIMPEZA",
+          "valor": 1445.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "UNILIMP"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 1.86,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": null
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 700.0,
-      "count": 1,
+      "total": 974.0,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Padova",
@@ -89,26 +239,42 @@
           "valor": 700.0,
           "data_vencimento": "2026-05-11",
           "fornecedor": "REGINALDO RIBEIRO DE LIMA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "WG POLPAS MENSAL",
+          "valor": 144.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "WG POLPAS"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Lavanderia",
+          "descricao": "diaria de camareira falta",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DIARISTA"
         }
       ]
     },
     {
-      "name": "Qnn01",
-      "total": 127.44,
+      "name": "Recanto das Emas",
+      "total": 3.7,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Rescisões",
-          "descricao": "RESCISÕES DEYSE",
-          "valor": 127.44,
+          "unidade": "Recanto das Emas",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifas",
+          "valor": 3.7,
           "data_vencimento": "2026-05-11",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 25974.77,
-  "global_count": 9,
-  "date": "2026-05-12 10:00:01"
+  "global_total": 33860.14,
+  "global_count": 28,
+  "date": "2026-05-12 16:00:06"
 }
