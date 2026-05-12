@@ -1,168 +1,114 @@
 {
   "hotels": [
     {
-      "name": "1001 Express",
-      "total": 2617.16,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "1001 Express",
-          "categoria": "Investimentos gerais",
-          "descricao": "GAZIN ( FRIGOBAR ) 74593112422815801600700084300631414460000233316",
-          "valor": 2333.16,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "GAZIN"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA STEFFANE",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "STEFANY SANTOS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Diarista",
-          "descricao": "DIARIA GEOVANIA ",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "MIRIAN APARECIDA "
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "PAO DE AMBUGUERE,PAO DE FORMA, ALFACE, TOMATE",
-          "valor": 44.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "DIA A DIA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 808.71,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Recanto das Emas",
-          "categoria": "Distribuição de lucros",
-          "descricao": "Apartemento Valapraizo Vale Leonardo Rodrigo",
-          "valor": 808.71,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "Caixa Habitação"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 426.06000000000006,
-      "count": 4,
+      "total": 22925.28,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Transporte",
-          "descricao": "GASOLINA",
-          "valor": 200.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "POSTO DE GASOLINA"
+          "categoria": "Energia elétrica",
+          "descricao": "COSERN REF  MAIO 26",
+          "valor": 21225.25,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "Cosern"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Material de limpeza",
-          "descricao": "HIPLOCLORITO",
-          "valor": 166.83,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "ARMAZEM DO CONDOMINIO"
+          "categoria": "Plano de saude",
+          "descricao": "BENEFICIO SOCIAL SINDICAL",
+          "valor": 868.36,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "Beneficio Social Sindiucal"
         },
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL",
-          "valor": 31.23,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": null
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "ARREIA MEDIA",
-          "valor": 28.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "NOSSA SRA APARECIDA"
+          "categoria": "Propaganda",
+          "descricao": "MENSALIDA PLACAS SINALIZADORAS CONT 01",
+          "valor": 831.67,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
         }
       ]
     },
     {
-      "name": "Qnn01",
-      "total": 303.0,
+      "name": "Prime ADE",
+      "total": 1445.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Qnn01",
-          "categoria": "Lavanderia",
-          "descricao": "CONTABILIDADE REIS",
-          "valor": 303.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "LAVANDERIA"
+          "unidade": "Prime ADE",
+          "categoria": "Material de limpeza",
+          "descricao": "PROSUTOS DE LIMPEZA",
+          "valor": 1445.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "UNILIMP"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 777.05,
+      "count": 3,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "REFERENTE A 9 DIAS TRABALHADO DEYSE",
+          "valor": 567.05,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Salário",
+          "descricao": "RESTANTE  SALARIO KENIA",
+          "valor": 150.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "KENIA CRISTINA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT KENIA",
+          "valor": 60.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "KENIA CRISTINA"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 230.0,
-      "count": 2,
+      "total": 700.0,
+      "count": 1,
       "transactions": [
         {
           "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA FOLGA GERENTE",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "DIARIA FOLGA GERENTE"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Diarista",
-          "descricao": "DIARIA DE LAVANDERIA REGINALDO",
-          "valor": 100.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "LAVANDERIA"
+          "categoria": "Salário",
+          "descricao": "PAGAMENTO DO REGINALDO",
+          "valor": 700.0,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
         }
       ]
     },
     {
-      "name": "Prime VL",
-      "total": 180.0,
+      "name": "Qnn01",
+      "total": 127.44,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Diarista",
-          "descricao": "DIARIA CAMAAREIRA",
-          "valor": 180.0,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": "DIARISTA"
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 0.08,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifa pix",
-          "valor": 0.08,
-          "data_vencimento": "2026-05-10",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "Rescisões",
+          "descricao": "RESCISÕES DEYSE",
+          "valor": 127.44,
+          "data_vencimento": "2026-05-11",
+          "fornecedor": "DEYSE MOISES DE ALMEIDA"
         }
       ]
     }
   ],
-  "global_total": 4565.01,
-  "global_count": 14,
-  "date": "2026-05-11 16:00:05"
+  "global_total": 25974.77,
+  "global_count": 9,
+  "date": "2026-05-12 10:00:01"
 }
