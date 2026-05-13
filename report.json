@@ -2,9 +2,17 @@
   "hotels": [
     {
       "name": "Qnn01",
-      "total": 1713.22,
-      "count": 15,
+      "total": 4730.130000000001,
+      "count": 22,
       "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "BEBIDAS",
+          "valor": 2197.8,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "DUARTE BEBIDAS"
+        },
         {
           "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
@@ -15,11 +23,27 @@
         },
         {
           "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DIARIAS FOLGA LAVADOR IONALDO",
+          "valor": 319.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Supermercado / Atacarejo",
           "descricao": "CARNE ALMOÇO E PORÇÕES",
           "valor": 305.48,
           "data_vencimento": "2026-05-12",
           "fornecedor": "SUPERMECADO DIA DIA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "DESPESAS COM LAVANDERIA, ENERGIA ",
+          "valor": 243.28,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Qnn01",
@@ -52,6 +76,22 @@
           "valor": 110.0,
           "data_vencimento": "2026-05-12",
           "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Gás",
+          "descricao": "GAS",
+          "valor": 107.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "GAS RESERVA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Lavanderia",
+          "descricao": "ALIMENTAÇÃO LAVADOR IONALDO",
+          "valor": 100.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "LAVANDERIA"
         },
         {
           "unidade": "Qnn01",
@@ -95,6 +135,14 @@
         },
         {
           "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "QUEIJO E PRESUNTO ",
+          "valor": 36.33,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "MINAS FRIOS"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Transporte",
           "descricao": "VT - CAMAREIRA TREINAMENTO 11/05",
           "valor": 13.5,
@@ -104,7 +152,7 @@
         {
           "unidade": "Qnn01",
           "categoria": "Transporte",
-          "descricao": "VT - CAMAREIRA TREINAMENTO 10/05",
+          "descricao": "VT - CAMAREIRA TREINAMENTO",
           "valor": 13.5,
           "data_vencimento": "2026-05-12",
           "fornecedor": "TRANSPORTE"
@@ -119,11 +167,98 @@
         },
         {
           "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - CAMAREIRA TREINAMENTO 10/05",
+          "valor": 13.5,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Qnn01",
           "categoria": "Transporte  Pessoal Manutenção",
           "descricao": "VT - EDSON",
           "valor": 10.0,
           "data_vencimento": "2026-05-12",
           "fornecedor": "EDSON MANUTENÇÃO "
+        }
+      ]
+    },
+    {
+      "name": "Prime AL",
+      "total": 1684.65,
+      "count": 9,
+      "transactions": [
+        {
+          "unidade": "Prime AL",
+          "categoria": "PLR",
+          "descricao": "RESTANTE PLR REFERENTE A MARÇO",
+          "valor": 500.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "ERICA DA SILVA SANTOS"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "MANUTENÇÃO 11 EXTINTORES ",
+          "valor": 500.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "JOEL ALVES XIMENES"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Gratificação, Bonificação",
+          "descricao": "GRATIFICAÇÃO RECEPCIONISTA META ATINGIDA",
+          "valor": 300.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "GRATIFICAÇÃO RECPCIONISTA META BATIDA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Transporte",
+          "descricao": "VT VALERIA RECEPCIONISTA",
+          "valor": 175.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "VALERIA DE ANDRADE FERREIRA"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃO DE QUEIJO ",
+          "valor": 110.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "FARIAS PAO DE QUEIJO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "COFRE PARA GUARDA DINHEIRO E DOCUMENTO ",
+          "valor": 50.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "COFRE PARA GUARDA DINHEIRO "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "porta cadeado -  cadeado ",
+          "valor": 25.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "SILVA COMERCIO DE MATERIAL "
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "PAPELARIA",
+          "valor": 24.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "EMBALAGENS BARRETO"
+        },
+        {
+          "unidade": "Prime AL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA PIX",
+          "valor": 0.65,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": null
         }
       ]
     },
@@ -152,8 +287,8 @@
     },
     {
       "name": "Prime ADE",
-      "total": 1288.1999999999998,
-      "count": 3,
+      "total": 1289.9499999999998,
+      "count": 4,
       "transactions": [
         {
           "unidade": "Prime ADE",
@@ -178,6 +313,61 @@
           "valor": 312.85,
           "data_vencimento": "2026-05-12",
           "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 1.75,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 568.86,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Mão de obra terceirizada",
+          "descricao": "pagamentp Helio caesb",
+          "valor": 300.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "HELIO CAESBE"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "pao de queijo farias",
+          "valor": 165.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "FARIAS PAO DE QUEIJO"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "casas brasileira",
+          "valor": 70.86,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "papelaria"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": " eletrica ",
+          "valor": 18.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "ELETRICA CONFIANÇA"
+        },
+        {
+          "unidade": "Padova",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "passagem Jeremias 02 dias",
+          "valor": 15.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TRANSPORTE"
         }
       ]
     },
@@ -197,22 +387,22 @@
       ]
     },
     {
-      "name": "Padova",
-      "total": 165.0,
+      "name": "Recanto das Emas",
+      "total": 4.3,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "pao de queijo farias",
-          "valor": 165.0,
+          "unidade": "Recanto das Emas",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 4.3,
           "data_vencimento": "2026-05-12",
-          "fornecedor": "FARIAS PAO DE QUEIJO"
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 5111.05,
-  "global_count": 22,
-  "date": "2026-05-13 10:00:04"
+  "global_total": 10222.52,
+  "global_count": 44,
+  "date": "2026-05-13 16:00:05"
 }
