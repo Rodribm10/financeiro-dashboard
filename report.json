@@ -1,280 +1,218 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 22933.02,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Energia elétrica",
-          "descricao": "COSERN REF  MAIO 26",
-          "valor": 21225.25,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "Cosern"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Plano de saude",
-          "descricao": "BENEFICIO SOCIAL SINDICAL",
-          "valor": 868.36,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "Beneficio Social Sindiucal"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Propaganda",
-          "descricao": "MENSALIDA PLACAS SINALIZADORAS CONT 01",
-          "valor": 831.67,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 11/05",
-          "valor": 7.74,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
-      "name": "Prime AL",
-      "total": 4283.46,
-      "count": 6,
-      "transactions": [
-        {
-          "unidade": "Prime AL",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN TV TERCEIRO ANDAR 8/8",
-          "valor": 2379.3,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "GAZIN TV TERCEIRO ANDAR"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Outras saídas não operacionais",
-          "descricao": "PARTE GAZIN EXPRESS",
-          "valor": 968.53,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "GAZIN PARTE EXPRESS"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Lavanderia",
-          "descricao": "MANUTENÇÃO LAVANDERIA",
-          "valor": 540.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Taxa de aplicativos",
-          "descricao": "BOOKING",
-          "valor": 274.24,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "BOOKING "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Diarista",
-          "descricao": "diarista atestado",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "DIARISTA / ATESTADO "
-        },
-        {
-          "unidade": "Prime AL",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA PIX",
-          "valor": 1.39,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": null
-        }
-      ]
-    },
-    {
       "name": "Qnn01",
-      "total": 2333.42,
-      "count": 5,
+      "total": 1713.22,
+      "count": 15,
       "transactions": [
         {
           "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "MULTAS - ACESSORIAS SECRETARIA DE ESTADO DA FAZENDA DO DF",
-          "valor": 933.7,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "SECRETARIA SE ESTADO DE FAZENDA"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS FRUTAS E VERDURAS",
+          "valor": 323.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "feira"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Lavanderia",
-          "descricao": "PAGAMENTO LAVANDERIA MILTON",
-          "valor": 540.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "LAVANDERIA"
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "CARNE ALMOÇO E PORÇÕES",
+          "valor": 305.48,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "SUPERMECADO DIA DIA"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Mão de obra variável",
-          "descricao": "DETETIZAÇÃO",
-          "valor": 370.6,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "TN - BSB CONTROLE AMBIENTAL"
+          "categoria": "Distribuição de lucros",
+          "descricao": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA SA",
+          "valor": 211.57,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "ENERGISA"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Seguros",
-          "descricao": "SEGURO DO HOTEL",
-          "valor": 361.68,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "SEGURO HOTEL"
+          "categoria": "Gratificação, Bonificação",
+          "descricao": "GRATIFICAÇÃO RECEPCIONISTA EDVANIA ABRIL",
+          "valor": 200.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "EDVANIA DOS SANTOS SOUZA"
         },
         {
           "unidade": "Qnn01",
-          "categoria": "Rescisões",
-          "descricao": "RESCISÕES DEYSE",
-          "valor": 127.44,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
+          "descricao": "GEL",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "Harus (Amenities)"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "PÃO DE QUEIJO",
+          "valor": 110.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Distribuição de lucros",
+          "descricao": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA SA",
+          "valor": 96.27,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "ENERGISA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "GELO SABORIZADOS",
+          "valor": 90.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "GELO SABORIZADOS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "NEUTRALIZADOR",
+          "valor": 87.94,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "CASA DA QUMICA"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMBUSTIVEL COMPRAS ",
+          "valor": 60.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "feira"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "TEMPEROS E BISCOITOS",
+          "valor": 58.46,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "MERCADO DO  NORTE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - CAMAREIRA TREINAMENTO 11/05",
+          "valor": 13.5,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - CAMAREIRA TREINAMENTO 10/05",
+          "valor": 13.5,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte",
+          "descricao": "VT - CAMAREIRA TREINAMENTO 09/05",
+          "valor": 13.5,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TRANSPORTE"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT - EDSON",
+          "valor": 10.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "EDSON MANUTENÇÃO "
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 1885.68,
-      "count": 7,
+      "name": "Dolce Amore",
+      "total": 1554.69,
+      "count": 2,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "REFERENTE A 9 DIAS TRABALHADO DEYSE",
-          "valor": 567.05,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "DEYSE MOISES DE ALMEIDA"
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COXÃO MOLE",
+          "valor": 1301.69,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "MEDEIROS E MEDEIROS"
         },
         {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "6F/AGUA S GAZ, 1F/AGUA COM GAZ, 1/CAIXA VINHO,3F/BRAHMA, 3F/SPRITE,3F/ANTARTICA",
-          "valor": 507.35,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "DISTRIBUIDORA ALVORADA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Combustível",
-          "descricao": "COMPRAS SEMANAIS ",
-          "valor": 428.8,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "ATACADISTA BONAMIS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Telefone + internet",
-          "descricao": "INTERNET",
-          "valor": 168.8,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "ALLREDE PARTICIPAÇÔES"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Salário",
-          "descricao": "RESTANTE  SALARIO KENIA",
-          "valor": 150.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "KENIA CRISTINA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT KENIA",
-          "valor": 60.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "KENIA CRISTINA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifa",
-          "valor": 3.68,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": null
+          "unidade": "Dolce Amore",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "GELO SUL",
+          "valor": 253.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "GELO SUL"
         }
       ]
     },
     {
       "name": "Prime ADE",
-      "total": 1446.86,
-      "count": 2,
+      "total": 1288.1999999999998,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Prime ADE",
-          "categoria": "Material de limpeza",
-          "descricao": "PROSUTOS DE LIMPEZA",
-          "valor": 1445.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "UNILIMP"
+          "categoria": "INSS / GPS",
+          "descricao": "Inss parcelado",
+          "valor": 523.18,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "INSS"
         },
         {
           "unidade": "Prime ADE",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifa",
-          "valor": 1.86,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": null
+          "categoria": "Limpeza e conservação",
+          "descricao": "Dedetização",
+          "valor": 452.17,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "TN - BSB CONTROLE AMBIENTAL"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "Simples parcelado 3/30",
+          "valor": 312.85,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "SIMPLES NACIONAL"
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 389.94,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Condomínio, IPTU",
+          "descricao": "IPTU",
+          "valor": 389.94,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "IPTU"
         }
       ]
     },
     {
       "name": "Padova",
-      "total": 974.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Salário",
-          "descricao": "PAGAMENTO DO REGINALDO",
-          "valor": 700.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "REGINALDO RIBEIRO DE LIMA"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "WG POLPAS MENSAL",
-          "valor": 144.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "WG POLPAS"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Lavanderia",
-          "descricao": "diaria de camareira falta",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": "DIARISTA"
-        }
-      ]
-    },
-    {
-      "name": "Recanto das Emas",
-      "total": 3.7,
+      "total": 165.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Recanto das Emas",
-          "categoria": "Tarifas bancárias",
-          "descricao": "tarifas",
-          "valor": 3.7,
-          "data_vencimento": "2026-05-11",
-          "fornecedor": null
+          "unidade": "Padova",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "pao de queijo farias",
+          "valor": 165.0,
+          "data_vencimento": "2026-05-12",
+          "fornecedor": "FARIAS PAO DE QUEIJO"
         }
       ]
     }
   ],
-  "global_total": 33860.14,
-  "global_count": 28,
-  "date": "2026-05-12 16:00:06"
+  "global_total": 5111.05,
+  "global_count": 22,
+  "date": "2026-05-13 10:00:04"
 }
