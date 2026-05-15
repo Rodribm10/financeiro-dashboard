@@ -1,9 +1,127 @@
 {
   "hotels": [
     {
+      "name": "Recanto das Emas",
+      "total": 13985.770000000002,
+      "count": 8,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Distribuição de lucros",
+          "descricao": "Lucro ref Abril",
+          "valor": 6294.21,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "LEONARDO POOTZ "
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Distribuição de lucros",
+          "descricao": "Lucro ref abril",
+          "valor": 6294.21,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "Rodrigo Borba Machado"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Distribuição de lucros",
+          "descricao": "Lucro ref abril",
+          "valor": 917.67,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "IZETE FERNANDES"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Sistema/Software",
+          "descricao": "Sistema hotel +",
+          "valor": 427.0,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "VERSATIL SISTEMA "
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Treinamentos",
+          "descricao": "Bolo Eloita",
+          "valor": 22.86,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "OUTROS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Combustível",
+          "descricao": "COMBUSTIVEL COMPRAS",
+          "valor": 17.86,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "POSTO DE GASOLINA"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Tarifas bancárias",
+          "descricao": "Anuidade",
+          "valor": 10.93,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "Cartão Santander"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 1.03,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 2222.4300000000003,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Rescisões",
+          "descricao": "Rescisão Micaellen",
+          "valor": 2016.64,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "MICAELLEN CARDOSO SILVA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "FGTS de Rescisão",
+          "descricao": "GRRF Micaellen",
+          "valor": 117.42,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SUPERMERCADO",
+          "valor": 55.82,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "ARMARINHO",
+          "valor": 31.8,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": "ARMARINHO MORAES"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifas",
+          "valor": 0.75,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
       "name": "Dolce Amore",
-      "total": 469.8,
-      "count": 1,
+      "total": 602.89,
+      "count": 3,
       "transactions": [
         {
           "unidade": "Dolce Amore",
@@ -12,6 +130,22 @@
           "valor": 469.8,
           "data_vencimento": "2026-05-14",
           "fornecedor": "MINERAÇÃO CUNHA"
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Diarista",
+          "descricao": "DIARIA COZINHEIRA ATS GORETE",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 14/05",
+          "valor": 13.09,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
         }
       ]
     },
@@ -47,8 +181,8 @@
     },
     {
       "name": "1001 Express",
-      "total": 66.3,
-      "count": 1,
+      "total": 68.97,
+      "count": 2,
       "transactions": [
         {
           "unidade": "1001 Express",
@@ -57,11 +191,34 @@
           "valor": 66.3,
           "data_vencimento": "2026-05-14",
           "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Tarifas bancárias",
+          "descricao": "tarifa",
+          "valor": 2.67,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
+        }
+      ]
+    },
+    {
+      "name": "Prime VL",
+      "total": 0.29,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "Tarifas bancárias",
+          "descricao": "trarifa",
+          "valor": 0.29,
+          "data_vencimento": "2026-05-14",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 1088.28,
-  "global_count": 4,
-  "date": "2026-05-15 10:00:03"
+  "global_total": 17432.530000000002,
+  "global_count": 21,
+  "date": "2026-05-15 16:00:05"
 }
