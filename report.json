@@ -1,193 +1,45 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 6552.29,
-      "count": 7,
-      "transactions": [
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Lavanderia",
-          "descricao": "LAVANDERIA PARC. 2/3",
-          "valor": 2525.85,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "ALARES CONT 1",
-          "valor": 1868.5,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "ALARES"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "costelinha suina, lasanha , hot pocket",
-          "valor": 734.74,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "BRF"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Material de limpeza",
-          "descricao": "CLORO PISCINA,DESINFETANTE, HIPOCLORITO DE SODIO,TABLETE DE CLORO ,DEGRAUS DA ESCADA",
-          "valor": 655.39,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "ARMAZEM DO CONDOMINIO"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Propaganda",
-          "descricao": "MENSALIDA PLACAS SINALIZADORAS CONT 02",
-          "valor": 491.66,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "MC NATAL COMUNICAÇÃO VISUAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "INTERATIVA",
-          "valor": 140.37,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "INTERATIVA PUB DIGITAL"
-        },
-        {
-          "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "FATURA TIM",
-          "valor": 135.78,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "TIM S/A"
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 2430.0,
-      "count": 2,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "COMIDA CONGELADA",
-          "valor": 1280.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "NATURALLE"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "DIDI CAMAS",
-          "valor": 1150.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "DIDI CAMAS"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 1300.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Aluguel, condomínio, IPTU",
-          "descricao": "ALUGUEL GARAGEM QNN 01",
-          "valor": 1300.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "ALUGUEL GARAGEM QNN 01"
-        }
-      ]
-    },
-    {
       "name": "Padova",
-      "total": 1119.0,
-      "count": 3,
-      "transactions": [
-        {
-          "unidade": "Padova",
-          "categoria": "Amenities (shampoo, condicionador, chinelo, sabonete)",
-          "descricao": "ESTORIL 2/3",
-          "valor": 1079.14,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "ESTORIL"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Treinamentos",
-          "descricao": "BOLO ELOITA",
-          "valor": 22.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "BOLO ANIVERSARIO"
-        },
-        {
-          "unidade": "Padova",
-          "categoria": "Combustível",
-          "descricao": "COMBUSTIVEL COMPRAS",
-          "valor": 17.86,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "mercado"
-        }
-      ]
-    },
-    {
-      "name": "Prime VL",
-      "total": 962.2,
+      "total": 44000.0,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Prime VL",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "DUARTE BEBIDAS",
-          "valor": 962.2,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "DUARTE"
+          "unidade": "Padova",
+          "categoria": "Tarifas bancárias",
+          "descricao": "Acordo Processo Francisca",
+          "valor": 44000.0,
+          "data_vencimento": "2026-05-16",
+          "fornecedor": "Lemos ADVG"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 220.9,
-      "count": 4,
+      "total": 90.0,
+      "count": 2,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "Papelaria, Decoração e Embalagens",
-          "descricao": "papelaria",
-          "valor": 140.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "PAPELARIA 311"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "reparo para registro",
-          "valor": 33.0,
-          "data_vencimento": "2026-05-15",
+          "categoria": "Manutenção de Equipamentos Diversos",
+          "descricao": "CHUVEIRO, VEDA ROSCA, 5 LAMPADAS",
+          "valor": 60.0,
+          "data_vencimento": "2026-05-16",
           "fornecedor": "CONSTRUCENTER"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "VT SEMANAL STEFFANE",
           "valor": 30.0,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "EDSON"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "disjuntor",
-          "valor": 17.9,
-          "data_vencimento": "2026-05-15",
-          "fornecedor": "CONSTRUCENTER"
+          "data_vencimento": "2026-05-16",
+          "fornecedor": "STEFANY SANTOS"
         }
       ]
     }
   ],
-  "global_total": 12584.39,
-  "global_count": 18,
-  "date": "2026-05-16 16:00:04"
+  "global_total": 44090.0,
+  "global_count": 3,
+  "date": "2026-05-17 10:00:05"
 }
