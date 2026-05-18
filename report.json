@@ -1,45 +1,61 @@
 {
   "hotels": [
     {
-      "name": "Padova",
-      "total": 44000.0,
-      "count": 1,
+      "name": "Prime ADE",
+      "total": 755.38,
+      "count": 4,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Tarifas bancárias",
-          "descricao": "Acordo Processo Francisca",
-          "valor": 44000.0,
-          "data_vencimento": "2026-05-16",
-          "fornecedor": "Lemos ADVG"
+          "unidade": "Prime ADE",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "furo caixa cofre indentificar",
+          "valor": 460.38,
+          "data_vencimento": "2026-05-17",
+          "fornecedor": "JANAINA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Diarista",
+          "descricao": "DIARISTA FOLGA GERENTE",
+          "valor": 150.0,
+          "data_vencimento": "2026-05-17",
+          "fornecedor": "Diarista"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Lavanderia",
+          "descricao": "diaria folguista lavanderia",
+          "valor": 130.0,
+          "data_vencimento": "2026-05-17",
+          "fornecedor": "LAVANDERIA"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "furo de caixa tainara",
+          "valor": 15.0,
+          "data_vencimento": "2026-05-17",
+          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
         }
       ]
     },
     {
-      "name": "1001 Express",
-      "total": 90.0,
-      "count": 2,
+      "name": "Dolce Amore",
+      "total": 20.68,
+      "count": 1,
       "transactions": [
         {
-          "unidade": "1001 Express",
-          "categoria": "Manutenção de Equipamentos Diversos",
-          "descricao": "CHUVEIRO, VEDA ROSCA, 5 LAMPADAS",
-          "valor": 60.0,
-          "data_vencimento": "2026-05-16",
-          "fornecedor": "CONSTRUCENTER"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "VT SEMANAL STEFFANE",
-          "valor": 30.0,
-          "data_vencimento": "2026-05-16",
-          "fornecedor": "STEFANY SANTOS"
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 17/05",
+          "valor": 20.68,
+          "data_vencimento": "2026-05-17",
+          "fornecedor": null
         }
       ]
     }
   ],
-  "global_total": 44090.0,
-  "global_count": 3,
-  "date": "2026-05-17 16:00:06"
+  "global_total": 776.06,
+  "global_count": 5,
+  "date": "2026-05-18 16:00:06"
 }
