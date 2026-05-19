@@ -1,61 +1,67 @@
 {
   "hotels": [
     {
-      "name": "Prime ADE",
-      "total": 755.38,
-      "count": 4,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "furo caixa cofre indentificar",
-          "valor": 460.38,
-          "data_vencimento": "2026-05-17",
-          "fornecedor": "JANAINA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Diarista",
-          "descricao": "DIARISTA FOLGA GERENTE",
-          "valor": 150.0,
-          "data_vencimento": "2026-05-17",
-          "fornecedor": "Diarista"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Lavanderia",
-          "descricao": "diaria folguista lavanderia",
-          "valor": 130.0,
-          "data_vencimento": "2026-05-17",
-          "fornecedor": "LAVANDERIA"
-        },
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "furo de caixa tainara",
-          "valor": 15.0,
-          "data_vencimento": "2026-05-17",
-          "fornecedor": "THAYNARA CRISTINE SANTOS DE OLIVEIRA"
-        }
-      ]
-    },
-    {
       "name": "Dolce Amore",
-      "total": 20.68,
+      "total": 1868.5,
       "count": 1,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE EDIT VIRTUAL DIA 17/05",
-          "valor": 20.68,
-          "data_vencimento": "2026-05-17",
-          "fornecedor": null
+          "categoria": "Telefone + internet",
+          "descricao": "ALARES CONT 1",
+          "valor": 1868.5,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "ALARES"
+        }
+      ]
+    },
+    {
+      "name": "Padova",
+      "total": 1482.22,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Padova",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "GAZIN",
+          "valor": 1482.22,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "GAZIN"
+        }
+      ]
+    },
+    {
+      "name": "Qnn01",
+      "total": 500.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Qnn01",
+          "categoria": "Serviços jurídicos",
+          "descricao": "JEAR ADVOGADO ",
+          "valor": 500.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "JEAR ADVOGADO "
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 120.0,
+      "count": 1,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Diarista",
+          "descricao": "diaria recepçao",
+          "valor": 120.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "Diarista"
         }
       ]
     }
   ],
-  "global_total": 776.06,
-  "global_count": 5,
-  "date": "2026-05-18 16:00:06"
+  "global_total": 3970.7200000000003,
+  "global_count": 4,
+  "date": "2026-05-19 10:00:03"
 }
