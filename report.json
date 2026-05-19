@@ -2,16 +2,24 @@
   "hotels": [
     {
       "name": "Dolce Amore",
-      "total": 1868.5,
-      "count": 1,
+      "total": 10465.56,
+      "count": 2,
       "transactions": [
         {
           "unidade": "Dolce Amore",
-          "categoria": "Telefone + internet",
-          "descricao": "ALARES CONT 1",
-          "valor": 1868.5,
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "ADIANATAMENTO SALARIO MAIO 26",
+          "valor": 10450.0,
           "data_vencimento": "2026-05-18",
-          "fornecedor": "ALARES"
+          "fornecedor": null
+        },
+        {
+          "unidade": "Dolce Amore",
+          "categoria": "Tarifas bancárias",
+          "descricao": "TARIFA STONE",
+          "valor": 15.56,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": null
         }
       ]
     },
@@ -27,6 +35,109 @@
           "valor": 1482.22,
           "data_vencimento": "2026-05-18",
           "fornecedor": "GAZIN"
+        }
+      ]
+    },
+    {
+      "name": "1001 Express",
+      "total": 500.84000000000003,
+      "count": 12,
+      "transactions": [
+        {
+          "unidade": "1001 Express",
+          "categoria": "FGTS",
+          "descricao": "FGTS DEYSE",
+          "valor": 178.47,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "TELA MISTA",
+          "valor": 100.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "AGROMINAS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Material de limpeza",
+          "descricao": "SABAO EM PO",
+          "valor": 48.87,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "DIA A DIA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT EDSON ",
+          "valor": 30.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "EDSON"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "GESSO 40KG",
+          "valor": 28.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "VISUAL GESSO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "MIOLO SOPRANO",
+          "valor": 25.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "confianca eletrica"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "ANEL DE BORRACHA ESGOTO100, LUVA ESGOTO100 C/ANEL DE CORRE",
+          "valor": 23.5,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "CONSTRUCENTER"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Telefone + internet",
+          "descricao": "CANAL ADULTO",
+          "valor": 22.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "CANAL ADULTO"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Compra de Equipamentos",
+          "descricao": "CAIXINHA DE SOM",
+          "valor": 20.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "3MF Celulares e Acessórios"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Transporte  Pessoal Manutenção",
+          "descricao": "VT JEREMIAS ",
+          "valor": 13.5,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "JEREMIAS PASSOS"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "1 LAMPADA,1BOCAL",
+          "valor": 8.0,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "SOS ELETRICA"
+        },
+        {
+          "unidade": "1001 Express",
+          "categoria": "\tManutenção Predial - (Profissional Externo)",
+          "descricao": "VEDANTE P/CARRAPETA",
+          "valor": 3.5,
+          "data_vencimento": "2026-05-18",
+          "fornecedor": "CONSTRUCENTER"
         }
       ]
     },
@@ -61,7 +172,7 @@
       ]
     }
   ],
-  "global_total": 3970.7200000000003,
-  "global_count": 4,
-  "date": "2026-05-19 10:00:03"
+  "global_total": 13068.619999999999,
+  "global_count": 17,
+  "date": "2026-05-19 16:00:03"
 }
