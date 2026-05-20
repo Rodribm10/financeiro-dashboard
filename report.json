@@ -1,178 +1,241 @@
 {
   "hotels": [
     {
-      "name": "Dolce Amore",
-      "total": 10465.56,
-      "count": 2,
+      "name": "Qnn01",
+      "total": 8724.17,
+      "count": 3,
       "transactions": [
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Adiantamento ou Empréstimo",
-          "descricao": "ADIANATAMENTO SALARIO MAIO 26",
-          "valor": 10450.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 4971.35,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SIMPLES NACIONAL"
         },
         {
-          "unidade": "Dolce Amore",
-          "categoria": "Tarifas bancárias",
-          "descricao": "TARIFA STONE",
-          "valor": 15.56,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": null
+          "unidade": "Qnn01",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1891.97,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "Qnn01",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1860.85,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "FGTS"
         }
       ]
     },
     {
-      "name": "Padova",
-      "total": 1482.22,
+      "name": "Prime VL",
+      "total": 7242.83,
+      "count": 6,
+      "transactions": [
+        {
+          "unidade": "Prime VL",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 3065.89,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1409.86,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "receita federal",
+          "valor": 1396.78,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "RECEITA FEDERAL"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "COMPRAS ",
+          "valor": 865.83,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "supermercado"
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Limpeza e conservação",
+          "descricao": "truller",
+          "valor": 335.0,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "TRULLE "
+        },
+        {
+          "unidade": "Prime VL",
+          "categoria": "Papelaria, Decoração e Embalagens",
+          "descricao": "EMBALAGENS ",
+          "valor": 169.47,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "PONTUAL"
+        }
+      ]
+    },
+    {
+      "name": "Prime ADE",
+      "total": 7025.88,
+      "count": 4,
+      "transactions": [
+        {
+          "unidade": "Prime ADE",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 4056.52,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1327.43,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1175.08,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Prime ADE",
+          "categoria": "Salário",
+          "descricao": "dias trabalhados lavador",
+          "valor": 466.85,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "MIQUEIAS CAUAN DA SILVA"
+        }
+      ]
+    },
+    {
+      "name": "Recanto das Emas",
+      "total": 5388.139999999999,
+      "count": 5,
+      "transactions": [
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "DAS - Simples Nacional",
+          "descricao": "SIMPLES NACIONAL",
+          "valor": 2491.23,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SIMPLES NACIONAL"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "FGTS",
+          "descricao": "FGTS",
+          "valor": 1137.26,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "FGTS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "INSS / GPS",
+          "descricao": "INSS",
+          "valor": 1125.24,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "INSS"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Seguros",
+          "descricao": "Apólice - Hotel Recanto",
+          "valor": 360.21,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "PORTO SEGURO"
+        },
+        {
+          "unidade": "Recanto das Emas",
+          "categoria": "Supermercado / Atacarejo",
+          "descricao": "SEIVA AGUA",
+          "valor": 274.2,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SEIVA "
+        }
+      ]
+    },
+    {
+      "name": "Dolce Amore",
+      "total": 719.45,
       "count": 1,
       "transactions": [
         {
-          "unidade": "Padova",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "GAZIN",
-          "valor": 1482.22,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "GAZIN"
+          "unidade": "Dolce Amore",
+          "categoria": "Material de limpeza",
+          "descricao": "LUVAS,TOUCAS,SACO PARA LIXO,CANUDO,FILME,PAPEL HIGIÊNICO, PAPEL TOALHA,GUARDANAPOS",
+          "valor": 719.45,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "WC GUEDES"
         }
       ]
     },
     {
       "name": "1001 Express",
-      "total": 500.84000000000003,
-      "count": 12,
+      "total": 380.86,
+      "count": 5,
       "transactions": [
         {
           "unidade": "1001 Express",
-          "categoria": "FGTS",
-          "descricao": "FGTS DEYSE",
-          "valor": 178.47,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "FGTS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "TELA MISTA",
-          "valor": 100.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "AGROMINAS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Material de limpeza",
-          "descricao": "SABAO EM PO",
-          "valor": 48.87,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "DIA A DIA"
+          "categoria": "Adiantamento ou Empréstimo",
+          "descricao": "VALE ADIANTAMENTO KENIA",
+          "valor": 200.0,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "KENIA CRISTINA"
         },
         {
           "unidade": "1001 Express",
           "categoria": "Transporte  Pessoal Manutenção",
-          "descricao": "VT EDSON ",
-          "valor": 30.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "EDSON"
+          "descricao": "VT KENIA",
+          "valor": 60.0,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "KENIA CRISTINA"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "GESSO 40KG",
-          "valor": 28.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "VISUAL GESSO"
+          "categoria": "Reformas / Estrutura",
+          "descricao": "2 LATA MASSA CORRIDA, 1 CORANTE LIQUIDO",
+          "valor": 55.0,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SOLAR TINTAS"
         },
         {
           "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "MIOLO SOPRANO",
-          "valor": 25.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "confianca eletrica"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "ANEL DE BORRACHA ESGOTO100, LUVA ESGOTO100 C/ANEL DE CORRE",
-          "valor": 23.5,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "CONSTRUCENTER"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Telefone + internet",
-          "descricao": "CANAL ADULTO",
-          "valor": 22.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "CANAL ADULTO"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Compra de Equipamentos",
-          "descricao": "CAIXINHA DE SOM",
-          "valor": 20.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "3MF Celulares e Acessórios"
+          "categoria": "Água",
+          "descricao": "MULTA POR ATRAZO",
+          "valor": 52.36,
+          "data_vencimento": "2026-05-19",
+          "fornecedor": "SANEAGO "
         },
         {
           "unidade": "1001 Express",
           "categoria": "Transporte  Pessoal Manutenção",
           "descricao": "VT JEREMIAS ",
           "valor": 13.5,
-          "data_vencimento": "2026-05-18",
+          "data_vencimento": "2026-05-19",
           "fornecedor": "JEREMIAS PASSOS"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "Supermercado / Atacarejo",
-          "descricao": "1 LAMPADA,1BOCAL",
-          "valor": 8.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "SOS ELETRICA"
-        },
-        {
-          "unidade": "1001 Express",
-          "categoria": "\tManutenção Predial - (Profissional Externo)",
-          "descricao": "VEDANTE P/CARRAPETA",
-          "valor": 3.5,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "CONSTRUCENTER"
-        }
-      ]
-    },
-    {
-      "name": "Qnn01",
-      "total": 500.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Qnn01",
-          "categoria": "Serviços jurídicos",
-          "descricao": "JEAR ADVOGADO ",
-          "valor": 500.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "JEAR ADVOGADO "
-        }
-      ]
-    },
-    {
-      "name": "Prime ADE",
-      "total": 120.0,
-      "count": 1,
-      "transactions": [
-        {
-          "unidade": "Prime ADE",
-          "categoria": "Diarista",
-          "descricao": "diaria recepçao",
-          "valor": 120.0,
-          "data_vencimento": "2026-05-18",
-          "fornecedor": "Diarista"
         }
       ]
     }
   ],
-  "global_total": 13068.619999999999,
-  "global_count": 17,
-  "date": "2026-05-19 16:00:03"
+  "global_total": 29481.329999999998,
+  "global_count": 24,
+  "date": "2026-05-20 10:00:04"
 }
